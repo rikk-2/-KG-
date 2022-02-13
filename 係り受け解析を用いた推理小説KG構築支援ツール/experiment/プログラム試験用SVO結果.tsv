@@ -1,22 +1,28 @@
 ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場面内の述語	場面内の目的語
-1	対象文	パーシィ・トリヴェリアンは力を搾り取られた			〇	〇	〇
-1	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
-1	hasPredicate	搾り取られた	True	hasPredicate	〇	〇	〇
-1	Obj	力	True	What	〇	〇	〇
-2	対象文	ネッド・ハンターと２人の若者は性格が良い			×	〇	無
-2	Who	ネッド・ハンター	False		×	〇	無
-2	Who	２人の若者	False		×	〇	無
-2	hasPredicate	性格が良い	True	hasProperty	×	〇	無
-3	対象文	そのため、ラウンドヘイはお金をもらっていた			〇	〇	△
-3	Who	ラウンドヘイ	True		〇	〇	△
-3	hasPredicate	もらっていた	True	hasPredicate	〇	〇	△
-3	Obj	そのため、	False	判別不能	〇	〇	△
-3	Obj	お金	True	What	〇	〇	△
-4	対象文	妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった			〇	〇	×
-4	Who	妙な事件	True		〇	〇	×
-4	hasPredicate	起こった	True	hasProperty	〇	〇	×
-4	Obj	パーシィ・トリヴェリアンの自宅	False	判別不能	〇	〇	×
-4	Obj	立て続け	False	判別不能	〇	〇	×
-5	対象文	"踊る人形fは\""E\""である"			〇	×	無
-5	Who	踊る人形f	True		〇	×	無
-5	hasPredicate	"\""E\""である"	False		〇	×	無
+1	対象文	エディス・バクスタは、九時過ぎにネッド・ハンターの分の羊のカレー料理を運んだ			〇	〇	〇
+1	Who	エディス・バクスタ	True		〇	〇	〇
+1	hasPredicate	運んだ	True	hasPredicate	〇	〇	〇
+1	Obj	九時過ぎ	True	When	〇	〇	〇
+1	Obj	ネッド・ハンターの分の羊のカレー料理	True	what	〇	〇	〇
+2	対象文	サザランドの父の友人は舞踏会に参加している			〇	〇	〇
+2	Who	サザランドの父の友人	True		〇	〇	〇
+2	hasPredicate	参加している	True	hasPredicate	〇	〇	〇
+2	Obj	舞踏会	True	Where	〇	〇	〇
+3	対象文	ルイシャムの夜盗団は人相書きが出ている			〇	〇	無
+3	Who	ルイシャムの夜盗団	True		〇	〇	無
+3	hasPredicate	人相書きが出ている	True	hasPredicate	〇	〇	無
+4	対象文	オーウェンとジョージとブレンダはテーブルに座っていた			〇	〇	〇
+4	Who	オーウェン	True		〇	〇	〇
+4	Who	ジョージ	True		〇	〇	〇
+4	Who	ブレンダ	True		〇	〇	〇
+4	hasPredicate	座っていた	True	hasPredicate	〇	〇	〇
+4	Obj	テーブル	True	On	〇	〇	〇
+5	対象文	キュービットとエルシィは撃たれた			〇	〇	無
+5	Who	キュービット	True		〇	〇	無
+5	Who	エルシィ	True		〇	〇	無
+5	hasPredicate	撃たれた	True	hasPredicate	〇	〇	無
+6	対象文	白銀号は競馬界で人気を保持し続ける			〇	〇	〇
+6	Who	白銀号	True		〇	〇	〇
+6	hasPredicate	保持し続ける	True	hasPredicate	〇	〇	〇
+6	Obj	競馬界	True	Where	〇	〇	〇
+6	Obj	人気	True	What	〇	〇	〇
