@@ -421,13 +421,13 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 102	Who	モーティマー	True		〇	〇	×
 102	hasPredicate	不満だった	True	hasPredicate	〇	〇	×
 102	Obj	金銭の配分	False	判別不能	〇	〇	×
-103	対象文	モーティマーは、オーウェンとジョージとブレンダと問題を持った			×	〇	〇
-103	Who	モーティマーは、	False		×	〇	〇
-103	hasPredicate	持った	True	hasPredicate	×	〇	〇
-103	Obj	オーウェン	True	Whom	×	〇	〇
-103	Obj	ジョージ	True	Whom	×	〇	〇
-103	Obj	ブレンダ	True	Whom	×	〇	〇
-103	Obj	問題	True	What	×	〇	〇
+103	対象文	モーティマーは、オーウェンとジョージとブレンダと問題を持った			〇	〇	〇
+103	Who	モーティマー	True		〇	〇	〇
+103	hasPredicate	持った	True	hasPredicate	〇	〇	〇
+103	Obj	オーウェン	True	Whom	〇	〇	〇
+103	Obj	ジョージ	True	Whom	〇	〇	〇
+103	Obj	ブレンダ	True	Whom	〇	〇	〇
+103	Obj	問題	True	What	〇	〇	〇
 104	対象文	問題は忘れられた			〇	〇	無
 104	Who	問題	True		〇	〇	無
 104	hasPredicate	忘れられた	True	hasPredicate	〇	〇	無
@@ -803,13 +803,13 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 192	対象文	犯人は悪魔である			〇	×	無
 192	Who	犯人	True		〇	×	無
 192	hasPredicate	悪魔である	False		〇	×	無
-193	対象文	オーウェンとジョージとブレンダは、人間の故意か過失のため苦しみを味わった			×	〇	△
-193	Who	オーウェン	True		×	〇	△
-193	Who	ジョージ	True		×	〇	△
-193	Who	ブレンダは、	False		×	〇	△
-193	hasPredicate	味わった	True	hasPredicate	×	〇	△
-193	Obj	人間の故意か過失のため	False	判別不能	×	〇	△
-193	Obj	苦しみ	True	What	×	〇	△
+193	対象文	オーウェンとジョージとブレンダは、人間の故意か過失のため苦しみを味わった			〇	〇	△
+193	Who	オーウェン	True		〇	〇	△
+193	Who	ジョージ	True		〇	〇	△
+193	Who	ブレンダ	True		〇	〇	△
+193	hasPredicate	味わった	True	hasPredicate	〇	〇	△
+193	Obj	人間の故意か過失のため	False	判別不能	〇	〇	△
+193	Obj	苦しみ	True	What	〇	〇	△
 194	対象文	ホームズは以下を推測した			〇	〇	×
 194	Who	ホームズ	True		〇	〇	×
 194	hasPredicate	推測した	True	hasPredicate	〇	〇	×
@@ -1033,10 +1033,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 246	hasPredicate	昨晩、モーティマーがブレンダと同じ症状で亡くなった	False		〇	×	×
 246	Obj	ブレンダ	False	判別不能	〇	×	×
 246	Obj	同じ症状	False	判別不能	〇	×	×
-247	対象文	モーティマーは、牧師館の２部屋を借りていた			×	〇	〇
-247	Who	モーティマーは、	False		×	〇	〇
-247	hasPredicate	借りていた	True	hasPredicate	×	〇	〇
-247	Obj	牧師館の２部屋	True	What	×	〇	〇
+247	対象文	モーティマーは、牧師館の２部屋を借りていた			〇	〇	〇
+247	Who	モーティマー	True		〇	〇	〇
+247	hasPredicate	借りていた	True	hasPredicate	〇	〇	〇
+247	Obj	牧師館の２部屋	True	What	〇	〇	〇
 248	対象文	部屋下は居間である			〇	×	無
 248	Who	部屋下	True		〇	×	無
 248	hasPredicate	居間である	False		〇	×	無
@@ -1756,14 +1756,14 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 429	hasPredicate	置いた	True	hasPredicate	〇	〇	△
 429	Obj	紙包み	True	What	〇	〇	△
 429	Obj	テーブルの上	False	判別不能	〇	〇	△
-430	対象文	紙包みは、Radix pedis diaboliと書かれていた			×	〇	×
-430	Who	紙包みは、	False		×	〇	×
-430	hasPredicate	書かれていた	True	hasPredicate	×	〇	×
-430	Obj	Radixpedisdiaboli	False	判別不能	×	〇	×
-431	対象文	紙包みは、毒薬ラベルを貼られていた			×	〇	〇
-431	Who	紙包みは、	False		×	〇	〇
-431	hasPredicate	貼られていた	True	hasPredicate	×	〇	〇
-431	Obj	毒薬ラベル	True	What	×	〇	〇
+430	対象文	紙包みは、Radix pedis diaboliと書かれていた			〇	〇	×
+430	Who	紙包み	True		〇	〇	×
+430	hasPredicate	書かれていた	True	hasPredicate	〇	〇	×
+430	Obj	Radixpedisdiaboli	False	判別不能	〇	〇	×
+431	対象文	紙包みは、毒薬ラベルを貼られていた			〇	〇	〇
+431	Who	紙包み	True		〇	〇	〇
+431	hasPredicate	貼られていた	True	hasPredicate	〇	〇	〇
+431	Obj	毒薬ラベル	True	What	〇	〇	〇
 432	対象文	薬物は魔足根である			〇	×	無
 432	Who	薬物	True		〇	×	無
 432	hasPredicate	魔足根である	False		〇	×	無

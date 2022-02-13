@@ -1,30 +1,39 @@
-1	対象文	パーシィ・トリヴェリアンは力を搾り取られた	Percy Trevelyan was squeezed forces		
+1	対象文	エディス・バクスタは、九時過ぎにネッド・ハンターの分の羊のカレー料理を運んだ	"Edith Baxter is, carried the curry dishes minute of sheep of Ned Hunter to nine o'clock"		
 1	情報源				
-1	Who	パーシィ・トリヴェリアン			
-1	hasPredicate	搾り取られた	beSqueezed		
-1	What	力	Power		
+1	Who	エディス・バクスタ	Edith Baxter		
+1	hasPredicate	運んだ	bring		
+1	When	九時過ぎ	Nine o'clock		
+1	what	ネッド・ハンターの分の羊のカレー料理	Curry dishes minute of sheep of Ned Hunter		
+1	To	ネッド・ハンター	Ned Hunter		
 1	then				
-2	対象文	ネッド・ハンターと２人の若者は性格が良い	Ned Hunter and two young good personality	
-2	情報源			
-2	Who	ネッド・ハンターと２人の若者	Ned Hunter and two young men	
-2	hasProperty	性格が良い	Good nature	
-2	then			
-3	対象文	そのため、ラウンドヘイはお金をもらっていた	Therefore, Roundhay was getting money					7にtherefore: 8を入れる
-3	情報源							
-3	hasPredicate	もらっていた	get					
-3	Who	ラウンドヘイ	Roundhay					
-3	What	お金	money					
-3	From	モーティマー	Mortimer		
-4	対象文	妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった	\"Strange incident occurred in quick succession in the home of Percy Trevelyan\"		
-4	情報源				
-4	Who	妙な事件	StrangeIncident		
-4	hasProperty	起こった	occur		
-4	Where	\"パーシィ・トリヴェリアンの自宅	\"Home of Percy Trevelyan\"		
-4	How	立て続けに	In quick succession		
-4	then				
-5	対象文	踊る人形fは\"E\"である	Doll F is \"E\"							
+2	対象文	サザランドの父の友人は舞踏会に参加している	Sutherland's father&#39;s friend participates in a ball		
+2	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+2	hasPredicate	参加している	joining		#ORG:hasPredicate:I'm joining		
+2	Who	サザランドの父の友人	friend of father of Sutherland		Object	MOD				
+2	Where	舞踏会	dance		Object		
+3	対象文	ルイシャムの夜盗団は人相書きが出ている	Burglary team of Lewisham have come up with personal description		
+3	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins		
+3	Who	ルイシャムの夜盗団	Burglary team of Lewisham		
+3	hasPredicate	人相書きが出ている	Personal description is out		
+3	Why	20	20		
+3	then		
+4	対象文	オーウェンとジョージとブレンダはテーブルに座っていた	Owen and George and Brenda sat at a table					
+4	情報源	ラウンドヘイの発言	Remark by Roundhay					
+4	hasPredicate	座っていた	sit			MOD		
+4	Who	ジョージ	George					
+4	Who	ブレンダ	Brenda					
+4	Who	オーウェン	Owen					
+4	On	テーブル	table			MOD	どこのテーブルか区別すべき？		
+5	対象文	キュービットとエルシィは撃たれた	Qubit and Elsie are shoot		
 5	情報源									
-5	hasPredicate	である	equalTo							
-5	Who	踊る人形f	Dancing dolls F		Object					
-5	What	E	E		Object		because 152,153?			
-5	because	152,153	152,153	
+5	hasPredicate	撃たれた	beShot		#ORG:hasPredicate:beShoot					
+5	Who	エルシィ	Elsie		Person					
+5	Who	キュービット	Qubit		Person					
+5	When			1903-08-06T03		
+6	対象文	白銀号は競馬界で人気を保持し続ける	Silver issue continues to hold the popular racing		
+6	情報源			
+6	Who	白銀号	Silver Blaze	
+6	hasPredicate	保持し続ける	Keep holding		
+6	Where	競馬界	Racing		
+6	What	人気	Popularity		
+6	then			

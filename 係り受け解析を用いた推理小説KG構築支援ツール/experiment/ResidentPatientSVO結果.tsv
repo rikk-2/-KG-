@@ -915,10 +915,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 230	Who	ブレッシントン	True		〇	〇	〇
 230	hasPredicate	寝た	True	hasPredicate	〇	〇	〇
 230	Obj	寝台	True	On	〇	〇	〇
-231	対象文	ブレッシントンは、朝5時に自殺した			×	〇	×
-231	Who	ブレッシントンは、	False		×	〇	×
-231	hasPredicate	自殺した	True	hasPredicate	×	〇	×
-231	Obj	朝5時	False	判別不能	×	〇	×
+231	対象文	ブレッシントンは、朝5時に自殺した			〇	〇	×
+231	Who	ブレッシントン	True		〇	〇	×
+231	hasPredicate	自殺した	True	hasPredicate	〇	〇	×
+231	Obj	朝5時	False	判別不能	〇	〇	×
 232	対象文	ワトソンは以下を言った			〇	〇	×
 232	Who	ワトソン	True		〇	〇	×
 232	hasPredicate	言った	True	hasPredicate	〇	〇	×
@@ -996,9 +996,9 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 252	Who	ブレッシントン	True		〇	〇	×
 252	hasPredicate	殺害された	True	hasPredicate	〇	〇	×
 252	Obj	巧妙に仕組まれた方法	False	判別不能	〇	〇	×
-253	対象文	首をくくった死体は、発見時の様子である			×	×	無
-253	Who	首をくくった死体は、	False		×	×	無
-253	hasPredicate	発見時の様子である	False		×	×	無
+253	対象文	首をくくった死体は、発見時の様子である			〇	×	無
+253	Who	首をくくった死体	True		〇	×	無
+253	hasPredicate	発見時の様子である	False		〇	×	無
 254	対象文	犯人は正面玄関から入った			〇	〇	〇
 254	Who	犯人	True		〇	〇	〇
 254	hasPredicate	入った	True	hasPredicate	〇	〇	〇

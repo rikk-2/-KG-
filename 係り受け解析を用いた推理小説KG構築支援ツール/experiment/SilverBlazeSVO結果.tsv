@@ -90,10 +90,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 23	Who	ネッド・ハンター	True		〇	×	〇
 23	hasPredicate	毎晩、寝ずにに厩舎を見張る	False		〇	×	〇
 23	Obj	厩舎	True	Where	〇	×	〇
-24	対象文	２人の若者は、厩舎の二階で寝る			×	〇	〇
-24	Who	２人の若者は、	False		×	〇	〇
-24	hasPredicate	寝る	True	hasPredicate	×	〇	〇
-24	Obj	厩舎の二階	True	Where	×	〇	〇
+24	対象文	２人の若者は、厩舎の二階で寝る			〇	〇	〇
+24	Who	２人の若者	True		〇	〇	〇
+24	hasPredicate	寝る	True	hasPredicate	〇	〇	〇
+24	Obj	厩舎の二階	True	Where	〇	〇	〇
 25	対象文	ネッド・ハンターと２人の若者は性格が良い			×	〇	無
 25	Who	ネッド・ハンター	False		×	〇	無
 25	Who	２人の若者	False		×	〇	無
@@ -101,11 +101,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 26	対象文	ジョン・ストレーカーは結婚している			〇	〇	無
 26	Who	ジョン・ストレーカー	True		〇	〇	無
 26	hasPredicate	結婚している	True	hasProperty	〇	〇	無
-27	対象文	ジョン・ストレーカーとジョン・ストレーカーの妻は、厩舎付近の家に住んでいる			×	〇	〇
-27	Who	ジョン・ストレーカー	True		×	〇	〇
-27	Who	ジョン・ストレーカーの妻は、	False		×	〇	〇
-27	hasPredicate	住んでいる	True	hasPredicate	×	〇	〇
-27	Obj	厩舎付近の家	True	Where	×	〇	〇
+27	対象文	ジョン・ストレーカーとジョン・ストレーカーの妻は、厩舎付近の家に住んでいる			〇	〇	〇
+27	Who	ジョン・ストレーカー	True		〇	〇	〇
+27	Who	ジョン・ストレーカーの妻	True		〇	〇	〇
+27	hasPredicate	住んでいる	True	hasPredicate	〇	〇	〇
+27	Obj	厩舎付近の家	True	Where	〇	〇	〇
 28	対象文	ジョン・ストレーカーとジョン・ストレーカーの妻は子供がいない			〇	×	無
 28	Who	ジョン・ストレーカー	True		〇	×	無
 28	Who	ジョン・ストレーカーの妻	True		〇	×	無
@@ -136,7 +136,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 34	hasPredicate	管理している	True	hasPredicate	〇	〇	〇
 34	Obj	ケープルトンの調馬場	True	What	〇	〇	〇
 35	対象文	ジョン・ストレーカーは、事件の夜、馬をいつも通り運動させた			×	〇	△
-35	Who	ジョン・ストレーカーは、いつも通り	False		×	〇	△
+35	Who	ジョン・ストレーカーいつも通り	False		×	〇	△
 35	hasPredicate	運動させた	True	hasPredicate	×	〇	△
 35	Obj	事件の夜、	False	判別不能	×	〇	△
 35	Obj	馬	True	What	×	〇	△
@@ -155,15 +155,15 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 38	Obj	事件の夜、	False	判別不能	〇	×	△
 38	Obj	厩舎	True	Where	〇	×	△
 38	Obj	見張り	False	判別不能	〇	×	△
-39	対象文	エディス・バクスタは、九時過ぎにネッド・ハンターの分の羊のカレー料理を運んだ			×	〇	〇
-39	Who	エディス・バクスタは、	False		×	〇	〇
-39	hasPredicate	運んだ	True	hasPredicate	×	〇	〇
-39	Obj	九時過ぎ	True	When	×	〇	〇
-39	Obj	ネッド・ハンターの分の羊のカレー料理	True	what	×	〇	〇
-40	対象文	エディス・バクスタは、飲み物を添えなかった			×	〇	×
-40	Who	エディス・バクスタは、	False		×	〇	×
-40	hasPredicate	添えなかった	True	hasPredicate	×	〇	×
-40	Obj	飲み物	False	判別不能	×	〇	×
+39	対象文	エディス・バクスタは、九時過ぎにネッド・ハンターの分の羊のカレー料理を運んだ			〇	〇	〇
+39	Who	エディス・バクスタ	True		〇	〇	〇
+39	hasPredicate	運んだ	True	hasPredicate	〇	〇	〇
+39	Obj	九時過ぎ	True	When	〇	〇	〇
+39	Obj	ネッド・ハンターの分の羊のカレー料理	True	what	〇	〇	〇
+40	対象文	エディス・バクスタは、飲み物を添えなかった			〇	〇	×
+40	Who	エディス・バクスタ	True		〇	〇	×
+40	hasPredicate	添えなかった	True	hasPredicate	〇	〇	×
+40	Obj	飲み物	False	判別不能	〇	〇	×
 41	対象文	仕事中、ネッド・ハンターは水以外の飲み物を飲むことができない			〇	〇	×
 41	Who	ネッド・ハンター	True		〇	〇	×
 41	hasPredicate	飲むことができない	True	hasPredicate	〇	〇	×
@@ -185,21 +185,21 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 45	Who		False		×	〇	×
 45	hasPredicate	荒野である	True	hasProperty	×	〇	×
 45	Obj	道中	False	判別不能	×	〇	×
-46	対象文	エディス・バクスタとフィッロイ・シムソンは、厩舎から三十ヤードのところで出会った			×	〇	×
-46	Who	エディス・バクスタ	True		×	〇	×
-46	Who	フィッロイ・シムソンは、	False		×	〇	×
-46	hasPredicate	出会った	True	hasPredicate	×	〇	×
-46	Obj	厩舎	False	判別不能	×	〇	×
-46	Obj	三十ヤードのところ	False	判別不能	×	〇	×
-47	対象文	フィッロイ・シムソンは、エディス・バクスタに話しかけた			×	〇	〇
-47	Who	フィッロイ・シムソンは、	False		×	〇	〇
-47	hasPredicate	話しかけた	True	hasPredicate	×	〇	〇
-47	Obj	エディス・バクスタ	True	To	×	〇	〇
-48	対象文	フィッロイ・シムソンは、鼠色のスコッチの服、羅紗のハンチング、羅紗のハンチング、ゲートルを身につけていた			×	×	×
-48	Who	フィッロイ・シムソンは、	False		×	×	×
-48	hasPredicate	つけていた	False		×	×	×
-48	Obj	鼠色のスコッチの服、羅紗のハンチング、羅紗のハンチング、ゲートル	False	判別不能	×	×	×
-48	Obj	身	False	判別不能	×	×	×
+46	対象文	エディス・バクスタとフィッロイ・シムソンは、厩舎から三十ヤードのところで出会った			〇	〇	×
+46	Who	エディス・バクスタ	True		〇	〇	×
+46	Who	フィッロイ・シムソン	True		〇	〇	×
+46	hasPredicate	出会った	True	hasPredicate	〇	〇	×
+46	Obj	厩舎	False	判別不能	〇	〇	×
+46	Obj	三十ヤードのところ	False	判別不能	〇	〇	×
+47	対象文	フィッロイ・シムソンは、エディス・バクスタに話しかけた			〇	〇	〇
+47	Who	フィッロイ・シムソン	True		〇	〇	〇
+47	hasPredicate	話しかけた	True	hasPredicate	〇	〇	〇
+47	Obj	エディス・バクスタ	True	To	〇	〇	〇
+48	対象文	フィッロイ・シムソンは、鼠色のスコッチの服、羅紗のハンチング、羅紗のハンチング、ゲートルを身につけていた			〇	×	×
+48	Who	フィッロイ・シムソン	True		〇	×	×
+48	hasPredicate	つけていた	False		〇	×	×
+48	Obj	鼠色のスコッチの服、羅紗のハンチング、羅紗のハンチング、ゲートル	False	判別不能	〇	×	×
+48	Obj	身	False	判別不能	〇	×	×
 49	対象文	フィッロイ・シムソンは太いステッキを持っていた			〇	〇	〇
 49	Who	フィッロイ・シムソン	True		〇	〇	〇
 49	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
@@ -231,30 +231,30 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 56	対象文	フィッロイ・シムソンは、人の姿が見えたので安心した			×	×	無
 56	Who		False		×	×	無
 56	hasPredicate	フィッロイ・シムソンは、人の姿が見えたので安心した	False		×	×	無
-57	対象文	フィッロイ・シムソンは、人の姿を見た			×	〇	〇
-57	Who	フィッロイ・シムソンは、	False		×	〇	〇
-57	hasPredicate	見た	True	hasPredicate	×	〇	〇
-57	Obj	人の姿	True	What	×	〇	〇
+57	対象文	フィッロイ・シムソンは、人の姿を見た			〇	〇	〇
+57	Who	フィッロイ・シムソン	True		〇	〇	〇
+57	hasPredicate	見た	True	hasPredicate	〇	〇	〇
+57	Obj	人の姿	True	What	〇	〇	〇
 58	対象文	フィッロイ・シムソンは荒地で野宿しようとしていた			〇	×	無
 58	Who	フィッロイ・シムソン	True		〇	×	無
 58	hasPredicate	荒地で野宿しようとしていた	False		〇	×	無
-59	対象文	エディス・バクスタは、以下をフィッロイ・シムソンに教えた			×	〇	△
-59	Who	エディス・バクスタは、	False		×	〇	△
-59	hasPredicate	教えた	True	hasPredicate	×	〇	△
-59	Obj	以下	False	判別不能	×	〇	△
-59	Obj	フィッロイ・シムソン	True	To	×	〇	△
-60	対象文	現在地は、キングス・パイランド調馬場である			×	×	無
-60	Who	現在地は、	False		×	×	無
-60	hasPredicate	キングス・パイランド調馬場である	False		×	×	無
+59	対象文	エディス・バクスタは、以下をフィッロイ・シムソンに教えた			〇	〇	△
+59	Who	エディス・バクスタ	True		〇	〇	△
+59	hasPredicate	教えた	True	hasPredicate	〇	〇	△
+59	Obj	以下	False	判別不能	〇	〇	△
+59	Obj	フィッロイ・シムソン	True	To	〇	〇	△
+60	対象文	現在地は、キングス・パイランド調馬場である			〇	×	無
+60	Who	現在地	True		〇	×	無
+60	hasPredicate	キングス・パイランド調馬場である	False		〇	×	無
 61	対象文	フィッロイ・シムソンはエディス・バクスタに儲かる話を提案した			〇	〇	×
 61	Who	フィッロイ・シムソン	True		〇	〇	×
 61	hasPredicate	提案した	True	hasPredicate	〇	〇	×
 61	Obj	エディス・バクスタに儲かる話	False	判別不能	〇	〇	×
-62	対象文	フィッロイ・シムソンは、チョッキのポケットから紙切れを取り出した			×	〇	〇
-62	Who	フィッロイ・シムソンは、	False		×	〇	〇
-62	hasPredicate	取り出した	True	hasPredicate	×	〇	〇
-62	Obj	チョッキのポケット	True	From	×	〇	〇
-62	Obj	紙切れ	True	What	×	〇	〇
+62	対象文	フィッロイ・シムソンは、チョッキのポケットから紙切れを取り出した			〇	〇	〇
+62	Who	フィッロイ・シムソン	True		〇	〇	〇
+62	hasPredicate	取り出した	True	hasPredicate	〇	〇	〇
+62	Obj	チョッキのポケット	True	From	〇	〇	〇
+62	Obj	紙切れ	True	What	〇	〇	〇
 63	対象文	フィッロイ・シムソンはエディス・バクスタに以下を頼んだ			〇	〇	△
 63	Who	フィッロイ・シムソン	True		〇	〇	△
 63	hasPredicate	頼んだ	True	hasPredicate	〇	〇	△
@@ -269,9 +269,9 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 65	Who	エディス・バクスタ	True		〇	〇	〇
 65	hasPredicate	恐れた	True	hasPredicate	〇	〇	〇
 65	Obj	フィッロイ・シムソンの様子	True	Why	〇	〇	〇
-66	対象文	エディス・バクスタは、厩舎の窓に掛けて行った			×	×	無
-66	Who	エディス・バクスタは、	False		×	×	無
-66	hasPredicate	厩舎の窓に掛けて行った	False		×	×	無
+66	対象文	エディス・バクスタは、厩舎の窓に掛けて行った			〇	×	無
+66	Who	エディス・バクスタ	True		〇	×	無
+66	hasPredicate	厩舎の窓に掛けて行った	False		〇	×	無
 67	対象文	厩舎の窓は開いていた			〇	〇	無
 67	Who	厩舎の窓	True		〇	〇	無
 67	hasPredicate	開いていた	True	hasProperty	〇	〇	無
@@ -306,10 +306,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 75	Who	フィッロイ・シムソン	True		〇	〇	〇
 75	hasPredicate	握っていた	True	hasPredicate	〇	〇	〇
 75	Obj	小さな紙包	True	What	〇	〇	〇
-76	対象文	ネッド・ハンターは、フィッロイ・シムソンが来た理由を尋ねた			×	〇	〇
-76	Who	ネッド・ハンターは、	False		×	〇	〇
-76	hasPredicate	尋ねた	True	hasPredicate	×	〇	〇
-76	Obj	フィッロイ・シムソンが来た理由	True	What	×	〇	〇
+76	対象文	ネッド・ハンターは、フィッロイ・シムソンが来た理由を尋ねた			〇	〇	〇
+76	Who	ネッド・ハンター	True		〇	〇	〇
+76	hasPredicate	尋ねた	True	hasPredicate	〇	〇	〇
+76	Obj	フィッロイ・シムソンが来た理由	True	What	〇	〇	〇
 77	対象文	フィッロイ・シムソンはフィッロイ・シムソンに訪問の理由を説明する			〇	〇	〇
 77	Who	フィッロイ・シムソン	True		〇	〇	〇
 77	hasPredicate	説明する	True	hasPredicate	〇	〇	〇
@@ -336,19 +336,19 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 82	Who	二頭の馬	True		〇	〇	〇
 82	hasPredicate	出場する	True	hasPredicate	〇	〇	〇
 82	Obj	ウェセクス賞杯戦	True	Where	〇	〇	〇
-83	対象文	白銀号と栗毛の馬は、ウェセクス賞杯戦に出場する。			×	×	〇
-83	Who	白銀号	True		×	×	〇
-83	Who	栗毛の馬は、	False		×	×	〇
-83	hasPredicate	出場する。	False		×	×	〇
-83	Obj	ウェセクス賞杯戦	True	To	×	×	〇
+83	対象文	白銀号と栗毛の馬は、ウェセクス賞杯戦に出場する。			〇	×	〇
+83	Who	白銀号	True		〇	×	〇
+83	Who	栗毛の馬	True		〇	×	〇
+83	hasPredicate	出場する。	False		〇	×	〇
+83	Obj	ウェセクス賞杯戦	True	To	〇	×	〇
 84	対象文	フィッロイ・シムソンはネッド・ハンターから競馬の確実な予想を聞き出そうとした			〇	×	無
 84	Who	フィッロイ・シムソン	True		〇	×	無
 84	hasPredicate	ネッド・ハンターから競馬の確実な予想を聞き出そうとした	False		〇	×	無
-85	対象文	フィッロイ・シムソンは、以下をネッド・ハンターに確認した			×	〇	△
-85	Who	フィッロイ・シムソンは、	False		×	〇	△
-85	hasPredicate	確認した	True	hasPredicate	×	〇	△
-85	Obj	以下	False	判別不能	×	〇	△
-85	Obj	ネッド・ハンター	True	To	×	〇	△
+85	対象文	フィッロイ・シムソンは、以下をネッド・ハンターに確認した			〇	〇	△
+85	Who	フィッロイ・シムソン	True		〇	〇	△
+85	hasPredicate	確認した	True	hasPredicate	〇	〇	△
+85	Obj	以下	False	判別不能	〇	〇	△
+85	Obj	ネッド・ハンター	True	To	〇	〇	△
 86	対象文	馬主筋は栗毛の馬に賭けた			〇	〇	〇
 86	Who	馬主筋	True		〇	〇	〇
 86	hasPredicate	賭けた	True	hasPredicate	〇	〇	〇
@@ -369,28 +369,28 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 90	hasPredicate	駆け戻った	False		〇	×	〇
 90	Obj	厩舎	True	From	〇	×	〇
 90	Obj	ジョン・ストレーカーの家	True	To	〇	×	〇
-91	対象文	エディス・バクスタは、以下を見た			×	〇	×
-91	Who	エディス・バクスタは、	False		×	〇	×
-91	hasPredicate	見た	True	hasPredicate	×	〇	×
-91	Obj	以下	False	判別不能	×	〇	×
-92	対象文	フィッロイ・シムソンは、厩舎の窓から厩舎の中に半身を乗り入れていた			×	〇	〇
-92	Who	フィッロイ・シムソンは、	False		×	〇	〇
-92	hasPredicate	乗り入れていた	True	hasPredicate	×	〇	〇
-92	Obj	厩舎の窓	True	From	×	〇	〇
-92	Obj	厩舎の中	True	To	×	〇	〇
-92	Obj	半身	True	What	×	〇	〇
+91	対象文	エディス・バクスタは、以下を見た			〇	〇	×
+91	Who	エディス・バクスタ	True		〇	〇	×
+91	hasPredicate	見た	True	hasPredicate	〇	〇	×
+91	Obj	以下	False	判別不能	〇	〇	×
+92	対象文	フィッロイ・シムソンは、厩舎の窓から厩舎の中に半身を乗り入れていた			〇	〇	〇
+92	Who	フィッロイ・シムソン	True		〇	〇	〇
+92	hasPredicate	乗り入れていた	True	hasPredicate	〇	〇	〇
+92	Obj	厩舎の窓	True	From	〇	〇	〇
+92	Obj	厩舎の中	True	To	〇	〇	〇
+92	Obj	半身	True	What	〇	〇	〇
 93	対象文	フィッロイ・シムソンはいなかった			〇	〇	無
 93	Who	フィッロイ・シムソン	True		〇	〇	無
 93	hasPredicate	いなかった	True	hasPredicate	〇	〇	無
-94	対象文	ネッド・ハンターは、フィッロイ・シムソンを犬を使って追い払った			×	×	〇
-94	Who	ネッド・ハンターは、	False		×	×	〇
-94	hasPredicate	犬を使って追い払った	False		×	×	〇
-94	Obj	フィッロイ・シムソン	True	What	×	×	〇
-95	対象文	ネッド・ハンターは、厩舎の周りでフィッロイ・シムソンを探した			×	〇	△
-95	Who	ネッド・ハンターは、	False		×	〇	△
-95	hasPredicate	探した	True	hasPredicate	×	〇	△
-95	Obj	厩舎の周り	False	判別不能	×	〇	△
-95	Obj	フィッロイ・シムソン	True	What	×	〇	△
+94	対象文	ネッド・ハンターは、フィッロイ・シムソンを犬を使って追い払った			〇	×	〇
+94	Who	ネッド・ハンター	True		〇	×	〇
+94	hasPredicate	犬を使って追い払った	False		〇	×	〇
+94	Obj	フィッロイ・シムソン	True	What	〇	×	〇
+95	対象文	ネッド・ハンターは、厩舎の周りでフィッロイ・シムソンを探した			〇	〇	△
+95	Who	ネッド・ハンター	True		〇	〇	△
+95	hasPredicate	探した	True	hasPredicate	〇	〇	△
+95	Obj	厩舎の周り	False	判別不能	〇	〇	△
+95	Obj	フィッロイ・シムソン	True	What	〇	〇	△
 96	対象文	ネッド・ハンターはフィッロイ・シムソンを見つけることができなかった			〇	〇	〇
 96	Who	ネッド・ハンター	True		〇	〇	〇
 96	hasPredicate	見つけることができなかった	True	hasPredicate	〇	〇	〇
@@ -515,22 +515,22 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 126	Who	白銀号	True		〇	〇	〇
 126	hasPredicate	いなかった	True	hasPredicate	〇	〇	〇
 126	Obj	荒地	True	Where	〇	〇	〇
-127	対象文	ジョン・ストレーカーの外套は、厩舎から四分の一哩のところのはりえにしだの藪に掛かっていた			×	〇	×
-127	Who	ジョン・ストレーカーの外套は、	False		×	〇	×
-127	hasPredicate	掛かっていた	True	hasPredicate	×	〇	×
-127	Obj	厩舎	False	判別不能	×	〇	×
-127	Obj	四分の一哩のところのはりえ	False	判別不能	×	〇	×
-127	Obj	しだの藪	False	判別不能	×	〇	×
-128	対象文	ジョン・ストレーカーは、はりえにしだの藪の先の窪みで死んでいた			×	〇	〇
-128	Who	ジョン・ストレーカーは、	False		×	〇	〇
-128	hasPredicate	死んでいた	True	hasProperty	×	〇	〇
-128	Obj	はりえにしだの藪の先の窪み	True	Where	×	〇	〇
-129	対象文	ジョン・ストレーカーの頭蓋骨は、何か重い兇器を使って粉砕されていた			×	×	無
-129	Who	ジョン・ストレーカーの頭蓋骨は、	False		×	×	無
-129	hasPredicate	何か重い兇器を使って粉砕されていた	False		×	×	無
-130	対象文	ジョン・ストレーカーの腿は、極めて鋭い凶器を使って長く鮮やかに斬られていた			×	×	無
-130	Who	ジョン・ストレーカーの腿は、	False		×	×	無
-130	hasPredicate	極めて鋭い凶器を使って長く鮮やかに斬られていた	False		×	×	無
+127	対象文	ジョン・ストレーカーの外套は、厩舎から四分の一哩のところのはりえにしだの藪に掛かっていた			〇	〇	×
+127	Who	ジョン・ストレーカーの外套	True		〇	〇	×
+127	hasPredicate	掛かっていた	True	hasPredicate	〇	〇	×
+127	Obj	厩舎	False	判別不能	〇	〇	×
+127	Obj	四分の一哩のところのはりえ	False	判別不能	〇	〇	×
+127	Obj	しだの藪	False	判別不能	〇	〇	×
+128	対象文	ジョン・ストレーカーは、はりえにしだの藪の先の窪みで死んでいた			〇	〇	〇
+128	Who	ジョン・ストレーカー	True		〇	〇	〇
+128	hasPredicate	死んでいた	True	hasProperty	〇	〇	〇
+128	Obj	はりえにしだの藪の先の窪み	True	Where	〇	〇	〇
+129	対象文	ジョン・ストレーカーの頭蓋骨は、何か重い兇器を使って粉砕されていた			〇	×	無
+129	Who	ジョン・ストレーカーの頭蓋骨	True		〇	×	無
+129	hasPredicate	何か重い兇器を使って粉砕されていた	False		〇	×	無
+130	対象文	ジョン・ストレーカーの腿は、極めて鋭い凶器を使って長く鮮やかに斬られていた			〇	×	無
+130	Who	ジョン・ストレーカーの腿	True		〇	×	無
+130	hasPredicate	極めて鋭い凶器を使って長く鮮やかに斬られていた	False		〇	×	無
 131	対象文	死体の右の手は小さなナイフを握っていた			〇	〇	〇
 131	Who	死体の右の手	True		〇	〇	〇
 131	hasPredicate	握っていた	True	hasPredicate	〇	〇	〇
@@ -543,19 +543,19 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 133	Who	死体の左の手	True		〇	〇	〇
 133	hasPredicate	掴んでいた	True	hasPredicate	〇	〇	〇
 133	Obj	ネクタイ	True	What	〇	〇	〇
-134	対象文	エディス・バクスタとネッド・ハンターは、以下を証言した			×	〇	×
-134	Who	エディス・バクスタ	True		×	〇	×
-134	Who	ネッド・ハンターは、	False		×	〇	×
-134	hasPredicate	証言した	True	hasPredicate	×	〇	×
-134	Obj	以下	False	判別不能	×	〇	×
+134	対象文	エディス・バクスタとネッド・ハンターは、以下を証言した			〇	〇	×
+134	Who	エディス・バクスタ	True		〇	〇	×
+134	Who	ネッド・ハンター	True		〇	〇	×
+134	hasPredicate	証言した	True	hasPredicate	〇	〇	×
+134	Obj	以下	False	判別不能	〇	〇	×
 135	対象文	フィッロイ・シムソンはネクタイをつけていた			〇	〇	〇
 135	Who	フィッロイ・シムソン	True		〇	〇	〇
 135	hasPredicate	つけていた	True	hasPredicate	〇	〇	〇
 135	Obj	ネクタイ	True	What	〇	〇	〇
-136	対象文	ネッド・ハンターは、以下を申し立てた			×	〇	×
-136	Who	ネッド・ハンターは、	False		×	〇	×
-136	hasPredicate	申し立てた	True	hasPredicate	×	〇	×
-136	Obj	以下	False	判別不能	×	〇	×
+136	対象文	ネッド・ハンターは、以下を申し立てた			〇	〇	×
+136	Who	ネッド・ハンター	True		〇	〇	×
+136	hasPredicate	申し立てた	True	hasPredicate	〇	〇	×
+136	Obj	以下	False	判別不能	〇	〇	×
 137	対象文	フィッロイ・シムソンはネッド・ハンターの分の羊のカレー料理に薬を混ぜた			〇	〇	〇
 137	Who	フィッロイ・シムソン	True		〇	〇	〇
 137	hasPredicate	混ぜた	True	hasPredicate	〇	〇	〇
@@ -607,23 +607,23 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 149	Who	フィッロイ・シムソン	True		〇	〇	〇
 149	hasPredicate	失敗した	True	hasPredicate	〇	〇	〇
 149	Obj	競馬の賭け	True	What	〇	〇	〇
-150	対象文	フィッロイ・シムソンは、ロンドンのスポート倶楽部で小さな賭事の胴元をやって生計を立てている。			×	×	〇
-150	Who	フィッロイ・シムソンは、	False		×	×	〇
-150	hasPredicate	ロンドンのスポート倶楽部で小さな賭事の胴元をやって生計を立てている。	False		×	×	〇
-150	Obj	生計	True	What	×	×	〇
-151	対象文	フィッロイ・シムソンは、小さな賭事の胴元をやっている			×	〇	〇
-151	Who	フィッロイ・シムソンは、	False		×	〇	〇
-151	hasPredicate	やっている	True	hasPredicate	×	〇	〇
-151	Obj	小さな賭事の胴元	True	What	×	〇	〇
-152	対象文	フィッロイ・シムソンは、五千ポンドを白銀号の競走馬に賭けていた			×	〇	〇
-152	Who	フィッロイ・シムソンは、	False		×	〇	〇
-152	hasPredicate	賭けていた	True	hasPredicate	×	〇	〇
-152	Obj	五千ポンド	True	What	×	〇	〇
-152	Obj	白銀号の競走馬	True	To	×	〇	〇
-153	対象文	フィッロイ・シムソンは、デスボロについての情報を集めていた			×	〇	〇
-153	Who	フィッロイ・シムソンは、	False		×	〇	〇
-153	hasPredicate	集めていた	True	hasPredicate	×	〇	〇
-153	Obj	デスボロについての情報	True	What	×	〇	〇
+150	対象文	フィッロイ・シムソンは、ロンドンのスポート倶楽部で小さな賭事の胴元をやって生計を立てている。			〇	×	〇
+150	Who	フィッロイ・シムソン	True		〇	×	〇
+150	hasPredicate	ロンドンのスポート倶楽部で小さな賭事の胴元をやって生計を立てている。	False		〇	×	〇
+150	Obj	生計	True	What	〇	×	〇
+151	対象文	フィッロイ・シムソンは、小さな賭事の胴元をやっている			〇	〇	〇
+151	Who	フィッロイ・シムソン	True		〇	〇	〇
+151	hasPredicate	やっている	True	hasPredicate	〇	〇	〇
+151	Obj	小さな賭事の胴元	True	What	〇	〇	〇
+152	対象文	フィッロイ・シムソンは、五千ポンドを白銀号の競走馬に賭けていた			〇	〇	〇
+152	Who	フィッロイ・シムソン	True		〇	〇	〇
+152	hasPredicate	賭けていた	True	hasPredicate	〇	〇	〇
+152	Obj	五千ポンド	True	What	〇	〇	〇
+152	Obj	白銀号の競走馬	True	To	〇	〇	〇
+153	対象文	フィッロイ・シムソンは、デスボロについての情報を集めていた			〇	〇	〇
+153	Who	フィッロイ・シムソン	True		〇	〇	〇
+153	hasPredicate	集めていた	True	hasPredicate	〇	〇	〇
+153	Obj	デスボロについての情報	True	What	〇	〇	〇
 154	対象文	フィッロイ・シムソンは以下を述べた			〇	〇	×
 154	Who	フィッロイ・シムソン	True		〇	〇	×
 154	hasPredicate	述べた	True	hasPredicate	〇	〇	×
@@ -633,10 +633,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 155	hasPredicate	出かけていた	True	hasPredicate	〇	〇	〇
 155	Obj	競馬の情報収集のため	True	Why	〇	〇	〇
 155	Obj	ケープルトンの厩舎	True	To	〇	〇	〇
-156	対象文	デスボロは、白銀号に次ぐ人気を持つ			×	〇	〇
-156	Who	デスボロは、	False		×	〇	〇
-156	hasPredicate	持つ	True	hasPredicate	×	〇	〇
-156	Obj	白銀号に次ぐ人気	True	What	×	〇	〇
+156	対象文	デスボロは、白銀号に次ぐ人気を持つ			〇	〇	〇
+156	Who	デスボロ	True		〇	〇	〇
+156	hasPredicate	持つ	True	hasPredicate	〇	〇	〇
+156	Obj	白銀号に次ぐ人気	True	What	〇	〇	〇
 157	対象文	サイラス・ブラウンはデスボロを管理している			〇	〇	〇
 157	Who	サイラス・ブラウン	True		〇	〇	〇
 157	hasPredicate	管理している	True	hasPredicate	〇	〇	〇
@@ -685,10 +685,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 168	対象文	ジョン・ストレーカーは自傷した			〇	〇	無
 168	Who	ジョン・ストレーカー	True		〇	〇	無
 168	hasPredicate	自傷した	True	hasPredicate	〇	〇	無
-169	対象文	ジョン・ストレーカーは、殴打されたため痙攣的にもがいた			×	×	〇
-169	Who	ジョン・ストレーカーは、	False		×	×	〇
-169	hasPredicate	痙攣的にもがいた	False		×	×	〇
-169	Obj	殴打されたため	True	Why	×	×	〇
+169	対象文	ジョン・ストレーカーは、殴打されたため痙攣的にもがいた			〇	×	〇
+169	Who	ジョン・ストレーカー	True		〇	×	〇
+169	hasPredicate	痙攣的にもがいた	False		〇	×	〇
+169	Obj	殴打されたため	True	Why	〇	×	〇
 170	対象文	ジョン・ストレーカーは殴打された			〇	〇	無
 170	Who	ジョン・ストレーカー	True		〇	〇	無
 170	hasPredicate	殴打された	True	hasPredicate	〇	〇	無
@@ -704,19 +704,19 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 173	hasPredicate	眠らせた	True	hasPredicate	〇	〇	△
 173	Obj	事件の夜、	False	判別不能	〇	〇	△
 173	Obj	ネッド・ハンター	True	What	〇	〇	△
-174	対象文	フィッロイ・シムソンは、厩舎の合鍵を手に入れた			×	×	△
-174	Who	フィッロイ・シムソンは、	False		×	×	△
-174	hasPredicate	入れた	False		×	×	△
-174	Obj	厩舎の合鍵	True	What	×	×	△
-174	Obj	手	False	判別不能	×	×	△
+174	対象文	フィッロイ・シムソンは、厩舎の合鍵を手に入れた			〇	×	△
+174	Who	フィッロイ・シムソン	True		〇	×	△
+174	hasPredicate	入れた	False		〇	×	△
+174	Obj	厩舎の合鍵	True	What	〇	×	△
+174	Obj	手	False	判別不能	〇	×	△
 175	対象文	フィッロイ・シムソンは白銀号を荒地の方に連れ出した			〇	〇	〇
 175	Who	フィッロイ・シムソン	True		〇	〇	〇
 175	hasPredicate	連れ出した	True	hasPredicate	〇	〇	〇
 175	Obj	白銀号	True	What	〇	〇	〇
 175	Obj	荒地の方	True	To	〇	〇	〇
-176	対象文	フィッロイ・シムソンは、厩舎の戸を開けっ放しにした			×	×	無
-176	Who	フィッロイ・シムソンは、	False		×	×	無
-176	hasPredicate	厩舎の戸を開けっ放しにした	False		×	×	無
+176	対象文	フィッロイ・シムソンは、厩舎の戸を開けっ放しにした			〇	×	無
+176	Who	フィッロイ・シムソン	True		〇	×	無
+176	hasPredicate	厩舎の戸を開けっ放しにした	False		〇	×	無
 177	対象文	フィッロイ・シムソンとジョン・ストレーカーは出会った			〇	〇	無
 177	Who	フィッロイ・シムソン	True		〇	〇	無
 177	Who	ジョン・ストレーカー	True		〇	〇	無
@@ -759,10 +759,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 186	Who	フィッロイ・シムソン	True		〇	〇	〇
 186	hasPredicate	持っていなかった	True	hasPredicate	〇	〇	〇
 186	Obj	ナイフ	True	What	〇	〇	〇
-187	対象文	グレゴリ警部は、フィッロイ・シムソンを疑った			×	×	〇
-187	Who	グレゴリ警部は、	False		×	×	〇
-187	hasPredicate	疑った	False		×	×	〇
-187	Obj	フィッロイ・シムソン	True	What	×	×	〇
+187	対象文	グレゴリ警部は、フィッロイ・シムソンを疑った			〇	×	〇
+187	Who	グレゴリ警部	True		〇	×	〇
+187	hasPredicate	疑った	False		〇	×	〇
+187	Obj	フィッロイ・シムソン	True	What	〇	×	〇
 188	対象文	白銀号の失踪はフィッロイ・シムソンに利益を生む			〇	〇	〇
 188	Who	白銀号の失踪	True		〇	〇	〇
 188	hasPredicate	生む	True	hasPredicate	〇	〇	〇
@@ -805,10 +805,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 197	Who		False		×	〇	×
 197	hasPredicate	言った	True	hasPredicate	×	〇	×
 197	Obj	グレゴリ警部以下	False	判別不能	×	〇	×
-198	対象文	フィッロイ・シムソンは、タヴィストックの土地を知っている			×	〇	〇
-198	Who	フィッロイ・シムソンは、	False		×	〇	〇
-198	hasPredicate	知っている	True	hasPredicate	×	〇	〇
-198	Obj	タヴィストックの土地	True	What	×	〇	〇
+198	対象文	フィッロイ・シムソンは、タヴィストックの土地を知っている			〇	〇	〇
+198	Who	フィッロイ・シムソン	True		〇	〇	〇
+198	hasPredicate	知っている	True	hasPredicate	〇	〇	〇
+198	Obj	タヴィストックの土地	True	What	〇	〇	〇
 199	対象文	フィッロイ・シムソンはタヴィストックに訪れた			〇	〇	〇
 199	Who	フィッロイ・シムソン	True		〇	〇	〇
 199	hasPredicate	訪れた	True	hasPredicate	〇	〇	〇
@@ -1370,10 +1370,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 327	hasPredicate	言った	True	hasPredicate	〇	〇	△
 327	Obj	ワトソン	True	To	〇	〇	△
 327	Obj	以下	False	判別不能	〇	〇	△
-328	対象文	サイラス・ブラウンは、罪を軽くするために白銀を傷つけない			×	×	〇
-328	Who	サイラス・ブラウンは、	False		×	×	〇
-328	hasPredicate	罪を軽くするために白銀を傷つけない	False		×	×	〇
-328	Obj	白銀	True	What	×	×	〇
+328	対象文	サイラス・ブラウンは、罪を軽くするために白銀を傷つけない			〇	×	〇
+328	Who	サイラス・ブラウン	True		〇	×	〇
+328	hasPredicate	罪を軽くするために白銀を傷つけない	False		〇	×	〇
+328	Obj	白銀	True	What	〇	×	〇
 329	対象文	サイラス・ブラウンは罪を軽くしようとした			〇	×	無
 329	Who	サイラス・ブラウン	True		〇	×	無
 329	hasPredicate	罪を軽くしようとした	False		〇	×	無
@@ -1483,10 +1483,10 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 355	Who	ネッド・ハンター	True		〇	〇	〇
 355	hasPredicate	気づかなかった	True	hasPredicate	〇	〇	〇
 355	Obj	阿片末の味	True	What	〇	〇	〇
-356	対象文	犯人は、羊のカレー料理を使って阿片末の味を消した			×	×	〇
-356	Who	犯人は、	False		×	×	〇
-356	hasPredicate	羊のカレー料理を使って阿片末の味を消した	False		×	×	〇
-356	Obj	阿片末の味	True	What	×	×	〇
+356	対象文	犯人は、羊のカレー料理を使って阿片末の味を消した			〇	×	〇
+356	Who	犯人	True		〇	×	〇
+356	hasPredicate	羊のカレー料理を使って阿片末の味を消した	False		〇	×	〇
+356	Obj	阿片末の味	True	What	〇	×	〇
 357	対象文	フィツロイ・シムソンは事件に以下の理由から無関係である			〇	×	〇
 357	Who	フィツロイ・シムソン	True		〇	×	〇
 357	hasPredicate	以下の理由から無関係である	False		〇	×	〇
@@ -1547,6 +1547,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 371	対象文	ジョン・ストレーカーはナイフを使って、白銀を痕跡を残さずに傷つけようとした			〇	×	無
 371	Who	ジョン・ストレーカー	True		〇	×	無
 371	hasPredicate	ナイフを使って、白銀を痕跡を残さずに傷つけようとした	False		〇	×	無
+372	対象文							解析不可
 373	対象文	不正は発覚しない			〇	〇	無
 373	Who	不正	True		〇	〇	無
 373	hasPredicate	発覚しない	True	hasPredicate	〇	〇	無

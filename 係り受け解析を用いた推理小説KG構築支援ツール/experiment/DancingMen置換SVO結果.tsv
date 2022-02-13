@@ -621,7 +621,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 169a	Obj	文字C1	True	What	〇	〇	〇
 169a	Obj	三回	True	How	〇	〇	〇
 169b	対象文	文章Hは，「?M ?ERE ??E SL?NE?」である			×	×	無
-169b	Who	文章Hは，	False		×	×	無
+169b	Who	文章H	False		×	×	無
 169b	hasPredicate	「?M?ERE??ESL?NE?」である	False		×	×	無
 170	対象文	文章Hの最初の位置にある文字C1はAである			×	×	無
 170	Who	文章Hの最初の位置にある文字C1	False		×	×	無
