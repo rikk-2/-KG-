@@ -1,0 +1,1471 @@
+ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場面内の述語	場面内の目的語
+1	対象文	1897年の冬、私は起こされた			×	〇	×
+1	Who	私	False		×	〇	×
+1	hasPredicate	起こされた	True	hasPredicate	×	〇	×
+1	Obj	1897年の冬、	False	判別不能	×	〇	×
+2	対象文	ホームズはポケットから手紙を引っ張り出した			〇	〇	〇
+2	Who	ホームズ	True		〇	〇	〇
+2	hasPredicate	引っ張り出した	True	hasPredicate	〇	〇	〇
+2	Obj	ポケット	True	Where	〇	〇	〇
+2	Obj	手紙	True	What	〇	〇	〇
+3	対象文	ホームズは手紙を音読した			〇	〇	〇
+3	Who	ホームズ	True		〇	〇	〇
+3	hasPredicate	音読した	True	hasPredicate	〇	〇	〇
+3	Obj	手紙	True	What	〇	〇	〇
+4	対象文	きわめて驚くべき事件になりそうです			×	×	×
+4	Who		False		×	×	×
+4	hasPredicate	なりそうです	False		×	×	×
+4	Obj	きわめて驚くべき事件	False	判別不能	×	×	×
+5	対象文	スタンリィ・ホプキンスがホームズに助力を頼む			×	×	×
+5	Who	スタンリィ・ホプキンス	False		×	×	×
+5	hasPredicate	頼む	False		×	×	×
+5	Obj	ホームズ	False	判別不能	×	×	×
+5	Obj	助力	False	判別不能	×	×	×
+6	対象文	奥方を解放したほかは、すべて私が発見したままに保たれている			×	×	×
+6	Who		False		×	×	×
+6	hasPredicate	すべて私が発見したままに保たれている	False		×	×	×
+6	Obj	奥方を解放したほかは、	False	判別不能	×	×	×
+6	Obj	私が発見したまま	False	判別不能	×	×	×
+7	対象文	サー・ユースタス・ブラックンストールをそのまま置いておけない			×	×	△
+7	Who		False		×	×	△
+7	hasPredicate	置いておけない	False		×	×	△
+7	Obj	サー・ユースタス・ブラックンストール	True	What	×	×	△
+7	Obj	そのまま	False	判別不能	×	×	△
+8	対象文	ホームズは言った			〇	〇	無
+8	Who	ホームズ	True		〇	〇	無
+8	hasPredicate	言った	True	hasPredicate	〇	〇	無
+9	対象文	今日の研究は殺人事件らしいね			×	×	無
+9	Who	今日の研究	False		×	×	無
+9	hasPredicate	殺人事件らしいね	False		×	×	無
+10	対象文	このサー・ユースタス・ブラックンストールが死んだと考えるんだね？			×	×	無
+10	Who		False		×	×	無
+10	hasPredicate	このサー・ユースタス・ブラックンストールが死んだと考えるんだね？	False		×	×	無
+11	対象文	ユースタスが自殺である			×	〇	無
+11	Who	ユースタス	False		×	〇	無
+11	hasPredicate	自殺である	True	hasPredicate	×	〇	無
+12	対象文	単なる自殺ではスタンリィ・ホプキンスがホームズに使いを出すことはない			〇	×	△
+12	Who	スタンリィ・ホプキンス	True		〇	×	△
+12	hasPredicate	出すことはない	False		〇	×	△
+12	Obj	単なる自殺で	False	判別不能	〇	×	△
+12	Obj	ホームズ	True	What	〇	×	△
+12	Obj	使い	False	判別不能	〇	×	△
+13	対象文	奥方は惨事の間部屋に監禁されていた			〇	〇	△
+13	Who	奥方	True		〇	〇	△
+13	hasPredicate	監禁されていた	True	hasProperty	〇	〇	△
+13	Obj	惨事の間	True	When	〇	〇	△
+13	Obj	部屋	False	判別不能	〇	〇	△
+14	対象文	スタンリィ・ホプキンスは地元の警察を呼ぶ必要がある			〇	×	無
+14	Who	スタンリィ・ホプキンス	True		〇	×	無
+14	hasPredicate	地元の警察を呼ぶ必要がある	False		〇	×	無
+15	対象文	スタンリィ・ホプキンスはスコットランドヤードに連絡する必要がある			〇	×	無
+15	Who	スタンリィ・ホプキンス	True		〇	×	無
+15	hasPredicate	スコットランドヤードに連絡する必要がある	False		〇	×	無
+16	対象文	スタンリィ・ホプキンスは出かける必要がある			〇	×	無
+16	Who	スタンリィ・ホプキンス	True		〇	×	無
+16	hasPredicate	出かける必要がある	False		〇	×	無
+17	対象文	スタンリィ・ホプキンスはホームズに使いを出す必要がある			〇	×	無
+17	Who	スタンリィ・ホプキンス	True		〇	×	無
+17	hasPredicate	ホームズに使いを出す必要がある	False		〇	×	無
+18	対象文	全て済ますには一晩かかる			×	×	無
+18	Who		False		×	×	無
+18	hasPredicate	全て済ますには一晩かかる	False		×	×	無
+19	対象文	奥方が事の顛末をはっきりと話した			〇	×	〇
+19	Who	奥方	True		〇	×	〇
+19	hasPredicate	はっきりと話した	False		〇	×	〇
+19	Obj	事の顛末	True	What	〇	×	〇
+20	対象文	ルイシャム夜盗団は二週間前シドナムで見られた			×	×	〇
+20	Who	ルイシャム夜盗団	False		×	×	〇
+20	hasPredicate	二週間前シドナムで見られた	False		×	×	〇
+20	Obj	シドナム	True	Where	×	×	〇
+21	対象文	ルイシャムの夜盗団は人相書きが出ている			〇	〇	無
+21	Who	ルイシャムの夜盗団	True		〇	〇	無
+21	hasPredicate	人相書きが出ている	True	hasPredicate	〇	〇	無
+22	対象文	間違いなくルイシャム夜盗団の仕事			×	×	無
+22	Who		False		×	×	無
+22	hasPredicate	間違いなくルイシャム夜盗団の仕事	False		×	×	無
+22	対象文	サー・ユースタス・ブラックンストールは自分とこの火かき棒で頭を殴られた			〇	〇	×
+22	Who	サー・ユースタス・ブラックンストール	True		〇	〇	×
+22	hasPredicate	殴られた	True	hasProperty	〇	〇	×
+22	Obj	自分	False	判別不能	〇	〇	×
+22	Obj	この火かき棒	False	判別不能	〇	〇	×
+22	Obj	頭	False	判別不能	〇	〇	×
+23	対象文	サー・ユースタス・ブラックンストールは死んだ			〇	〇	無
+23	Who	サー・ユースタス・ブラックンストール	True		〇	〇	無
+23	hasPredicate	死んだ	True	hasProperty	〇	〇	無
+24	対象文	サー・ユースタス・ブラックンストールはケントでも指折りの資産家			〇	×	無
+24	Who	サー・ユースタス・ブラックンストール	True		〇	×	無
+24	hasPredicate	ケントでも指折りの資産家	False		〇	×	無
+25	対象文	レディー・ブラックンストールは居間にいる			〇	〇	〇
+25	Who	レディー・ブラックンストール	True		〇	〇	〇
+25	hasPredicate	いる	True	hasPredicate	〇	〇	〇
+25	Obj	居間	True	Where	〇	〇	〇
+26	対象文	レディー・ブラックンストールの片方の目の上がはれ上がっていた			×	〇	無
+26	Who	レディー・ブラックンストールの片方の目の上	False		×	〇	無
+26	hasPredicate	はれ上がっていた	True	hasPredicate	×	〇	無
+27	対象文	テリーサがレディー・ブラックンストールのはれ上がった片方の目を一生懸命冷やしていた			〇	×	×
+27	Who	テリーサ	True		〇	×	×
+27	hasPredicate	一生懸命冷やしていた	False		〇	×	×
+27	Obj	レディー・ブラックンストールのはれ上がった片方の目	False	判別不能	〇	×	×
+28	対象文	レディー・ブラックンストールは警戒の表情を浮かべた			〇	〇	〇
+28	Who	レディー・ブラックンストール	True		〇	〇	〇
+28	hasPredicate	浮かべた	True	hasProperty	〇	〇	〇
+28	Obj	警戒の表情	True	What	〇	〇	〇
+29	対象文	レディー・ブラックンストールのそばに黒のスパンコールのついたディナードレスが置かれていた			×	〇	×
+29	Who	黒のスパンコールのついたディナードレス	False		×	〇	×
+29	hasPredicate	置かれていた	True	hasProperty	×	〇	×
+29	Obj	レディー・ブラックンストールのそば	False	判別不能	×	〇	×
+30	対象文	ゆるいガウンがレディー・ブラックンストールの前腕から滑り落ちた			〇	〇	〇
+30	Who	ゆるいガウン	True		〇	〇	〇
+30	hasPredicate	滑り落ちた	True	hasPredicate	〇	〇	〇
+30	Obj	レディー・ブラックンストールの前腕	True	From	〇	〇	〇
+31	対象文	レディー・ブラックンストールは傷を急いで隠した。			〇	×	無
+31	Who	レディー・ブラックンストール	True		〇	×	無
+31	hasPredicate	傷を急いで隠した。	False		〇	×	無
+32	対象文	レディー・ブラックンストールの傷は白く丸い上肢の一方の上にある二つの鮮明な赤い点だった			×	×	無
+32	Who	レディー・ブラックンストールの傷	False		×	×	無
+32	hasPredicate	白く丸い上肢の一方の上にある二つの鮮明な赤い点だった	False		×	×	無
+33	対象文	昨夜のあの醜悪な事件とは何の関係もない			×	×	×
+33	Who	何の関係	False		×	×	×
+33	hasPredicate	ない	False		×	×	×
+33	Obj	昨夜のあの醜悪な事件	False	判別不能	×	×	×
+33	Obj		False	判別不能	×	×	×
+34	対象文	レディー・ブラックンストールはサー・ユースタス・ブラックンストールと結婚して1年ほどになる			〇	×	×
+34	Who	レディー・ブラックンストール	True		〇	×	×
+34	hasPredicate	サー・ユースタス・ブラックンストールと結婚して1年ほどになる	False		〇	×	×
+34	Obj	1年ほど	False	判別不能	〇	×	×
+35	対象文	レディー・ブラックンストールにはイギリスの礼儀作法が合わなかった			×	〇	×
+35	Who	イギリスの礼儀作法	False		×	〇	×
+35	hasPredicate	合わなかった	True	hasPredicate	×	〇	×
+35	Obj	レディー・ブラックンストールに	False	判別不能	×	〇	×
+36	対象文	サー・ユースタス・ブラックンストールが常習的な大酒のみ			〇	×	無
+36	Who	サー・ユースタス・ブラックンストール	True		〇	×	無
+36	hasPredicate	常習的な大酒	False		〇	×	無
+37	対象文	レディー・ブラックンストールとサー・ユースタス・ブラックンストールの結婚は幸せなものではなかった			×	×	無
+37	Who	レディー・ブラックンストール	True		×	×	無
+37	Who	サー・ユースタス・ブラックンストールの結婚	False		×	×	無
+37	hasPredicate	幸せなものではなかった	False		×	×	無
+38	対象文	この家では召使は皆新しい翼で休む			〇	×	△
+38	Who	召使	True		〇	×	△
+38	hasPredicate	皆新しい翼で休む	False		〇	×	△
+38	Obj	この家で	False	判別不能	〇	×	△
+38	Obj	新しい翼	True	Where	〇	×	△
+39	対象文	中央の建物は部屋部屋から成る			×	〇	×
+39	Who	中央の建物	False		×	〇	×
+39	hasPredicate	成る	True	hasPredicate	×	〇	×
+39	Obj	部屋部屋	False	判別不能	×	〇	×
+40	対象文	調理場は中央の建物の後ろにある			〇	〇	〇
+40	Who	調理場	True		〇	〇	〇
+40	hasPredicate	ある	True	hasPredicate	〇	〇	〇
+40	Obj	中央の建物の後ろ	True	Where	〇	〇	〇
+41	対象文	メイドのテリーサはレディー・ブラックンストールの部屋の上で休む			×	〇	×
+41	Who	メイドのテリーサ	False		×	〇	×
+41	hasPredicate	休む	True	hasPredicate	×	〇	×
+41	Obj	レディー・ブラックンストールの部屋の上	False	判別不能	×	〇	×
+42	対象文	音がしても翼にいる召使には伝わらない			×	×	×
+42	Who		False		×	×	×
+42	hasPredicate	音がしても翼にいる召使には伝わらない	False		×	×	×
+42	Obj	翼にいる召使に	False	判別不能	×	×	×
+43	対象文	盗賊は知っていた			〇	〇	無
+43	Who	盗賊	True		〇	〇	無
+43	hasPredicate	知っていた	True	hasPredicate	〇	〇	無
+44	対象文	サー・ユースタス・ブラックンストールは10時30分頃に亡くなった			〇	〇	〇
+44	Who	サー・ユースタス・ブラックンストール	True		〇	〇	〇
+44	hasPredicate	亡くなった	True	hasProperty	〇	〇	〇
+44	Obj	10時30分頃	True	When	〇	〇	〇
+45	対象文	メイドのテリーサだけが起きている			×	〇	×
+45	Who		False		×	〇	×
+45	hasPredicate	起きている	True	hasProperty	×	〇	×
+45	Obj	メイドのテリーサだけ	False	判別不能	×	〇	×
+46	対象文	メイドのテリーサはレディー・ブラックンストールの用を待っていた			×	〇	×
+46	Who	メイドのテリーサ	False		×	〇	×
+46	hasPredicate	待っていた	True	hasPredicate	×	〇	×
+46	Obj	レディー・ブラックンストールの用	False	判別不能	×	〇	×
+47	対象文	テリーサは建物の最上階のテリーサの部屋に残っていた			〇	〇	×
+47	Who	テリーサ	True		〇	〇	×
+47	hasPredicate	残っていた	True	hasPredicate	〇	〇	×
+47	Obj	建物の最上階のテリーサの部屋	False	判別不能	〇	〇	×
+48	対象文	レディー・ブラックンストールは11時過ぎまで居間に座っていた			〇	〇	〇
+48	Who	レディー・ブラックンストール	True		〇	〇	〇
+48	hasPredicate	座っていた	True	hasPredicate	〇	〇	〇
+48	Obj	11時過ぎ	True	When	〇	〇	〇
+48	Obj	居間	True	Where	〇	〇	〇
+49	対象文	レディー・ブラックンストールは習慣の見回りを行った			〇	〇	〇
+49	Who	レディー・ブラックンストール	True		〇	〇	〇
+49	hasPredicate	行った	True	hasPredicate	〇	〇	〇
+49	Obj	習慣の見回り	True	What	〇	〇	〇
+50	対象文	ダイニングルームの窓が開いていた			×	〇	無
+50	Who	ダイニングルームの窓	False		×	〇	無
+50	hasPredicate	開いていた	True	hasPredicate	×	〇	無
+51	対象文	レディー・ブラックンストールはダイニングルームの窓が開いていることに気づいた			〇	〇	×
+51	Who	レディー・ブラックンストール	True		〇	〇	×
+51	hasPredicate	気づいた	True	hasPredicate	〇	〇	×
+51	Obj	ダイニングルームの窓が開いていること	False	判別不能	〇	〇	×
+52	対象文	レディー・ブラックンストールは部屋に入ったばかりの肩幅の広い年輩の男と向かい合った			〇	×	×
+52	Who	レディー・ブラックンストール	True		〇	×	×
+52	hasPredicate	向かい合った	False		〇	×	×
+52	Obj	部屋に入ったばかりの肩幅の広い年輩の男	False	判別不能	〇	×	×
+53	対象文	年配の男以外にも二人部屋に入ろうとしている			×	×	×
+53	Who		False		×	×	×
+53	hasPredicate	二人部屋に入ろうとしている	False		×	×	×
+53	Obj	年配の男以外に	False	判別不能	×	×	×
+54	対象文	レディー・ブラックンストールは二人を見た			〇	〇	×
+54	Who	レディー・ブラックンストール	True		〇	〇	×
+54	hasPredicate	見た	True	hasPredicate	〇	〇	×
+54	Obj	二人	False	判別不能	〇	〇	×
+55	対象文	年配の男はレディー・ブラックンストールの手首とのどをつかんだ			〇	〇	△
+55	Who	年配の男	True		〇	〇	△
+55	hasPredicate	つかんだ	True	hasPredicate	〇	〇	△
+55	Obj	レディー・ブラックンストールの手首	True	What	〇	〇	△
+55	Obj	のど	False	判別不能	〇	〇	△
+56	対象文	レディー・ブラックンストールは年配の男のこぶしで目の上を殴られた			〇	〇	△
+56	Who	レディー・ブラックンストール	True		〇	〇	△
+56	hasPredicate	殴られた	True	hasPredicate	〇	〇	△
+56	Obj	年配の男のこぶし	False	判別不能	〇	〇	△
+56	Obj	目の上	True	How	〇	〇	△
+57	対象文	レディー・ブラックンストールは床に打ち倒された			〇	〇	×
+57	Who	レディー・ブラックンストール	True		〇	〇	×
+57	hasPredicate	打ち倒された	True	hasPredicate	〇	〇	×
+57	Obj	床	False	判別不能	〇	〇	×
+58	対象文	レディー・ブラックンストールは数分間意識を失っていた			〇	×	×
+58	Who	レディー・ブラックンストール	True		〇	×	×
+58	hasPredicate	失っていた	False		〇	×	×
+58	Obj	数分間	False	判別不能	〇	×	×
+58	Obj	意識	False	判別不能	〇	×	×
+59	対象文	男たちはベルの紐を引きちぎった			〇	〇	〇
+59	Who	男たち	True		〇	〇	〇
+59	hasPredicate	引きちぎった	True	hasProperty	〇	〇	〇
+59	Obj	ベルの紐	True	What	〇	〇	〇
+59	対象文	オーク製の椅子はダイニングテーブルの上座にあった			〇	〇	〇
+59	Who	オーク製の椅子	True		〇	〇	〇
+59	hasPredicate	あった	True	hasProperty	〇	〇	〇
+59	Obj	ダイニングテーブルの上座	True	Where	〇	〇	〇
+60	対象文	男たちはレディー・ブラックンストールをオーク製の椅子に縛り付けた			〇	〇	△
+60	Who	男たち	True		〇	〇	△
+60	hasPredicate	縛り付けた	True	hasPredicate	〇	〇	△
+60	Obj	レディー・ブラックンストール	True	What	〇	〇	△
+60	Obj	オーク製の椅子	False	判別不能	〇	〇	△
+61	対象文	レディー・ブラックンストールは動くことも声を立てることもできなかった			×	〇	無
+61	Who	レディー・ブラックンストール動くことも声を立てること	False		×	〇	無
+61	hasPredicate	できなかった	True	hasProperty	×	〇	無
+62	対象文	サー・ユースタス・ブラックンストールが部屋に入ってきた			×	×	無
+62	Who		False		×	×	無
+62	hasPredicate	サー・ユースタス・ブラックンストールが部屋に入ってきた	False		×	×	無
+63	対象文	年輩の男は火かき棒を取った			〇	〇	〇
+63	Who	年輩の男	True		〇	〇	〇
+63	hasPredicate	取った	True	hasPredicate	〇	〇	〇
+63	Obj	火かき棒	True	What	〇	〇	〇
+64	対象文	年輩の男は横からサー・ユースタス・ブラックンストールに一撃を加えた			〇	×	△
+64	Who	年輩の男	True		〇	×	△
+64	hasPredicate	加えた	False		〇	×	△
+64	Obj	横	False	判別不能	〇	×	△
+64	Obj	サー・ユースタス・ブラックンストール	True	What	〇	×	△
+64	Obj	一撃	False	判別不能	〇	×	△
+65	対象文	レディー・ブラックンストールは再び意識を失った			〇	×	×
+65	Who	レディー・ブラックンストール	True		〇	×	×
+65	hasPredicate	再び意識を失った	False		〇	×	×
+65	Obj	意識	False	判別不能	〇	×	×
+66	対象文	男たちはサイドボードから銀製品を集めた			〇	〇	〇
+66	Who	男たち	True		〇	〇	〇
+66	hasPredicate	集めた	True	hasPredicate	〇	〇	〇
+66	Obj	サイドボード	True	Where	〇	〇	〇
+66	Obj	銀製品	True	What	〇	〇	〇
+67	対象文	男たちはサイドボードからワインを取り出した			〇	〇	〇
+67	Who	男たち	True		〇	〇	〇
+67	hasPredicate	取り出した	True	hasPredicate	〇	〇	〇
+67	Obj	サイドボード	True	Where	〇	〇	〇
+67	Obj	ワイン	True	What	〇	〇	〇
+68	対象文	男たちの内一人は年配であごひげがあった			×	×	×
+68	Who	あごひげ	False		×	×	×
+68	hasPredicate	あった	False		×	×	×
+68	Obj	男たちの内一人	False	判別不能	×	×	×
+68	Obj	年配	False	判別不能	×	×	×
+69	対象文	男たちの内二人は若くひげがない			×	×	×
+69	Who	ひげ	False		×	×	×
+69	hasPredicate	若くひげがない	False		×	×	×
+69	Obj	男たちの内二人	False	判別不能	×	×	×
+70	対象文	男たちはレディー・ブラックンストールを縛ってあるか確認した			〇	×	無
+70	Who	男たち	True		〇	×	無
+70	hasPredicate	レディー・ブラックンストールを縛ってあるか確認した	False		〇	×	無
+71	対象文	男たちは窓を後ろ手に閉めた			〇	〇	△
+71	Who	男たち	True		〇	〇	△
+71	hasPredicate	閉めた	True	hasPredicate	〇	〇	△
+71	Obj	窓	True	What	〇	〇	△
+71	Obj	後ろ手	False	判別不能	〇	〇	△
+72	対象文	男たちは引き上げた			〇	〇	無
+72	Who	男たち	True		〇	〇	無
+72	hasPredicate	引き上げた	True	hasProperty	〇	〇	無
+72	対象文	レディー・ブラックンストールは15分後口が自由になった			×	×	〇
+72	Who	レディー・ブラックンストール	False		×	×	〇
+72	hasPredicate	口が自由になった	False		×	×	〇
+72	Obj	15分後	True	When	×	×	〇
+73	対象文	レディー・ブラックンストールの叫び声をあげた			×	×	×
+73	Who		False		×	×	×
+73	hasPredicate	あげた	False		×	×	×
+73	Obj	レディー・ブラックンストールの叫び声	False	判別不能	×	×	×
+74	対象文	レディー・ブラックンストールの叫び声でテリーサが助けに来た			〇	×	×
+74	Who	テリーサ	True		〇	×	×
+74	hasPredicate	来た	False		〇	×	×
+74	Obj	レディー・ブラックンストールの叫び声	False	判別不能	〇	×	×
+74	Obj	助け	False	判別不能	〇	×	×
+75	対象文	男たちは家に入った			〇	〇	×
+75	Who	男たち	True		〇	〇	×
+75	hasPredicate	入った	True	hasPredicate	〇	〇	×
+75	Obj	家	False	判別不能	〇	〇	×
+76	対象文	テリーサは家に入る前の男たちを見た			〇	〇	×
+76	Who	テリーサ	True		〇	〇	×
+76	hasPredicate	見た	True	hasPredicate	〇	〇	×
+76	Obj	家に入る前の男たち	False	判別不能	〇	〇	×
+77	対象文	サー・ユースタス・ブラックンストールはダイニングルーム中に血と脳みそをまき散らしていた			〇	〇	×
+77	Who	サー・ユースタス・ブラックンストール	True		〇	〇	×
+77	hasPredicate	まき散らしていた	True	hasPredicate	〇	〇	×
+77	Obj	ダイニングルーム中	False	判別不能	〇	〇	×
+77	Obj	血	False	判別不能	〇	〇	×
+77	Obj	脳みそ	False	判別不能	〇	〇	×
+78	対象文	サー・ユースタス・ブラックンストールはダイニングルームで倒れていた			〇	〇	〇
+78	Who	サー・ユースタス・ブラックンストール	True		〇	〇	〇
+78	hasPredicate	倒れていた	True	hasPredicate	〇	〇	〇
+78	Obj	ダイニングルーム	True	Where	〇	〇	〇
+79	対象文	テリーサはサー・ユースタス・ブラックンストールを発見した			〇	〇	〇
+79	Who	テリーサ	True		〇	〇	〇
+79	hasPredicate	発見した	True	hasPredicate	〇	〇	〇
+79	Obj	サー・ユースタス・ブラックンストール	True	What	〇	〇	〇
+80	対象文	ドレスは血や脳みそで汚れた			〇	〇	×
+80	Who	ドレス	True		〇	〇	×
+80	hasPredicate	汚れた	True	hasProperty	〇	〇	×
+80	Obj	血	False	判別不能	〇	〇	×
+80	Obj	脳みそ	False	判別不能	〇	〇	×
+81	対象文	レディー・ブラックンストールはテリーサとレディー・ブラックンストールの部屋に行き休みを取る			×	×	〇
+81	Who		False		×	×	〇
+81	hasPredicate	レディー・ブラックンストールはテリーサとレディー・ブラックンストールの部屋に行き休みを取る	False		×	×	〇
+81	Obj	休み	True	What	×	×	〇
+82	対象文	レディー・ブラックンストールが赤ん坊だった			〇	〇	無
+82	Who	レディー・ブラックンストール	True		〇	〇	無
+82	hasPredicate	赤ん坊だった	True	hasPredicate	〇	〇	無
+83	対象文	テリーサはレディー・ブラックンストールが赤ん坊の頃から仕えている			×	〇	×
+83	Who	テリーサレディー・ブラックンストール	False		×	〇	×
+83	hasPredicate	仕えている	True	hasPredicate	×	〇	×
+83	Obj	赤ん坊の頃	False	判別不能	×	〇	×
+84	対象文	事件の魅力が謎と共に去った			〇	〇	×
+84	Who	事件の魅力	True		〇	〇	×
+84	hasPredicate	去った	True	hasProperty	〇	〇	×
+84	Obj	謎	False	判別不能	〇	〇	×
+84	Obj	共	False	判別不能	〇	〇	×
+84	対象文	ホームズは強い関心をなくした			〇	〇	〇
+84	Who	ホームズ	True		〇	〇	〇
+84	hasPredicate	なくした	True	hasProperty	〇	〇	〇
+84	Obj	強い関心	True	What	〇	〇	〇
+85	対象文	ホームズの目が腹立たしさを感じている			〇	〇	〇
+85	Who	ホームズの目	True		〇	〇	〇
+85	hasPredicate	感じている	True	hasPredicate	〇	〇	〇
+85	Obj	腹立たしさ	True	What	〇	〇	〇
+86	対象文	ホームズはアビ屋敷のダイニングルームを見た			〇	〇	×
+86	Who	ホームズ	True		〇	〇	×
+86	hasPredicate	見た	True	hasProperty	〇	〇	×
+86	Obj	アビ屋敷のダイニングルーム	False	判別不能	〇	〇	×
+87	対象文	ホームズはアビ屋敷のダイニングルームを見て興味を呼び戻した			〇	×	〇
+87	Who	ホームズ	True		〇	×	〇
+87	hasPredicate	アビ屋敷のダイニングルームを見て興味を呼び戻した	False		〇	×	〇
+87	Obj	興味	True	What	〇	×	〇
+88	対象文	ダイニングルームのドアの反対側の端に高いフランス窓があった			〇	〇	×
+88	Who	高いフランス窓	True		〇	〇	×
+88	hasPredicate	あった	True	hasProperty	〇	〇	×
+88	Obj	ダイニングルームのドアの反対側の端	False	判別不能	〇	〇	×
+89	対象文	ドアの右側には小さい3つの窓があった			〇	〇	×
+89	Who	小さい3つの窓	True		〇	〇	×
+89	hasPredicate	あった	True	hasPredicate	〇	〇	×
+89	Obj	ドアの右側に	False	判別不能	〇	〇	×
+90	対象文	ドアの左側には大きな奥行のある暖炉、張り出したマントルピースがあった			×	〇	×
+90	Who	大きな奥行のある暖炉、張り出したマントルピース	False		×	〇	×
+90	hasPredicate	あった	True	hasPredicate	×	〇	×
+90	Obj	ドアの左側に	False	判別不能	×	〇	×
+91	対象文	暖炉のそばに肘掛と底部に筋交いのある思いオークの椅子がある			×	〇	×
+91	Who	肘掛	True		×	〇	×
+91	Who	底部に筋交いのある思いオークの椅子	False		×	〇	×
+91	hasPredicate	ある	True	hasPredicate	×	〇	×
+91	Obj	暖炉のそば	False	判別不能	×	〇	×
+92	対象文	木製品の隙間に真紅の紐が編まれている			〇	〇	〇
+92	Who	真紅の紐	True		〇	〇	〇
+92	hasPredicate	編まれている	True	hasPredicate	〇	〇	〇
+92	Obj	木製品の隙間	True	Where	〇	〇	〇
+93	対象文	真紅の紐の両端は下の斜めの棒に固定されていた			〇	〇	×
+93	Who	真紅の紐の両端	True		〇	〇	×
+93	hasPredicate	固定されていた	True	hasProperty	〇	〇	×
+93	Obj	下の斜めの棒	False	判別不能	〇	〇	×
+94	対象文	結び目は真紅の紐を固定していた			〇	〇	〇
+94	Who	結び目	True		〇	〇	〇
+94	hasPredicate	固定していた	True	hasPredicate	〇	〇	〇
+94	Obj	真紅の紐	True	What	〇	〇	〇
+95	対象文	結び目は残っていた			〇	〇	無
+95	Who	結び目	True		〇	〇	無
+95	hasPredicate	残っていた	True	hasPredicate	〇	〇	無
+95	対象文	ホームズとワトソンは暖炉の前の敷物の上に横たわる死体を発見した			〇	〇	×
+95	Who	ホームズ	True		〇	〇	×
+95	Who	ワトソン	True		〇	〇	×
+95	hasPredicate	発見した	True	hasPredicate	〇	〇	×
+95	Obj	暖炉の前の敷物の上に横たわる死体	False	判別不能	〇	〇	×
+96	対象文	死体は40歳ほどだった			〇	×	無
+96	Who	死体	True		〇	×	無
+96	hasPredicate	40歳ほどだった	False		〇	×	無
+97	対象文	死体は長身だった			〇	×	無
+97	Who	死体	True		〇	×	無
+97	hasPredicate	長身だった	False		〇	×	無
+98	対象文	死体はがっしりした男だった			〇	×	無
+98	Who	死体	True		〇	×	無
+98	hasPredicate	がっしりした男だった	False		〇	×	無
+99	対象文	死体は仰向けに倒れていた			〇	〇	×
+99	Who	死体	True		〇	〇	×
+99	hasPredicate	倒れていた	True	hasPredicate	〇	〇	×
+99	Obj	仰向け	False	判別不能	〇	〇	×
+100	対象文	死体は顔を上に向けていた			〇	〇	〇
+100	Who	死体	True		〇	〇	〇
+100	hasPredicate	向けていた	True	hasPredicate	〇	〇	〇
+100	Obj	顔	True	What	〇	〇	〇
+100	Obj	上	True	How	〇	〇	〇
+101	対象文	死体は短く黒いあごひげの間から白い歯をむき出していた			〇	〇	△
+101	Who	死体	True		〇	〇	△
+101	hasPredicate	むき出していた	True	hasPredicate	〇	〇	△
+101	Obj	短く黒いあごひげの間	False	判別不能	〇	〇	△
+101	Obj	白い歯	True	What	〇	〇	△
+102	対象文	死体のこぶしを固めた両手は頭の上にあげられていた			×	〇	〇
+102	Who	死体のこぶしを固めた両手	False		×	〇	〇
+102	hasPredicate	あげられていた	True	hasPredicate	×	〇	〇
+102	Obj	頭の上	True	Where	×	〇	〇
+103	対象文	両手には重いリンボクのステッキがまたがっていた			×	〇	×
+103	Who	重いリンボクのステッキ	False		×	〇	×
+103	hasPredicate	またがっていた	True	hasPredicate	×	〇	×
+103	Obj	両手に	False	判別不能	×	〇	×
+104	対象文	死体の顔立ちはゆがんで敵意あらわな憎悪に引きつっていた			×	×	×
+104	Who		False		×	×	×
+104	hasPredicate	死体の顔立ちはゆがんで敵意あらわな憎悪に引きつっていた	False		×	×	×
+104	Obj	敵意あらわな憎悪	False	判別不能	×	×	×
+105	対象文	死体の顔立ちは恐ろしい鬼のような死に顔をしていた			〇	〇	〇
+105	Who	死体の顔立ち	True		〇	〇	〇
+105	hasPredicate	していた	True	hasProperty	〇	〇	〇
+105	Obj	恐ろしい鬼のような死に顔	True	What	〇	〇	〇
+106	対象文	警鐘が鳴った			×	〇	無
+106	Who	警鐘	False		×	〇	無
+106	hasPredicate	鳴った	True	hasProperty	×	〇	無
+107	対象文	サー・ユースタス・ブラックンストールは寝ていた			〇	〇	無
+107	Who	サー・ユースタス・ブラックンストール	True		〇	〇	無
+107	hasPredicate	寝ていた	True	hasProperty	〇	〇	無
+107	対象文	サー・ユースタス・ブラックンストールは寝巻きを着ていた			〇	×	×
+107	Who	サー・ユースタス・ブラックンストール	True		〇	×	×
+107	hasPredicate	着ていた	False		〇	×	×
+107	Obj	寝巻き	False	判別不能	〇	×	×
+108	対象文	サー・ユースタス・ブラックンストールは裸足だった			〇	〇	無
+108	Who	サー・ユースタス・ブラックンストール	True		〇	〇	無
+108	hasPredicate	裸足だった	True	hasProperty	〇	〇	無
+109	対象文	サー・ユースタス・ブラックンストールは頭にひどい怪我をしていた			〇	〇	〇
+109	Who	サー・ユースタス・ブラックンストール	True		〇	〇	〇
+109	hasPredicate	していた	True	hasPredicate	〇	〇	〇
+109	Obj	頭	True	Where	〇	〇	〇
+109	Obj	ひどい怪我	True	What	〇	〇	〇
+110	対象文	部屋全体が残忍な性格を証言していた			〇	〇	×
+110	Who	部屋全体	True		〇	〇	×
+110	hasPredicate	証言していた	True	hasPredicate	〇	〇	×
+110	Obj	残忍な性格	False	判別不能	〇	〇	×
+111	対象文	サー・ユースタス・ブラックンストールのそばに湾曲した重い火かき棒が転がっていた。			×	×	無
+111	Who	サー・ユースタス・ブラックンストールのそばに湾曲した重い火かき棒	False		×	×	無
+111	hasPredicate	転がっていた。	False		×	×	無
+112	対象文	ランダル老人は力の強い男			〇	×	無
+112	Who	ランダル老人	True		〇	×	無
+112	hasPredicate	力の強い男	False		〇	×	無
+113	対象文	レディー・ブラックンストールは人相を言わなかった			〇	〇	×
+113	Who	レディー・ブラックンストール	True		〇	〇	×
+113	hasPredicate	言わなかった	True	hasPredicate	〇	〇	×
+113	Obj	人相	False	判別不能	〇	〇	×
+114	対象文	犯人はサー・ユースタス・ブラックンストールを黙らせた			×	〇	〇
+114	Who	犯人	False		×	〇	〇
+114	hasPredicate	黙らせた	True	hasPredicate	×	〇	〇
+114	Obj	サー・ユースタス・ブラックンストール	True	What	×	〇	〇
+115	対象文	犯人はレディー・ブラックンストールをサー・ユースタス・ブラックンストールのように黙らせなかった			×	×	〇
+115	Who	犯人	False		×	×	〇
+115	hasPredicate	サー・ユースタス・ブラックンストールのように黙らせなかった	False		×	×	〇
+115	Obj	レディー・ブラックンストール	True	What	×	×	〇
+116	対象文	男たちはレディー・ブラックンストールが気絶から回復したことに気づかなかった			〇	〇	×
+116	Who	男たち	True		〇	〇	×
+116	hasPredicate	気づかなかった	True	hasPredicate	〇	〇	×
+116	Obj	レディー・ブラックンストールが気絶	False	判別不能	〇	〇	×
+116	Obj	回復したこと	False	判別不能	〇	〇	×
+117	対象文	人間の意識がない			×	〇	無
+117	Who	人間の意識	False		×	〇	無
+117	hasPredicate	ない	True	hasPredicate	×	〇	無
+118	対象文	男たちは意識がない人の命は取らなかった			×	×	無
+118	Who	男たち意識がない人の命	False		×	×	無
+118	hasPredicate	取らなかった	False		×	×	無
+119	対象文	サー・ユースタス・ブラックンストールはしらふの時は優しい			〇	〇	〇
+119	Who	サー・ユースタス・ブラックンストール	True		〇	〇	〇
+119	hasPredicate	優しい	True	hasProperty	〇	〇	〇
+119	Obj	しらふの時	True	When	〇	〇	〇
+120	対象文	サー・ユースタス・ブラックンストールは酔っぱらっている			〇	〇	無
+120	Who	サー・ユースタス・ブラックンストール	True		〇	〇	無
+120	hasPredicate	酔っぱらっている	True	hasProperty	〇	〇	無
+121	対象文	サー・ユースタス・ブラックンストールは酔っ払い加減の時は鬼のようだった			〇	〇	×
+121	Who	サー・ユースタス・ブラックンストール	True		〇	〇	×
+121	hasPredicate	鬼のようだった	True	hasProperty	〇	〇	×
+121	Obj	酔っ払い加減の時	False	判別不能	〇	〇	×
+122	対象文	サー・ユースタス・ブラックンストールは一度や二度警察の世話になるところだった			〇	×	無
+122	Who	サー・ユースタス・ブラックンストール	True		〇	×	無
+122	hasPredicate	一度や二度警察の世話になるところだった	False		〇	×	無
+123	対象文	サー・ユースタス・ブラックンストールはレディー・ブラックンストールの犬に石油をかけた			〇	〇	〇
+123	Who	サー・ユースタス・ブラックンストール	True		〇	〇	〇
+123	hasPredicate	かけた	True	hasPredicate	〇	〇	〇
+123	Obj	レディー・ブラックンストールの犬	True	To	〇	〇	〇
+123	Obj	石油	True	What	〇	〇	〇
+124	対象文	サー・ユースタス・ブラックンストールはレディー・ブラックンストールの犬に石油をかけ火をつけた			〇	×	×
+124	Who	サー・ユースタス・ブラックンストール	True		〇	×	×
+124	hasPredicate	レディー・ブラックンストールの犬に石油をかけ火をつけた	False		〇	×	×
+124	Obj	火	False	判別不能	〇	×	×
+125	対象文	サー・ユースタス・ブラックンストールはテリーサにデカンターを投げつけた			〇	〇	〇
+125	Who	サー・ユースタス・ブラックンストール	True		〇	〇	〇
+125	hasPredicate	投げつけた	True	hasPredicate	〇	〇	〇
+125	Obj	テリーサ	True	To	〇	〇	〇
+125	Obj	デカンター	True	What	〇	〇	〇
+126	対象文	レディー・ブラックンストールは赤い紐で縛られていた			〇	〇	〇
+126	Who	レディー・ブラックンストール	True		〇	〇	〇
+126	hasPredicate	縛られていた	True	hasPredicate	〇	〇	〇
+126	Obj	赤い紐	True	What	〇	〇	〇
+127	対象文	ホームズはレディー・ブラックンストールが括り付けられていた赤い紐の結び目を注意深く調べた			〇	×	×
+127	Who	ホームズ	True		〇	×	×
+127	hasPredicate	注意深く調べた	False		〇	×	×
+127	Obj	レディー・ブラックンストールが括り付けられていた赤い紐の結び目	False	判別不能	〇	×	×
+128	対象文	ホームズはちぎれほつれた端を慎重に検査した			〇	×	×
+128	Who	ホームズ	True		〇	×	×
+128	hasPredicate	慎重に検査した	False		〇	×	×
+128	Obj	ちぎれほつれた端	False	判別不能	〇	×	×
+129	対象文	強盗は赤い紐を引き下ろした			〇	〇	〇
+129	Who	強盗	True		〇	〇	〇
+129	hasPredicate	引き下ろした	True	hasPredicate	〇	〇	〇
+129	Obj	赤い紐	True	What	〇	〇	〇
+130	対象文	赤い紐が引き下ろしたとき調理場のベルが鳴ったに違いない			×	×	×
+130	Who	調理場のベル	False		×	×	×
+130	hasPredicate	鳴ったに違いない	False		×	×	×
+130	Obj	赤い紐が引き下ろしたとき	False	判別不能	×	×	×
+131	対象文	ベルの音は誰にも聞こえなかった			〇	〇	×
+131	Who	ベルの音	True		〇	〇	×
+131	hasPredicate	聞こえなかった	True	hasPredicate	〇	〇	×
+131	Obj	誰に	False	判別不能	〇	〇	×
+132	対象文	犯人はこの家と習慣を知っていた			〇	〇	×
+132	Who	犯人	True		〇	〇	×
+132	hasPredicate	知っていた	True	hasPredicate	〇	〇	×
+132	Obj	この家	False	判別不能	〇	〇	×
+132	Obj	習慣	False	判別不能	〇	〇	×
+133	対象文	召使は比較的早い時間に休む			〇	〇	〇
+133	Who	召使	True		〇	〇	〇
+133	hasPredicate	休む	True	hasPredicate	〇	〇	〇
+133	Obj	比較的早い時間	True	When	〇	〇	〇
+134	対象文	調理場のベルが鳴っても誰にも聞こえない			×	×	×
+134	Who		False		×	×	×
+134	hasPredicate	調理場のベルが鳴っても誰にも聞こえない	False		×	×	×
+134	Obj	誰に	False	判別不能	×	×	×
+135	対象文	犯人は召使の一人と結託している			〇	〇	×
+135	Who	犯人	True		〇	〇	×
+135	hasPredicate	結託している	True	hasPredicate	〇	〇	×
+135	Obj	召使の一人	False	判別不能	〇	〇	×
+136	対象文	八人の召使は申し分ない			〇	〇	無
+136	Who	八人の召使	True		〇	〇	無
+136	hasPredicate	申し分ない	True	hasProperty	〇	〇	無
+137	対象文	サー・ユースタス・ブラックンストールにデカンターを投げつけられたテリーサが疑わしい			×	〇	無
+137	Who	サー・ユースタス・ブラックンストールにデカンターを投げつけられたテリーサ	False		×	〇	無
+137	hasPredicate	疑わしい	True	hasPredicate	×	〇	無
+138	対象文	事件時マントルピースのろうそくがついていた			×	〇	×
+138	Who	マントルピースのろうそく	False		×	〇	×
+138	hasPredicate	ついていた	True	hasPredicate	×	〇	×
+138	Obj	事件時	False	判別不能	×	〇	×
+139	対象文	レディー・ブラックンストールは寝室のろうそくを持っていた			〇	〇	×
+139	Who	レディー・ブラックンストール	True		〇	〇	×
+139	hasPredicate	持っていた	True	hasPredicate	〇	〇	×
+139	Obj	寝室のろうそく	False	判別不能	〇	〇	×
+140	対象文	犯人はマントルピースのろうそくと寝室用のろうそくで勝手がわかった			〇	〇	×
+140	Who	犯人	True		〇	〇	×
+140	hasPredicate	勝手がわかった	True	hasPredicate	〇	〇	×
+140	Obj	マントルピースのろうそく	False	判別不能	〇	〇	×
+140	Obj	寝室用のろうそく	False	判別不能	〇	〇	×
+141	対象文	犯人はサイドボードから皿を六点盗った			〇	〇	△
+141	Who	犯人	True		〇	〇	△
+141	hasPredicate	盗った	True	hasPredicate	〇	〇	△
+141	Obj	サイドボード	True	Where	〇	〇	△
+141	Obj	皿	False	判別不能	〇	〇	△
+141	Obj	六点	False	判別不能	〇	〇	△
+142	対象文	男たちはサー・ユースタス・ブラックンストールの死に動揺した			〇	〇	×
+142	Who	男たち	True		〇	〇	×
+142	hasPredicate	動揺した	True	hasPredicate	〇	〇	×
+142	Obj	サー・ユースタス・ブラックンストールの死	False	判別不能	〇	〇	×
+143	対象文	男たちはあまりあさり回らなかった			〇	〇	無
+143	Who	男たち	True		〇	〇	無
+143	hasPredicate	あまりあさり回らなかった	True	hasPredicate	〇	〇	無
+144	対象文	犯人は神経を落ち着かせるためにワインをいくらか飲んだ			×	×	〇
+144	Who	犯人	False		×	×	〇
+144	hasPredicate	神経を落ち着かせるためにワインをいくらか飲んだ	False		×	×	〇
+144	Obj	ワイン	True	What	×	×	〇
+145	対象文	三つのグラスがかたまって置かれそのすべてにワインの色がついていた			×	〇	×
+145	Who	ワインの色	False		×	〇	×
+145	hasPredicate	ついていた	True	hasProperty	×	〇	×
+145	Obj	三つのグラスがかたまって置かれそのすべて	False	判別不能	×	〇	×
+146	対象文	ひとつのグラスにはオリのカスがいくらか入っていた			×	×	×
+146	Who	オリのカス	False		×	×	×
+146	hasPredicate	いくらか入っていた	False		×	×	×
+146	Obj	ひとつのグラスに	False	判別不能	×	×	×
+147	対象文	三つのグラスの近くに三分の二ほど入った瓶が立っている			〇	〇	×
+147	Who	三分の二ほど入った瓶	True		〇	〇	×
+147	hasPredicate	立っている	True	hasPredicate	〇	〇	×
+147	Obj	三つのグラスの近く	False	判別不能	〇	〇	×
+148	対象文	瓶のそばに長い、濃く染まったコルクがあった			×	〇	×
+148	Who	長い、濃く染まったコルク	False		×	〇	×
+148	hasPredicate	あった	True	hasPredicate	×	〇	×
+148	Obj	瓶のそば	False	判別不能	×	〇	×
+149	対象文	ワインは外観と瓶の上のほこりから並みのヴィンテージではない			〇	×	無
+149	Who	ワイン	True		〇	×	無
+149	hasPredicate	外観と瓶の上のほこりから並みのヴィンテージではない	False		〇	×	無
+150	対象文	レディー・ブラックンストールはワインが開けられたとき意識を失っていた			〇	×	×
+150	Who	レディー・ブラックンストール	True		〇	×	×
+150	hasPredicate	失っていた	False		〇	×	×
+150	Obj	ワインが開けられたとき	False	判別不能	〇	×	×
+150	Obj	意識	False	判別不能	〇	×	×
+151	対象文	栓抜きはコルクを抜き取るため3回打ち込まれた			〇	〇	×
+151	Who	栓抜き	True		〇	〇	×
+151	hasPredicate	打ち込まれた	True	hasPredicate	〇	〇	×
+151	Obj	コルクを抜き取るため	False	判別不能	〇	〇	×
+151	Obj	3回	False	判別不能	〇	〇	×
+152	対象文	瓶を開けたのは大きなコルク抜きではなく携帯用の栓抜きだった			×	×	無
+152	Who	瓶を開けたの	False		×	×	無
+152	hasPredicate	瓶を開けたのは大きなコルク抜きではなく携帯用の栓抜きだった	False		×	×	無
+153	対象文	犯人は万能ナイフを持っている			〇	〇	〇
+153	Who	犯人	True		〇	〇	〇
+153	hasPredicate	持っている	True	hasPredicate	〇	〇	〇
+153	Obj	万能ナイフ	True	What	〇	〇	〇
+154	対象文	レディー・ブラックンストールは確かに男たちが飲むところを見た			〇	×	×
+154	Who	レディー・ブラックンストール	True		〇	×	×
+154	hasPredicate	確かに男たちが飲むところを見た	False		〇	×	×
+154	Obj	男たちが飲むところ	False	判別不能	〇	×	×
+155	対象文	ランダルが逮捕され進展があればホームズに知らせてほしい			×	×	×
+155	Who		False		×	×	×
+155	hasPredicate	ランダルが逮捕され進展があればホームズに知らせてほしい	False		×	×	×
+155	Obj	ホームズ	False	判別不能	×	×	×
+156	対象文	帰途につき、ホームズはひどく悩んでいた			〇	〇	×
+156	Who	ホームズ	True		〇	〇	×
+156	hasPredicate	ひどく悩んでいた	True	hasProperty	〇	〇	×
+156	Obj	帰途につき、	False	判別不能	〇	〇	×
+157	対象文	ホームズの思いが再びアビ屋敷のダイニングルームへと戻った			〇	×	×
+157	Who	ホームズの思い	True		〇	×	×
+157	hasPredicate	再びアビ屋敷のダイニングルームへと戻った	False		〇	×	×
+157	Obj	アビ屋敷のダイニングルームへ	False	判別不能	〇	×	×
+158	対象文	ホームズは列車からホームに飛び降りた			〇	〇	△
+158	Who	ホームズ	True		〇	〇	△
+158	hasPredicate	飛び降りた	True	hasPredicate	〇	〇	△
+158	Obj	列車	False	判別不能	〇	〇	△
+158	Obj	ホーム	True	Where	〇	〇	△
+159	対象文	ホームズはワトソンを引っ張り出した			〇	〇	〇
+159	Who	ホームズ	True		〇	〇	〇
+159	hasPredicate	引っ張り出した	True	hasPredicate	〇	〇	〇
+159	Obj	ワトソン	True	What	〇	〇	〇
+160	対象文	レディー・ブラックンストールの話は完璧			〇	〇	無
+160	Who	レディー・ブラックンストールの話	True		〇	〇	無
+160	hasPredicate	完璧	True	hasProperty	〇	〇	無
+161	対象文	テリーサの裏書は十分			〇	〇	無
+161	Who	テリーサの裏書	True		〇	〇	無
+161	hasPredicate	十分	True	hasProperty	〇	〇	無
+162	対象文	みんな間違っている			×	×	無
+162	Who		False		×	×	無
+162	hasPredicate	みんな間違っている	False		×	×	無
+163	対象文	テリーサやレディー・ブラックンストールの言うことは真実である			×	×	無
+163	Who	テリーサ	True		×	×	無
+163	Who	レディー・ブラックンストールの言うこと	False		×	×	無
+163	hasPredicate	真実である	False		×	×	無
+164	対象文	テリーサやレディー・ブラックンストールの言うことは真実であるという考えを頭から払いのける必要がある			×	×	無
+164	Who	テリーサ	False		×	×	無
+164	Who	レディー・ブラックンストールの言うことは真実である	False		×	×	無
+164	Who	いう考えを頭から払いのける必要	False		×	×	無
+164	hasPredicate	ある	False		×	×	無
+165	対象文	ルイシャムの夜盗団は2週間前シドナムで相当の獲物を獲た			〇	×	△
+165	Who	ルイシャムの夜盗団	True		〇	×	△
+165	hasPredicate	2週間前シドナムで相当の獲物を獲た	False		〇	×	△
+165	Obj	シドナム	True	Where	〇	×	△
+165	Obj	相当の獲物	False	判別不能	〇	×	△
+166	対象文	ルイシャムの夜盗団やその風体についての記事が新聞に載った			×	〇	〇
+166	Who	ルイシャムの夜盗団	True		×	〇	〇
+166	Who	その風体についての記事	False		×	〇	〇
+166	hasPredicate	載った	True	hasProperty	×	〇	〇
+166	Obj	新聞	True	How	×	〇	〇
+167	対象文	架空の泥棒が役割を演じている			〇	〇	×
+167	Who	架空の泥棒	True		〇	〇	×
+167	hasPredicate	演じている	True	hasPredicate	〇	〇	×
+167	Obj	役割	False	判別不能	〇	〇	×
+168	対象文	架空の泥棒が役割を演じる話をでっち上げられる			×	〇	×
+168	Who		False		×	〇	×
+168	hasPredicate	でっち上げられる	True	hasPredicate	×	〇	×
+168	Obj	架空の泥棒が役割を演じる話	False	判別不能	×	〇	×
+169	対象文	夜盗団は普通うまく一働きしたら喜んで静かに上がりを楽しむ			〇	×	×
+169	Who	夜盗団	True		〇	×	×
+169	hasPredicate	普通うまく一働きしたら喜んで静かに上がりを楽しむ	False		〇	×	×
+169	Obj	上がり	False	判別不能	〇	×	×
+170	対象文	夜盗団がそんなに早い時間に仕事をするのは異常			×	×	無
+170	Who	夜盗団がそんなに早い時間に仕事をするの	False		×	×	無
+170	hasPredicate	夜盗団がそんなに早い時間に仕事をするのは異常	False		×	×	無
+171	対象文	レディー・ブラックンストールが叫び声をあげるのを防ぐために殴るのも異常			×	〇	×
+171	Who		False		×	〇	×
+171	hasPredicate	異常	True	hasProperty	×	〇	×
+171	Obj	レディー・ブラックンストールが叫び声をあげるのを防ぐために殴るの	False	判別不能	×	〇	×
+172	対象文	殴られるとむしろ叫ぶ			×	×	無
+172	Who		False		×	×	無
+172	hasPredicate	殴られるとむしろ叫ぶ	False		×	×	無
+173	対象文	ルイシャム夜盗団は三人いる			〇	×	×
+173	Who	ルイシャム夜盗団	True		〇	×	×
+173	hasPredicate	いる	False		〇	×	×
+173	Obj	三人	False	判別不能	〇	×	×
+174	対象文	男一人を抑え込むためだけに人を殺すことは異常			×	〇	無
+174	Who	男一人を抑え込むためだけに人を殺すこと	False		×	〇	無
+174	hasPredicate	異常	True	hasProperty	×	〇	無
+175	対象文	夜盗がまだたくさんのものに手が届くのに略奪を甘んじるのは異常			×	×	無
+175	Who	夜盗がまだたくさんのものに手が届くのに略奪を甘んじるの	False		×	×	無
+175	hasPredicate	夜盗がまだたくさんのものに手が届くのに略奪を甘んじるのは異常	False		×	×	無
+176	対象文	ボトルを半分残すのは異常			×	×	無
+176	Who	ボトルを半分残すの	False		×	×	無
+176	hasPredicate	ボトルを半分残すのは異常	False		×	×	無
+177	対象文	レディー・ブラックンストールが椅子に縛り付けられていたことのほうが異常			×	〇	無
+177	Who	レディー・ブラックンストールが椅子に縛り付けられていたことのほう	False		×	〇	無
+177	hasPredicate	異常	True	hasProperty	×	〇	無
+178	対象文	レディー・ブラックンストールはルイシャム夜盗団を通報する			〇	〇	〇
+178	Who	レディー・ブラックンストール	True		〇	〇	〇
+178	hasPredicate	通報する	True	hasPredicate	〇	〇	〇
+178	Obj	ルイシャム夜盗団	True	What	〇	〇	〇
+179	対象文	レディー・ブラックンストールを殺すか動けなくする必要があった			×	×	無
+179	Who	レディー・ブラックンストールを殺すか動けなくする必要	False		×	×	無
+179	hasPredicate	あった	False		×	×	無
+180	対象文	瓶はいっぱいで最初の二つのワイングラスがきれい			×	×	無
+180	Who	最初の二つのワイングラス	False		×	×	無
+180	hasPredicate	瓶はいっぱいで最初の二つのワイングラスがきれい	False		×	×	無
+181	対象文	三つ目のワイングラスにオリがいっぱい入っていた			×	×	×
+181	Who	オリ	False		×	×	×
+181	hasPredicate	いっぱい入っていた	False		×	×	×
+181	Obj	三つ目のワイングラス	False	判別不能	×	×	×
+182	対象文	犯人は二つ目のグラスを満たした			〇	〇	×
+182	Who	犯人	True		〇	〇	×
+182	hasPredicate	満たした	True	hasPredicate	〇	〇	×
+182	Obj	二つ目のグラス	False	判別不能	〇	〇	×
+183	対象文	二つ目のグラスを満たしてから瓶を激しく振った			×	×	×
+183	Who		False		×	×	×
+183	hasPredicate	二つ目のグラスを満たしてから瓶を激しく振った	False		×	×	×
+183	Obj	瓶	False	判別不能	×	×	×
+184	対象文	グラスは二つだけ使われそれぞれのカスが三つ目のグラスに注がれた			×	×	×
+184	Who	グラス	False		×	×	×
+184	hasPredicate	グラスは二つだけ使われそれぞれのカスが三つ目のグラスに注がれた	False		×	×	×
+184	Obj	三つ目のグラス	False	判別不能	×	×	×
+185	対象文	犯人は三人の人物がそこにいたという印象を与えた			〇	〇	×
+185	Who	犯人	True		〇	〇	×
+185	hasPredicate	与えた	True	hasPredicate	〇	〇	×
+185	Obj	三人の人物がそこにいた	False	判別不能	〇	〇	×
+185	Obj	いう印象	False	判別不能	〇	〇	×
+186	対象文	レディー・ブラックンストールとテリーサは故意にホームズとワトソンに嘘をついた			〇	×	△
+186	Who	レディー・ブラックンストール	True		〇	×	△
+186	Who	テリーサ	True		〇	×	△
+186	hasPredicate	故意にホームズとワトソンに嘘をついた	False		〇	×	△
+186	Obj	ホームズ	True	情報源	〇	×	△
+186	Obj	ワトソン	False	判別不能	〇	×	△
+186	Obj	嘘	False	判別不能	〇	×	△
+187	対象文	レディー・ブラックンストールとテリーサの話は一言として信じられない			×	〇	×
+187	Who	レディー・ブラックンストール	True		×	〇	×
+187	Who	テリーサの話	False		×	〇	×
+187	hasPredicate	信じられない	True	hasProperty	×	〇	×
+187	Obj	一言	False	判別不能	×	〇	×
+187	Obj	して	False	判別不能	×	〇	×
+188	対象文	ホームズとワトソンはアビ屋敷に戻ってきた			〇	×	無
+188	Who	ホームズ	True		〇	×	無
+188	Who	ワトソン	True		〇	×	無
+188	hasPredicate	アビ屋敷に戻ってきた	False		〇	×	無
+189	対象文	アビ屋敷の住人はホームズとワトソンが戻ってきたことにひどく驚いた			×	〇	×
+189	Who		False		×	〇	×
+189	hasPredicate	ひどく驚いた	True	hasProperty	×	〇	×
+189	Obj	アビ屋敷の住人はホームズ	False	判別不能	×	〇	×
+189	Obj	ワトソンが戻ってきたこと	False	判別不能	×	〇	×
+190	対象文	ホームズはダイニングルームを占領し二時間調査に専心した			×	×	×
+190	Who		False		×	×	×
+190	hasPredicate	ホームズはダイニングルームを占領し二時間調査に専心した	False		×	×	×
+190	Obj	二時間	False	判別不能	×	×	×
+190	Obj	調査	False	判別不能	×	×	×
+191	対象文	ホームズはがっしりしたマントルピースの上に上った			〇	〇	×
+191	Who	ホームズ	True		〇	〇	×
+191	hasPredicate	上った	True	hasPredicate	〇	〇	×
+191	Obj	がっしりしたマントルピースの上	False	判別不能	〇	〇	×
+192	対象文	ホームズは針金についている赤い紐に近寄りたい			〇	〇	×
+192	Who	ホームズ	True		〇	〇	×
+192	hasPredicate	近寄りたい	True	hasPredicate	〇	〇	×
+192	Obj	針金についている赤い紐	False	判別不能	〇	〇	×
+193	対象文	針金についている赤い紐に近寄るためランプを取り付ける壁の木製のブラケットにひざを乗せた			×	〇	△
+193	Who		False		×	〇	△
+193	hasPredicate	乗せた	True	hasPredicate	×	〇	△
+193	Obj	針金についている赤い紐に近寄るためランプを取り付ける壁の木製のブラケット	False	判別不能	×	〇	△
+193	Obj	ひざ	True	Where	×	〇	△
+194	対象文	ブラケットはホームズの注意を引いた			〇	×	×
+194	Who	ブラケット	True		〇	×	×
+194	hasPredicate	引いた	False		〇	×	×
+194	Obj	ホームズの注意	False	判別不能	〇	×	×
+195	対象文	男だ、ワトソン、たちじゃなく。			×	×	無
+195	Who		False		×	×	無
+195	hasPredicate	男だ、ワトソン、たちじゃなく。	False		×	×	無
+196	対象文	たった一人だが、きわめて手ごわい人物だ。			×	×	無
+196	Who		False		×	×	無
+196	hasPredicate	たった一人だが、きわめて手ごわい人物だ。	False		×	×	無
+197	対象文	身長六フィート三インチ、リスのように機敏、手先が器用、最後に、驚くほど頭の回転が速い			×	×	×
+197	Who	頭の回転	False		×	×	×
+197	hasPredicate	身長六フィート三インチ、リスのように機敏、手先が器用、最後に、驚くほど頭の回転が速い	False		×	×	×
+197	Obj	最後に、	False	判別不能	×	×	×
+198	対象文	ホームズはブラケットから切断面まで3インチ届かなかった			〇	〇	△
+198	Who	ホームズ	True		〇	〇	△
+198	hasPredicate	届かなかった	True	hasProperty	〇	〇	△
+198	Obj	ブラケット	False	判別不能	〇	〇	△
+198	Obj	切断面	True	What	〇	〇	△
+198	Obj	3インチ	False	判別不能	〇	〇	△
+199	対象文	犯人はこの独創的な話全体をでっち上げた			〇	〇	×
+199	Who	犯人	True		〇	〇	×
+199	hasPredicate	でっち上げた	True	hasPredicate	〇	〇	×
+199	Obj	この独創的な話全体	False	判別不能	〇	〇	×
+200	対象文	ベルの紐に手がかりを残してしまった			×	〇	〇
+200	Who		False		×	〇	〇
+200	hasPredicate	残してしまった	True	hasProperty	×	〇	〇
+200	Obj	ベルの紐	True	Where	×	〇	〇
+200	Obj	手がかり	True	What	×	〇	〇
+201	対象文	箇所Aは針金にくっついている			〇	〇	〇
+201	Who	箇所A	True		〇	〇	〇
+201	hasPredicate	くっついている	True	hasPredicate	〇	〇	〇
+201	Obj	針金	True	Where	〇	〇	〇
+202	対象文	ベルの紐の切れ目は針金にくっついている箇所ではなかった			〇	×	無
+202	Who	ベルの紐の切れ目	True		〇	×	無
+202	hasPredicate	針金にくっついている箇所ではなかった	False		〇	×	無
+203	対象文	ベルの紐の切れ目は上から3インチのところでちぎられていた			〇	〇	×
+203	Who	ベルの紐の切れ目	True		〇	〇	×
+203	hasPredicate	ちぎられていた	True	hasPredicate	〇	〇	×
+203	Obj	上	False	判別不能	〇	〇	×
+203	Obj	3インチのところ	False	判別不能	〇	〇	×
+204	対象文	犯人は紐を必要とした			〇	×	△
+204	Who	犯人	True		〇	×	△
+204	hasPredicate	した	False		〇	×	△
+204	Obj	紐	True	What	〇	×	△
+204	Obj	必要	False	判別不能	〇	×	△
+205	対象文	こっちの端は、調べることができるが、ほつれている			×	×	無
+205	Who		False		×	×	無
+205	hasPredicate	こっちの端は、調べることができるが、ほつれている	False		×	×	無
+206	対象文	犯人は実に狡猾な男でナイフでそうした			×	×	×
+206	Who		False		×	×	×
+206	hasPredicate	犯人は実に狡猾な男でナイフでそうした	False		×	×	×
+206	Obj	ナイフ	False	判別不能	×	×	×
+207	対象文	それを引きちぎることはしたくなかった			×	×	無
+207	Who		False		×	×	無
+207	hasPredicate	それを引きちぎることはしたくなかった	False		×	×	無
+208	対象文	ベルが鳴れば急を知らせる恐れがある			×	×	無
+208	Who	急を知らせる恐れ	False		×	×	無
+208	hasPredicate	ベルが鳴れば急を知らせる恐れがある	False		×	×	無
+209	対象文	犯人はマントルピースの上に飛び乗った			〇	〇	×
+209	Who	犯人	True		〇	〇	×
+209	hasPredicate	飛び乗った	True	hasPredicate	〇	〇	×
+209	Obj	マントルピースの上	False	判別不能	〇	〇	×
+210	対象文	紐には完全には届かなかった			×	×	×
+210	Who		False		×	×	×
+210	hasPredicate	完全には届かなかった	False		×	×	×
+210	Obj	紐に	False	判別不能	×	×	×
+211	対象文	犯人はブラケットにひざを乗せナイフを紐に充てた			〇	×	×
+211	Who	犯人	True		〇	×	×
+211	hasPredicate	ブラケットにひざを乗せナイフを紐に充てた	False		〇	×	×
+211	Obj	ナイフ	False	判別不能	〇	×	×
+211	Obj	紐	False	判別不能	〇	×	×
+212	対象文	ほこりの中に痕跡が見える			〇	〇	〇
+212	Who	痕跡	True		〇	〇	〇
+212	hasPredicate	見える	True	hasPredicate	〇	〇	〇
+212	Obj	ほこりの中	True	Where	〇	〇	〇
+213	対象文	オークの椅子の座部の上に血の痕がある			〇	〇	〇
+213	Who	血の痕	True		〇	〇	〇
+213	hasPredicate	ある	True	hasPredicate	〇	〇	〇
+213	Obj	オークの椅子の座部の上	True	Where	〇	〇	〇
+214	対象文	レディー・ブラックンストールはサー・ユースタス・ブラックンストールの死んだ後で椅子につかされた			〇	〇	×
+214	Who	レディー・ブラックンストール	True		〇	〇	×
+214	hasPredicate	つかされた	True	hasPredicate	〇	〇	×
+214	Obj	サー・ユースタス・ブラックンストールの死んだ後	False	判別不能	〇	〇	×
+214	Obj	椅子	False	判別不能	〇	〇	×
+215	対象文	テリーサは無口			〇	〇	無
+215	Who	テリーサ	True		〇	〇	無
+215	hasPredicate	無口	True	hasProperty	〇	〇	無
+216	対象文	テリーサは疑り深い			〇	〇	無
+216	Who	テリーサ	True		〇	〇	無
+216	hasPredicate	疑り深い	True	hasProperty	〇	〇	無
+217	対象文	テリーサは不愛想			〇	〇	無
+217	Who	テリーサ	True		〇	〇	無
+217	hasPredicate	不愛想	True	hasProperty	〇	〇	無
+218	対象文	テリーサが打ち解けて愛想よくなるまでにしばらくかかった			×	×	無
+218	Who		False		×	×	無
+218	hasPredicate	テリーサが打ち解けて愛想よくなるまでにしばらくかかった	False		×	×	無
+219	対象文	テリーサはサー・ユースタス・ブラックンストールに対する憎悪を隠さなかった			〇	〇	×
+219	Who	テリーサ	True		〇	〇	×
+219	hasPredicate	隠さなかった	True	hasPredicate	〇	〇	×
+219	Obj	サー・ユースタス・ブラックンストールに対する憎悪	False	判別不能	〇	〇	×
+220	対象文	テリーサはサー・ユースタス・ブラックンストールのレディー・ブラックンストールへの悪口を聞いた			〇	〇	×
+220	Who	テリーサ	True		〇	〇	×
+220	hasPredicate	聞いた	True	hasPredicate	〇	〇	×
+220	Obj	サー・ユースタス・ブラックンストールのレディー・ブラックンストールへの悪口	False	判別不能	〇	〇	×
+221	対象文	テリーサはレディー・ブラックンストールの兄弟がいればそんな口は聞けないだろうといった			×	×	無
+221	Who		False		×	×	無
+221	hasPredicate	テリーサはレディー・ブラックンストールの兄弟がいればそんな口は聞けないだろうといった	False		×	×	無
+222	対象文	テリーサはサー・ユースタス・ブラックンストールにデカンターを投げつけられた			〇	〇	×
+222	Who	テリーサ	True		〇	〇	×
+222	hasPredicate	投げつけられた	True	hasPredicate	〇	〇	×
+222	Obj	サー・ユースタス・ブラックンストール	False	判別不能	〇	〇	×
+222	Obj	デカンター	False	判別不能	〇	〇	×
+223	対象文	テリーサはレディー・ブラックンストールへのいじわるをあきらめるほかなかったら一ダースでも投げた			〇	×	×
+223	Who	テリーサ	True		〇	×	×
+223	hasPredicate	レディー・ブラックンストールへのいじわるをあきらめるほかなかったら一ダースでも投げた	False		〇	×	×
+223	Obj	一ダースで	False	判別不能	〇	×	×
+224	対象文	レディー・ブラックンストールは不平を言わなかった			〇	〇	〇
+224	Who	レディー・ブラックンストール	True		〇	〇	〇
+224	hasPredicate	言わなかった	True	hasPredicate	〇	〇	〇
+224	Obj	不平	True	What	〇	〇	〇
+225	対象文	レディー・ブラックンストールの腕の傷は帽子のピンで刺されたもの			〇	×	無
+225	Who	レディー・ブラックンストールの腕の傷	True		〇	×	無
+225	hasPredicate	帽子のピンで刺されたもの	False		〇	×	無
+226	対象文	テリーサはサー・ユースタス・ブラックンストールのことを悪賢い悪魔と呼んだ			〇	〇	×
+226	Who	テリーサ	True		〇	〇	×
+226	hasPredicate	呼んだ	True	hasPredicate	〇	〇	×
+226	Obj	サー・ユースタス・ブラックンストールのこと	False	判別不能	〇	〇	×
+226	Obj	悪賢い悪魔	False	判別不能	〇	〇	×
+227	対象文	サー・ユースタス・ブラックンストールと初めて会ったときは素敵だった			×	〇	△
+227	Who		False		×	〇	△
+227	hasPredicate	素敵だった	True	hasPredicate	×	〇	△
+227	Obj	サー・ユースタス・ブラックンストール	False	判別不能	×	〇	△
+227	Obj	初めて会ったとき	True	When	×	〇	△
+228	対象文	サー・ユースタス・ブラックンストールは肩書と財産と偽りのロンドン式のやり方でレディー・ブラックンストールを射止めた			〇	〇	△
+228	Who	サー・ユースタス・ブラックンストール	True		〇	〇	△
+228	hasPredicate	射止めた	True	hasPredicate	〇	〇	△
+228	Obj	肩書	False	判別不能	〇	〇	△
+228	Obj	財産	True	How	〇	〇	△
+228	Obj	偽りのロンドン式のやり方	False	判別不能	〇	〇	△
+228	Obj	レディー・ブラックンストール	True	What	〇	〇	△
+229	対象文	サー・ユースタス・ブラックンストールと7月に出会った			×	〇	△
+229	Who		False		×	〇	△
+229	hasPredicate	出会った	True	hasPredicate	×	〇	△
+229	Obj	サー・ユースタス・ブラックンストール	False	判別不能	×	〇	△
+229	Obj	7月	True	When	×	〇	△
+230	対象文	レディー・ブラックンストールは6月にロンドンについた			〇	〇	〇
+230	Who	レディー・ブラックンストール	True		〇	〇	〇
+230	hasPredicate	ついた	True	hasPredicate	〇	〇	〇
+230	Obj	6月	True	When	〇	〇	〇
+230	Obj	ロンドン	True	Where	〇	〇	〇
+231	対象文	レディー・ブラックンストールとサー・ユースタス・ブラックンストールは去年の1月に結婚した			〇	〇	×
+231	Who	レディー・ブラックンストール	True		〇	〇	×
+231	Who	サー・ユースタス・ブラックンストール	True		〇	〇	×
+231	hasPredicate	結婚した	True	hasPredicate	〇	〇	×
+231	Obj	去年の1月	False	判別不能	〇	〇	×
+232	対象文	レディー・ブラックンストールはホームズに尋問しに来たのか言った			〇	×	無
+232	Who	レディー・ブラックンストール	True		〇	×	無
+232	hasPredicate	ホームズに尋問しに来たのか言った	False		〇	×	無
+233	対象文	ホームズはレディー・ブラックンストールの気持ちを楽にしたいといった			〇	×	×
+233	Who	ホームズ	True		〇	×	×
+233	hasPredicate	楽にしたいといった	False		〇	×	×
+233	Obj	レディー・ブラックンストールの気持ち	False	判別不能	〇	×	×
+234	対象文	ホームズは本当のことをレディー・ブラックンストールに話してほしい			〇	〇	×
+234	Who	ホームズ	True		〇	〇	×
+234	hasPredicate	話してほしい	True	hasPredicate	〇	〇	×
+234	Obj	本当のこと	False	判別不能	〇	〇	×
+234	Obj	レディー・ブラックンストール	False	判別不能	〇	〇	×
+235	対象文	レディー・ブラックンストールの話は全て作り物といった			×	×	無
+235	Who	レディー・ブラックンストールの話	False		×	×	無
+235	hasPredicate	全て作り物といった	False		×	×	無
+236	対象文	レディー・ブラックンストールとテリーサはともに青ざめた			〇	〇	×
+236	Who	レディー・ブラックンストール	True		〇	〇	×
+236	Who	テリーサ	True		〇	〇	×
+236	hasPredicate	青ざめた	True	hasProperty	〇	〇	×
+236	Obj	とも	False	判別不能	〇	〇	×
+237	対象文	レディー・ブラックンストールの顔にためらいが見えた			×	×	×
+237	Who	ためらい	False		×	×	×
+237	hasPredicate	見えた	False		×	×	×
+237	Obj	レディー・ブラックンストールの顔	False	判別不能	×	×	×
+238	対象文	レディー・ブラックンストールの顔が仮面のように固くなった			〇	×	無
+238	Who	レディー・ブラックンストールの顔	True		〇	×	無
+238	hasPredicate	仮面のように固くなった	False		〇	×	無
+239	対象文	レディー・ブラックンストールが知っていることはすべて話した			×	×	無
+239	Who	レディー・ブラックンストールが知っていること	False		×	×	無
+239	hasPredicate	すべて話した	False		×	×	無
+240	対象文	ホームズはアビ屋敷を後にした			〇	×	△
+240	Who	ホームズ	True		〇	×	△
+240	hasPredicate	した	False		〇	×	△
+240	Obj	アビ屋敷	True	Where	〇	×	△
+240	Obj	後	False	判別不能	〇	×	△
+241	対象文	ホームズは庭園の池に向かった			〇	〇	〇
+241	Who	ホームズ	True		〇	〇	〇
+241	hasPredicate	向かった	True	hasPredicate	〇	〇	〇
+241	Obj	庭園の池	True	Where	〇	〇	〇
+242	対象文	庭園の池は一面凍っていた			〇	×	無
+242	Who	庭園の池	True		〇	×	無
+242	hasPredicate	一面凍っていた	False		〇	×	無
+243	対象文	池には白鳥のための穴が一つだけ残されていた			×	×	×
+243	Who	白鳥のための穴	False		×	×	×
+243	hasPredicate	残されていた	False		×	×	×
+243	Obj	池に	False	判別不能	×	×	×
+243	Obj	一つ	False	判別不能	×	×	×
+244	対象文	ホームズは穴をじっと見つめた			〇	×	〇
+244	Who	ホームズ	True		〇	×	〇
+244	hasPredicate	じっと見つめた	False		〇	×	〇
+244	Obj	穴	True	What	〇	×	〇
+245	対象文	ホームズは番小屋のある門へ向かった			〇	〇	〇
+245	Who	ホームズ	True		〇	〇	〇
+245	hasPredicate	向かった	True	hasPredicate	〇	〇	〇
+245	Obj	番小屋のある門	True	Where	〇	〇	〇
+246	対象文	ホームズはスタンリィ・ホプキンスに秘密を明かすつもりはない			×	×	×
+246	Who	ホームズ秘密を明かすつもり	False		×	×	×
+246	hasPredicate	ない	False		×	×	×
+246	Obj	スタンリィ・ホプキンス	False	判別不能	×	×	×
+247	対象文	ホームズはアデレイドに向かう			〇	〇	〇
+247	Who	ホームズ	True		〇	〇	〇
+247	hasPredicate	向かう	True	hasPredicate	〇	〇	〇
+247	Obj	アデレイド	True	Where	〇	〇	〇
+248	対象文	1985年にサザンプトン航路で母港についたのはロック・オブ・ジブラルタル1つだった			×	×	無
+248	Who	1985年にサザンプトン航路で母港についたの	False		×	×	無
+248	hasPredicate	1985年にサザンプトン航路で母港についたのはロック・オブ・ジブラルタル1つだった	False		×	×	無
+249	対象文	ロック・オブ・ジブラルタルにはレディー・ブラックンストールとテリーサが乗って航海した			×	×	×
+249	Who		False		×	×	×
+249	hasPredicate	レディー・ブラックンストールとテリーサが乗って航海した	False		×	×	×
+249	Obj	ロック・オブ・ジブラルタルに	False	判別不能	×	×	×
+250	対象文	1987年の現在船はスエズ運河の辺りだった			×	×	無
+250	Who	船	False		×	×	無
+250	hasPredicate	1987年の現在船はスエズ運河の辺りだった	False		×	×	無
+251	対象文	乗務員は1985年と一緒だった			〇	×	無
+251	Who	乗務員	True		〇	×	無
+251	hasPredicate	1985年と一緒だった	False		〇	×	無
+252	対象文	一等航海士のジャック・クロッカーは船長になっている			×	〇	〇
+252	Who	一等航海士のジャック・クロッカー	False		×	〇	〇
+252	hasPredicate	なっている	True	hasProperty	×	〇	〇
+252	Obj	船長	True	What	×	〇	〇
+253	対象文	2日後サザンプトンからベイス・ロックという船が出港する			×	〇	〇
+253	Who	ベイス・ロック	True		×	〇	〇
+253	Who	いう船	False		×	〇	〇
+253	hasPredicate	出港する	True	hasPredicate	×	〇	〇
+253	Obj	2日後	True	When	×	〇	〇
+253	Obj	サザンプトン	True	Where	×	〇	〇
+254	対象文	ジャック・クロッカーはベイス・ロックの指揮を執ることになっている			〇	×	×
+254	Who	ジャック・クロッカー	True		〇	×	×
+254	hasPredicate	執ることになっている	False		〇	×	×
+254	Obj	ベイス・ロックの指揮	False	判別不能	〇	×	×
+255	対象文	ジャック・クロッカーはシドナムに住んでいる			〇	〇	〇
+255	Who	ジャック・クロッカー	True		〇	〇	〇
+255	hasPredicate	住んでいる	True	hasPredicate	〇	〇	〇
+255	Obj	シドナム	True	Where	〇	〇	〇
+256	対象文	ジャック・クロッカーの経歴はすばらしかった			〇	〇	無
+256	Who	ジャック・クロッカーの経歴	True		〇	〇	無
+256	hasPredicate	すばらしかった	True	hasProperty	〇	〇	無
+257	対象文	ジャック・クロッカーの性格は船のデッキを離れると荒々しく無鉄砲			〇	×	無
+257	Who	ジャック・クロッカーの性格	True		〇	×	無
+257	hasPredicate	船のデッキを離れると荒々しく無鉄砲	False		〇	×	無
+258	対象文	ジャック・クロッカーは短期で興奮しやすい			〇	〇	無
+258	Who	ジャック・クロッカー	True		〇	〇	無
+258	hasPredicate	短期で興奮しやすい	True	hasProperty	〇	〇	無
+259	対象文	ジャック・クロッカーは忠実で正直で優しい			〇	〇	無
+259	Who	ジャック・クロッカー	True		〇	〇	無
+259	hasPredicate	忠実で正直で優しい	True	hasProperty	〇	〇	無
+260	対象文	ホームズはアデレイド―サザンプトンの会社の事務所で情報を得た			〇	〇	×
+260	Who	ホームズ	True		〇	〇	×
+260	hasPredicate	得た	True	hasPredicate	〇	〇	×
+260	Obj	アデレイド―サザンプトンの会社の事務所	False	判別不能	〇	〇	×
+260	Obj	情報	False	判別不能	〇	〇	×
+261	対象文	一度令状が発行されたら犯人は救えない			〇	×	無
+261	Who	犯人	True		〇	×	無
+261	hasPredicate	一度令状が発行されたら犯人は救えない	False		〇	×	無
+262	対象文	ホームズは良心よりもイングランドの法をごまかしたい			〇	〇	△
+262	Who	ホームズ	True		〇	〇	△
+262	hasPredicate	ごまかしたい	True	hasPredicate	〇	〇	△
+262	Obj	良心より	False	判別不能	〇	〇	△
+262	Obj	イングランドの法	True	What	〇	〇	△
+263	対象文	盗まれた銀製品は池の底にあった			〇	〇	〇
+263	Who	盗まれた銀製品	True		〇	〇	〇
+263	hasPredicate	あった	True	hasProperty	〇	〇	〇
+263	Obj	池の底	True	Where	〇	〇	〇
+264	対象文	ホームズは銀製品が池の底にあるのかわからなかった			〇	×	無
+264	Who	ホームズ	True		〇	×	無
+264	hasPredicate	銀製品が池の底にあるのかわからなかった	False		〇	×	無
+265	対象文	ホームズはスタンリィ・ホプキンスに池の底を調べろといった			〇	×	×
+265	Who	ホームズ	True		〇	×	×
+265	hasPredicate	調べろといった	False		〇	×	×
+265	Obj	スタンリィ・ホプキンス	False	判別不能	〇	×	×
+265	Obj	池の底	False	判別不能	〇	×	×
+266	対象文	夜盗は銀製品など欲しくなかった			×	×	無
+266	Who	夜盗	False		×	×	無
+266	hasPredicate	銀製品など欲しくなかった	False		×	×	無
+267	対象文	犯人は目をくらますために盗った			〇	×	無
+267	Who	犯人	True		〇	×	無
+267	hasPredicate	目をくらますために盗った	False		〇	×	無
+268	対象文	フランス窓から出た場合池がすぐ鼻先にある			〇	×	×
+268	Who	池	True		〇	×	×
+268	hasPredicate	すぐ鼻先にある	False		〇	×	×
+268	Obj	フランス窓	False	判別不能	〇	×	×
+268	Obj	出た場合	False	判別不能	〇	×	×
+268	Obj	鼻先	False	判別不能	〇	×	×
+269	対象文	池の穴は隠し場所になる			〇	〇	〇
+269	Who	池の穴	True		〇	〇	〇
+269	hasPredicate	なる	True	hasProperty	〇	〇	〇
+269	Obj	隠し場所	True	What	〇	〇	〇
+270	対象文	夜盗は銀製品を持っているのを見られるのを恐れた			〇	×	無
+270	Who	夜盗	True		〇	×	無
+270	hasPredicate	銀製品を持っているのを見られるのを恐れた	False		〇	×	無
+271	対象文	夜盗は危険がなくなったら取りに戻るつもりだった			〇	×	無
+271	Who	夜盗	True		〇	×	無
+271	hasPredicate	危険がなくなったら取りに戻るつもりだった	False		〇	×	無
+272	対象文	スタンリィ・ホプキンスは見事な仮説を立てた			〇	〇	×
+272	Who	スタンリィ・ホプキンス	True		〇	〇	×
+272	hasPredicate	立てた	True	hasPredicate	〇	〇	×
+272	Obj	見事な仮説	False	判別不能	〇	〇	×
+273	対象文	ホームズの考えは全く見当違いだった			〇	×	無
+273	Who	ホームズの考え	True		〇	×	無
+273	hasPredicate	全く見当違いだった	False		〇	×	無
+274	対象文	スタンリィ・ホプキンスは頓挫した			〇	〇	無
+274	Who	スタンリィ・ホプキンス	True		〇	〇	無
+274	hasPredicate	頓挫した	True	hasProperty	〇	〇	無
+275	対象文	目くらましがヒントになる			〇	〇	〇
+275	Who	目くらまし	True		〇	〇	〇
+275	hasPredicate	なる	True	hasProperty	〇	〇	〇
+275	Obj	ヒント	True	What	〇	〇	〇
+276	対象文	ホームズの知ることは非公式			〇	〇	無
+276	Who	ホームズの知ること	True		〇	〇	無
+276	hasPredicate	非公式	True	hasProperty	〇	〇	無
+277	対象文	スタンリィ・ホプキンスの知ることは公式			×	〇	無
+277	Who	スタンリィ・ホプキンスの知ること	False		×	〇	無
+277	hasPredicate	公式	True	hasProperty	×	〇	無
+278	対象文	スタンリィ・ホプキンスには私的な判断の権利がない			×	×	×
+278	Who	私的な判断の権利	False		×	×	×
+278	hasPredicate	ない	False		×	×	×
+278	Obj	スタンリィ・ホプキンスに	False	判別不能	×	×	×
+279	対象文	ワトソンは小劇の終幕に立ち会う			〇	〇	×
+279	Who	ワトソン	True		〇	〇	×
+279	hasPredicate	立ち会う	True	hasPredicate	〇	〇	×
+279	Obj	小劇の終幕	False	判別不能	〇	〇	×
+280	対象文	男らしさの典型のようなジャック・クロッカーがホームズたちの部屋に入ってきた			×	×	無
+280	Who		False		×	×	無
+280	hasPredicate	男らしさの典型のようなジャック・クロッカーがホームズたちの部屋に入ってきた	False		×	×	無
+281	対象文	ジャック・クロッカーは軽快な足取りをしていた			〇	×	×
+281	Who	ジャック・クロッカー	True		〇	×	×
+281	hasPredicate	していた	False		〇	×	×
+281	Obj	軽快な足取り	False	判別不能	〇	×	×
+282	対象文	ジャック・クロッカーはホームズからの電報を受け取った			〇	〇	×
+282	Who	ジャック・クロッカー	True		〇	〇	×
+282	hasPredicate	受け取った	True	hasProperty	〇	〇	×
+282	Obj	ホームズ	False	判別不能	〇	〇	×
+282	Obj	の電報	False	判別不能	〇	〇	×
+283	対象文	ジャック・クロッカーに葉巻を吸わせた			×	〇	×
+283	Who		False		×	〇	×
+283	hasPredicate	吸わせた	True	hasPredicate	×	〇	×
+283	Obj	ジャック・クロッカー	False	判別不能	×	〇	×
+283	Obj	葉巻	False	判別不能	×	〇	×
+284	対象文	ジャック・クロッカーはホームズを信じて全て話すと誓った			〇	×	無
+284	Who	ジャック・クロッカー	True		〇	×	無
+284	hasPredicate	ホームズを信じて全て話すと誓った	False		〇	×	無
+285	対象文	ジャック・クロッカーはサー・ユースタス・ブラックンストールが生き返っても同じことをする			〇	×	×
+285	Who	ジャック・クロッカー	True		〇	×	×
+285	hasPredicate	サー・ユースタス・ブラックンストールが生き返っても同じことをする	False		〇	×	×
+285	Obj	同じこと	False	判別不能	〇	×	×
+286	対象文	ジャック・クロッカーはレディー・ブラックンストールを厄介な立場に巻き込むなら命をささげる			〇	×	〇
+286	Who	ジャック・クロッカー	True		〇	×	〇
+286	hasPredicate	レディー・ブラックンストールを厄介な立場に巻き込むなら命をささげる	False		〇	×	〇
+286	Obj	命	True	What	〇	×	〇
+287	対象文	ジャック・クロッカーとレディー・ブラックンストールはロック・オブ・ジブラルタルで出会った			〇	〇	〇
+287	Who	ジャック・クロッカー	True		〇	〇	〇
+287	Who	レディー・ブラックンストール	True		〇	〇	〇
+287	hasPredicate	出会った	True	hasPredicate	〇	〇	〇
+287	Obj	ロック・オブ・ジブラルタル	True	Where	〇	〇	〇
+288	対象文	出会った初日からジャック・クロッカーにとってレディー・ブラックンストールはただ一人の女性となった			〇	〇	△
+288	Who	レディー・ブラックンストール	True		〇	〇	△
+288	hasPredicate	なった	True	hasPredicate	〇	〇	△
+288	Obj	出会った初日	True	When	〇	〇	△
+288	Obj	ジャック・クロッカーにとって	False	判別不能	〇	〇	△
+288	Obj	ただ一人の女性	True	What	〇	〇	△
+289	対象文	恋心はジャック・クロッカーの方ばかりだった			×	×	無
+289	Who	恋心	False		×	×	無
+289	hasPredicate	ジャック・クロッカーの方ばかりだった	False		×	×	無
+290	対象文	ジャック・クロッカーが次の航海から帰った時レディー・ブラックンストールの結婚を知った			×	〇	△
+290	Who		False		×	〇	△
+290	hasPredicate	知った	True	hasPredicate	×	〇	△
+290	Obj	ジャック・クロッカーが次の航海	False	判別不能	×	〇	△
+290	Obj	帰った時	False	判別不能	×	〇	△
+290	Obj	レディー・ブラックンストールの結婚	True	What	×	〇	△
+291	対象文	レディー・ブラックンストールは好きな男と結婚していない			〇	〇	×
+291	Who	レディー・ブラックンストール	True		〇	〇	×
+291	hasPredicate	結婚していない	True	hasPredicate	〇	〇	×
+291	Obj	好きな男	False	判別不能	〇	〇	×
+292	対象文	レディー・ブラックンストールは上品なものすべてのために生まれた			〇	〇	〇
+292	Who	レディー・ブラックンストール	True		〇	〇	〇
+292	hasPredicate	生まれた	True	hasPredicate	〇	〇	〇
+292	Obj	上品なものすべてのため	True	What	〇	〇	〇
+293	対象文	ジャック・クロッカーはレディー・ブラックンストールが自分のために身を滅ぼさないと喜んだ			〇	×	無
+293	Who	ジャック・クロッカー	True		〇	×	無
+293	hasPredicate	レディー・ブラックンストールが自分のために身を滅ぼさないと喜んだ	False		〇	×	無
+294	対象文	ジャック・クロッカーは新しい船のためシドナムで数ヵ月待っていた			〇	〇	△
+294	Who	ジャック・クロッカー	True		〇	〇	△
+294	hasPredicate	待っていた	True	hasPredicate	〇	〇	△
+294	Obj	新しい船のため	False	判別不能	〇	〇	△
+294	Obj	シドナム	True	Where	〇	〇	△
+294	Obj	数ヵ月	True	When	〇	〇	△
+295	対象文	ある日ジャック・クロッカーはテリーサと会った			〇	×	△
+295	Who	ジャック・クロッカー	True		〇	×	△
+295	hasPredicate	会った	False		〇	×	△
+295	Obj	ある日	True	When	〇	×	△
+295	Obj	テリーサ	False	判別不能	〇	×	△
+296	対象文	ジャック・クロッカーはテリーサからサー・ユースタス・ブラックンストールの話を聞いた			〇	〇	△
+296	Who	ジャック・クロッカー	True		〇	〇	△
+296	hasPredicate	聞いた	True	hasProperty	〇	〇	△
+296	Obj	テリーサ	False	判別不能	〇	〇	△
+296	Obj	サー・ユースタス・ブラックンストールの話	True	What	〇	〇	△
+297	対象文	ジャック・クロッカーはもう一度テリーサと会った			〇	〇	×
+297	Who	ジャック・クロッカー	True		〇	〇	×
+297	hasPredicate	会った	True	hasProperty	〇	〇	×
+297	Obj	もう一度	False	判別不能	〇	〇	×
+297	Obj	テリーサ	False	判別不能	〇	〇	×
+298	対象文	ジャック・クロッカーはメアリー本人にあった			〇	×	×
+298	Who	ジャック・クロッカー	True		〇	×	×
+298	hasPredicate	あった	False		〇	×	×
+298	Obj	メアリー本人	False	判別不能	〇	×	×
+299	対象文	ジャック・クロッカーは船旅に出る前にもう一度会った			〇	〇	×
+299	Who	ジャック・クロッカー	True		〇	〇	×
+299	hasPredicate	会った	True	hasProperty	〇	〇	×
+299	Obj	船旅に出る前	False	判別不能	〇	〇	×
+299	Obj	もう一度	False	判別不能	〇	〇	×
+300	対象文	テリーサはジャック・クロッカーの味方だった			〇	×	無
+300	Who	テリーサ	True		〇	×	無
+300	hasPredicate	ジャック・クロッカーの味方だった	False		〇	×	無
+301	対象文	ジャック・クロッカーはテリーサから家の慣わしを聞いた			〇	〇	△
+301	Who	ジャック・クロッカー	True		〇	〇	△
+301	hasPredicate	聞いた	True	hasProperty	〇	〇	△
+301	Obj	テリーサ	False	判別不能	〇	〇	△
+301	Obj	家の慣わし	True	What	〇	〇	△
+302	対象文	レディー・ブラックンストールはいつも階下の小さな部屋で本を読んでいる			×	〇	△
+302	Who	レディー・ブラックンストールいつも	False		×	〇	△
+302	hasPredicate	読んでいる	True	hasProperty	×	〇	△
+302	Obj	階下の小さな部屋	False	判別不能	×	〇	△
+302	Obj	本	True	What	×	〇	△
+303	対象文	ジャック・クロッカーはレディー・ブラックンストールの部屋の窓をひっかいた			〇	〇	×
+303	Who	ジャック・クロッカー	True		〇	〇	×
+303	hasPredicate	ひっかいた	True	hasPredicate	〇	〇	×
+303	Obj	レディー・ブラックンストールの部屋の窓	False	判別不能	〇	〇	×
+304	対象文	レディー・ブラックンストールも今ではジャック・クロッカーのことを愛している			〇	〇	△
+304	Who	レディー・ブラックンストール	True		〇	〇	△
+304	hasPredicate	愛している	True	hasPredicate	〇	〇	△
+304	Obj	今で	False	判別不能	〇	〇	△
+304	Obj	ジャック・クロッカーのこと	True	What	〇	〇	△
+305	対象文	ジャック・クロッカーはレディー・ブラックンストールによりダイニングルームに招き入れられた			〇	〇	△
+305	Who	ジャック・クロッカー	True		〇	〇	△
+305	hasPredicate	招き入れられた	True	hasProperty	〇	〇	△
+305	Obj	レディー・ブラックンストールにより	False	判別不能	〇	〇	△
+305	Obj	ダイニングルーム	True	Where	〇	〇	△
+306	対象文	レディー・ブラックンストールの口から事情を聞いた			×	〇	△
+306	Who		False		×	〇	△
+306	hasPredicate	聞いた	True	hasPredicate	×	〇	△
+306	Obj	レディー・ブラックンストールの口	False	判別不能	×	〇	△
+306	Obj	事情	True	What	×	〇	△
+307	対象文	ジャック・クロッカーはレディー・ブラックンストールと共に窓の内側に立っていた			〇	〇	△
+307	Who	ジャック・クロッカー	True		〇	〇	△
+307	hasPredicate	立っていた	True	hasPredicate	〇	〇	△
+307	Obj	レディー・ブラックンストール	False	判別不能	〇	〇	△
+307	Obj	共	False	判別不能	〇	〇	△
+307	Obj	窓の内側	True	Where	〇	〇	△
+308	対象文	サー・ユースタス・ブラックンストールが狂ったようにダイニングルームに駆け込んできた			×	×	無
+308	Who		False		×	×	無
+308	hasPredicate	サー・ユースタス・ブラックンストールが狂ったようにダイニングルームに駆け込んできた	False		×	×	無
+309	対象文	サー・ユースタス・ブラックンストールはステッキでレディー・ブラックンストールの顔を横から殴った			〇	〇	△
+309	Who	サー・ユースタス・ブラックンストール	True		〇	〇	△
+309	hasPredicate	殴った	True	hasPredicate	〇	〇	△
+309	Obj	ステッキ	False	判別不能	〇	〇	△
+309	Obj	レディー・ブラックンストールの顔	True	What	〇	〇	△
+309	Obj	横	False	判別不能	〇	〇	△
+310	対象文	ジャック・クロッカーは火かき棒に飛びついた			〇	〇	〇
+310	Who	ジャック・クロッカー	True		〇	〇	〇
+310	hasPredicate	飛びついた	True	hasPredicate	〇	〇	〇
+310	Obj	火かき棒	True	What	〇	〇	〇
+311	対象文	ジャック・クロッカーとサー・ユースタス・ブラックンストールは正々堂々戦った			〇	×	無
+311	Who	ジャック・クロッカー	True		〇	×	無
+311	Who	サー・ユースタス・ブラックンストール	True		〇	×	無
+311	hasPredicate	正々堂々戦った	False		〇	×	無
+312	対象文	サー・ユースタス・ブラックンストールはジャック・クロッカーの腕に一撃加えた			×	×	×
+312	Who	サー・ユースタス・ブラックンストール	False		×	×	×
+312	hasPredicate	加えた	False		×	×	×
+312	Obj	ジャック・クロッカーの腕	False	判別不能	×	×	×
+312	Obj	一撃	False	判別不能	×	×	×
+313	対象文	ジャック・クロッカーはサー・ユースタス・ブラックンストールを腐ったかぼちゃのようにやっつけた			〇	×	〇
+313	Who	ジャック・クロッカー	True		〇	×	〇
+313	hasPredicate	腐ったかぼちゃのようにやっつけた	False		〇	×	〇
+313	Obj	サー・ユースタス・ブラックンストール	True	What	〇	×	〇
+314	対象文	ジャック・クロッカーは悪いと思っていない			〇	×	無
+314	Who	ジャック・クロッカー	True		〇	×	無
+314	hasPredicate	悪いと思っていない	False		〇	×	無
+315	対象文	サー・ユースタス・ブラックンストールを殺さなければジャック・クロッカーが危なかった			〇	×	無
+315	Who	ジャック・クロッカー	True		〇	×	無
+315	hasPredicate	サー・ユースタス・ブラックンストールを殺さなければジャック・クロッカーが危なかった	False		〇	×	無
+316	対象文	サー・ユースタス・ブラックンストールを殺さなければレディー・ブラックンストールが危なかった			〇	×	無
+316	Who	レディー・ブラックンストール	True		〇	×	無
+316	hasPredicate	サー・ユースタス・ブラックンストールを殺さなければレディー・ブラックンストールが危なかった	False		〇	×	無
+317	対象文	ジャック・クロッカーは狂った男の手にレディー・ブラックンストールを残せなかった			〇	〇	△
+317	Who	ジャック・クロッカー	True		〇	〇	△
+317	hasPredicate	残せなかった	True	hasPredicate	〇	〇	△
+317	Obj	狂った男の手	False	判別不能	〇	〇	△
+317	Obj	レディー・ブラックンストール	True	What	〇	〇	△
+318	対象文	ジャック・クロッカーはサー・ユースタス・ブラックンストールを殺した			〇	〇	〇
+318	Who	ジャック・クロッカー	True		〇	〇	〇
+318	hasPredicate	殺した	True	hasPredicate	〇	〇	〇
+318	Obj	サー・ユースタス・ブラックンストール	True	What	〇	〇	〇
+319	対象文	レディー・ブラックンストールはサー・ユースタス・ブラックンストールに殴られた時叫び声をあげた			〇	×	×
+319	Who	レディー・ブラックンストール	True		〇	×	×
+319	hasPredicate	あげた	False		〇	×	×
+319	Obj	サー・ユースタス・ブラックンストールに殴られた時	False	判別不能	〇	×	×
+319	Obj	叫び声	False	判別不能	〇	×	×
+320	対象文	テリーサはレディー・ブラックンストールの叫び声を聞いた			〇	〇	〇
+320	Who	テリーサ	True		〇	〇	〇
+320	hasPredicate	聞いた	True	hasPredicate	〇	〇	〇
+320	Obj	レディー・ブラックンストールの叫び声	True	What	〇	〇	〇
+321	対象文	テリーサは上の部屋から降りてきた			×	×	無
+321	Who		False		×	×	無
+321	hasPredicate	テリーサは上の部屋から降りてきた	False		×	×	無
+322	対象文	サイドボードにワインの瓶があった			〇	〇	〇
+322	Who	ワインの瓶	True		〇	〇	〇
+322	hasPredicate	あった	True	hasProperty	〇	〇	〇
+322	Obj	サイドボード	True	Where	〇	〇	〇
+323	対象文	ジャック・クロッカーはワインの瓶を開けた			〇	〇	〇
+323	Who	ジャック・クロッカー	True		〇	〇	〇
+323	hasPredicate	開けた	True	hasPredicate	〇	〇	〇
+323	Obj	ワインの瓶	True	What	〇	〇	〇
+324	対象文	レディー・ブラックンストールはショックで死んだようになっている			〇	×	無
+324	Who	レディー・ブラックンストール	True		〇	×	無
+324	hasPredicate	ショックで死んだようになっている	False		〇	×	無
+325	対象文	ジャック・クロッカーはレディー・ブラックンストールの口にワインを少し注いだ			〇	〇	△
+325	Who	ジャック・クロッカー	True		〇	〇	△
+325	hasPredicate	少し注いだ	True	hasPredicate	〇	〇	△
+325	Obj	レディー・ブラックンストールの口	False	判別不能	〇	〇	△
+325	Obj	ワイン	True	What	〇	〇	△
+326	対象文	ジャック・クロッカーもワインを一杯飲んだ			〇	×	×
+326	Who	ジャック・クロッカー	True		〇	×	×
+326	hasPredicate	一杯飲んだ	False		〇	×	×
+326	Obj	ワイン	False	判別不能	〇	×	×
+327	対象文	テリーサとジャック・クロッカーが策略を考えた			〇	〇	〇
+327	Who	テリーサ	True		〇	〇	〇
+327	Who	ジャック・クロッカー	True		〇	〇	〇
+327	hasPredicate	考えた	True	hasPredicate	〇	〇	〇
+327	Obj	策略	True	What	〇	〇	〇
+328	対象文	テリーサとジャック・クロッカーは事件を夜盗の仕業にした			〇	×	△
+328	Who	テリーサ	True		〇	×	△
+328	Who	ジャック・クロッカー	True		〇	×	△
+328	hasPredicate	した	False		〇	×	△
+328	Obj	事件	True	What	〇	×	△
+328	Obj	夜盗の仕業	False	判別不能	〇	×	△
+329	対象文	テリーサは作り話を繰り返しレディー・ブラックンストールに聞かせた			〇	×	×
+329	Who	テリーサ	True		〇	×	×
+329	hasPredicate	作り話を繰り返しレディー・ブラックンストールに聞かせた	False		〇	×	×
+329	Obj	レディー・ブラックンストール	False	判別不能	〇	×	×
+330	対象文	ジャック・クロッカーはよじ登ってベルの紐を切った			〇	×	〇
+330	Who	ジャック・クロッカー	True		〇	×	〇
+330	hasPredicate	よじ登ってベルの紐を切った	False		〇	×	〇
+330	Obj	ベルの紐	True	What	〇	×	〇
+331	対象文	ジャック・クロッカーはレディー・ブラックンストールを椅子に縛り付けた			〇	〇	△
+331	Who	ジャック・クロッカー	True		〇	〇	△
+331	hasPredicate	縛り付けた	True	hasPredicate	〇	〇	△
+331	Obj	レディー・ブラックンストール	True	What	〇	〇	△
+331	Obj	椅子	False	判別不能	〇	〇	△
+332	対象文	ジャック・クロッカーは紐の端を自然に見えるようにほつれさせた			〇	×	無
+332	Who	ジャック・クロッカー	True		〇	×	無
+332	hasPredicate	紐の端を自然に見えるようにほつれさせた	False		〇	×	無
+333	対象文	ジャック・クロッカーは銀のさらやポットをいくつかかき集めた			〇	〇	×
+333	Who	ジャック・クロッカー	True		〇	〇	×
+333	hasPredicate	かき集めた	True	hasPredicate	〇	〇	×
+333	Obj	銀のさら	False	判別不能	〇	〇	×
+333	Obj	ポット	False	判別不能	〇	〇	×
+333	Obj	いくつ	False	判別不能	〇	〇	×
+334	対象文	ジャック・クロッカーは自分が出て15分したら非常を知らせるように指示した			〇	×	無
+334	Who	ジャック・クロッカー	True		〇	×	無
+334	hasPredicate	自分が出て15分したら非常を知らせるように指示した	False		〇	×	無
+335	対象文	ジャック・クロッカーは池の底に銀製品を落とした			〇	〇	〇
+335	Who	ジャック・クロッカー	True		〇	〇	〇
+335	hasPredicate	落とした	True	hasPredicate	〇	〇	〇
+335	Obj	池の底	True	Where	〇	〇	〇
+335	Obj	銀製品	True	What	〇	〇	〇
+336	対象文	ジャック・クロッカーは生涯の内で今度だけは本当に良いことをしたと思った			〇	×	無
+336	Who	ジャック・クロッカー	True		〇	×	無
+336	hasPredicate	生涯の内で今度だけは本当に良いことをしたと思った	False		〇	×	無
+337	対象文	ジャック・クロッカーはシドナムへ向かった			〇	〇	〇
+337	Who	ジャック・クロッカー	True		〇	〇	〇
+337	hasPredicate	向かった	True	hasPredicate	〇	〇	〇
+337	Obj	シドナム	True	Where	〇	〇	〇
+338	対象文	ジャック・クロッカーは真実を話した			〇	〇	×
+338	Who	ジャック・クロッカー	True		〇	〇	×
+338	hasPredicate	話した	True	hasPredicate	〇	〇	×
+338	Obj	真実	False	判別不能	〇	〇	×
+339	対象文	ホームズはジャック・クロッカーの手を握った			〇	〇	×
+339	Who	ホームズ	True		〇	〇	×
+339	hasPredicate	握った	True	hasPredicate	〇	〇	×
+339	Obj	ジャック・クロッカーの手	False	判別不能	〇	〇	×
+340	対象文	ホームズはジャック・クロッカーの話が真実だと分かった			〇	×	無
+340	Who	ホームズ	True		〇	×	無
+340	hasPredicate	ジャック・クロッカーの話が真実だと分かった	False		〇	×	無
+341	対象文	ホームズはブラケットからベルの紐に届くのは軽業師か船乗りしかいないと考えていた			〇	×	無
+341	Who	ホームズ	True		〇	×	無
+341	hasPredicate	ブラケットからベルの紐に届くのは軽業師か船乗りしかいないと考えていた	False		〇	×	無
+342	対象文	ホームズは船乗りでなければ椅子に括り付けられていた紐の結び目は作れないと考えていた			〇	×	無
+342	Who	ホームズ	True		〇	×	無
+342	hasPredicate	船乗りでなければ椅子に括り付けられていた紐の結び目は作れないと考えていた	False		〇	×	無
+343	対象文	レディー・ブラックンストールは一度だけ船員たちと接触していた			〇	〇	×
+343	Who	レディー・ブラックンストール	True		〇	〇	×
+343	hasPredicate	接触していた	True	hasPredicate	〇	〇	×
+343	Obj	一度	False	判別不能	〇	〇	×
+343	Obj	船員たち	False	判別不能	〇	〇	×
+344	対象文	レディー・ブラックンストールが船員と接触したのはレディー・ブラックンストールの船旅でのことだった			×	×	無
+344	Who	レディー・ブラックンストールが船員	False		×	×	無
+344	Who	接触したの	False		×	×	無
+344	hasPredicate	レディー・ブラックンストールが船員と接触したのはレディー・ブラックンストールの船旅でのことだった	False		×	×	無
+345	対象文	接触した船員はレディー・ブラックンストールと同じ階級の誰かだった			×	×	無
+345	Who	接触した船員	False		×	×	無
+345	hasPredicate	レディー・ブラックンストールと同じ階級の誰かだった	False		×	×	無
+346	対象文	警察は犯人を見抜いていない			〇	〇	〇
+346	Who	警察	True		〇	〇	〇
+346	hasPredicate	見抜いていない	True	hasPredicate	〇	〇	〇
+346	Obj	犯人	True	What	〇	〇	〇
+347	対象文	ジャック・クロッカーの行動は極めて重大な問題			×	×	無
+347	Who	ジャック・クロッカーの行動	False		×	×	無
+347	hasPredicate	極めて重大な問題	False		×	×	無
+348	対象文	ジャック・クロッカーの行動が正当防衛と断定されるかわからない			×	×	無
+348	Who		False		×	×	無
+348	hasPredicate	ジャック・クロッカーの行動が正当防衛と断定されるかわからない	False		×	×	無
+349	対象文	ホームズはジャック・クロッカーにおおいに同情している			〇	×	〇
+349	Who	ホームズ	True		〇	×	〇
+349	hasPredicate	おおいに同情している	False		〇	×	〇
+349	Obj	ジャック・クロッカー	True	What	〇	×	〇
+350	対象文	ジャック・クロッカーが24時間以内に姿を隠す気なら誰も妨げない			×	×	無
+350	Who	誰	False		×	×	無
+350	hasPredicate	ジャック・クロッカーが24時間以内に姿を隠す気なら誰も妨げない	False		×	×	無
+351	対象文	ジャック・クロッカーが隠れた後事件がすべてが明らかになる			×	〇	〇
+351	Who	事件すべて	False		×	〇	〇
+351	hasPredicate	明らかになる	True	hasPredicate	×	〇	〇
+351	Obj	ジャック・クロッカーが隠れた後	True	When	×	〇	〇
+351	対象文	レディー・ブラックンストールは共犯者として非難を受ける			〇	〇	×
+351	Who	レディー・ブラックンストール	True		〇	〇	×
+351	hasPredicate	受ける	True	hasPredicate	〇	〇	×
+351	Obj	共犯者	False	判別不能	〇	〇	×
+351	Obj	して	False	判別不能	〇	〇	×
+351	Obj	非難	False	判別不能	〇	〇	×
+352	対象文	ジャック・クロッカーはレディー・ブラックンストールを置いて逃げない			〇	×	無
+352	Who	ジャック・クロッカー	True		〇	×	無
+352	hasPredicate	レディー・ブラックンストールを置いて逃げない	False		〇	×	無
+353	対象文	ホームズはジャック・クロッカーを試していた			〇	〇	〇
+353	Who	ホームズ	True		〇	〇	〇
+353	hasPredicate	試していた	True	hasPredicate	〇	〇	〇
+353	Obj	ジャック・クロッカー	True	What	〇	〇	〇
+354	対象文	スタンリィ・ホプキンスにヒント以上のことはできない			×	〇	×
+354	Who	ヒント以上のこと	False		×	〇	×
+354	hasPredicate	できない	True	hasPredicate	×	〇	×
+354	Obj	スタンリィ・ホプキンス	False	判別不能	×	〇	×
+355	対象文	ジャック・クロッカーが有罪か無罪かワトソンに聞いた			×	〇	×
+355	Who		False		×	〇	×
+355	hasPredicate	聞いた	True	hasPredicate	×	〇	×
+355	Obj	ジャック・クロッカーが有罪か無罪	False	判別不能	×	〇	×
+355	Obj	ワトソン	False	判別不能	×	〇	×
+356	対象文	ワトソンは無罪と言った			〇	〇	〇
+356	Who	ワトソン	True		〇	〇	〇
+356	hasPredicate	言った	True	hasPredicate	〇	〇	〇
+356	Obj	無罪	True	What	〇	〇	〇
+357	対象文	ジャック・クロッカーは無罪放免			〇	×	無
+357	Who	ジャック・クロッカー	True		〇	×	無
+357	hasPredicate	無罪放免	False		〇	×	無
+358	対象文	民の声は神の声			〇	×	無
+358	Who	民の声	True		〇	×	無
+358	hasPredicate	神の声	False		〇	×	無
+359	対象文	ジャック・クロッカーは法が他の犠牲者を見出さない限りホームズのことを心配しなくていい			〇	×	無
+359	Who	ジャック・クロッカー	True		〇	×	無
+359	hasPredicate	法が他の犠牲者を見出さない限りホームズのことを心配しなくていい	False		〇	×	無

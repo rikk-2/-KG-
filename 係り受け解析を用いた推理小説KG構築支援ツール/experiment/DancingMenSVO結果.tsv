@@ -1,0 +1,551 @@
+ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場面内の述語	場面内の目的語
+1	対象文	踊る人形が紙に書かれていた			〇	〇	〇
+1	Who	踊る人形	True		〇	〇	〇
+1	hasPredicate	書かれていた	True	hasProperty	〇	〇	〇
+1	Obj	紙	True	On	〇	〇	〇
+2	対象文	キュービットは文字の意味を知りたい			〇	〇	〇
+2	Who	キュービット	True		〇	〇	〇
+2	hasPredicate	知りたい	True	hasPredicate	〇	〇	〇
+2	Obj	文字の意味	True	What	〇	〇	〇
+3	対象文	キュービットの背は高い			×	〇	無
+3	Who	キュービットの背	False		×	〇	無
+3	hasPredicate	高い	True	hasProperty	×	〇	無
+4	対象文	キュービットは紳士である			〇	〇	無
+4	Who	キュービット	True		〇	〇	無
+4	hasPredicate	紳士である	True	hasProperty	〇	〇	無
+5	対象文	人形が紙の上で踊っている			〇	〇	×
+5	Who	人形	True		〇	〇	×
+5	hasPredicate	踊っている	True	hasPredicate	〇	〇	×
+5	Obj	紙の上	False	判別不能	〇	〇	×
+6	対象文	エルシィは文字を見た			〇	〇	〇
+6	Who	エルシィ	True		〇	〇	〇
+6	hasPredicate	見た	True	hasPredicate	〇	〇	〇
+6	Obj	文字	True	What	〇	〇	〇
+7	対象文	そして，エルシィは卒倒した			〇	×	無
+7	Who	エルシィ	True		〇	×	無
+7	hasPredicate	そして，エルシィは卒倒した	False		〇	×	無
+8	対象文	踊る人形aが鉛筆で描かれていた			〇	〇	〇
+8	Who	踊る人形a	True		〇	〇	〇
+8	hasPredicate	描かれていた	True	hasProperty	〇	〇	〇
+8	Obj	鉛筆	True	How	〇	〇	〇
+9	対象文	キュービットは昨年，結婚した			〇	×	無
+9	Who	キュービット	True		〇	×	無
+9	hasPredicate	昨年，結婚した	False		〇	×	無
+10	対象文	キュービットはノーフォーク州の旧家である			〇	×	無
+10	Who	キュービット	True		〇	×	無
+10	hasPredicate	ノーフォーク州の旧家である	False		〇	×	無
+11	対象文	エルシィはアメリカ人である			〇	〇	無
+11	Who	エルシィ	True		〇	〇	無
+11	hasPredicate	アメリカ人である	True	hasProperty	〇	〇	無
+13	対象文	キュービットとエルシィはノーフォーク州に住んでいる			〇	〇	〇
+13	Who	キュービット	True		〇	〇	〇
+13	Who	エルシィ	True		〇	〇	〇
+13	hasPredicate	住んでいる	True	hasPredicate	〇	〇	〇
+13	Obj	ノーフォーク州	True	Where	〇	〇	〇
+14	対象文	キュービットはエルシィの過去を知らない			〇	〇	〇
+14	Who	キュービット	True		〇	〇	〇
+14	hasPredicate	知らない	True	hasPredicate	〇	〇	〇
+14	Obj	エルシィの過去	True	What	〇	〇	〇
+15	対象文	キュービットは以下を言った			〇	〇	×
+15	Who	キュービット	True		〇	〇	×
+15	hasPredicate	言った	True	hasPredicate	〇	〇	×
+15	Obj	以下	False	判別不能	〇	〇	×
+16	対象文	エルシィは真面目である			〇	〇	無
+16	Who	エルシィ	True		〇	〇	無
+16	hasPredicate	真面目である	True	hasProperty	〇	〇	無
+17	対象文	エルシィは嫌な思い出を持つ			〇	〇	〇
+17	Who	エルシィ	True		〇	〇	〇
+17	hasPredicate	持つ	True	hasPredicate	〇	〇	〇
+17	Obj	嫌な思い出	True	What	〇	〇	〇
+18	対象文	エルシィは思い出を言わない			〇	〇	〇
+18	Who	エルシィ	True		〇	〇	〇
+18	hasPredicate	言わない	True	hasPredicate	〇	〇	〇
+18	Obj	思い出	True	What	〇	〇	〇
+19	対象文	キュービットは6月の末に災いの兆しを見た			〇	〇	△
+19	Who	キュービット	True		〇	〇	△
+19	hasPredicate	見た	True	hasPredicate	〇	〇	△
+19	Obj	6月の末	False	判別不能	〇	〇	△
+19	Obj	災いの兆し	True	What	〇	〇	△
+20	対象文	エルシィはアメリカの手紙を受け取った			〇	〇	×
+20	Who	エルシィ	True		〇	〇	×
+20	hasPredicate	受け取った	True	hasPredicate	〇	〇	×
+20	Obj	アメリカの手紙	False	判別不能	〇	〇	×
+21	対象文	手紙はアメリカの消印を持っていた			〇	〇	〇
+21	Who	手紙	True		〇	〇	〇
+21	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+21	Obj	アメリカの消印	True	What	〇	〇	〇
+22	対象文	エルシィの顔は真っ青だった			〇	〇	無
+22	Who	エルシィの顔	True		〇	〇	無
+22	hasPredicate	真っ青だった	True	hasProperty	〇	〇	無
+23	対象文	エルシィは手紙を読んだ			〇	〇	〇
+23	Who	エルシィ	True		〇	〇	〇
+23	hasPredicate	読んだ	True	hasPredicate	〇	〇	〇
+23	Obj	手紙	True	What	〇	〇	〇
+24	対象文	エルシィは暖炉に手紙を入れた			〇	〇	〇
+24	Who	エルシィ	True		〇	〇	〇
+24	hasPredicate	入れた	True	hasPredicate	〇	〇	〇
+24	Obj	暖炉	True	To	〇	〇	〇
+24	Obj	手紙	True	What	〇	〇	〇
+25	対象文	エルシィは黙っている			〇	〇	無
+25	Who	エルシィ	True		〇	〇	無
+25	hasPredicate	黙っている	True	hasPredicate	〇	〇	無
+26	対象文	キュービットは約束に従った			〇	〇	〇
+26	Who	キュービット	True		〇	〇	〇
+26	hasPredicate	従った	True	hasPredicate	〇	〇	〇
+26	Obj	約束	True	What	〇	〇	〇
+27	対象文	キュービットは黙っている			〇	〇	無
+27	Who	キュービット	True		〇	〇	無
+27	hasPredicate	黙っている	True	hasPredicate	〇	〇	無
+28	対象文	キュービットは先週の火曜日、ガラス窓に踊る人形を見た			〇	〇	×
+28	Who	キュービット	True		〇	〇	×
+28	hasPredicate	見た	True	hasPredicate	〇	〇	×
+28	Obj	先週の火曜日、	False	判別不能	〇	〇	×
+28	Obj	ガラス窓に踊る人形	False	判別不能	〇	〇	×
+29	対象文	キュービットは以下を思った			〇	〇	×
+29	Who	キュービット	True		〇	〇	×
+29	hasPredicate	思った	True	hasPredicate	〇	〇	×
+29	Obj	以下	False	判別不能	〇	〇	×
+30	対象文	馬番の少年が踊る人形を描いた			×	〇	×
+30	Who		False		×	〇	×
+30	hasPredicate	描いた	True	hasPredicate	×	〇	×
+30	Obj	馬番の少年が踊る人形	False	判別不能	×	〇	×
+31	対象文	馬番の少年は以下を言った			〇	〇	×
+31	Who	馬番の少年	True		〇	〇	×
+31	hasPredicate	言った	True	hasPredicate	〇	〇	×
+31	Obj	以下	False	判別不能	〇	〇	×
+32	対象文	馬番の少年は踊る人形を知らない			〇	〇	〇
+32	Who	馬番の少年	True		〇	〇	〇
+32	hasPredicate	知らない	True	hasPredicate	〇	〇	〇
+32	Obj	踊る人形	True	What	〇	〇	〇
+33	対象文	踊る人形は夜に描かれた			〇	〇	〇
+33	Who	踊る人形	True		〇	〇	〇
+33	hasPredicate	描かれた	True	hasProperty	〇	〇	〇
+33	Obj	夜	True	When	〇	〇	〇
+34	対象文	キュービットは昨日の朝、庭の日時計の上に踊る人形を見た			〇	〇	×
+34	Who	キュービット	True		〇	〇	×
+34	hasPredicate	見た	True	hasPredicate	〇	〇	×
+34	Obj	昨日の朝、	False	判別不能	〇	〇	×
+34	Obj	庭の日時計の上に踊る人形	False	判別不能	〇	〇	×
+35	対象文	キュービットはエルシィに踊る人形を見せた			〇	〇	×
+35	Who	キュービット	True		〇	〇	×
+35	hasPredicate	見せた	True	hasPredicate	〇	〇	×
+35	Obj	エルシィに踊る人形	False	判別不能	〇	〇	×
+36	対象文	エルシィは卒倒した			〇	〇	無
+36	Who	エルシィ	True		〇	〇	無
+36	hasPredicate	卒倒した	True	hasPredicate	〇	〇	無
+37	対象文	キュービットはホームズに手紙を書いた			〇	〇	〇
+37	Who	キュービット	True		〇	〇	〇
+37	hasPredicate	書いた	True	hasPredicate	〇	〇	〇
+37	Obj	ホームズ	True	Whom	〇	〇	〇
+37	Obj	手紙	True	What	〇	〇	〇
+38	対象文	キュービットは踊る人形をホームズに送った			〇	〇	〇
+38	Who	キュービット	True		〇	〇	〇
+38	hasPredicate	送った	True	hasPredicate	〇	〇	〇
+38	Obj	踊る人形	True	What	〇	〇	〇
+38	Obj	ホームズ	True	Whom	〇	〇	〇
+39	対象文	キュービットはエルシィに過去の話を強要しなかった			〇	〇	〇
+39	Who	キュービット	True		〇	〇	〇
+39	hasPredicate	強要しなかった	True	hasPredicate	〇	〇	〇
+39	Obj	エルシィ	True	Whom	〇	〇	〇
+39	Obj	過去の話	True	What	〇	〇	〇
+40	対象文	新顔が近所で現れた			〇	〇	〇
+40	Who	新顔	True		〇	〇	〇
+40	hasPredicate	現れた	True	hasPredicate	〇	〇	〇
+40	Obj	近所	True	Where	〇	〇	〇
+41	対象文	ホームズはキュービットに以下を頼んだ			〇	〇	△
+41	Who	ホームズ	True		〇	〇	△
+41	hasPredicate	頼んだ	True	hasPredicate	〇	〇	△
+41	Obj	キュービット	True	Whom	〇	〇	△
+41	Obj	以下	False	判別不能	〇	〇	△
+42	対象文	キュービットは踊る人形を写し取る			〇	〇	〇
+42	Who	キュービット	True		〇	〇	〇
+42	hasPredicate	写し取る	True	hasPredicate	〇	〇	〇
+42	Obj	踊る人形	True	What	〇	〇	〇
+43	対象文	今朝，ホームズはキュービットから電報を受け取った			〇	×	〇
+43	Who	ホームズ	True		〇	×	〇
+43	hasPredicate	今朝，ホームズはキュービットから電報を受け取った	False		〇	×	〇
+43	Obj	キュービット	True	From	〇	×	〇
+43	Obj	電報	True	What	〇	×	〇
+44	対象文	キュービットは駅からやってきた			×	×	無
+44	Who		False		×	×	無
+44	hasPredicate	キュービットは駅からやってきた	False		×	×	無
+45	対象文	キュービットはホームズを訪ねた			〇	〇	〇
+45	Who	キュービット	True		〇	〇	〇
+45	hasPredicate	訪ねた	True	hasPredicate	〇	〇	〇
+45	Obj	ホームズ	True	To	〇	〇	〇
+46	対象文	キュービットは翌朝に踊る人形Bを見た			〇	〇	×
+46	Who	キュービット	True		〇	〇	×
+46	hasPredicate	見た	True	hasPredicate	〇	〇	×
+46	Obj	翌朝に踊る人形B	False	判別不能	〇	〇	×
+47	対象文	踊る人形Bは物置の扉の上にチョークで描かれていた			×	〇	△
+47	Who	踊る人形B	False		×	〇	△
+47	hasPredicate	描かれていた	True	hasProperty	×	〇	△
+47	Obj	物置の扉の上	False	判別不能	×	〇	△
+47	Obj	チョーク	True	How	×	〇	△
+49	対象文	2日後の朝、踊る人形cが描かれていた			〇	〇	×
+49	Who	踊る人形c	True		〇	〇	×
+49	hasPredicate	描かれていた	True	hasProperty	〇	〇	×
+49	Obj	2日後の朝、	False	判別不能	〇	〇	×
+50	対象文	3日後、紙の上に踊る人形Cが描かれていた			×	〇	×
+50	Who	紙の上に踊る人形C	False		×	〇	×
+50	hasPredicate	描かれていた	True	hasProperty	×	〇	×
+50	Obj	3日後、	False	判別不能	×	〇	×
+51	対象文	踊る人形Cは日時計の小石に立てかけてあった			×	〇	〇
+51	Who	踊る人形C	False		×	〇	〇
+51	hasPredicate	立てかけてあった	True	hasPredicate	×	〇	〇
+51	Obj	日時計の小石	True	Where	×	〇	〇
+52	対象文	キュービットは午前2時頃、窓際に腰かけていた			〇	〇	△
+52	Who	キュービット	True		〇	〇	△
+52	hasPredicate	腰かけていた	True	hasPredicate	〇	〇	△
+52	Obj	午前2時頃、	False	判別不能	〇	〇	△
+52	Obj	窓際	True	Where	〇	〇	△
+53	対象文	午前2時頃、外は月明かりだけである			〇	×	無
+53	Who	外	True		〇	×	無
+53	hasPredicate	午前2時頃、外は月明かりだけである	False		〇	×	無
+54	対象文	エルシィはガウンを着ていた			〇	〇	〇
+54	Who	エルシィ	True		〇	〇	〇
+54	hasPredicate	着ていた	True	hasPredicate	〇	〇	〇
+54	Obj	ガウン	True	What	〇	〇	〇
+55	対象文	エルシィはキュービットに以下を言った			〇	〇	△
+55	Who	エルシィ	True		〇	〇	△
+55	hasPredicate	言った	True	hasPredicate	〇	〇	△
+55	Obj	キュービット	True	Whom	〇	〇	△
+55	Obj	以下	False	判別不能	〇	〇	△
+56	対象文	キュービットは寝室に帰る			〇	〇	〇
+56	Who	キュービット	True		〇	〇	〇
+56	hasPredicate	帰る	True	hasPredicate	〇	〇	〇
+56	Obj	寝室	True	Where	〇	〇	〇
+57	対象文	物置の影で何かが動いた			×	〇	△
+57	Who		False		×	〇	△
+57	hasPredicate	動いた	True	hasPredicate	×	〇	△
+57	Obj	物置の影	True	Where	×	〇	△
+57	Obj	何か	False	判別不能	×	〇	△
+58	対象文	キュービットは拳銃を持った			〇	〇	〇
+58	Who	キュービット	True		〇	〇	〇
+58	hasPredicate	持った	True	hasPredicate	〇	〇	〇
+58	Obj	拳銃	True	What	〇	〇	〇
+59	対象文	エルシィはキュービットを止めた			〇	〇	〇
+59	Who	エルシィ	True		〇	〇	〇
+59	hasPredicate	止めた	True	hasPredicate	〇	〇	〇
+59	Obj	キュービット	True	What	〇	〇	〇
+61	対象文	翌朝、物置の扉の上に踊る人形Dが描かれていた			×	×	無
+61	Who	物置の扉の上に踊る人形D	False		×	×	無
+61	hasPredicate	翌朝、物置の扉の上に踊る人形Dが描かれていた	False		×	×	無
+62	対象文	踊る人形Dは板2に描かれていた			〇	〇	〇
+62	Who	踊る人形D	True		〇	〇	〇
+62	hasPredicate	描かれていた	True	hasProperty	〇	〇	〇
+62	Obj	板2	True	Where	〇	〇	〇
+62a	対象文	踊る人形Dは板1に描かれていた			×	〇	〇
+62a	Who	踊る人形D	False		×	〇	〇
+62a	hasPredicate	描かれていた	True	hasProperty	×	〇	〇
+62a	Obj	板1	True	Where	×	〇	〇
+62b	対象文	板1と板2は異なる			×	〇	無
+62b	Who	板1	True		×	〇	無
+62b	Who	板2	False		×	〇	無
+62b	hasPredicate	異なる	True	hasPredicate	×	〇	無
+63	対象文	キュービットは以下を言った			〇	〇	×
+63	Who	キュービット	True		〇	〇	×
+63	hasPredicate	言った	True	hasPredicate	〇	〇	×
+63	Obj	以下	False	判別不能	〇	〇	×
+64	対象文	エルシィは守るためにキュービットを抑えた			〇	×	〇
+64	Who	エルシィ	True		〇	×	〇
+64	hasPredicate	守るためにキュービットを抑えた	False		〇	×	〇
+64	Obj	キュービット	True	What	〇	×	〇
+65	対象文	ホームズはキュービットに以下を言った			〇	〇	△
+65	Who	ホームズ	True		〇	〇	△
+65	hasPredicate	言った	True	hasPredicate	〇	〇	△
+65	Obj	キュービット	True	Whom	〇	〇	△
+65	Obj	以下	False	判別不能	〇	〇	△
+66	対象文	キュービットは今日中に帰宅する			〇	〇	×
+66	Who	キュービット	True		〇	〇	×
+66	hasPredicate	帰宅する	True	hasPredicate	〇	〇	×
+66	Obj	今日中	False	判別不能	〇	〇	×
+67	対象文	ホームズは踊る人形を調べた			〇	〇	〇
+67	Who	ホームズ	True		〇	〇	〇
+67	hasPredicate	調べた	True	hasPredicate	〇	〇	〇
+67	Obj	踊る人形	True	What	〇	〇	〇
+68	対象文	ホームズは喜んだ			〇	〇	無
+68	Who	ホームズ	True		〇	〇	無
+68	hasPredicate	喜んだ	True	hasPredicate	〇	〇	無
+69	対象文	ホームズは部屋を歩き回った			〇	〇	〇
+69	Who	ホームズ	True		〇	〇	〇
+69	hasPredicate	歩き回った	True	hasPredicate	〇	〇	〇
+69	Obj	部屋	True	Where	〇	〇	〇
+70	対象文	ホームズはシカゴに電報を打った			〇	〇	△
+70	Who	ホームズ	True		〇	〇	△
+70	hasPredicate	打った	True	hasPredicate	〇	〇	△
+70	Obj	シカゴ	False	判別不能	〇	〇	△
+70	Obj	電報	True	What	〇	〇	△
+71	対象文	2日目の夕べ、ホームズはキュービットから手紙を受け取った			〇	〇	△
+71	Who	ホームズ	True		〇	〇	△
+71	hasPredicate	受け取った	True	hasPredicate	〇	〇	△
+71	Obj	2日目の夕べ、	False	判別不能	〇	〇	△
+71	Obj	キュービット	True	From	〇	〇	△
+71	Obj	手紙	True	What	〇	〇	△
+72	対象文	2日目の朝、日時計の上に踊る人形eが描かれていた			×	〇	×
+72	Who	日時計の上に踊る人形e	False		×	〇	×
+72	hasPredicate	描かれていた	True	hasProperty	×	〇	×
+72	Obj	2日目の朝、	False	判別不能	×	〇	×
+73	対象文	ホームズは踊る人形Eを見た			〇	〇	×
+73	Who	ホームズ	True		〇	〇	×
+73	hasPredicate	見た	True	hasPredicate	〇	〇	×
+73	Obj	踊る人形E	False	判別不能	〇	〇	×
+74	対象文	ホームズは驚いた			〇	〇	無
+74	Who	ホームズ	True		〇	〇	無
+74	hasPredicate	驚いた	True	hasPredicate	〇	〇	無
+76	対象文	ホームズとワトソンは北ウォールシャムで下車した			〇	〇	〇
+76	Who	ホームズ	True		〇	〇	〇
+76	Who	ワトソン	True		〇	〇	〇
+76	hasPredicate	下車した	True	hasPredicate	〇	〇	〇
+76	Obj	北ウォールシャム	True	Where	〇	〇	〇
+77	対象文	マーティン警部がノリッジから北ウォールシャムを訪れた			〇	〇	〇
+77	Who	マーティン警部	True		〇	〇	〇
+77	hasPredicate	訪れた	True	hasPredicate	〇	〇	〇
+77	Obj	ノリッジ	True	From	〇	〇	〇
+77	Obj	北ウォールシャム	True	To	〇	〇	〇
+78	対象文	キュービットとエルシィは撃たれた			〇	〇	無
+78	Who	キュービット	True		〇	〇	無
+78	Who	エルシィ	True		〇	〇	無
+78	hasPredicate	撃たれた	True	hasPredicate	〇	〇	無
+79	対象文	女中は以下を言った			〇	〇	×
+79	Who	女中	True		〇	〇	×
+79	hasPredicate	言った	True	hasPredicate	〇	〇	×
+79	Obj	以下	False	判別不能	〇	〇	×
+80	対象文	エルシィがキュービットを撃った			〇	〇	〇
+80	Who	エルシィ	True		〇	〇	〇
+80	hasPredicate	撃った	True	hasPredicate	〇	〇	〇
+80	Obj	キュービット	True	What	〇	〇	〇
+81	対象文	エルシィは自分を撃った			〇	〇	×
+81	Who	エルシィ	True		〇	〇	×
+81	hasPredicate	撃った	True	hasPredicate	〇	〇	×
+81	Obj	自分	False	判別不能	〇	〇	×
+82	対象文	マーティン警部は小柄な男である			〇	×	無
+82	Who	マーティン警部	True		〇	×	無
+82	hasPredicate	小柄な男である	False		〇	×	無
+84	対象文	マーティン警部はノーフォークの警察である			〇	×	無
+84	Who	マーティン警部	True		〇	×	無
+84	hasPredicate	ノーフォークの警察である	False		〇	×	無
+86	対象文	マーティン警部は物分かりが良い			〇	×	無
+86	Who	マーティン警部	True		〇	×	無
+86	hasPredicate	物分かりが良い	False		〇	×	無
+87	対象文	マーティン警部はホームズに捜査を許した			〇	〇	〇
+87	Who	マーティン警部	True		〇	〇	〇
+87	hasPredicate	許した	True	hasPredicate	〇	〇	〇
+87	Obj	ホームズ	True	Whom	〇	〇	〇
+87	Obj	捜査	True	What	〇	〇	〇
+88	対象文	地元の医者が以下を言った			〇	×	×
+88	Who	地元の医者	True		〇	×	×
+88	hasPredicate	言った	False		〇	×	×
+88	Obj	以下	False	判別不能	〇	×	×
+89	対象文	エルシィは死んでいない			〇	〇	無
+89	Who	エルシィ	True		〇	〇	無
+89	hasPredicate	死んでいない	True	hasProperty	〇	〇	無
+90	対象文	地元の医者は所見を述べない			〇	〇	〇
+90	Who	地元の医者	True		〇	〇	〇
+90	hasPredicate	述べない	True	hasPredicate	〇	〇	〇
+90	Obj	所見	True	What	〇	〇	〇
+91	対象文	キュービットは心臓を撃ち抜かれている			〇	〇	〇
+91	Who	キュービット	True		〇	〇	〇
+91	hasPredicate	撃ち抜かれている	True	hasPredicate	〇	〇	〇
+91	Obj	心臓	True	What	〇	〇	〇
+92	対象文	拳銃はキュービットとエルシィの間に落ちていた			〇	〇	×
+92	Who	拳銃	True		〇	〇	×
+92	hasPredicate	落ちていた	True	hasPredicate	〇	〇	×
+92	Obj	キュービット	False	判別不能	〇	〇	×
+92	Obj	エルシィの間	False	判別不能	〇	〇	×
+93	対象文	地元の医者は4時に訪れた			〇	〇	〇
+93	Who	地元の医者	True		〇	〇	〇
+93	hasPredicate	訪れた	True	hasPredicate	〇	〇	〇
+93	Obj	4時	True	When	〇	〇	〇
+94	対象文	女中が地元の医者を呼んだ			〇	〇	〇
+94	Who	女中	True		〇	〇	〇
+94	hasPredicate	呼んだ	True	hasPredicate	〇	〇	〇
+94	Obj	地元の医者	True	What	〇	〇	〇
+95	対象文	女中が第一発見者である			〇	〇	無
+95	Who	女中	True		〇	〇	無
+95	hasPredicate	第一発見者である	True	hasPredicate	〇	〇	無
+96	対象文	女中は銃声で起きた			〇	〇	〇
+96	Who	女中	True		〇	〇	〇
+96	hasPredicate	起きた	True	hasPredicate	〇	〇	〇
+96	Obj	銃声	True	Why	〇	〇	〇
+97	対象文	銃声の1分後に再度、銃声が聞こえた			×	×	〇
+97	Who	銃声	False		×	×	〇
+97	hasPredicate	再度、銃声が聞こえた	False		×	×	〇
+97	Obj	銃声の1分後	True	When	×	×	〇
+100	対象文	女中は書斎に行った			〇	〇	〇
+100	Who	女中	True		〇	〇	〇
+100	hasPredicate	行った	True	hasPredicate	〇	〇	〇
+100	Obj	書斎	True	To	〇	〇	〇
+101	対象文	書斎の扉が開いていた			〇	〇	無
+101	Who	書斎の扉	True		〇	〇	無
+101	hasPredicate	開いていた	True	hasPredicate	〇	〇	無
+102	対象文	ローソクが卓上にともっていた			〇	〇	×
+102	Who	ローソク	True		〇	〇	×
+102	hasPredicate	ともっていた	True	hasPredicate	〇	〇	×
+102	Obj	卓上	False	判別不能	〇	〇	×
+103	対象文	キュービットが部屋の真ん中に倒れていた			〇	〇	×
+103	Who	キュービット	True		〇	〇	×
+103	hasPredicate	倒れていた	True	hasPredicate	〇	〇	×
+103	Obj	部屋の真ん中	False	判別不能	〇	〇	×
+104	対象文	キュービットは死んでいた			〇	〇	無
+104	Who	キュービット	True		〇	〇	無
+104	hasPredicate	死んでいた	True	hasProperty	〇	〇	無
+105	対象文	エルシィが窓のそばでうずくまっていた			〇	〇	×
+105	Who	エルシィ	True		〇	〇	×
+105	hasPredicate	うずくまっていた	True	hasPredicate	〇	〇	×
+105	Obj	窓のそば	False	判別不能	〇	〇	×
+106	対象文	エルシィは怪我を負っていた			〇	×	×
+106	Who	エルシィ	True		〇	×	×
+106	hasPredicate	負っていた	False		〇	×	×
+106	Obj	怪我	False	判別不能	〇	×	×
+107	対象文	部屋と廊下に煙が充満していた			〇	〇	〇
+107	Who	煙	True		〇	〇	〇
+107	hasPredicate	充満していた	True	hasProperty	〇	〇	〇
+107	Obj	部屋	True	Where	〇	〇	〇
+107	Obj	廊下	True	Where	〇	〇	〇
+108	対象文	部屋と廊下は火薬のにおいを持つ			×	〇	×
+108	Who	部屋	False		×	〇	×
+108	Who	廊下	False		×	〇	×
+108	hasPredicate	持つ	True	hasPredicate	×	〇	×
+108	Obj	火薬のにおい	False	判別不能	×	〇	×
+109	対象文	部屋の窓は閉められていた			〇	〇	無
+109	Who	部屋の窓	True		〇	〇	無
+109	hasPredicate	閉められていた	True	hasPredicate	〇	〇	無
+110	対象文	部屋の窓は内側から鍵がかけられていた			〇	〇	〇
+110	Who	部屋の窓	True		〇	〇	〇
+110	hasPredicate	鍵がかけられていた	True	hasProperty	〇	〇	〇
+110	Obj	内側	True	From	〇	〇	〇
+111	対象文	エルシィは普段着だった			〇	×	無
+111	Who	エルシィ	True		〇	×	無
+111	hasPredicate	普段着だった	False		〇	×	無
+112	対象文	キュービットは寝間着だった			〇	×	無
+112	Who	キュービット	True		〇	×	無
+112	hasPredicate	寝間着だった	False		〇	×	無
+113	対象文	書斎は動かされていなかった			〇	〇	無
+113	Who	書斎	True		〇	〇	無
+113	hasPredicate	動かされていなかった	True	hasPredicate	〇	〇	無
+114	対象文	扉は内側から鍵がかけられていた			〇	〇	〇
+114	Who	扉	True		〇	〇	〇
+114	hasPredicate	鍵がかけられていた	True	hasProperty	〇	〇	〇
+114	Obj	内側	True	From	〇	〇	〇
+115	対象文	女中が自分たちの部屋を出た			〇	〇	〇
+115	Who	女中	True		〇	〇	〇
+115	hasPredicate	出た	True	hasPredicate	〇	〇	〇
+115	Obj	自分たちの部屋	True	From	〇	〇	〇
+116	対象文	女中は火薬のにおいを嗅いだ			×	〇	×
+116	Who	女中	False		×	〇	×
+116	hasPredicate	嗅いだ	True	hasPredicate	×	〇	×
+116	Obj	火薬のにおい	False	判別不能	×	〇	×
+117	対象文	書斎は小さい部屋である			〇	×	無
+117	Who	書斎	True		〇	×	無
+117	hasPredicate	小さい部屋である	False		〇	×	無
+118	対象文	書斎の三方には本棚がある			〇	〇	×
+118	Who	本棚	True		〇	〇	×
+118	hasPredicate	ある	True	hasPredicate	〇	〇	×
+118	Obj	書斎の三方に	False	判別不能	〇	〇	×
+119	対象文	机は窓に向かって置かれている			〇	×	無
+119	Who	机	True		〇	×	無
+119	hasPredicate	窓に向かって置かれている	False		〇	×	無
+120	対象文	窓からは庭が見える			〇	〇	△
+120	Who	庭	True		〇	〇	△
+120	hasPredicate	見える	True	hasPredicate	〇	〇	△
+120	Obj	窓	True	From	〇	〇	△
+120	Obj		False	判別不能	〇	〇	△
+121	対象文	キュービットは部屋を横切るように倒れていた			〇	×	無
+121	Who	キュービット	True		〇	×	無
+121	hasPredicate	部屋を横切るように倒れていた	False		〇	×	無
+122	対象文	キュービットの着衣は乱れていた			〇	〇	無
+122	Who	キュービットの着衣	True		〇	〇	無
+122	hasPredicate	乱れていた	True	hasProperty	〇	〇	無
+123	対象文	キュービットは正面から心臓を撃たれた			〇	〇	△
+123	Who	キュービット	True		〇	〇	△
+123	hasPredicate	撃たれた	True	hasPredicate	〇	〇	△
+123	Obj	正面	False	判別不能	〇	〇	△
+123	Obj	心臓	True	What	〇	〇	△
+124	対象文	窓枠の下に銃弾の痕跡があった			〇	〇	×
+124	Who	銃弾の痕跡	True		〇	〇	×
+124	hasPredicate	あった	True	hasPredicate	〇	〇	×
+124	Obj	窓枠の下	False	判別不能	〇	〇	×
+126	対象文	発砲されたとき、部屋の扉と窓は開いていた			〇	〇	×
+126	Who	部屋の扉	True		〇	〇	×
+126	Who	窓	True		〇	〇	×
+126	hasPredicate	開いていた	True	hasPredicate	〇	〇	×
+126	Obj	発砲されたとき、	False	判別不能	〇	〇	×
+127	対象文	わずかな時間、部屋の扉と窓が開いていた			〇	〇	×
+127	Who	部屋の扉	True		〇	〇	×
+127	Who	窓	True		〇	〇	×
+127	hasPredicate	開いていた	True	hasPredicate	〇	〇	×
+127	Obj	わずかな時間、	False	判別不能	〇	〇	×
+129	対象文	ローソクの流れ跡がない			〇	〇	無
+129	Who	ローソクの流れ跡	True		〇	〇	無
+129	hasPredicate	ない	True	hasPredicate	〇	〇	無
+130	対象文	事件当時、窓は開いていた			〇	×	無
+130	Who	窓	True		〇	×	無
+130	hasPredicate	事件当時、窓は開いていた	False		〇	×	無
+131	対象文	現場には第三者がいた			〇	〇	×
+131	Who	第三者	True		〇	〇	×
+131	hasPredicate	いた	True	hasPredicate	〇	〇	×
+131	Obj	現場に	False	判別不能	〇	〇	×
+132	対象文	第三者は屋外から部屋に発砲した			〇	〇	〇
+132	Who	第三者	True		〇	〇	〇
+132	hasPredicate	発砲した	True	hasPredicate	〇	〇	〇
+132	Obj	屋外	True	From	〇	〇	〇
+132	Obj	部屋	True	To	〇	〇	〇
+133	対象文	キュービットは第三者を撃った			〇	〇	〇
+133	Who	キュービット	True		〇	〇	〇
+133	hasPredicate	撃った	True	hasPredicate	〇	〇	〇
+133	Obj	第三者	True	What	〇	〇	〇
+134	対象文	弾が窓枠に当たった			〇	〇	〇
+134	Who	弾	True		〇	〇	〇
+134	hasPredicate	当たった	True	hasPredicate	〇	〇	〇
+134	Obj	窓枠	True	Where	〇	〇	〇
+135	対象文	書斎の机にハンドバッグがあった			〇	〇	〇
+135	Who	ハンドバッグ	True		〇	〇	〇
+135	hasPredicate	あった	True	hasPredicate	〇	〇	〇
+135	Obj	書斎の机	True	On	〇	〇	〇
+136	対象文	ハンドバッグには紙幣が入っていた			〇	〇	×
+136	Who	紙幣	True		〇	〇	×
+136	hasPredicate	入っていた	True	hasPredicate	〇	〇	×
+136	Obj	ハンドバッグに	False	判別不能	〇	〇	×
+137	対象文	窓枠は室内から裂けていた			〇	〇	×
+137	Who	窓枠	True		〇	〇	×
+137	hasPredicate	裂けていた	True	hasPredicate	〇	〇	×
+137	Obj	室内	False	判別不能	〇	〇	×
+140	対象文	書斎の窓の下には花壇がある			〇	〇	×
+140	Who	花壇	True		〇	〇	×
+140	hasPredicate	ある	True	hasPredicate	〇	〇	×
+140	Obj	書斎の窓の下に	False	判別不能	〇	〇	×
+141	対象文	花壇には、男性の足跡がついていた			×	〇	×
+141	Who	男性の足跡	False		×	〇	×
+141	hasPredicate	ついていた	True	hasPredicate	×	〇	×
+141	Obj	花壇には、	False	判別不能	×	〇	×
+142	対象文	花壇にて、ホームズは真鍮の筒を拾った			〇	〇	△
+142	Who	ホームズ	True		〇	〇	△
+142	hasPredicate	拾った	True	hasPredicate	〇	〇	△
+142	Obj	花壇にて、	False	判別不能	〇	〇	△
+142	Obj	真鍮の筒	True	What	〇	〇	△
+143	対象文	エルリッジが東ラストン方面の数マイル先にある			〇	×	×
+143	Who	エルリッジ	True		〇	×	×
+143	hasPredicate	ある	False		〇	×	×
+143	Obj	東ラストン方面の数マイル先	False	判別不能	〇	×	×
+144	対象文	ホームズは馬番の少年に以下を頼んだ			〇	〇	△
+144	Who	ホームズ	True		〇	〇	△
+144	hasPredicate	頼んだ	True	hasPredicate	〇	〇	△
+144	Obj	馬番の少年	True	Whom	〇	〇	△
+144	Obj	以下	False	判別不能	〇	〇	△
+145	対象文	馬番の少年は書き付けをエルリッジ農場へ持っていく			〇	×	無
+145	Who	馬番の少年	True		〇	×	無
+145	hasPredicate	書き付けをエルリッジ農場へ持っていく	False		〇	×	無
+147	対象文	踊る人形は子供のいたずらに似せた暗号である			〇	×	無
+147	Who	踊る人形	True		〇	×	無
+147	hasPredicate	子供のいたずらに似せた暗号である	False		〇	×	無
+148	対象文	人形は文字の代用である			×	×	無
+148	Who	人形	False		×	×	無
+148	hasPredicate	文字の代用である	False		×	×	無
+149	対象文	踊る人形は暗号の規則で解くことができる			〇	〇	×
+149	Who	踊る人形	True		〇	〇	×
+149	hasPredicate	解くことができる	True	hasProperty	〇	〇	×
+149	Obj	暗号の規則	False	判別不能	〇	〇	×
+151	対象文	踊る人形			×	×	無
+151	Who		False		×	×	無
+151	hasPredicate	踊る人形	False		×	×	無

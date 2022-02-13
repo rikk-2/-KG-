@@ -1,0 +1,2460 @@
+												
+1	対象文	1897年の冬、私は起こされた	"Winter of 1897, I was awakened"									
+1	情報源	ワトソンの言葉	Watson's words									
+1	Who	ワトソン	Watson									
+1	hasPredicate	起こされた	beAwaken									
+1	When	1987年の冬	Winter of 1987									
+1	then											
+2	対象文	ホームズはポケットから手紙を引っ張り出した	Holmes pulled a letter from his pocket									
+2	情報源											
+2	Who	ホームズ	Holmes									
+2	hasPredicate	引っ張り出した	take									
+2	What	手紙	letter									
+2	Where	ポケット	pocket									
+2	then											
+3	対象文	ホームズは手紙を音読した	Holmes was reading aloud a letter									
+3	情報源											
+3	Who	ホームズ	Holmes									
+3	hasPredicate	音読した	read aloud	how:aloud?								
+3	What	手紙	letter									
+3	then											
+4	対象文	きわめて驚くべき事件になりそうです	It is going to be a very surprising incident									
+4	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+4	Who	きわめて驚くべき事件に	A very surprising incident	x								
+4	hasPredicate	なりそう	become									
+4	Where	ケント州、マーシャム、大修道院跡、アビ屋敷	"Kent, Marsham, abbey ruins, Abbey Grange"									
+4	When	15:30	15:30									
+4	then											
+5	対象文	スタンリィ・ホプキンスがホームズに助力を頼む	Stanley Hopkins asks for help to Holmes									
+5	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+5	Who	助力いただけると	And enjoy helping	x								
+5	hasPredicate	ありがたいのですが	Thankfully I but	x								
+5	Where											
+5	When											
+5	then											
+6	対象文	奥方を解放したほかは、すべて私が発見したままに保たれている	"In addition to releasing the lady they are, are all kept to leave I discovered"									
+6	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+6	Who	現場	Scene	x								
+6	hasProperty	保たれている	remain									
+6	How	発見したままに	Remains found									
+6	then											
+7	対象文	サー・ユースタス・ブラックンストールをそのまま置いておけない	Not put in place as it is the Sir Eustace Brackenstall									
+7	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+7	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+7	hasPredicate	置いていけない	cannotPut	〇								
+7	What	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+7	then											
+8	対象文	ホームズは言った	Holmes said									
+8	情報源	ホームズの発言	Holmes remark									
+8	Who	ホームズ	Holmes									
+8	hasPredicate	言った	say									
+8	What	9	9									
+8	then											
+9	対象文	今日の研究は殺人事件らしいね	I guess murder of research today									
+9	情報源	ホームズの発言	Holmes remark									
+9	Who	ホームズ	Holmes									
+9	hasPredicate	言った	say									
+9	What											
+9	then											
+10	対象文	このサー・ユースタス・ブラックンストールが死んだと考えるんだね？	I'm think this Sir Eustace Brackenstall the dead?									
+10	情報源	ワトソンの発言	Remarks Watson									
+10	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+10	hasProperty	死んだ	dead									
+10	Where											
+10	then											
+11	対象文	ユースタスが自殺である	Eustace is a suicide									
+11	情報源	ホームズの考え	Holmes thought									
+11	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+11	hasPredicate	自殺である	suicide									
+11	What											
+11	then											
+12	対象文	単なる自殺ではスタンリィ・ホプキンスがホームズに使いを出すことはない	Never put out the use Stanley Hopkins is to Holmes a mere suicide									
+12	情報源	ホームズの考え	Holmes thought									
+12	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+12	hasPredicate	使いを出さない	Not issue a use	〇								
+12	What	ホームズ	Holmes									
+12	if	11	11									
+13	対象文	奥方は惨事の間部屋に監禁されていた	Lady had been imprisoned during the disaster room									
+13	情報源	ホームズの考え	Holmes thought									
+13	Who	奥方	Lady									
+13	hasProperty	監禁されていた	beImprisoned									
+13	When	惨事の間	Between the disaster									
+13	When	昨日の午後12時前	12 hours ago yesterday afternoon									
+13	then											
+14	対象文	スタンリィ・ホプキンスは地元の警察を呼ぶ必要がある	"Stanley Hopkins, it is necessary to call the local police"									
+14	情報源	ホームズの考え	Holmes thought									
+14	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+14	hasProperty	呼ぶ	call									
+14	what	地元の警察	The local police									
+14	then											
+15	対象文	スタンリィ・ホプキンスはスコットランドヤードに連絡する必要がある	"Stanley Hopkins, it is necessary to contact the Scotland Yard"									
+15	情報源	ホームズの考え	Holmes thought									
+15	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+15	hasProperty	連絡する	contact									
+15	When	スコットランドヤード	Scotland Yard									
+15	then											
+16	対象文	スタンリィ・ホプキンスは出かける必要がある	"Stanley Hopkins, it is necessary to go out"									
+16	情報源	ホームズの考え	Holmes thought									
+16	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+16	hasProperty	出かける	go									
+16	When											
+16	then											
+17	対象文	スタンリィ・ホプキンスはホームズに使いを出す必要がある	"Stanley Hopkins, it is necessary to issue a use in Holmes"									
+17	情報源	ホームズの考え	Holmes thought									
+17	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+17	hasProperty	出す	put out	〇								
+17	what	使い	use	使いを出す								
+17	then											
+18	対象文	全て済ますには一晩かかる	One such night to finish all									
+18	情報源	ホームズの考え	Holmes thought									
+18	Who	通報者	Whistleblower									
+18	hasPredicate	一晩かかる	Take overnight									
+18	What	14	14									
+18	What	15	15									
+18	What	16	16									
+18	What	17	17									
+18	then											
+19	対象文	奥方が事の顛末をはっきりと話した	Lady was clearly talking about the particulars of things									
+19	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+19	Who	奥方	Lady									
+19	hasPredicate	話した	say									
+19	What	事の顛末	Thing of particulars									
+19	then											
+20	対象文	ルイシャム夜盗団は二週間前シドナムで見られた	Lewisham burglary team was seen in the two weeks before Sydenham									
+20	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+20	Who	ルイシャムの夜盗団	Burglary team of Lewisham									
+20	hasPredicate	観られた	beSeen	?								
+20	When	2週間前	2 weeks ago									
+20	Where	シドナム	Sydenham									
+20	then											
+21	対象文	ルイシャムの夜盗団は人相書きが出ている	Burglary team of Lewisham have come up with personal description									
+21	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+21	Who	ルイシャムの夜盗団	Burglary team of Lewisham									
+21	hasPredicate	人相書きが出ている	Personal description is out	ｘ								
+21	Why	20	20									
+21	then											
+22	対象文	間違いなくルイシャム夜盗団の仕事	Work of definitely Lewisham burglary Orchestra									
+22	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+22	Who	ルイシャムの夜盗団	Burglary team of Lewisham									
+22	hasProperty	仕事	beHit		#ORG:hasPredicate:jobs							
+22	Why	21	21									
+22	then											
+22	対象文	サー・ユースタス・ブラックンストールは自分とこの火かき棒で頭を殴られた	Sir Eustace Brackenstall was beaten in the head with this poker with their									
+22	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+22	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+22	hasProperty	殴られた	beHit									
+22	What	自分のとこの火かき棒で	In poker of his Toko									
+22	then											
+23	対象文	サー・ユースタス・ブラックンストールは死んだ	Sir Eustace Brackenstall dead									
+23	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+23	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+23	hasProperty	死んだ	dead									
+23	Why	22	22									
+23	then											
+24	対象文	サー・ユースタス・ブラックンストールはケントでも指折りの資産家	Sir Eustace Brackenstall one of the most wealthy in Kent									
+24	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+24	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+24	hasPredicate	指折りの資産家	One of the most wealthy									
+24	Where	ケント	Kent									
+24	then											
+25	対象文	レディー・ブラックンストールは居間にいる	Lady Brackenstall are in the living room									
+25	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+25	Who	レディー・ブラックンストール	Lady Brackenstall									
+25	hasPredicate	いる	exist									
+25	How	半死半生の状態	State of half alive									
+25	Where	居間	Living room									
+25	then											
+26	対象文	レディー・ブラックンストールの片方の目の上がはれ上がっていた	Is on top of the one eye of Lady Brackenstall was rising swelling									
+26	情報源											
+26	Who	レディー・ブラックンストール	Lady Brackenstall									
+26	hasPredicate	はれ上がっていた	swell									
+26	What	片方の目	One eye									
+26	then											
+27	対象文	テリーサがレディー・ブラックンストールのはれ上がった片方の目を一生懸命冷やしていた	Theresa had cold hard the one eye that rose sunny Lady Brackenstall									
+27	情報源											
+27	Who	テリーサ	Theresa									
+27	hasPredicate	冷やしていた	chill									
+27	What	レディー・ブラックンストールのはれ上がっていた片方の目	One eye had been raised sunny Lady Brackenstall									
+27	because	18	18									
+28	対象文	レディー・ブラックンストールは警戒の表情を浮かべた	Lady Brackenstall floated an expression of vigilance									
+28	情報源											
+28	Who	レディー・ブラックンストール	Lady Brackenstall									
+28	hasProperty	浮かべた	make									
+28	What	警戒の表情	Expression of vigilance									
+28	then											
+29	対象文	レディー・ブラックンストールのそばに黒のスパンコールのついたディナードレスが置かれていた	Lady Brackenstall dinner dress with a black sequined beside had been placed									
+29	情報源											
+29	Who	ディナードレス	Dinner dress									
+29	hasProperty	置かれていた	put									
+29	Near	レディー・ブラックンストールのそばに	Near the Lady Brackenstall									
+29	then											
+30	対象文	ゆるいガウンがレディー・ブラックンストールの前腕から滑り落ちた	Loose gown slipped from the forearm of Lady Brackenstall									
+30	情報源											
+30	Who	ゆるいガウン	Loose gown									
+30	hasPredicate	滑り落ちた	drop									
+30	From	レディー・ブラックンストールの前腕	Forearm Lady Brackenstall									
+30	then											
+31	対象文	レディー・ブラックンストールは傷を急いで隠した。	Lady Brackenstall hid in a hurry to scratch.									
+31	情報源											
+31	Who	レディー・ブラックンストール	Lady Brackenstall									
+31	hasPredicate	隠した	hide									
+31	What	傷	scratch									
+31	then											
+32	対象文	レディー・ブラックンストールの傷は白く丸い上肢の一方の上にある二つの鮮明な赤い点だった	Scratches Lady Brackenstall was two vivid red dot at the top of one of the white round upper limbs									
+32	情報源											
+32	Who	傷	scratch									
+32	hasPredicate	だった	was	?								
+32	What	白く丸い上肢の一方の上にある二つの鮮明な赤い点	While two of vivid red dot at the top of the white round upper limbs									
+32	then											
+33	対象文	昨夜のあの醜悪な事件とは何の関係もない	Nothing to do with last night of that ugly incident									
+33	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+33	Who	傷	scratch									
+33	Who	事件	Incident									
+33	hasProperty	関係ない	unrelated	dic								
+33	When	昨夜	last night									
+33	then											
+34	対象文	レディー・ブラックンストールはサー・ユースタス・ブラックンストールと結婚して1年ほどになる	Lady Brackenstall will be about a year married to Sir Eustace Brackenstall									
+34	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+34	Who	レディー・ブラックンストール	Lady Brackenstall									
+34	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+34	hasPredicate	結婚した	beMarried									
+34	When	1年ほど前	About 1 year ago									
+34	then											
+35	対象文	レディー・ブラックンストールにはイギリスの礼儀作法が合わなかった	Did not meet the United Kingdom of etiquette is to Lady Brackenstall									
+35	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+35	Who	レディー・ブラックンストールは	Lady Brackenstall									
+35	hasPredicate	合わなかった	notFit									
+35	When	礼儀作法	Etiquette									
+35	Where	イギリス	England									
+35	then											
+36	対象文	サー・ユースタス・ブラックンストールが常習的な大酒のみ	Sir Eustace Brackenstall habitual Hotel only									
+36	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+36	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+36	hasPredicate	大酒飲み	Booze hound									
+36	When											
+36	then											
+37	対象文	レディー・ブラックンストールとサー・ユースタス・ブラックンストールの結婚は幸せなものではなかった	Marriage of Lady Brackenstall and Sir Eustace Brackenstall was not happy									
+37	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+37	Who	レディー・ブラックンストール	Lady Brackenstall									
+37	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+37	hasProperty	幸せではなかった	notHappy									
+37	because	35	35									
+37	Because	36	36									
+37	then											
+38	対象文	この家では召使は皆新しい翼で休む	Servant rest in all new wing in this house									
+38	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+38	Who	召使	Menial									
+38	hasPredicate	休む	rest									
+38	Where	新しい翼	New wing									
+38	then											
+39	対象文	中央の建物は部屋部屋から成る	The center of the building is made from the room the room									
+39	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+39	Who	中央の部屋	The center of the room									
+39	hasPredicate	成る	Become	?								
+39	How	部屋部屋から	From the room the room	?								
+39	then											
+40	対象文	調理場は中央の建物の後ろにある	The kitchen is in the back of the center of the building									
+40	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+40	Who	調理場	Kitchen									
+40	hasPredicate	ある	exist									
+40	Where	中央の建物の後ろ	Behind the center of the building									
+40	then											
+41	対象文	メイドのテリーサはレディー・ブラックンストールの部屋の上で休む	Theresa maid rest on top of the Lady black down the stall room									
+41	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+41	Who	テリーサ	Theresa									
+41	hasPredicate	休む	rest									
+41	On	レディー・ブラックンストールの部屋	Lady Black down the stall of the room									
+41	then											
+42	対象文	音がしても翼にいる召使には伝わらない	Not transmitted to the servant who is the wing even if the sound									
+42	情報源	レディー・ブラックンストールの考え	Lady Brackenstall thought									
+42	Who	音	sound									
+42	hasPredicate	伝わらない	cannotHear									
+42	What	召使	Menial									
+42	then											
+43	対象文	盗賊は知っていた	Thief knew									
+43	情報源	レディー・ブラックンストールの考え	Lady Brackenstall thought									
+43	Who	盗賊	Thief									
+43	hasPredicate	知っていた	know									
+43	What	42	42									
+43	then											
+44	対象文	サー・ユースタス・ブラックンストールは10時30分頃に亡くなった	Sir Eustace Brackenstall died at around 10:30 am									
+44	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+44	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+44	hasProperty	亡くなった	dead									
+44	When	10時30分頃	10:30 time									
+44	then											
+45	対象文	メイドのテリーサだけが起きている	Are only Theresa maid happened									
+45	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+45	Who	テリーサ	Theresa									
+45	hasProperty	起きている	awake									
+45	When											
+45	then											
+46	対象文	メイドのテリーサはレディー・ブラックンストールの用を待っていた	Theresa maid was waiting for use of Lady Brackenstall									
+46	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+46	Who	テリーサ	Theresa									
+46	hasPredicate	待っていた	wait									
+46	Where											
+46	Where											
+46	then											
+47	対象文	テリーサは建物の最上階のテリーサの部屋に残っていた	Theresa was left on the top floor of the Theresa of the room of the building									
+47	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+47	Who	テリーサ	Theresa									
+47	hasPredicate	残っていた	stay									
+47	Where	テリーサの部屋	Theresa of room									
+47	Where	建物の最上階	The top floor of the building									
+47	because	35	35									
+48	対象文	レディー・ブラックンストールは11時過ぎまで居間に座っていた	Lady Brackenstall was sitting in the living room until 11 o'clock									
+48	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+48	Who	レディー・ブラックンストール	Lady Brackenstall									
+48	hasPredicate	座っていた	sit									
+48	When	11時過ぎ	11 o'clock									
+48	Where	居間	Living room									
+48	then											
+49	対象文	レディー・ブラックンストールは習慣の見回りを行った	Lady Brackenstall was carried out patrol of habit									
+49	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+49	Who	レディー・ブラックンストール	Lady Brackenstall									
+49	hasPredicate	行った	go									
+49	What	習慣の見回り	Patrol of habit									
+49	then											
+50	対象文	ダイニングルームの窓が開いていた	Dining room window was open									
+50	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+50	Who	窓	window	x								
+50	hasPredicate	開いていた	open									
+50	When	ダイニングルーム	dining room									
+50	What											
+50	then											
+51	対象文	レディー・ブラックンストールはダイニングルームの窓が開いていることに気づいた	Lady Brackenstall I noticed that you have open window of the dining room									
+51	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+51	Who	レディー・ブラックンストール	Lady Brackenstall									
+51	hasPredicate	気づいた	notice									
+51	Where	ダイニングルーム	dining room									
+51	What	窓が開いている	Is open window	?								
+51	then											
+52	対象文	レディー・ブラックンストールは部屋に入ったばかりの肩幅の広い年輩の男と向かい合った	Lady Brackenstall opposite the shoulder width of the wide elderly man just entered the room									
+52	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+52	Who	レディー・ブラックンストール	Lady Brackenstall									
+35	Who	年輩の男	Elderly man									
+52	hasProperty	向かい合った	oppose									
+52	When											
+52	then											
+53	対象文	年配の男以外にも二人部屋に入ろうとしている	Is about to enter the two people the room other than the man of the elderly									
+53	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+53	Who	二人	Two persons									
+53	hasPredicate	入ろうとしている	enter									
+53	What											
+36	How											
+53	then											
+54	対象文	レディー・ブラックンストールは二人を見た	Lady Brackenstall saw two people									
+54	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+54	Who	レディー・ブラックンストール	Lady Brackenstall									
+54	hasPredicate	見た	see									
+54	What	53	53									
+36	How											
+54	then											
+55	対象文	年配の男はレディー・ブラックンストールの手首とのどをつかんだ	Man of elderly grabbed the wrist and throat of Lady Brackenstall									
+55	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+55	Who	年配の男	Man of the elderly									
+55	hasPredicate	つかんだ	grab									
+55	What	レディー・ブラックンストールの手首	Wrist of Lady Brackenstall									
+55	What	レディー・ブラックンストールののど	Throat of Lady Brackenstall									
+55	then											
+56	対象文	レディー・ブラックンストールは年配の男のこぶしで目の上を殴られた	Lady Brackenstall was beaten over the eye in the fist of the man of the elderly									
+56	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+56	Who	レディー・ブラックンストール	Lady Brackenstall									
+56	hasPredicate	殴られた	beHit									
+56	How	こぶし	Fist									
+56	How	目の上	On the eye									
+56	then											
+57	対象文	レディー・ブラックンストールは床に打ち倒された	Lady Brackenstall was overthrown on the floor									
+57	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+57	Who	レディー・ブラックンストール	Lady Brackenstall									
+57	hasPredicate	打ち倒された	down									
+57	How											
+57	because	44	44									
+58	対象文	レディー・ブラックンストールは数分間意識を失っていた	Lady Brackenstall had lost consciousness for a few minutes									
+58	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+58	Who	レディー・ブラックンストール	Lady Brackenstall									
+58	hasProperty	意識がなかった	lose									
+58	What		consciousness									
+58	then											
+59	対象文	男たちはベルの紐を引きちぎった	The men were torn off a string of bell									
+59	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+59	Who	男たち	Men									
+59	hasProperty	引きちぎった	exist		#ORG:hasPredicate:cut							
+59	What	ベルの紐	Bell string									
+40	How											
+59	then											
+59	対象文	オーク製の椅子はダイニングテーブルの上座にあった	Oak chair was in the Theravada of the dining table									
+59	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+59	Who	オーク製の椅子	Oak chair									
+59	hasProperty	あった	exist									
+59	Where	ダイニングテーブルの上座	Theravada of the dining table									
+40	How											
+59	then											
+60	対象文	男たちはレディー・ブラックンストールをオーク製の椅子に縛り付けた	The men were tied the Lady black down stall oak chair									
+60	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+60	Who	男たち	Men									
+60	hasPredicate	縛り付けた	tie									
+60	What	レディー・ブラックンストール	Lady Brackenstall									
+40	How	オーク製の椅子	Oak chair									
+60	then											
+61	対象文	レディー・ブラックンストールは動くことも声を立てることもできなかった	Lady Brackenstall did not can even make a voice to move									
+61	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+61	Who	レディー・ブラックンストール	Lady Brackenstall									
+61	hasProperty	できなかった	cannotDo									
+61	What	動くこと	moving									
+61	What	声を立てること	talking									
+61	because	48	48									
+62	対象文	サー・ユースタス・ブラックンストールが部屋に入ってきた	Sir Eustace Brackenstall came into the room									
+62	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+62	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+62	hasPredicate	入ってきた	enter									
+62	To	ダイニングルーム	dining room									
+62	then											
+63	対象文	年輩の男は火かき棒を取った	Elderly man took the poker									
+63	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+63	Who	年輩の男	Elderly man									
+63	hasPredicate	取った	take									
+63	What	火かき棒	Poker									
+63	How											
+63	then											
+64	対象文	年輩の男は横からサー・ユースタス・ブラックンストールに一撃を加えた	Elderly man has added a blow from the side to Sir Eustace Brackenstall									
+64	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+64	Who	年輩の男	Elderly man									
+64	hasPredicate	一撃を加えた	hit									
+64	What	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+64	How	横から	From the side									
+64	then											
+65	対象文	レディー・ブラックンストールは再び意識を失った	Lady Brackenstall lost consciousness again									
+65	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+65	Who	レディー・ブラックンストール	Lady Brackenstall									
+65	hasProperty	失った	lose									
+65	What	意識を	consciousness									
+65	then											
+66	対象文	男たちはサイドボードから銀製品を集めた	The men collected the silver products from sideboard									
+66	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+66	Who	男たち	Men									
+66	hasPredicate	集めた	collect									
+66	What	銀製品	Silver Products									
+66	Where	サイドボード	Sideboard									
+66	then											
+67	対象文	男たちはサイドボードからワインを取り出した	The men took out a wine from the sideboard									
+67	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+67	Who	男たち	Men									
+67	hasPredicate	取り出した	take									
+67	What	ワイン	wine									
+67	Where	サイドボード	Sideboard									
+67	then											
+68	対象文	男たちの内一人は年配であごひげがあった	One of the men had a beard in the elderly									
+68	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+68	Who	一人は	One person									
+68	hasPredicate	ある	have									
+68	What	あごひげ	beard									
+68	then											
+69	対象文	男たちの内二人は若くひげがない	There are no two people young beard of the men									
+69	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+69	Who	二人は	Two people									
+69	hasPredicate	ない	notHave									
+69	What	ひげ	Beard									
+69	then											
+70	対象文	男たちはレディー・ブラックンストールを縛ってあるか確認した	The men were sure it has tied the Lady Brackenstall									
+70	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+70	Who	男たち	Men									
+70	hasPredicate	確認した	confirm									
+70	What	60	60									
+70	then											
+71	対象文	男たちは窓を後ろ手に閉めた	The men closed the window behind him									
+71	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+71	Who	男たち	Men									
+71	hasPredicate	閉めた	close									
+71	What	窓	window									
+71	How	後ろ手に	Behind him									
+71	then											
+72	対象文	男たちは引き上げた	The men raised									
+72	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+72	Who	男たち	Men									
+72	hasProperty	引き上げた	free		#ORG:hasPredicate:pullUp							
+72	How											
+72	then											
+72	対象文	レディー・ブラックンストールは15分後口が自由になった	Lady Brackenstall became a free 15-minute aftertaste									
+72	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+72	Who	レディー・ブラックンストールの口	Mouth of Lady Brackenstall									
+72	hasProperty	自由になった	free									
+72	When	15分後	15 minutes after									
+72	then											
+73	対象文	レディー・ブラックンストールの叫び声をあげた	Screamed Lady Brackenstall									
+73	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+73	Who	レディー・ブラックンストール	Lady Brackenstall									
+73	hasPredicate	叫び声をあげた	scream									
+73	How											
+73	then											
+74	対象文	レディー・ブラックンストールの叫び声でテリーサが助けに来た	Theresa came to help in the screams of Lady Brackenstall									
+74	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+74	Who	テリーサ	Theresa									
+74	hasPredicate	助けに来た	help									
+74	How	73	73									
+74	then											
+75	対象文	男たちは家に入った	The men entered the house									
+75	情報源	テリーサの発言	Theresa remark									
+75	Who	男たち	Men									
+75	hasPredicate	入った	enter									
+75	What	家に	At home									
+75	then											
+76	対象文	テリーサは家に入る前の男たちを見た	Theresa saw the men before entering the house									
+76	情報源	テリーサの発言	Theresa remark									
+76	Who	テリーサ	Theresa									
+76	hasPredicate	見た	see									
+76	What	男たち	Men									
+76	When	75	75									
+76	then											
+77	対象文	サー・ユースタス・ブラックンストールはダイニングルーム中に血と脳みそをまき散らしていた	Sir Eustace Brackenstall had sprinkled the blood and brains in the dining room									
+77	情報源	テリーサの発言	Theresa remark									
+77	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+77	hasPredicate	まき散らしていた	sprinkle									
+77	Where	ダイニングルーム	dining room									
+77	What	サー・ユースタス・ブラックンストールの血	Blood of Sir Eustace Brackenstall									
+77	What	サー・ユースタス・ブラックンストールの脳みそ	Brains of Sir Eustace Brackenstall									
+77	then											
+78	対象文	サー・ユースタス・ブラックンストールはダイニングルームで倒れていた	Sir Eustace Brackenstall down was in the dining room									
+78	情報源	テリーサの発言	Theresa remark									
+78	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+78	hasPredicate	倒れていた	collapse									
+78	Where	ダイニングルーム	dining room									
+78	then											
+79	対象文	テリーサはサー・ユースタス・ブラックンストールを発見した	Theresa have found Sir Eustace Brackenstall									
+79	情報源	テリーサの発言	Theresa remark									
+79	Who	テリーサ	Theresa									
+79	hasPredicate	発見した	find									
+79	What	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+79	then											
+80	対象文	ドレスは血や脳みそで汚れた	Dress was stained with blood and brains									
+80	情報源	テリーサの発言	Theresa remark									
+80	Who	ドレス	dress									
+80	hasProperty	汚れた	dirty									
+80	Why	サー・ユースタス・ブラックンストールの血	Blood of Sir Eustace Brackenstall									
+80	Why	サー・ユースタス・ブラックンストールの脳みそ	Brains of Sir Eustace Brackenstall									
+80	then											
+81	対象文	レディー・ブラックンストールはテリーサとレディー・ブラックンストールの部屋に行き休みを取る	Lady Brackenstall take a break to go to the room of Theresa and Lady Brackenstall									
+81	情報源	テリーサの発言	Theresa remark									
+81	Who	レディー・ブラックンストール	Lady Brackenstall									
+81	Who	テリーサ	Theresa									
+81	hasPredicate	取る	take									
+81	Where	レディー・ブラックンストールの部屋	Lady Black down the stall of the room									
+81	What	休み	rest									
+81	then											
+82	対象文	レディー・ブラックンストールが赤ん坊だった	Lady Brackenstall was a baby									
+82	情報源											
+82	Who	レディー・ブラックンストール	Lady Brackenstall									
+82	hasPredicate	赤ん坊だった	baby									
+82	When											
+82	then											
+83	対象文	テリーサはレディー・ブラックンストールが赤ん坊の頃から仕えている	Theresa Lady Brackenstall has served since I was a baby									
+83	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+83	Who	テリーサ	Theresa									
+83	hasPredicate	仕えている	serve									
+83	When	82	82									
+83	then											
+84	対象文	事件の魅力が謎と共に去った	Charm of the incident has left with the mystery									
+84	情報源											
+84	Who	事件の魅力	Charm of the incident									
+84	Who	謎	The mystery									
+84	hasProperty	去った	lose		#ORG:hasProperty:leave							
+84	What											
+84	Why											
+84	then											
+84	対象文	ホームズは強い関心をなくした	Holmes lost a strong interest									
+84	情報源	ワトソンの考え	Thinking of Watson									
+84	Who	ホームズ	Holmes									
+84	hasProperty	なくした	lose									
+84	What	強い関心	Strong interest									
+84	Why	84	84									
+84	then											
+85	対象文	ホームズの目が腹立たしさを感じている	"		
+Holmes' eyes are angry"									
+85	情報源	ワトソンの考え	Thinking of Watson									
+85	Who	ホームズの目	Holmes's eyes									
+85	hasPredicate	感じている	angry									
+85	What	腹立たしさ										
+85	then											
+86	対象文	ホームズはアビ屋敷のダイニングルームを見た	Holmes saw the dining room of Abbey Grange									
+86	情報源											
+86	Who	ホームズ	Holmes									
+86	hasProperty	見た	see									
+86	Why											
+86	then											
+87	対象文	ホームズはアビ屋敷のダイニングルームを見て興味を呼び戻した	Holmes recalled interested to see the dining room of Abbey Grange									
+87	情報源											
+87	Who	ホームズ	Holmes									
+87	hasProperty	呼び戻した	regain									
+87	When	86	86									
+87	What	興味	Interest									
+87	then											
+88	対象文	ダイニングルームのドアの反対側の端に高いフランス窓があった	There was a high French windows on the opposite side of the end of the dining room of the door									
+88	情報源	ワトソンの発言	Remarks Watson									
+88	Who	高いフランス窓	High French windows									
+88	hasProperty	あった	exist									
+88	Where	ダイニングルーム	dining room									
+88	Opposite	ドア	door									
+88	then											
+89	対象文	ドアの右側には小さい3つの窓があった	There were three windows small on the right side of the door									
+89	情報源	ワトソンの発言	Remarks Watson									
+89	Who	小さい3つの窓	Small three windows									
+89	hasPredicate	あった	exist									
+89	Right	ドア	door									
+89	then											
+90	対象文	ドアの左側には大きな奥行のある暖炉、張り出したマントルピースがあった	"The left door was fireplace with large depth, overhanging mantel is"									
+90	情報源	ワトソンの発言	Remarks Watson									
+90	Who	大きな奥行のある暖炉	Fireplace with a large depth									
+90	Who	張り出したマントルピース	Overhanging mantel									
+90	hasPredicate	あった	exist									
+90	Left	ドア	door									
+90	then											
+91	対象文	暖炉のそばに肘掛と底部に筋交いのある思いオークの椅子がある	There is a chair thoughts oak with a brace in the armrest and the bottom near the fireplace									
+91	情報源	ワトソンの発言	Remarks Watson									
+91	Who	オークの椅子	Oak chair of									
+91	Who	肘掛	Armrest									
+91	hasPredicate	ある	exist									
+91	Near	暖炉	fireplace									
+91	then											
+92	対象文	木製品の隙間に真紅の紐が編まれている	Crimson cord is woven into the gap of wood products									
+92	情報源	ワトソンの発言	Remarks Watson									
+92	Who	真紅の紐	Crimson string									
+92	hasPredicate	編まれている	exist									
+92	Where	木製品の隙間	Gap of wood products									
+92	then											
+93	対象文	真紅の紐の両端は下の斜めの棒に固定されていた	Ends of crimson cord was fixed at an angle bar below									
+93	情報源	ワトソンの発言	Remarks Watson									
+93	Who	真紅の紐の両端	Both ends of crimson string									
+93	hasProperty	固定されていた	beFixed									
+93	Under	オークの椅子	Oak chair									
+93	then											
+94	対象文	結び目は真紅の紐を固定していた	Knot had fixed the crimson of string									
+94	情報源	ワトソンの発言	Remarks Watson									
+94	Who	結び目	knot									
+94	hasPredicate	固定していた	beFixed									
+94	What	真紅の紐	Crimson string									
+94	then											
+95	対象文	結び目は残っていた	Knot was left									
+95	情報源	ワトソンの発言	Remarks Watson									
+95	Who	結び目	knot									
+95	hasPredicate	残っていた	find		#ORG:hasPredicate:leave							
+95	What											
+95	then											
+95	対象文	ホームズとワトソンは暖炉の前の敷物の上に横たわる死体を発見した	Holmes and Watson found the corpse lying on top of the front of the rug fireplace									
+95	情報源	ワトソンの発言	Remarks Watson									
+95	Who	ホームズ	Holmes									
+95	Who	ワトソン	Watson									
+95	hasPredicate	発見した	find									
+95	Where	暖炉の前	Front of the fireplace									
+95	On	敷物	Rugs									
+95	What	死体	cadaver									
+95	then											
+96	対象文	死体は40歳ほどだった	The corpse was about 40 years old									
+96	情報源	ワトソンの発言	Remarks Watson									
+96	Who	死体	cadaver									
+96	hasProperty	40歳ほど	About 40-year-old									
+96	What	40歳ほど										
+96	then											
+97	対象文	死体は長身だった	Corpse was tall									
+97	情報源	ワトソンの発言	Remarks Watson									
+97	Who	死体	cadaver									
+97	hasProperty	長身	tall									
+97	What	長身										
+97	then											
+98	対象文	死体はがっしりした男だった	Corpse was a beefy man									
+98	情報源	ワトソンの発言	Remarks Watson									
+98	Who	死体	cadaver									
+98	hasProperty	がっしりした男	Beefy man									
+98	What	がっしりした男										
+98	then											
+99	対象文	死体は仰向けに倒れていた	Corpse was lying on his back									
+99	情報源	ワトソンの発言	Remarks Watson									
+99	Who	死体	cadaver									
+99	hasPredicate	倒れていた	collapse									
+99	How	仰向けに	On his back									
+99	then											
+100	対象文	死体は顔を上に向けていた	Corpse had been facing up to face									
+100	情報源	ワトソンの発言	Remarks Watson									
+100	Who	死体	cadaver									
+100	hasPredicate	向けていた	direct									
+100	What	顔	face									
+100	How	上	Up									
+100	then											
+101	対象文	死体は短く黒いあごひげの間から白い歯をむき出していた	Corpse had bare white teeth from between the black short beard									
+101	情報源	ワトソンの発言	Remarks Watson									
+101	Who	死体	cadaver									
+101	hasPredicate	むき出していた	expose									
+101	What	白い歯	White teeth									
+101	then											
+102	対象文	死体のこぶしを固めた両手は頭の上にあげられていた	Both hands hardened fist of the corpse had been raised on top of the head									
+102	情報源	ワトソンの発言	Remarks Watson									
+102	Who	両手	both hands									
+102	hasPredicate	あげられていた	raise									
+102	Where	頭の上	Over my head									
+102	then											
+103	対象文	両手には重いリンボクのステッキがまたがっていた	It was across the stick of heavy Rinboku in both hands									
+103	情報源	ワトソンの発言	Remarks Watson									
+103	Who	両手	both hands									
+103	hasPredicate	またがっていた	across									
+103	What	重いリンボクのステッキ	Heavy Rinboku of cane									
+103	then											
+104	対象文	死体の顔立ちはゆがんで敵意あらわな憎悪に引きつっていた	Facial features of the corpse had cramp pull it distorted hostility reveal hatred									
+104	情報源	ワトソンの発言	Remarks Watson									
+104	Who	死体の顔立ち	Facial features of the corpse									
+104	hasProperty	引きつっていた	haveCramp									
+104	How											
+104	then											
+105	対象文	死体の顔立ちは恐ろしい鬼のような死に顔をしていた	Facial features of the corpse had a Shinigao such as the horrible demon									
+105	情報源	ワトソンの発言	Remarks Watson									
+105	Who	死体の顔立ち	Facial features of the corpse									
+105	hasProperty	していた	like									
+105	What	恐ろしい鬼のような死に顔	scary demon									
+105	then											
+106	対象文	警鐘が鳴った	Alarm bells rang									
+106	情報源											
+106	Who	警報	alarm									
+106	hasProperty	鳴った	ring									
+106	When											
+106	then											
+107	対象文	サー・ユースタス・ブラックンストールは寝ていた	Sir Eustace Brackenstall was sleeping									
+107	情報源	ワトソンの考え	Thinking of Watson									
+107	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+107	hasProperty	寝ていた	wear		#ORG:hasProperty:sleep							
+107	When	106	106									
+107	then											
+107	対象文	サー・ユースタス・ブラックンストールは寝巻きを着ていた	Sir Eustace Brackenstall was wearing a winding sleeping									
+107	情報源	ワトソンの考え	Thinking of Watson									
+107	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+107	hasProperty	寝巻きを着ていた	wear									
+107	What		pajama									
+107	When	106	106									
+107	then											
+108	対象文	サー・ユースタス・ブラックンストールは裸足だった	Sir Eustace Brackenstall was barefoot									
+108	情報源	ワトソンの考え	Thinking of Watson									
+108	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+108	hasProperty	裸足だった	barefoot									
+108	When	106	106									
+108	then											
+109	対象文	サー・ユースタス・ブラックンストールは頭にひどい怪我をしていた	Sir Eustace Brackenstall had a terrible injury to the head									
+109	情報源	ワトソンの発言	Remarks Watson									
+109	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+109	hasPredicate	していた	have									
+109	What	ひどい怪我	Severe injury									
+109	Where	頭	Head									
+109	then											
+110	対象文	部屋全体が残忍な性格を証言していた	The entire room had testified brutal personality									
+110	情報源	ワトソンの考え	Thinking of Watson									
+110	Who	部屋全体	The entire room									
+110	hasPredicate	証言していた	testify									
+110	What	犯人の残忍な性格	Brutal character of the offender									
+110	then											
+111	対象文	サー・ユースタス・ブラックンストールのそばに湾曲した重い火かき棒が転がっていた。	Heavy poker that is curved near the Sir Eustace Brackenstall had lying around.									
+111	情報源	ワトソンの発言	Remarks Watson									
+111	Who	湾曲した重い火かき棒	Heavy poker curved									
+111	hasPredicate	転がっていた	exist									
+111	Near	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+111	then											
+112	対象文	ランダル老人は力の強い男	Randall old man strong force man									
+112	情報源	ホームズの発言	Holmes remark									
+112	Who	ランダル老人	Randall old man									
+112	hasProperty	力が強い	strong									
+112	What											
+112	then											
+113	対象文	レディー・ブラックンストールは人相を言わなかった	Lady Brackenstall did not say the physiognomy									
+113	情報源	ホームズ	Holmes									
+113	Who	レディー・ブラックンストール	Lady Brackenstall									
+113	hasPredicate	言わなかった	notSay									
+113	What	犯人の人相	Physiognomy of criminal									
+113	then											
+114	対象文	犯人はサー・ユースタス・ブラックンストールを黙らせた	The culprit was silenced Sir Eustace Brackenstall									
+114	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+114	Who	男たち	Men									
+114	hasPredicate	黙らせた	silence									
+114	What	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+114	How											
+114	then											
+115	対象文	犯人はレディー・ブラックンストールをサー・ユースタス・ブラックンストールのように黙らせなかった	The criminal did not silence the Lady black down stall as Sir Eustace Brackenstall									
+115	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+115	Who	男たち	Men									
+115	hasPredicate	黙らせなかった	notSilence									
+115	What	レディー・ブラックンストール	Lady Brackenstall									
+115	How	114	114									
+115	then											
+116	対象文	男たちはレディー・ブラックンストールが気絶から回復したことに気づかなかった	The men did not notice that the Lady black down stall has recovered from swoon									
+116	情報源	ホームズの発言	Holmes remark									
+116	Who	男たち	Men									
+116	hasPredicate	気づかなかった	notNotice									
+116	What	レディー・ブラックンストールの回復	Recovery of Lady Brackenstall									
+116	then											
+117	対象文	人間の意識がない	There is no human consciousness									
+117	情報源											
+117	Who	人間	Human beings									
+117	hasPredicate	ない	lose									
+117	What	意識	Consciousness									
+117	then											
+118	対象文	男たちは意識がない人の命は取らなかった	The men did not take the life of consciousness there is no person									
+118	情報源	ホームズの発言	Holmes remark									
+118	Who	犯人	Criminal									
+118	hasPredicate	命を取らなかった	notKill									
+118	What	命										
+118	because	117	117									
+119	対象文	サー・ユースタス・ブラックンストールはしらふの時は優しい	Sir Eustace Brackenstall is friendly when sober									
+119	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+119	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+119	hasProperty	優しい	friendly									
+119	When	しらふの時	sober									
+119	then											
+120	対象文	サー・ユースタス・ブラックンストールは酔っぱらっている	Sir Eustace Brackenstall is drunk									
+120	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+120	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+120	hasProperty	酔っぱらっている	drunk									
+120	When											
+120	then											
+121	対象文	サー・ユースタス・ブラックンストールは酔っ払い加減の時は鬼のようだった	Sir Eustace Brackenstall when drunk acceleration was like a demon									
+121	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+121	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+121	hasProperty	鬼のようだった	like									
+121	What		demon									
+121	When	120	120									
+121	then											
+122	対象文	サー・ユースタス・ブラックンストールは一度や二度警察の世話になるところだった	Sir Eustace Brackenstall was about to be taken care of at one time or another police									
+122	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+122	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+122	hasPredicate	なるところだった	It was made at	?								
+122	What	警察の世話	Take care of the police	?								
+122	because	95	95									
+123	対象文	サー・ユースタス・ブラックンストールはレディー・ブラックンストールの犬に石油をかけた	Sir Eustace Brackenstall multiplied by the oil to the Lady Brackenstall dog									
+123	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+123	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+123	hasPredicate	かけた	put									
+123	What	石油	oil									
+123	To	レディー・ブラックンストールの犬	Lady Brackenstall dog									
+123	How											
+123	then											
+124	対象文	サー・ユースタス・ブラックンストールはレディー・ブラックンストールの犬に石油をかけ火をつけた	Sir Eustace Brackenstall lit the fire over the oil to the Lady Brackenstall dog									
+124	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+124	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+124	hasPredicate	火をつける	fire									
+124	What	レディー・ブラックンストールの犬	Lady Brackenstall dog									
+124	How											
+124	then	122	122									
+125	対象文	サー・ユースタス・ブラックンストールはテリーサにデカンターを投げつけた	Sir Eustace Brackenstall threw a decanter to Theresa									
+125	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+125	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+125	hasPredicate	投げつけた	throw									
+125	What	デカンター	decanter									
+125	To	テリーサ	Theresa									
+125	then											
+126	対象文	レディー・ブラックンストールは赤い紐で縛られていた	Lady Brackenstall had been tied with a red string									
+126	情報源											
+126	Who	レディー・ブラックンストール	Lady Brackenstall									
+126	hasPredicate	縛られていた	beTied									
+126	What	赤い紐	Red string									
+126	then											
+127	対象文	ホームズはレディー・ブラックンストールが括り付けられていた赤い紐の結び目を注意深く調べた	Holmes was examined carefully the knot of red string that Lady Brackenstall has been tied									
+127	情報源											
+127	Who	ホームズ	Holmes									
+127	hasPredicate	調べた	examine									
+127	What	赤い紐の結び目	Knot of red string									
+127	then											
+128	対象文	ホームズはちぎれほつれた端を慎重に検査した	Holmes was carefully inspecting the end frayed torn									
+128	情報源											
+128	Who	ホームズ	Holmes									
+128	hasPredicate	検査した	examine									
+128	What	ほつれた端	Frayed end									
+128	then											
+129	対象文	強盗は赤い紐を引き下ろした	The robber pulled down a red string									
+129	情報源	ホームズの考え	Holmes thought									
+129	Who	強盗	robbery									
+129	hasPredicate	引き下ろした	pullDown									
+129	What	赤い紐	Red string									
+129	then											
+130	対象文	赤い紐が引き下ろしたとき調理場のベルが鳴ったに違いない	It must have rang the kitchen of the bell when the red string drawn down									
+130	情報源	ホームズの考え	Holmes thought									
+130	Who	ベル	Bell									
+130	hasPredicate	鳴った	ring									
+130	When	129	129									
+130	then											
+131	対象文	ベルの音は誰にも聞こえなかった	The sound of the bell did not hear anyone									
+131	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+131	Who	ベルの音	The sound of the bell									
+131	hasPredicate	聞こえなかった	notHear									
+131	Why	40	40									
+131	then											
+132	対象文	犯人はこの家と習慣を知っていた	Criminal knew this house and customs									
+132	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+132	Who	犯人	Criminal									
+132	hasPredicate	知っていた	know									
+132	What	この家と習慣	This house and customs									
+132	then											
+133	対象文	召使は比較的早い時間に休む	Servant rest at a relatively early time									
+133	情報源											
+133	Who	召使	Menial									
+133	hasPredicate	休む	rest									
+133	When	比較的早い時間	Relatively early time									
+133	then											
+134	対象文	調理場のベルが鳴っても誰にも聞こえない	Not hear anyone even kitchen bell rang									
+134	情報源											
+134	Who	調理場のベル	Kitchen of Bell									
+134	hasPredicate	聞こえない	notHear									
+134	What											
+134	then											
+135	対象文	犯人は召使の一人と結託している	The culprit has been collusion with one of the servants									
+135	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+135	Who	犯人	Criminal									
+135	Who	召使	Menial									
+135	hasPredicate	結託している	gangUp									
+135	What											
+135	then											
+136	対象文	八人の召使は申し分ない	The eight servants are Impeccable									
+136	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+136	Who	八人の召使	eight servants									
+136	hasProperty	申し分ない	Impeccable									
+136	What											
+136	then											
+137	対象文	サー・ユースタス・ブラックンストールにデカンターを投げつけられたテリーサが疑わしい	Theresa is doubtful that has been threw a decanter to Sir Eustace Brackenstall									
+137	情報源	ホームズの考え	Holmes thought									
+137	Who	テリーサ	Theresa									
+137	hasPredicate	疑わしい	doubtful									
+137	Why	125	125									
+137	then											
+138	対象文	事件時マントルピースのろうそくがついていた	It was on the candle of incident during the mantelpiece									
+138	情報源	スタンリィ・ホプキンス	Stanley Hopkins									
+138	Who	ろうそく	The candle									
+138	hasPredicate	ついていた	lighten									
+138	Why	11時過ぎ	11 o'clock									
+138	then											
+139	対象文	レディー・ブラックンストールは寝室のろうそくを持っていた	Lady Brackenstall had a candle in the bedroom									
+139	情報源	レディー・ブラックンストール	Lady Brackenstall									
+139	Who	レディー・ブラックンストール	Lady Brackenstall									
+139	hasPredicate	持っていた	have									
+139	What	ろうそく	The candle									
+139	When	49	49									
+139	then											
+140	対象文	犯人はマントルピースのろうそくと寝室用のろうそくで勝手がわかった	The culprit was found freely in candles for the candle and the bedroom mantelpiece									
+140	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+140	Who	犯人	Criminal									
+140	hasPredicate	勝手がわかった	familiar									
+140	How											
+140	because	138	138									
+140	because	139	139									
+141	対象文	犯人はサイドボードから皿を六点盗った	Criminal took six points the dish from the sideboard									
+141	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+141	Who	犯人	Criminal									
+141	hasPredicate	盗った	steal									
+141	What	皿を六点	Six-point the dish									
+141	Where	サイドボード	Sideboard									
+141	then											
+142	対象文	男たちはサー・ユースタス・ブラックンストールの死に動揺した	The men were upset in the death of Sir Eustace Brackenstall									
+142	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+142	Who	男たち	Men									
+142	hasPredicate	動揺した	Upset									
+142	Why											
+142	then											
+143	対象文	男たちはあまりあさり回らなかった	The men were not from turning too much clams									
+143	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+143	Who	男たち	Men									
+143	hasPredicate	あまりあさり回らなかった	notExamine									
+143	Why	142	142									
+143	then											
+144	対象文	犯人は神経を落ち着かせるためにワインをいくらか飲んだ	Criminal's some drinking wine in order to soothe the nerves									
+144	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+144	Who	男たち	Men									
+144	hasPredicate	飲んだ	drink									
+144	What	ワイン	wine									
+144	Why	神経を落ち着かせる	Soothe the nerves									
+144	then											
+145	対象文	三つのグラスがかたまって置かれそのすべてにワインの色がついていた	The color of the wine in all its placed in three of the glass is clustered was on									
+145	情報源											
+145	Who	三つのグラス	Three of glass									
+145	hasProperty	ついていた	beColored									
+145	What	ワインの色	The color of wine									
+145	then											
+146	対象文	ひとつのグラスにはオリのカスがいくらか入っていた	Dregs of the dregs had some went to one of the glass									
+146	情報源											
+146	Who	ひとつのグラス	One of the glass									
+146	hasProperty	入っていた	have									
+146	What	オリのカス	dregs									
+146	then											
+147	対象文	三つのグラスの近くに三分の二ほど入った瓶が立っている	Containing bottle is standing about two-thirds in the vicinity of the three glass									
+147	情報源											
+147	Who	三分の二ほど入った瓶	Bottle containing about two-thirds									
+147	hasPredicate	立っている	stand									
+147	What											
+147	Near	三つのグラス	Three of glass									
+147	then											
+148	対象文	瓶のそばに長い、濃く染まったコルクがあった	"Long near the bottle, there was a dyed dark cork"									
+148	情報源											
+148	Who	濃く染まったコルク	Dark stained cork									
+148	hasPredicate	あった	exist									
+148	Near	瓶	bottle									
+148	then											
+149	対象文	ワインは外観と瓶の上のほこりから並みのヴィンテージではない	Wine is not a vintage moderate from the dust on the appearance and bottle									
+149	情報源	ワトソンの考え	Thinking of Watson									
+149	Who	ワイン	wine									
+149	hasProperty	ではない	notEqualTo									
+149	Why	外観と瓶の上のほこり	Dust on the appearance and bottle									
+149	What	並みのヴィンテージ	moderate Vintage									
+149	then											
+150	対象文	レディー・ブラックンストールはワインが開けられたとき意識を失っていた	Lady Brackenstall had lost consciousness when the wine is opened									
+150	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+150	Who	レディー・ブラックンストール	Lady Brackenstall									
+150	hasProperty	意識を失っていた	lose consciousness									
+150	When	144	144									
+150	then											
+151	対象文	栓抜きはコルクを抜き取るため3回打ち込まれた	Bottle opener was driven three times in order to extract the cork									
+151	情報源	ホームズ	Holmes									
+151	Who	栓抜き	bottle opener									
+151	hasPredicate	打ち込まれた	beHit									
+151	What	コルク	cork									
+151	because	三回	Three times									
+152	対象文	瓶を開けたのは大きなコルク抜きではなく携帯用の栓抜きだった	Had opened the bottle was a bottle opener portable rather than a big corkscrew									
+152	情報源	ホームズの考え	Holmes thought									
+152	Who	瓶を開けた物	Those that opened the bottle									
+152	hasPredicate	だった	equalTo									
+152	What	携帯用の栓抜き	Bottle opener for mobile									
+152	Why	151	151									
+152	then											
+153	対象文	犯人は万能ナイフを持っている	The criminal has a utility knife									
+153	情報源	ホームズの考え	Holmes thought									
+153	Who	犯人	Criminal									
+153	hasPredicate	持っている	have									
+153	What	万能ナイフ	All-purpose knife									
+153	then											
+154	対象文	レディー・ブラックンストールは確かに男たちが飲むところを見た	Lady Brackenstall saw the place that certainly men drink									
+154	情報源	スタンリィ・ホプキンス	Stanley Hopkins									
+154	Who	レディー・ブラックンストール	Lady Brackenstall									
+154	hasPredicate	見た	see									
+154	What	144	144									
+154	then											
+155	対象文	ランダルが逮捕され進展があればホームズに知らせてほしい	Randall is let me know in Holmes if there is progress being arrested									
+155	情報源	ホームズの発言	Holmes remark									
+155	Who	ホームズ	Holmes									
+155	hasPredicate	知らせてほしい	wantToInform									
+155	What	事件の進展	Progress of the case									
+155	then											
+156	対象文	帰途につき、ホームズはひどく悩んでいた	"Way back per, Holmes was suffering badly"									
+156	情報源	ワトソンの考え	Thinking of Watson									
+156	Who	ホームズ	Holmes									
+156	hasProperty	ひどく悩んでいた	suffer									
+156	When	帰途についている	Are Quito									
+156	then											
+157	対象文	ホームズの思いが再びアビ屋敷のダイニングルームへと戻った	Holmes thought has returned to again Abbey Grange of the dining room									
+157	情報源	ワトソンの考え	Thinking of Watson									
+157	Who	ホームズの思い	Holmes thought									
+157	hasPredicate	戻った	return									
+157	What	アビ屋敷のダイニングルーム	Dining room of Abbey Grange									
+157	then											
+158	対象文	ホームズは列車からホームに飛び降りた	Holmes jumped from the train to the home									
+158	情報源											
+158	Who	ホームズ	Holmes									
+158	hasPredicate	飛び降りた	jump									
+158	Where	ホーム	home									
+158	then											
+159	対象文	ホームズはワトソンを引っ張り出した	Holmes pulled Watson									
+159	情報源											
+159	Who	ホームズ	Holmes									
+159	hasPredicate	引っ張り出した	drag									
+159	What	ワトソン	Watson									
+159	then											
+160	対象文	レディー・ブラックンストールの話は完璧	Story of Lady Brackenstall perfection									
+160	情報源	ホームズの考え	Holmes thought									
+160	Who	レディー・ブラックンストールの話	Story of Lady Brackenstall									
+160	hasProperty	完璧	perfect									
+160	What											
+160	then											
+161	対象文	テリーサの裏書は十分	Endorsement of Theresa is enough									
+161	情報源	ホームズの考え	Holmes thought									
+161	Who	テリーサの裏書	Endorsement of Theresa									
+161	hasProperty	十分	sufficient									
+161	What											
+161	then											
+162	対象文	みんな間違っている	We all wrong									
+162	情報源	ホームズの考え	Holmes thought									
+162	Who	みんな	everything									
+162	hasProperty	間違っている	wrong									
+162	What											
+162	then											
+163	対象文	テリーサやレディー・ブラックンストールの言うことは真実である	Is the truth be said of Theresa and Lady Brackenstall									
+163	情報源											
+163	Who	テリーサ	Theresa									
+163	Who	レディー・ブラックンストール	Lady Brackenstall									
+163	hasProperty	真実だ	truth									
+163	What											
+163	then											
+164	対象文	テリーサやレディー・ブラックンストールの言うことは真実であるという考えを頭から払いのける必要がある	It is necessary to dispel from my head the idea that what you say Theresa and Lady Brackenstall is true									
+164	情報源	ホームズの考え	Holmes thought									
+164	Who	言うこと	saying									
+164	hasPredicate	頭から払いのける	dispel									
+164	What	163	163									
+164	then											
+165	対象文	ルイシャムの夜盗団は2週間前シドナムで相当の獲物を獲た	Burglary team of Lewisham has caught the prey of the equivalent in the previous two weeks Sydenham									
+165	情報源											
+165	Who	ルイシャムの夜盗団	Burglary team of Lewisham									
+165	hasPredicate	獲た	get									
+165	What	相当な獲物	Substantial prey									
+165	When	2週間前	2 weeks ago									
+165	Where	シドナム	Sydenham									
+165	then											
+166	対象文	ルイシャムの夜盗団やその風体についての記事が新聞に載った	Burglary team and the appearance of Lewisham is placed on the newspaper									
+166	情報源											
+166	Who	ルイシャムの夜盗団	Burglary team of Lewisham									
+166	Who	その風体	appearance									
+166	hasProperty	載った	run									
+166	How	新聞	newspaper									
+166	then											
+167	対象文	架空の泥棒が役割を演じている	Fictional thief plays a role									
+167	情報源	ホームズの考え	Holmes thought									
+167	Who	架空の泥棒	Fictional thief									
+167	hasPredicate	演じている	play									
+167	What	ルイシャムの夜盗団	Burglary team of Lewisham									
+167	then											
+168	対象文	架空の泥棒が役割を演じる話をでっち上げられる	It is concocted a story that fictional thief plays a role	?								
+168	情報源	ホームズの考え	Holmes thought									
+168	Who	レディー・ブラックンストール	Lady Brackenstall									
+168	hasPredicate	でっち上げられる	beHoax									
+168	What	167	167									
+168	then											
+169	対象文	夜盗団は普通うまく一働きしたら喜んで静かに上がりを楽しむ	Burglary team quietly enjoy the rise pleased When you are usually well one work									
+169	情報源	ホームズの考え	Holmes thought									
+169	Who	夜盗団	Burglary team									
+169	hasProperty	楽しむ	enjoy									
+169	What	仕事のできを	A can of work									
+169	then											
+170	対象文	夜盗団がそんなに早い時間に仕事をするのは異常	Abnormalities of burglary team to work so early time									
+170	情報源	ホームズの考え	Holmes thought									
+170	Who	夜盗団	Burglary team									
+170	hasProperty	異常	Abnormality									
+170	Why	時間が早いため	Because of the early time									
+170	then											
+171	対象文	レディー・ブラックンストールが叫び声をあげるのを防ぐために殴るのも異常	Also abnormal to hit for Lady Brackenstall prevent the screaming									
+171	情報源	ホームズの考え	Holmes thought									
+171	Who	夜盗	Burglary team									
+171	hasProperty	異常	Abnormality									
+171	Why											
+171	because	172	172									
+172	対象文	殴られるとむしろ叫ぶ	Shout but rather when beaten									
+172	情報源	ホームズの考え	Holmes thought									
+172	Who	レディー・ブラックンストール	Lady Brackenstall									
+172	hasProperty	叫ぶ	shout									
+172	Why											
+172	then											
+173	対象文	ルイシャム夜盗団は三人いる	Lewisham burglary team are three people									
+173	情報源	ホームズの考え	Holmes thought									
+173	Who	ルイシャム夜盗団	Lewisham burglary team									
+173	hasProperty	三人いる	three people									
+173	Why											
+173	then											
+174	対象文	男一人を抑え込むためだけに人を殺すことは異常	Abnormalities to kill people just to stifle one person man									
+174	情報源	ホームズの考え	Holmes thought									
+174	Who	夜盗	Burglary team									
+174	hasProperty	異常	Abnormality									
+174	Why											
+174	because	173	173									
+175	対象文	夜盗がまだたくさんのものに手が届くのに略奪を甘んじるのは異常	Burglary of the settle the still looting to gain access to the things of a lot of abnormal									
+175	情報源	ホームズの考え	Holmes thought									
+175	Who	夜盗	Burglary team									
+175	hasProperty	異常	Abnormality									
+175	Why											
+175	because	143	143									
+176	対象文	ボトルを半分残すのは異常	Abnormal leave a bottle half									
+176	情報源	ホームズの考え	Holmes thought									
+176	Who	夜盗	Burglary team									
+176	hasPredicate	異常	Abnormality									
+176	Why											
+176	because	147	147									
+177	対象文	レディー・ブラックンストールが椅子に縛り付けられていたことのほうが異常	Abnormal more of that Lady Brackenstall has been tied to a chair									
+177	情報源	ワトソンの考え	Thinking of Watson									
+177	Who	レディー・ブラックンストール	Lady Brackenstall									
+177	hasProperty	異常	Abnormality									
+177	Why	60	60									
+177	then											
+178	対象文	レディー・ブラックンストールはルイシャム夜盗団を通報する	Lady Brackenstall to Problem with Lewisham burglary team									
+178	情報源	ホームズの考え	Holmes thought									
+178	Who	レディー・ブラックンストール	Lady Brackenstall									
+178	hasPredicate	通報する	report									
+178	What	ルイシャム夜盗団	Lewisham burglary team									
+178	then											
+179	対象文	レディー・ブラックンストールを殺すか動けなくする必要があった	It was necessary to immobilize or kill the Lady Brackenstall									
+179	情報源	ホームズの考え	Holmes thought									
+179	Who	ルイシャムの夜盗団	Lewisham Burglary team									
+179	hasProperty	必要がある	need									
+179	What	殺す	kill									
+179	What	動けなくする	To get stuck									
+179	Why											
+179	because	178	178									
+180	対象文	瓶はいっぱいで最初の二つのワイングラスがきれい	The first two of wine glass is clean with a bottle full									
+180	情報源											
+180	Who	二つのワイングラス	Two of the wine glass									
+180	hasProperty	きれい	beautiful									
+180	What											
+180	then											
+181	対象文	三つ目のワイングラスにオリがいっぱい入っていた	dregs in the third of the wine glasses were full entered									
+181	情報源											
+181	Who	三つ目のワイングラス	Wine glass of third									
+181	hasPredicate	入っていた	exist									
+181	What	オリ	dreg									
+181	How	いっぱい	full									
+181	then											
+182	対象文	犯人は二つ目のグラスを満たした	Criminal filled the second of glass									
+182	情報源	ホームズの考え	Holmes thought									
+182	Who	犯人	Criminal									
+182	hasPredicate	満たした	full									
+182	What											
+182	then											
+183	対象文	二つ目のグラスを満たしてから瓶を激しく振った	It shook violently the bottle from meet the second of glass									
+183	情報源	ホームズの考え	Holmes thought									
+183	Who	瓶	bottle									
+183	hasPredicate	激しく振った	shake									
+183	When	182	182									
+183	then											
+184	対象文	グラスは二つだけ使われそれぞれのカスが三つ目のグラスに注がれた	Glass each of the grounds used only two have been poured into the third of glass									
+184	情報源	ホームズの考え	Holmes thought									
+184	Who	三つ目のグラス	Glass of third									
+184	hasPredicate	注がれた	pour									
+184	What	それぞれのカス	Each of dregs									
+184	Why	三人の人物がそこにいたという誤った印象を与えるため	In order to give the false impression that pain in three people of person there									
+184	then											
+185	対象文	犯人は三人の人物がそこにいたという印象を与えた	Criminal gave the impression that pain there are three persons									
+185	情報源	ホームズの考え	Holmes thought									
+185	Who	犯人	Criminal									
+185	hasPredicate	与えた	give									
+185	What	印象	impression									
+185	then											
+186	対象文	レディー・ブラックンストールとテリーサは故意にホームズとワトソンに嘘をついた	Lady Brackenstall and Theresa lied to Holmes and Watson intentionally									
+186	情報源	ホームズ	Holmes									
+186	Who	レディー・ブラックンストール	Lady Brackenstall									
+186	Who	テリーサ	Theresa									
+186	hasPredicate	嘘をついた	lie									
+186	What											
+186	then											
+187	対象文	レディー・ブラックンストールとテリーサの話は一言として信じられない	Story of Lady Brackenstall and Theresa can not believe as word									
+187	情報源											
+187	Who	レディー・ブラックンストール	Lady Brackenstall									
+187	Who	テリーサ	Theresa									
+187	hasProperty	信じられない	Incredible									
+187	What											
+187	then											
+188	対象文	ホームズとワトソンはアビ屋敷に戻ってきた	Holmes and Watson came back to Abbey Grange									
+188	情報源											
+188	Who	ホームズ	Holmes									
+188	Who	ワトソン	Watson									
+188	hasPredicate	戻ってきた	return									
+188	Where	アビ屋敷	Abbey Grange									
+188	then											
+189	対象文	アビ屋敷の住人はホームズとワトソンが戻ってきたことにひどく驚いた	Abbey Grange of residents was badly surprised that Holmes and Watson are back									
+189	情報源											
+189	Who	アビ屋敷の住人	Residents of Abbey Grange									
+189	hasProperty	ひどく驚いた	surprise									
+189	What	188	188									
+189	then											
+190	対象文	ホームズはダイニングルームを占領し二時間調査に専心した	Holmes was committed to the occupation and two hours investigating the dining room									
+190	情報源											
+190	Who	ホームズ	Holmes									
+190	hasPredicate	調査に専心した	examine									
+190	Where	ダイニングルーム	dining room									
+190	then											
+191	対象文	ホームズはがっしりしたマントルピースの上に上った	Holmes went up on top of the massive mantel									
+191	情報源											
+191	Who	ホームズ	Holmes									
+191	hasPredicate	上った	goUp									
+191	On	マントルピース	Mantelpiece									
+191	Where	ダイニングルーム	dining room									
+191	then											
+192	対象文	ホームズは針金についている赤い紐に近寄りたい	Holmes wants to approach the red string that is attached to the wire									
+192	情報源											
+192	Who	ホームズ	Holmes									
+192	hasPredicate	近寄りたい	approach									
+192	What	赤い紐	Red string									
+192	Where											
+192	then											
+193	対象文	針金についている赤い紐に近寄るためランプを取り付ける壁の木製のブラケットにひざを乗せた	Carrying a knee on the walls of the wooden bracket to mount the lamp in order to come close to the red string that is attached to the wire									
+193	情報源											
+193	Who	ホームズ	Holmes									
+193	hasPredicate	乗せた	put									
+193	Where	ひざ	Knee									
+193	What	木製のブランケット	Wooden blanket									
+193	Why	192	192									
+193	then											
+194	対象文	ブラケットはホームズの注意を引いた	Bracket drew the attention of the Holmes									
+194	情報源											
+194	Who	ブラケット	bracket									
+194	hasPredicate	注意を引いた	attention									
+194	what	ホームズの	Holmes									
+194	then											
+195	対象文	男だ、ワトソン、たちじゃなく。	"Man, Watson, not 's us."									
+195	情報源	ホームズの考え	Holmes thought									
+195	Who	犯人	Criminal									
+195	hasProperty	ではない	notEqualTo									
+195	What	複数	Multiple									
+195	then											
+196	対象文	たった一人だが、きわめて手ごわい人物だ。	"I am just one person, but it's a very formidable person."									
+196	情報源	ホームズの考え	Holmes thought									
+196	Who	犯人	Criminal									
+196	hasProperty	手ごわい	Formidable									
+196	Why	111	111									
+196	then											
+197	対象文	身長六フィート三インチ、リスのように機敏、手先が器用、最後に、驚くほど頭の回転が速い	"Height six feet three inches, agile as a squirrel, dexterity, is fast Finally, surprisingly rotation of the head hand"				1	対象文	犯人は身長6フィート3インチ	［必須・１行のみ］下記のフォームに入力した内容を「簡単な文」で表現する．	Criminal tall 6 feet 3 inches	Criminal tall 6 feet 3 inches
+197	情報源	ホームズの考え	Holmes thought				1	情報源	ホームズの考え	記載内容が誰かの「発言」や「考え」の場合，「誰の発言/考えか」を記載する	Holmes thought of	Holmes thought
+197	Who	犯人	Criminal				1	Who	犯人	［必須・複数行可］「主語」を記入	Criminal	Criminal
+197	hasProperty	頭の回転が速い	fast-thinking				1	hasProperty	身長6フィート3インチ	"［必須・１行のみ］「述語」を記入，種類を選択		
+・hasPredicate→動作を表す		
+・hasProperty→状態を表す"	Height 6 feet 3 inches	Height 6 feet 3 inches
+197	How	リスのように	As of squirrel				1	Why	ホームズはブラケットから切断面まで3インチ届かなかったため	"［複数行可］下記から種類を選択の上「目的語」を記入		
+・Why（なぜ）		
+・What（何を）		
+・How（どのように）		
+・When（いつ）		
+・Where（どこで）		
+・From（どこから）		
+・To（どこへ）		
+・On（上）		
+・Under（下）		
+・Left（左）		
+・Right（右）		
+・Near（近く）		
+・NextTo（隣）		
+・MiddleOf（真ん中）		
+・Opposite（反対側）"	Because Holmes misses three inches to the cut surface from the bracket	Because Holmes misses three inches to the cut surface from the bracket
+197	because	198	198				1	then		"［複数行可］他のシーンとのつながりを，「シーンのID」＋「つながりの種類（下記から選択）」で記入		
+・then（その後）		
+・if（もし）		
+・because（なぜなら）		
+・therefore（そのため）		
+・at the same time（同時に）		
+・otherwise（さもないと）"	#VALUE!	
+197	because	199	199				1	then		"［複数行可］他のシーンとのつながりを，「シーンのID」＋「つながりの種類（下記から選択）」で記入		
+・then（その後）		
+・if（もし）		
+・because（なぜなら）		
+・therefore（そのため）		
+・at the same time（同時に）		
+・otherwise（さもないと）"	#VALUE!	
+198	対象文	ホームズはブラケットから切断面まで3インチ届かなかった	Holmes did not reach three inches to the cutting surface from the bracket				2	対象文	犯人はリスのように俊敏	［必須・１行のみ］下記のフォームに入力した内容を「簡単な文」で表現する．	Agile as squirrels criminal	Agile as squirrels criminal
+198	情報源						2	情報源	ホームズの考え	記載内容が誰かの「発言」や「考え」の場合，「誰の発言/考えか」を記載する	Holmes thought of	Holmes thought
+198	Who	ホームズ	Holmes				2	Who	犯人	［必須・複数行可］「主語」を記入	Criminal	Criminal
+198	hasProperty	届かなかった	notReceive				2	hasProperty	俊敏	"［必須・１行のみ］「述語」を記入，種類を選択		
+・hasPredicate→動作を表す		
+・hasProperty→状態を表す"	Agile	Agile
+198	What	切断面	Section				2	Where		"［複数行可］下記から種類を選択の上「目的語」を記入		
+・Why（なぜ）		
+・What（何を）		
+・How（どのように）		
+・When（いつ）		
+・Where（どこで）		
+・From（どこから）		
+・To（どこへ）		
+・On（上）		
+・Under（下）		
+・Left（左）		
+・Right（右）		
+・Near（近く）		
+・NextTo（隣）		
+・MiddleOf（真ん中）		
+・Opposite（反対側）"	#VALUE!	
+198	From	ブランケット	blanket				2	Where		"［複数行可］下記から種類を選択の上「目的語」を記入		
+・Why（なぜ）		
+・What（何を）		
+・How（どのように）		
+・When（いつ）		
+・Where（どこで）		
+・From（どこから）		
+・To（どこへ）		
+・On（上）		
+・Under（下）		
+・Left（左）		
+・Right（右）		
+・Near（近く）		
+・NextTo（隣）		
+・MiddleOf（真ん中）		
+・Opposite（反対側）"	#VALUE!	
+198	then						2	then		"［複数行可］他のシーンとのつながりを，「シーンのID」＋「つながりの種類（下記から選択）」で記入		
+・then（その後）		
+・if（もし）		
+・because（なぜなら）		
+・therefore（そのため）		
+・at the same time（同時に）		
+・otherwise（さもないと）"	#VALUE!	
+199	対象文	犯人はこの独創的な話全体をでっち上げた	The criminal was concocted this whole ingenious story				3	対象文	犯人は手先が器用	［必須・１行のみ］下記のフォームに入力した内容を「簡単な文」で表現する．	The criminal hand dexterity	The criminal hand dexterity
+199	情報源	ホームズの考え	Holmes thought				3	情報源	ホームズの考え	記載内容が誰かの「発言」や「考え」の場合，「誰の発言/考えか」を記載する	Holmes thought of	Holmes thought
+199	Who	犯人	Criminal				3	Who	犯人	［必須・複数行可］「主語」を記入	Criminal	Criminal
+199	hasPredicate	でっち上げた	hoax				3	hasProperty	器用	"［必須・１行のみ］「述語」を記入，種類を選択		
+・hasPredicate→動作を表す		
+・hasProperty→状態を表す"	Skillful	Skillful
+199	What	独創的な話全体	Whole ingenious story				3	Where		"［複数行可］下記から種類を選択の上「目的語」を記入		
+・Why（なぜ）		
+・What（何を）		
+・How（どのように）		
+・When（いつ）		
+・Where（どこで）		
+・From（どこから）		
+・To（どこへ）		
+・On（上）		
+・Under（下）		
+・Left（左）		
+・Right（右）		
+・Near（近く）		
+・NextTo（隣）		
+・MiddleOf（真ん中）		
+・Opposite（反対側）"	#VALUE!	
+199	Why						3	then		"［複数行可］他のシーンとのつながりを，「シーンのID」＋「つながりの種類（下記から選択）」で記入		
+・then（その後）		
+・if（もし）		
+・because（なぜなら）		
+・therefore（そのため）		
+・at the same time（同時に）		
+・otherwise（さもないと）"	#VALUE!	
+199	then						4	対象文	犯人は驚くほど頭の回転が速い	［必須・１行のみ］下記のフォームに入力した内容を「簡単な文」で表現する．	Is fast surprisingly rotation of the head criminal	Is fast surprisingly rotation of the head criminal
+200	対象文	ベルの紐に手がかりを残してしまった	I had left a clue to the string of bell				4	情報源	ホームズの考え	記載内容が誰かの「発言」や「考え」の場合，「誰の発言/考えか」を記載する	Holmes thought of	Holmes thought
+200	情報源	ホームズの考え	Holmes thought				4	Who	犯人	［必須・複数行可］「主語」を記入	Criminal	Criminal
+200	Who	犯人	Criminal				4	hasProperty	頭の回転が速い	"［必須・１行のみ］「述語」を記入，種類を選択		
+・hasPredicate→動作を表す		
+・hasProperty→状態を表す"	fast	quick-thinking
+200	hasProperty	残してしまった	leave				4	What	頭の回転	"［複数行可］下記から種類を選択の上「目的語」を記入		
+・Why（なぜ）		
+・What（何を）		
+・How（どのように）		
+・When（いつ）		
+・Where（どこで）		
+・From（どこから）		
+・To（どこへ）		
+・On（上）		
+・Under（下）		
+・Left（左）		
+・Right（右）		
+・Near（近く）		
+・NextTo（隣）		
+・MiddleOf（真ん中）		
+・Opposite（反対側）"	Rotation of the head	
+200	What	手がかり	clue				4	Why	この独創的な話全体をでっち上げたものだから	"［複数行可］下記から種類を選択の上「目的語」を記入		
+・Why（なぜ）		
+・What（何を）		
+・How（どのように）		
+・When（いつ）		
+・Where（どこで）		
+・From（どこから）		
+・To（どこへ）		
+・On（上）		
+・Under（下）		
+・Left（左）		
+・Right（右）		
+・Near（近く）		
+・NextTo（隣）		
+・MiddleOf（真ん中）		
+・Opposite（反対側）"	Because those who concocted this whole ingenious story	Because those who concocted this whole ingenious story
+200	Where	ベルの紐	Bell string				4	then		"［複数行可］他のシーンとのつながりを，「シーンのID」＋「つながりの種類（下記から選択）」で記入		
+・then（その後）		
+・if（もし）		
+・because（なぜなら）		
+・therefore（そのため）		
+・at the same time（同時に）		
+・otherwise（さもないと）"	#VALUE!	
+200	then											
+201	対象文	箇所Aは針金にくっついている	Where A is stuck to the wire									
+201	情報源											
+201	Who	箇所A	Point A									
+201	hasPredicate	くっついている	stuck									
+201	Where	針金	wire									
+201	then											
+202	対象文	ベルの紐の切れ目は針金にくっついている箇所ではなかった	Break of the bell cord was not a place that stick to the wire									
+202	情報源	ホームズの考え	Holmes thought									
+202	Who	ベルの紐の切れ目	Break of the bell cord									
+202	hasPredicate	ではなかった	notEqualTo									
+202	Where	201	201									
+202	then											
+203	対象文	ベルの紐の切れ目は上から3インチのところでちぎられていた	Break of the bell cord had been torn at 3 inches from the top									
+203	情報源	ホームズの考え	Holmes thought									
+203	Who	ベルの紐の切れ目	Break of the bell cord									
+203	hasPredicate	ちぎられていた	beCut									
+203	Where	上から3インチのところ	A 3-inches from the top									
+203	Why											
+203	then											
+204	対象文	犯人は紐を必要とした	Criminal needed a string									
+204	情報源	ホームズの考え	Holmes thought									
+204	Who	犯人	Criminal									
+204	hasProperty	必要とした	need									
+204	What	紐	string									
+204	then											
+205	対象文	こっちの端は、調べることができるが、ほつれている	"Here at the end, which can be examined, it is frayed"									
+205	情報源											
+205	Who	こっちの端	Here of the end									
+205	hasPredicate	ほつれている	fray									
+205	What											
+205	Why											
+205	then											
+206	対象文	犯人は実に狡猾な男でナイフでそうした	Criminal did so with a knife in a truly cunning man									
+206	情報源	ホームズの考え	Holmes thought									
+206	Who	犯人	Criminal									
+206	hasPredicate	引きちぎらない	notCut									
+206	What	引きちぎること										
+206	Why	ベルが鳴れば急を知らせる恐れがあるため	Since there is a possibility to inform the sudden if Bell									
+206	Where	205	205									
+206	then											
+207	対象文	それを引きちぎることはしたくなかった	I did not want to be torn off it									
+207	情報源	ホームズの考え	Holmes thought									
+207	Who	犯人	Criminal									
+207	hasProperty	したくなかった	notWant									
+207	What	紐	string									
+207	What	引きちぎること	cut									
+207	Why	208	208									
+207	then											
+208	対象文	ベルが鳴れば急を知らせる恐れがある	There is a possibility to inform the sudden if Bell									
+208	情報源	ホームズの考え	Holmes thought									
+208	Who	ベル	Bell									
+208	hasPredicate	知らせる	Inform									
+208	What	急	Sudden									
+208	then											
+209	対象文	犯人はマントルピースの上に飛び乗った	Criminal hopped on top of the mantelpiece									
+209	情報源	ホームズの考え	Holmes thought									
+209	Who	犯人	Criminal									
+209	hasPredicate	飛び乗った	hop									
+209	On	マントルピース	Mantelpiece									
+209	then											
+210	対象文	紐には完全には届かなかった	It did not reach the completely in string									
+210	情報源	ホームズの考え	Holmes thought									
+210	Who	犯人	Criminal									
+210	hasPredicate	届かなかった	notReceive									
+210	What											
+210	Where	ひも	String									
+210	then											
+211	対象文	犯人はブラケットにひざを乗せナイフを紐に充てた	The culprit was devoted to string a knife put a knee on the bracket									
+211	情報源	ホームズの考え	Holmes thought									
+211	Who	犯人	Criminal									
+211	hasPredicate	乗せた	put									
+211	What	ひざ	Knee									
+211	Why	210	210									
+211	then											
+212	対象文	ほこりの中に痕跡が見える	Visible traces in the dust									
+212	情報源											
+212	Who	痕跡	trace									
+212	hasPredicate	見える	appear									
+212	Where	ほこりの中	dust									
+212	then											
+213	対象文	オークの椅子の座部の上に血の痕がある	There are traces of blood on the seat of the oak chair									
+213	情報源											
+213	Who	血の痕	Traces of blood	x								
+213	hasPredicate	ある	exist									
+213	On	座部の上	seat									
+213	Where	オークの椅子の座部の上	On the seat of the oak chair									
+213	then											
+214	対象文	レディー・ブラックンストールはサー・ユースタス・ブラックンストールの死んだ後で椅子につかされた	Lady Brackenstalls were princes in a chair in after the death of Sir Eustace Brackenstall									
+214	情報源	ホームズの考え	Holmes thought									
+214	Who	レディー・ブラックンストール	Lady Brackenstall									
+214	hasPredicate	つかされた	sit									
+214	Why	犯行のあった時レディー・ブラックンストールが椅子に座っていたなら血の痕がつかないため	For Lady black down stall not tell the traces of blood if was sitting in a chair when there was a crime									
+214	When	サー・ユースタス・ブラックンストールの死後	After the death of Sir Eustace Brackenstall									
+214	then											
+215	対象文	テリーサは無口	Theresa is taciturn									
+215	情報源											
+215	Who	テリーサ	Theresa									
+215	hasProperty	無口	taciturn									
+215	Where											
+215	then											
+216	対象文	テリーサは疑り深い	Theresa is suspecious									
+216	情報源											
+216	Who	テリーサ	Theresa									
+216	hasProperty	疑り深い	suspecious									
+216	Where											
+216	then											
+217	対象文	テリーサは不愛想	Theresa is inhospitable									
+217	情報源											
+217	Who	テリーサ	Theresa									
+217	hasProperty	不愛想	inhospitable									
+217	Where											
+217	then											
+218	対象文	テリーサが打ち解けて愛想よくなるまでにしばらくかかった	Theresa took a while until the very friendly and frank									
+218	情報源											
+218	Who	テリーサ	Theresa									
+218	hasPredicate	しばらくかかった	It took a while	?								
+218	How	打ち解けて愛想がよくなるまで	Until personable better be frank									
+218	then											
+219	対象文	テリーサはサー・ユースタス・ブラックンストールに対する憎悪を隠さなかった	Theresa did not hide his hatred for Sir Eustace Brackenstall									
+219	情報源											
+219	Who	テリーサ	Theresa									
+219	hasPredicate	隠さなかった	notHide									
+219	What	サー・ユースタス・ブラックンストールへの憎悪	Hatred of Sir Eustace Brackenstall									
+219	then											
+220	対象文	テリーサはサー・ユースタス・ブラックンストールのレディー・ブラックンストールへの悪口を聞いた	Theresa heard bad things about the Lady Black down the stall of Sir Eustace Brackenstall									
+220	情報源	テリーサの発言	Theresa remark									
+220	Who	テリーサ	Theresa									
+220	hasPredicate	聞いた	hear									
+220	What	レディー・ブラックンストールへの悪口	Ill of the Lady Brackenstall									
+220	then											
+221	対象文	テリーサはレディー・ブラックンストールの兄弟がいればそんな口は聞けないだろうといった	Theresa is such a mouth went and would not listen if there are brothers of Lady Brackenstall									
+221	情報源	テリーサの発言	Theresa remark									
+221	Who	テリーサ	Theresa									
+221	hasPredicate	言った	say									
+221	What	レディー・ブラックンストールの兄弟がいればそんな口はきけないだろうということ	The fact that such a mouth would not listen if there are brothers of Lady Brackenstall									
+221	then											
+222	対象文	テリーサはサー・ユースタス・ブラックンストールにデカンターを投げつけられた	Theresa was threw a decanter to Sir Eustace Brackenstall									
+222	情報源	テリーサの発言	Theresa remark									
+222	Who	テリーサ	Theresa									
+222	hasPredicate	投げつけられた	throw									
+222	What	サー・ユースタス・ブラックンストールにデカンター	Decanter to Sir Eustace Brackenstall									
+222	then											
+223	対象文	テリーサはレディー・ブラックンストールへのいじわるをあきらめるほかなかったら一ダースでも投げた	Theresa threw in a dozen If it were not well to give up mean to Lady Brackenstall									
+223	情報源	テリーサの発言	Theresa remark									
+223	Who	テリーサ	Theresa									
+223	hasPredicate	投げた	throw									
+223	What											
+223	then											
+224	対象文	レディー・ブラックンストールは不平を言わなかった	Lady Brackenstall did not complain									
+224	情報源	テリーサの発言	Theresa remark									
+224	Who	レディー・ブラックンストール	Lady Brackenstall									
+224	hasPredicate	言わなかった	notSay									
+224	What	不平	Complaint									
+224	then											
+225	対象文	レディー・ブラックンストールの腕の傷は帽子のピンで刺されたもの	Lady Brackenstall arm wounds that stabbed at the pins of the hat									
+225	情報源	テリーサの考え	Theresa thought									
+225	Who	レディー・ブラックンストールの腕の傷	Scratches on the arm of Lady Brackenstall									
+225	hasPredicate	刺されたもの	beStabbled									
+225	What	帽子のピン	Pin of the hat									
+225	then											
+226	対象文	テリーサはサー・ユースタス・ブラックンストールのことを悪賢い悪魔と呼んだ	Theresa called it wicked devil that of Sir Eustace Brackenstall									
+226	情報源	テリーサの発言	Theresa remark									
+226	Who	テリーサ	Theresa									
+226	hasPredicate	呼んだ	call									
+226	What	サー・ユースタス・ブラックンストールのことを悪賢い悪魔	Sly devil that of Sir Eustace Brackenstall									
+226	then											
+227	対象文	サー・ユースタス・ブラックンストールと初めて会ったときは素敵だった	Was nice when I first met with Sir Eustace Brackenstall									
+227	情報源	テリーサ	Theresa									
+227	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+227	hasPredicate	素敵だった	nice									
+227	When	初めて会ったとき	When I first met									
+227	then											
+228	対象文	サー・ユースタス・ブラックンストールは肩書と財産と偽りのロンドン式のやり方でレディー・ブラックンストールを射止めた	Sir Eustace Brackenstall was snatched the Lady Brackenstalled title and property and false way of London equation									
+228	情報源	テリーサの発言	Theresa remark									
+228	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+228	hasPredicate	射止めた	snatch									
+228	How	肩書き	Title									
+228	How	財産	property									
+228	How	偽りのロンドン方式	False London scheme									
+228	What	レディー・ブラックンストール	Lady Brackenstall									
+228	then											
+229	対象文	サー・ユースタス・ブラックンストールと7月に出会った	I met Sir Eustace black down the stall and July									
+229	情報源	テリーサの発言	Theresa remark									
+229	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+229	hasPredicate	出会った	meet									
+229	When	7月	July									
+229	then											
+230	対象文	レディー・ブラックンストールは6月にロンドンについた	Lady Brackenstall went to London in June									
+230	情報源	テリーサの発言	Theresa remark									
+230	Who	レディー・ブラックンストール	Lady Brackenstall									
+230	hasPredicate	ついた	arrive									
+230	Where	ロンドン	London									
+230	When	6月	June									
+230	then											
+231	対象文	レディー・ブラックンストールとサー・ユースタス・ブラックンストールは去年の1月に結婚した	Lady Brackenstall and Sir Eustace Brackenstall was married last year in January									
+231	情報源	テリーサの発言	Theresa remark									
+231	Who	レディー・ブラックンストール	Lady Brackenstall									
+231	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+231	hasPredicate	結婚した	marry									
+231	Where	1月	January									
+231	then											
+232	対象文	レディー・ブラックンストールはホームズに尋問しに来たのか言った	Lady Brackenstall said what came to questioning in Holmes									
+232	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+232	Who	レディー・ブラックンストール	Lady Brackenstall									
+232	hasPredicate	言った	say									
+232	What	尋問しに来たのか	Or came questioning to									
+232	then											
+233	対象文	ホームズはレディー・ブラックンストールの気持ちを楽にしたいといった	Holmes said that you want to ease the feelings of Lady Brackenstall									
+233	情報源	ホームズの発言	Holmes remark									
+233	Who	ホームズ	Holmes									
+233	hasPredicate	言った	say									
+233	What	レディー・ブラックンストールの気持ちを楽にしたい	I want to ease the feelings of Lady Brackenstall									
+233	then											
+234	対象文	ホームズは本当のことをレディー・ブラックンストールに話してほしい	Holmes I want you to talk to Lady black down stall the truth									
+234	情報源	ホームズの発言	Holmes remark									
+234	Who	ホームズ	Holmes									
+234	hasPredicate	話してほしい	wantToAsk									
+234	What	本当のことを	truth									
+234	then											
+235	対象文	レディー・ブラックンストールの話は全て作り物といった	Such as all the story of Lady Brackenstall fake									
+235	情報源	ホームズの発言	Holmes remark									
+235	Who	ホームズ	Holmes									
+235	hasProperty	言った	say									
+235	What	レディー・ブラックンストールの話は全て作り物	All the story of Lady Brackenstall fake									
+235	then											
+236	対象文	レディー・ブラックンストールとテリーサはともに青ざめた	Lady Brackenstall and Theresa was both pale									
+236	情報源											
+236	Who	レディー・ブラックンストール	Lady Brackenstall									
+236	Who	テリーサ	Theresa									
+236	hasProperty	青ざめた	pale									
+236	Where											
+236	then											
+237	対象文	レディー・ブラックンストールの顔にためらいが見えた	Hesitation was visible on the face of the Lady Brackenstall									
+237	情報源											
+237	Who	ホームズ	Holmes									
+237	hasProperty	見た	see									
+237	What	レディー・ブラックンストールのためらい	Hesitation of Lady Brackenstall									
+237	then											
+238	対象文	レディー・ブラックンストールの顔が仮面のように固くなった	Face of Lady black down stall has become firmly as Kamen									
+238	情報源											
+238	Who	レディー・ブラックンストールの顔	Face of Lady Brackenstall									
+238	hasProperty	固くなった	firmly									
+238	How	仮面のように	mask									
+238	then											
+239	対象文	レディー・ブラックンストールが知っていることはすべて話した	We have been talking all that Lady Brackenstall know									
+239	情報源	レディー・ブラックンストールの発言	Lady Brackenstall remark									
+239	Who	レディー・ブラックンストール	Lady Brackenstall									
+239	hasPredicate	全て話した	say									
+239	What	知っていること	That you know									
+239	then											
+240	対象文	ホームズはアビ屋敷を後にした	Holmes was after the Abbey Grange									
+240	情報源											
+240	Who	ホームズ	Holmes									
+240	hasPredicate	後にした	leave									
+240	Where	アビ屋敷	Abbey Grange									
+240	then											
+241	対象文	ホームズは庭園の池に向かった	Holmes went to the pond of the garden									
+241	情報源											
+241	Who	ホームズ	Holmes									
+241	hasPredicate	向かった	go									
+241	Where	庭園の池	Garden pond									
+241	then											
+242	対象文	庭園の池は一面凍っていた	Pond of the garden had frozen one side									
+242	情報源											
+242	Who	庭園の池	Garden pond									
+242	hasProperty	凍っていた	freeze									
+242	Where											
+242	then											
+243	対象文	池には白鳥のための穴が一つだけ残されていた	The pond had been left only one hole for the swan									
+243	情報源											
+243	Who	池には	pond									
+243	hasProperty	一つだけ残されていた	have									
+243	What	穴	hole									
+243	then											
+244	対象文	ホームズは穴をじっと見つめた	Holmes stared a hole									
+244	情報源											
+244	Who	ホームズ	Holmes									
+244	hasPredicate	見つめた	gaze									
+244	What	穴	hole									
+244	then											
+245	対象文	ホームズは番小屋のある門へ向かった	Holmes went to the gate with a guard house									
+245	情報源											
+245	Who	ホームズ	Holmes									
+245	hasPredicate	向かった	go									
+245	Where	番小屋のある門	Gate with a guard house									
+245	then											
+246	対象文	ホームズはスタンリィ・ホプキンスに秘密を明かすつもりはない	Holmes is not going to reveal the secret to Stanley Hopkins									
+246	情報源	ホームズの発言	Holmes remark									
+246	Who	ホームズ	Holmes									
+246	hasPredicate	明かすつもりはない	notSay									
+246	What	秘密	secret									
+246	then											
+247	対象文	ホームズはアデレイドに向かう	Holmes headed to Adelaide									
+247	情報源											
+247	Who	ホームズ	Holmes									
+247	hasPredicate	向かう	go									
+247	Where	アデレイド	Adelaide									
+247	then											
+248	対象文	1985年にサザンプトン航路で母港についたのはロック・オブ・ジブラルタル1つだった	Was attached to the home port in Southampton route in 1985 was lock-of-Gibraltar one									
+248	情報源											
+248	Who	母港についたのは	It was attached to the home port is	x								
+248	hasProperty	1つだった	It was one	x								
+248	When	1985年	1985									
+248	then											
+249	対象文	ロック・オブ・ジブラルタルにはレディー・ブラックンストールとテリーサが乗って航海した	The Rock Of Gibraltar sailed aboard Lady Brackenstall and Theresa									
+249	情報源											
+249	Who	レディー・ブラックンストール	Lady Brackenstall									
+249	Who	テリーサ	Theresa									
+249	hasPredicate	航海した	sail									
+249	When	1985年	1985									
+249	How	ロック・オブ・ジブラルタル	Rock Of Gibraltar									
+249	then											
+250	対象文	1987年の現在船はスエズ運河の辺りだった	Current ship in 1987 was around Suez Canal									
+250	情報源											
+250	Who	ロック・オブ・ジブラルタル	Rock Of Gibraltar									
+250	hasProperty	スエズ運河の辺りだった	exist									
+250	When	1987年の現在	Current 1987									
+250	Where	スエズ運河の辺り	Around the Suez Canal									
+250	then											
+251	対象文	乗務員は1985年と一緒だった	Crew was with 1985									
+251	情報源											
+251	Who	乗務員	Train crew									
+251	hasProperty	一緒	same									
+251	What	1985年	in 1985									
+251	then											
+252	対象文	一等航海士のジャック・クロッカーは船長になっている	Jack Crocker of the first mate has become the captain									
+252	情報源											
+252	Who	ジャック・クロッカー	Jack Crocker									
+252	hasProperty	なっている	become									
+252	What	船長	captain									
+252	then											
+253	対象文	2日後サザンプトンからベイス・ロックという船が出港する	The ship is to sail that Bays lock from Southampton two days later									
+253	情報源											
+253	Who	ベイス・ロック	Bays Rock									
+253	hasPredicate	出港する	Depart									
+253	When	2日後	Two days later									
+253	Where	サザンプトン	Southampton									
+253	then											
+254	対象文	ジャック・クロッカーはベイス・ロックの指揮を執ることになっている	Jack Crocker are supposed to take command of the Bays lock									
+254	情報源											
+254	Who	ジャック・クロッカー	Jack Crocker									
+254	hasProperty	指揮を執る	command									
+254	What	ベイス・ロック	Bays Rock									
+254	then											
+255	対象文	ジャック・クロッカーはシドナムに住んでいる	Jack Crocker lives in Sydenham									
+255	情報源											
+255	Who	ジャック・クロッカー	Jack Crocker									
+255	hasPredicate	住んでいる	live									
+255	Where	シドナム	Sydenham									
+255	then											
+256	対象文	ジャック・クロッカーの経歴はすばらしかった	Career of Jack Crocker was wonderful									
+256	情報源											
+256	Who	ジャック・クロッカーの経歴	Career of Jack Crocker									
+256	hasProperty	すばらしかった	wonderful									
+256	Why	匹敵する航海士はどの船にもいなかったため	For comparable officer did not have on any ship									
+256	then											
+257	対象文	ジャック・クロッカーの性格は船のデッキを離れると荒々しく無鉄砲	Wildly reckless and personality of Jack Crocker leaves the deck of the ship									
+257	情報源											
+257	Who	ジャック・クロッカーの性格	Personality of Jack Crocker									
+257	hasProperty	無鉄砲	Reckless									
+257	Where											
+257	then											
+258	対象文	ジャック・クロッカーは短期で興奮しやすい	Jack Crocker easy excited in the short term									
+258	情報源											
+258	Who	ジャック・クロッカー	Jack Crocker									
+258	hasProperty	短期で興奮しやすい	inpatient									
+258	Where											
+258	then											
+259	対象文	ジャック・クロッカーは忠実で正直で優しい	Jack Crocker friendly faithful and honest									
+259	情報源											
+259	Who	ジャック・クロッカー	Jack Crocker									
+259	hasProperty	忠実で正直で優しい	Friendly faithful and honest									
+259	Where											
+259	then											
+260	対象文	ホームズはアデレイド―サザンプトンの会社の事務所で情報を得た	Holmes Adelaide - to give the information in Southampton of the company's office									
+260	情報源											
+260	Who	ホームズ	Holmes									
+260	hasPredicate	得た	get									
+260	When	アデレイド	Adelaide									
+260	When	サザンプトン	Southampton									
+260	then											
+261	対象文	一度令状が発行されたら犯人は救えない	It is not able to save the culprit Once the warrant is issued									
+261	情報源											
+261	Who	犯人	Criminal									
+261	hasProperty	救えない	cannotSave									
+261	Why	令状が発行されるため	Since the warrant is issued									
+261	then											
+262	対象文	ホームズは良心よりもイングランドの法をごまかしたい	Holmes want to cheat the law of England than the conscience									
+262	情報源	ホームズの発言	Holmes remark									
+262	Who	ホームズ	Holmes									
+262	hasPredicate	ごまかしたい	wantToCheat									
+262	What	イングランドの法	The law of England									
+262	then											
+263	対象文	盗まれた銀製品は池の底にあった	Stolen silver product was in the bottom of the pond									
+263	情報源	スタンリィ・ホプキンスの発言	Remarks Stanley Hopkins									
+263	Who	盗まれた銀製品	Stolen silver products									
+263	hasProperty	あった	exist									
+263	Where	池の底	The bottom of the pond									
+263	then											
+264	対象文	ホームズは銀製品が池の底にあるのかわからなかった	Holmes silver products did not know what the bottom of the pond									
+264	情報源	ホームズの発言	Holmes remark									
+264	Who	ホームズ	Holmes									
+264	hasProperty	わからなかった	notKnow									
+264	What	銀製品が池の底にある理由	The reason for silver products is at the bottom of the pond									
+264	then											
+265	対象文	ホームズはスタンリィ・ホプキンスに池の底を調べろといった	Holmes said that Investigate the bottom of the pond to Stanley Hopkins									
+265	情報源	ホームズの発言	Holmes remark									
+265	Who	ホームズ	Holmes									
+265	hasProperty	言った	say									
+265	What	池の底を調べること	To examine the bottom of the pond									
+265	then											
+266	対象文	夜盗は銀製品など欲しくなかった	Burglary is did not want such as silver products									
+266	情報源	ホームズの考え	Holmes thought									
+266	Who	夜盗は	Burglary									
+266	hasProperty	欲しくなかった	notWant									
+266	What	銀製品など	Silver products									
+266	then											
+267	対象文	犯人は目をくらますために盗った	The criminal was taken to blinding									
+267	情報源	ホームズの考え	Holmes thought									
+267	Who	犯人	Criminal									
+267	hasPredicate	盗った	steal									
+267	Why	目をくらますため	For blinding									
+267	then											
+268	対象文	フランス窓から出た場合池がすぐ鼻先にある	Is immediately to the nose when pond out of the French windows									
+268	情報源	ホームズの考え	Holmes thought									
+268	Who	池	pond									
+268	hasProperty	ある	exist									
+268	Where	フランス窓の外から出た場合	outside the French windows									
+268	then											
+269	対象文	池の穴は隠し場所になる	Holes in the pond will be in cache									
+269	情報源	ホームズの考え	Holmes thought									
+269	Who	池の穴	Holes in the pond									
+269	hasProperty	なる	Become									
+269	What	隠し場所	cache									
+269	then											
+270	対象文	夜盗は銀製品を持っているのを見られるのを恐れた	Burglary was terrified of being seen to have a silver products									
+270	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+270	Who	夜盗	A burglary									
+270	hasProperty	恐れた	fear									
+270	What	銀製品を人に見られること	It is seen the silver products to people									
+270	then											
+271	対象文	夜盗は危険がなくなったら取りに戻るつもりだった	Burglar was going to return to take When there is no more danger									
+271	情報源	スタンリィ・ホプキンスの考え	Thinking of Stanley Hopkins									
+271	Who	夜盗	A burglary									
+271	hasPredicate	戻る	Return									
+271	What	取りに	To take									
+271	then											
+272	対象文	スタンリィ・ホプキンスは見事な仮説を立てた	Stanley Hopkins has made a stunning hypothesis									
+272	情報源	ホームズの発言	Holmes remark									
+272	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+272	hasPredicate	立てた	make									
+272	What	仮説	hypothesis									
+272	then											
+273	対象文	ホームズの考えは全く見当違いだった	Thought of Holmes was totally misguided									
+273	情報源	ホームズの発言	Holmes remark									
+273	Who	ホームズの考え	Holmes thought									
+273	hasPredicate	見当違いだった	misguide									
+273	Where											
+273	then											
+274	対象文	スタンリィ・ホプキンスは頓挫した	Stanley Hopkins was derailed									
+274	情報源											
+274	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+274	hasProperty	頓挫した	derail									
+274	Why	ランダル一味が今朝ニューヨークで逮捕された	Randall gang were arrested in New York this morning									
+274	then											
+275	対象文	目くらましがヒントになる	Blinding is a hint									
+275	情報源	ホームズの発言	Holmes remark									
+275	Who	目くらまし	Blinding									
+275	hasProperty	なる	Become									
+275	What	ヒント	Hints									
+275	then											
+276	対象文	ホームズの知ることは非公式	Knowing the Holmes informal									
+276	情報源	ホームズの発言	Holmes remark									
+276	Who	ホームズの知ること	Knowing the Holmes									
+276	hasProperty	非公式	informal									
+276	Where											
+276	then											
+277	対象文	スタンリィ・ホプキンスの知ることは公式	Knowing the Stanley Hopkins official									
+277	情報源	ホームズの発言	Holmes remark									
+277	Who	スタンリィ・ホプキンスの知ることは	Knowing the Stanley Hopkins									
+277	hasProperty	公式	official									
+277	Where											
+277	then											
+278	対象文	スタンリィ・ホプキンスには私的な判断の権利がない	There is no private judgment of the rights to Stanley Hopkins									
+278	情報源	ホームズの発言	Holmes remark									
+278	Who	スタンリィ・ホプキンス	Stanley Hopkins									
+278	hasProperty	権利がない	notHave									
+278	Where											
+278	then											
+279	対象文	ワトソンは小劇の終幕に立ち会う	Watson attend the final curtain of the small drama									
+279	情報源	ホームズの発言	Holmes remark									
+279	Who	ワトソン	Watson									
+279	hasPredicate	立ち会う	attend									
+279	Where											
+279	then											
+280	対象文	男らしさの典型のようなジャック・クロッカーがホームズたちの部屋に入ってきた	"Jack Crocker, such as the epitome of masculinity came into the Holmes our room"									
+280	情報源											
+280	Who	ジャック・クロッカー	Jack Crocker									
+280	hasPredicate	入ってきた	come									
+280	Where	ホームズたちの部屋	Holmes our room									
+280	then											
+281	対象文	ジャック・クロッカーは軽快な足取りをしていた	Jack Crocker had a nimble gait									
+281	情報源											
+281	Who	ジャック・クロッカー	Jack Crocker									
+281	hasProperty	軽快な足取りをしていた	nimble-footed									
+281	Where											
+281	then											
+282	対象文	ジャック・クロッカーはホームズからの電報を受け取った	Jack Crocker received a telegram from Holmes									
+282	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+282	Who	ジャック・クロッカー	Jack Crocker									
+282	hasProperty	受け取った	get									
+282	What	ホームズからの電報	Telegram from Holmes									
+282	then											
+283	対象文	ジャック・クロッカーに葉巻を吸わせた	It was smoked a cigar in Jack Crocker									
+283	情報源											
+283	Who	ホームズ	Holmes									
+283	hasPredicate	吸わせた	smoke									
+283	Why	ジャック・クロッカーを普通の犯人と思っていないため	Because I do not think Jack Crocker and ordinary criminal									
+283	then											
+284	対象文	ジャック・クロッカーはホームズを信じて全て話すと誓った	Jack Crocker vowed to speak all believe Holmes									
+284	情報源											
+284	Who	ジャック・クロッカー	Jack Crocker									
+284	hasPredicate	誓った	swear									
+284	What	全て話す	Speak all									
+284	then											
+285	対象文	ジャック・クロッカーはサー・ユースタス・ブラックンストールが生き返っても同じことをする	Jack Crocker is the same thing even revived the Sir Eustace Brackenstall									
+285	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+285	Who	ジャック・クロッカー	Jack Crocker									
+285	hasPredicate	する	Make									
+285	What	サー・ユースタス・ブラックンストールに同じこと	The same thing to Sir Eustace Brackenstall									
+285	then											
+286	対象文	ジャック・クロッカーはレディー・ブラックンストールを厄介な立場に巻き込むなら命をささげる	Jack Crocker devote their lives if involve a ready-black down stall in an awkward position									
+286	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+286	Who	ジャック・クロッカー	Jack Crocker									
+286	hasPredicate	ささげる	Dedicate									
+286	What	命	life									
+286	Why	レディー・ブラックンストールを厄介な立場に巻き込みたくないため	Because I do not want entrainment a ready-black down stall in an awkward position									
+286	then											
+287	対象文	ジャック・クロッカーとレディー・ブラックンストールはロック・オブ・ジブラルタルで出会った	Jack Crocker and Lady Brackenstall was met at the Rock Of Gibraltar									
+287	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+287	Who	ジャック・クロッカー	Jack Crocker									
+287	Who	レディー・ブラックンストール	Lady Brackenstall									
+287	hasPredicate	出会った	meet									
+287	Where	ロック・オブ・ジブラルタル	Rock Of Gibraltar									
+287	then											
+288	対象文	出会った初日からジャック・クロッカーにとってレディー・ブラックンストールはただ一人の女性となった	Lady Brackenstall just became one of the women for Jack Crocker from met the first day									
+288	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+288	Who	レディー・ブラックンストール	Lady Brackenstall									
+288	hasPredicate	なった	become									
+288	What	ただ一人の女性	Only one woman									
+288	When	出会った初日	I met the first day									
+288	then											
+289	対象文	恋心はジャック・クロッカーの方ばかりだった	Love was the only person of Jack Crocker									
+289	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+289	Who	ジャック・クロッカー	Jack Crocker									
+289	hasPredicate	だけだった	have									
+289	What	恋心を持った	love	to								
+289	then											
+290	対象文	ジャック・クロッカーが次の航海から帰った時レディー・ブラックンストールの結婚を知った	Jack Crocker was aware of the marriage of Lady Brackenstall when I returned from the next voyage									
+290	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+290	Who	ジャック・クロッカー	Jack Crocker									
+290	hasPredicate	知った	know									
+290	What	レディー・ブラックンストールの結婚	Marriage of Lady Brackenstall									
+290	When	次の航海から帰った時	When I returned from the next voyage									
+290	then											
+291	対象文	レディー・ブラックンストールは好きな男と結婚していない	Lady Black down the stall is not married to a favorite man									
+291	情報源	ジャック・クロッカーの考え	Thinking of Jack Crocker									
+291	Who	レディー・ブラックンストール	Lady Brackenstall									
+291	hasPredicate	結婚していない	notMarry									
+291	What	好きな男と	favorite man									
+291	then											
+292	対象文	レディー・ブラックンストールは上品なものすべてのために生まれた	Lady Brackenstall was born for all those classy									
+292	情報源	ジャック・クロッカーの考え	Thinking of Jack Crocker									
+292	Who	レディー・ブラックンストール	Lady Brackenstall									
+292	hasPredicate	生まれた	classy									
+292	What	上品なものすべてのため										
+292	then											
+293	対象文	ジャック・クロッカーはレディー・ブラックンストールが自分のために身を滅ぼさないと喜んだ	Jack Crocker was pleased with the Lady black down stall not destroy themselves for the sake of their own									
+293	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+293	Who	ジャック・クロッカー	Jack Crocker									
+293	hasPredicate	喜んだ	please									
+293	What	レディー・ブラックンストールが身を滅ぼさないこと	That Lady Brackenstall not destroy themselves									
+293	then											
+294	対象文	ジャック・クロッカーは新しい船のためシドナムで数ヵ月待っていた	Jack Crocker had been waiting for several months in Sydenham for the new ship									
+294	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+294	Who	ジャック・クロッカー	Jack Crocker									
+294	hasPredicate	待っていた	wait									
+294	Where	シドナム	Sydenham									
+294	When	数ヵ月	A few months									
+294	then											
+295	対象文	ある日ジャック・クロッカーはテリーサと会った	One day Jack Crocker met with Theresa									
+295	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+295	Who	ジャック・クロッカー	Jack Crocker									
+295	Who	テリーサ	Theresa									
+295	hasPredicate	あった	meet									
+295	When	ある日	One day									
+295	then											
+296	対象文	ジャック・クロッカーはテリーサからサー・ユースタス・ブラックンストールの話を聞いた	Jack Crocker heard the story of Sir Eustace Brackenstall from Theresa									
+296	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+296	Who	ジャック・クロッカー	Jack Crocker									
+296	hasProperty	聞いた	hear									
+296	What	サー・ユースタス・ブラックンストールの話	Story of Sir Eustace Brackenstall									
+296	then											
+297	対象文	ジャック・クロッカーはもう一度テリーサと会った	Jack Crocker met once again Theresa									
+297	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+297	Who	ジャック・クロッカー	Jack Crocker									
+297	Who	テリーサ	Theresa									
+297	hasProperty	会った	meet									
+297	Where											
+297	then											
+298	対象文	ジャック・クロッカーはメアリー本人にあった	Jack Crocker was in Mary person									
+298	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+298	Who	ジャック・クロッカー	Jack Crocker									
+298	Who	メアリー	Mary									
+298	hasPredicate	会った	meet									
+298	Where											
+298	then											
+299	対象文	ジャック・クロッカーは船旅に出る前にもう一度会った	Jack Crocker met again before leaving on cruise									
+299	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+299	Who	ジャック・クロッカー	Jack Crocker									
+299	hasProperty	会った	meet									
+299	Where											
+299	then											
+300	対象文	テリーサはジャック・クロッカーの味方だった	Theresa was a friend of Jack Crocker									
+300	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+300	Who	テリーサ	Theresa									
+300	hasProperty	味方だった	friend									
+300	Why	同じようにサー・ユースタス・ブラックンストールを憎んでいる	Hates Sir Eustace Brackenstall in the same way									
+300	Why	同じようにレディー・ブラックンストールを愛していたため	Same way because it was not love Lady Brackenstall									
+300	then											
+301	対象文	ジャック・クロッカーはテリーサから家の慣わしを聞いた	Jack Crocker heard Narawashi of house from Theresa									
+301	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+301	Who	ジャック・クロッカー	Jack Crocker									
+301	hasProperty	聞いた	hear									
+301	What	家の慣わし	House of Narawashi									
+301	then											
+302	対象文	レディー・ブラックンストールはいつも階下の小さな部屋で本を読んでいる	Lady Brackenstall is always reading a book in a small room downstairs									
+302	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+302	Who	レディー・ブラックンストール	Lady Brackenstall									
+302	hasProperty	読んでいる	read									
+302	What	本	Book									
+302	Where	レディー・ブラックンストールの部屋	Lady Black down the stall of the room									
+302	then											
+303	対象文	ジャック・クロッカーはレディー・ブラックンストールの部屋の窓をひっかいた	Jack Crocker scratched the window of Lady Black down the stall room									
+303	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+303	Who	ジャック・クロッカー	Jack Crocker									
+303	hasPredicate	ひっかいた	scratch									
+303	What	部屋の窓	The window of the room									
+303	Where	レディー・ブラックンストールの部屋	Lady Black down the stall of the room									
+303	then											
+304	対象文	レディー・ブラックンストールも今ではジャック・クロッカーのことを愛している	In even now Lady Brackenstall I love that Jack Crocker									
+304	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+304	Who	レディー・ブラックンストール	Lady Brackenstall									
+304	hasPredicate	愛している	love									
+304	What	ジャック・クロッカーのこと	Jack Crocker									
+304	then											
+305	対象文	ジャック・クロッカーはレディー・ブラックンストールによりダイニングルームに招き入れられた	Jack Crocker was invited to the dining room by Lady Brackenstall									
+305	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+305	Who	ジャック・クロッカー	Jack Crocker									
+305	hasProperty	招き入れられた	invite									
+305	Where	ダイニングルーム	dining room									
+305	then											
+306	対象文	レディー・ブラックンストールの口から事情を聞いた	I heard the situation from the mouth of the Lady Brackenstall									
+306	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+306	Who	ジャック・クロッカー	Jack Crocker									
+306	hasPredicate	聞いた	hear									
+306	What	事情	Situation									
+306	then											
+307	対象文	ジャック・クロッカーはレディー・ブラックンストールと共に窓の内側に立っていた	Jack Crocker was standing on the inside of the window along with the Lady Brackenstall									
+307	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+307	Who	ジャック・クロッカー	Jack Crocker									
+307	Who	レディー・ブラックンストール	Lady Brackenstall									
+307	hasPredicate	立っていた	stand									
+307	Where	窓の内側	The inside of the window									
+307	then											
+308	対象文	サー・ユースタス・ブラックンストールが狂ったようにダイニングルームに駆け込んできた	Sir Eustace Brackenstall has rushed to the dining room like crazy									
+308	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+308	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+308	hasPredicate	駆け込んできた	rush									
+308	Where	ダイニングルーム	dining room									
+308	then											
+309	対象文	サー・ユースタス・ブラックンストールはステッキでレディー・ブラックンストールの顔を横から殴った	Sir Eustace Brackenstall was hit the face of the Lady Brackenstall from the side with stick									
+309	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+309	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+309	hasPredicate	殴った	hit									
+309	What	レディー・ブラックンストールの顔	Face of Lady Brackenstall									
+309	How	手に持ったステッキで横から	From the side in the cane that was in his hand									
+309	then											
+310	対象文	ジャック・クロッカーは火かき棒に飛びついた	Jack Crocker jumped at the poker									
+310	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+310	Who	ジャック・クロッカー	Jack Crocker									
+310	hasPredicate	飛びついた	have									
+310	What	火かき棒	Poker									
+310	then											
+311	対象文	ジャック・クロッカーとサー・ユースタス・ブラックンストールは正々堂々戦った	Jack Crocker and Sir Eustace Brackenstall fought fair and square									
+311	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+311	Who	ジャック・クロッカー	Jack Crocker									
+311	Who	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+311	hasPredicate	戦った	fight									
+311	Where											
+311	then											
+312	対象文	サー・ユースタス・ブラックンストールはジャック・クロッカーの腕に一撃加えた	Sir Eustace Brackenstall has added blow to the arm of Jack Crocker									
+312	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+312	Who	サー・ユースタス・ブラックンストールの腕	Arm of Sir Eustace Brackenstall									
+312	hasProperty	一撃加えた	hit									
+312	Where											
+312	then											
+313	対象文	ジャック・クロッカーはサー・ユースタス・ブラックンストールを腐ったかぼちゃのようにやっつけた	Jack Crocker was beat like a pumpkin rotten the Sir Eustace Brackenstall									
+313	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+313	Who	ジャック・クロッカー	Jack Crocker									
+313	hasPredicate	やっつけた	beat									
+313	What	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+313	How	腐ったかぼちゃのように	As of rotten pumpkin									
+313	then											
+314	対象文	ジャック・クロッカーは悪いと思っていない	Jack Crocker do not think the bad									
+314	情報源	ジャック・クロッカーはの発言	Jack Crocker remarks									
+314	Who	ジャック・クロッカー	Jack Crocker									
+314	hasPredicate	思っていない	notThink									
+314	What	殺したことを悪いと	When bad that killed									
+314	then											
+315	対象文	サー・ユースタス・ブラックンストールを殺さなければジャック・クロッカーが危なかった	To kill Sir Eustace Brackenstall Jack Crocker was dangerous									
+315	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+315	Who	ジャック・クロッカー	Jack Crocker									
+315	hasProperty	危なかった	dangerous									
+315	Why	サー・ユースタス・ブラックンストールに殺されるかもしれなかった	It did not may be killed to Sir Eustace Brackenstall									
+315	then											
+316	対象文	サー・ユースタス・ブラックンストールを殺さなければレディー・ブラックンストールが危なかった	To kill Sir Eustace Brackenstall Lady Brackenstall was dangerous									
+316	情報源	ジャック・クロッカーの考え	Thinking of Jack Crocker									
+316	Who	レディー・ブラックンストール	Lady Brackenstall									
+316	hasProperty	危なかった	dangerous									
+316	Why	サー・ユースタス・ブラックンストールに殺されるかもしれなかった	It did not may be killed to Sir Eustace Brackenstall									
+316	then											
+317	対象文	ジャック・クロッカーは狂った男の手にレディー・ブラックンストールを残せなかった	Jack Crocker did not leave the Lady black down stall man of hand crazy									
+317	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+317	Who	ジャック・クロッカー	Jack Crocker									
+317	hasPredicate	残せなかった	notLeave									
+317	What	レディー・ブラックンストール	Lady Brackenstall									
+317	then											
+318	対象文	ジャック・クロッカーはサー・ユースタス・ブラックンストールを殺した	Jack Crocker killed Sir Eustace Brackenstall									
+318	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+318	Who	ジャック・クロッカー	Jack Crocker									
+318	hasPredicate	殺した	kill									
+318	What	サー・ユースタス・ブラックンストール	Sir Eustace Brackenstall									
+318	Why	レディー・ブラックンストールを残しておけなかった	It was not put to leave the Lady Brackenstall									
+318	then											
+319	対象文	レディー・ブラックンストールはサー・ユースタス・ブラックンストールに殴られた時叫び声をあげた	Lady Brackenstall screamed when it was beaten to Sir Eustace Brackenstall									
+319	情報源	ジャック・クロッカー	Jack Crocker									
+319	Who	レディー・ブラックンストール	Lady Brackenstall									
+319	hasPredicate	叫び声をあげた	scream									
+319	Why	サー・ユースタス・ブラックンストールに殴られたため	Because it was beaten to Sir Eustace Brackenstall									
+319	then											
+320	対象文	テリーサはレディー・ブラックンストールの叫び声を聞いた	Theresa heard the screams of Lady Brackenstall									
+320	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+320	Who	テリーサ	Theresa									
+320	hasPredicate	聞いた	hear									
+320	What	レディー・ブラックンストールの叫び声	Screams of Lady Brackenstall									
+320	then											
+321	対象文	テリーサは上の部屋から降りてきた	Theresa came down from the top of the room									
+321	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+321	Who	テリーサ	Theresa									
+321	hasPredicate	降りてきた	come									
+321	Where	上の階	Upper floors									
+321	then											
+322	対象文	サイドボードにワインの瓶があった	The sideboard there was a wine bottle									
+322	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+322	Who	ワインの瓶	Bottle of wine									
+322	hasProperty	あった	exist									
+322	Where	サイドボード	Sideboard									
+322	then											
+323	対象文	ジャック・クロッカーはワインの瓶を開けた	Jack Crocker opened the bottle of wine									
+323	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+323	Who	ジャック・クロッカー	Jack Crocker									
+323	hasPredicate	開けた	open									
+323	What	ワインの瓶	Bottle of wine									
+323	then											
+324	対象文	レディー・ブラックンストールはショックで死んだようになっている	Lady Brackenstall is as dead in shock									
+324	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+324	Who	レディー・ブラックンストール	Lady Brackenstall									
+324	hasProperty	死んだようなっている	becomeAsDead	?								
+324	Why	ショックで	In shock									
+324	then											
+325	対象文	ジャック・クロッカーはレディー・ブラックンストールの口にワインを少し注いだ	Jack Crocker's a little poured the wine into the mouth of the Lady Brackenstall									
+325	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+325	Who	ジャック・クロッカー	Jack Crocker									
+325	hasPredicate	少し注いだ	pour									
+325	What	ワイン	wine									
+325	then											
+326	対象文	ジャック・クロッカーもワインを一杯飲んだ	Jack Crocker also had a glass drinking wine									
+326	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+326	Who	ジャック・クロッカー	Jack Crocker									
+326	hasProperty	飲んだ	drink									
+326	What	ワインを一杯	A glass of wine									
+326	then											
+327	対象文	テリーサとジャック・クロッカーが策略を考えた	Theresa and Jack Crocker thought the ruse									
+327	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+327	Who	テリーサ	Theresa									
+327	Who	ジャック・クロッカー	Jack Crocker									
+327	hasPredicate	考えた	think									
+327	What	策略	Trick									
+327	then											
+328	対象文	テリーサとジャック・クロッカーは事件を夜盗の仕業にした	Theresa and Jack Crocker was the case to the work of burglary									
+328	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+328	Who	テリーサ	Theresa									
+328	Who	ジャック・クロッカー	Jack Crocker									
+328	hasPredicate	夜盗の仕業にした	It was in the act of burglary	x								
+328	What	事件	Incident									
+328	then											
+329	対象文	テリーサは作り話を繰り返しレディー・ブラックンストールに聞かせた	Theresa was let to Lady black down stall repeat the apocryphal									
+329	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+329	Who	テリーサ	Theresa									
+329	hasPredicate	聞かせた	say									
+329	What	作り話	Fiction									
+329	How	繰り返しレディー・ブラックンストールに	To repeat Lady Brackenstall									
+329	then											
+330	対象文	ジャック・クロッカーはよじ登ってベルの紐を切った	Jack Crocker got off to a string of bell climbing									
+330	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+330	Who	ジャック・クロッカー	Jack Crocker									
+330	hasPredicate	切った	cut									
+330	What	ベルの紐	Bell string									
+330	then											
+331	対象文	ジャック・クロッカーはレディー・ブラックンストールを椅子に縛り付けた	Jack Crocker was tied to chair the Lady Brackenstall									
+331	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+331	Who	ジャック・クロッカー	Jack Crocker									
+331	hasPredicate	縛り付けた	tie									
+331	What	レディー・ブラックンストール	Lady Brackenstall									
+331	then											
+332	対象文	ジャック・クロッカーは紐の端を自然に見えるようにほつれさせた	Jack Crocker was let loose to look like the end of the string naturally									
+332	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+332	Who	ジャック・クロッカー	Jack Crocker									
+332	hasPredicate	ほつれさせた	fray									
+332	What	紐の端	End of the string									
+332	Why	どうやって夜盗が切ったのかと怪しまれるため	Because it is suspicious and how burglary was off doing									
+332	then											
+333	対象文	ジャック・クロッカーは銀のさらやポットをいくつかかき集めた	Jack Crocker has gathered some of the silver plates and pots									
+333	情報源	ジャック・クロッカー	Jack Crocker									
+333	Who	ジャック・クロッカー	Jack Crocker									
+333	hasPredicate	かき集めた	collect									
+333	What	銀のさらやポット	Silver plates and pots									
+333	Why	泥棒というアイデアを貫徹するため	In order to penetration the idea of ??thief									
+333	then											
+334	対象文	ジャック・クロッカーは自分が出て15分したら非常を知らせるように指示した	Jack Crocker were instructed to inform a very After the 15 minutes out of their own									
+334	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+334	Who	ジャック・クロッカー	Jack Crocker									
+334	hasPredicate	指示した	instruct									
+334	What	自分が出て15分後非常を知らせるように	To inform a very After 15 minutes out of their own									
+334	then											
+335	対象文	ジャック・クロッカーは池の底に銀製品を落とした	Jack Crocker dropped the silver product to the bottom of the pond									
+335	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+335	Who	ジャック・クロッカー	Jack Crocker									
+335	hasPredicate	落とした	drop									
+335	What	銀製品	Silver Products									
+335	Where	池の底	The bottom of the pond									
+335	then											
+336	対象文	ジャック・クロッカーは生涯の内で今度だけは本当に良いことをしたと思った	Jack Crocker thought I was the only really good this time within the lifetime									
+336	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+336	Who	ジャック・クロッカー	Jack Crocker									
+336	hasPredicate	思った	think									
+336	What	本当に良いことをしたと	That it has to be really good									
+336	then											
+337	対象文	ジャック・クロッカーはシドナムへ向かった	Jack Crocker went to Sydenham									
+337	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+337	Who	ジャック・クロッカー	Jack Crocker									
+337	hasPredicate	向かった	go									
+337	Where	シドナム	Sydenham									
+337	then											
+338	対象文	ジャック・クロッカーは真実を話した	Jack Crocker told the truth									
+338	情報源											
+338	Who	ジャック・クロッカー	Jack Crocker									
+338	hasPredicate	話した	say									
+338	What	真実を	truth									
+338	then											
+339	対象文	ホームズはジャック・クロッカーの手を握った	Holmes was holding the hand of Jack Crocker									
+339	情報源											
+339	Who	ホームズ	Holmes									
+339	hasPredicate	握った	hold									
+339	What	手を	hand									
+339	then											
+340	対象文	ホームズはジャック・クロッカーの話が真実だと分かった	Holmes story of Jack Crocker has been found that it is the truth									
+340	情報源	ホームズの発言	Holmes remark									
+340	Who	ホームズ	Holmes									
+340	hasPredicate	分かった	find									
+340	What	真実だと	truth									
+340	Why	ジャック・クロッカーはホームズの知らないことをほとんど言わなかった	Jack Crocker did not say most of that does not know Holmes									
+340	then											
+341	対象文	ホームズはブラケットからベルの紐に届くのは軽業師か船乗りしかいないと考えていた	Holmes arrive to the string of the bell from the bracket was thinking and not only Karuwazashi or sailor									
+341	情報源	ホームズの考え	Holmes thought									
+341	Who	ホームズ	Holmes									
+341	hasPredicate	考えていた	think									
+341	What	軽業師か船乗りしかいないと	only Acrobat or sailor									
+341	then											
+342	対象文	ホームズは船乗りでなければ椅子に括り付けられていた紐の結び目は作れないと考えていた	Holmes was thinking and can not make the knot of string that had been tied to a chair if it is not a sailor									
+342	情報源	ホームズの考え	Holmes thought									
+342	Who	ホームズ	Holmes									
+342	hasPredicate	考えていた	think									
+342	Why	船乗りでなければ椅子に括り付けられていた紐の結び目は作れない	You can not make a knot of string that had been tied to a chair if it is not a sailor									
+342	then											
+343	対象文	レディー・ブラックンストールは一度だけ船員たちと接触していた	Lady Brackenstall was in contact with the sailors only once									
+343	情報源	ホームズの考え	Holmes thought									
+343	Who	レディー・ブラックンストール	Lady Brackenstall									
+343	Who	船員たち	Sailors									
+343	hasPredicate	接触していた	meet									
+343	Where											
+343	then											
+344	対象文	レディー・ブラックンストールが船員と接触したのはレディー・ブラックンストールの船旅でのことだった	Lady Brackenstall was in contact with the sailors was that in the voyage of the Lady Brackenstall									
+344	情報源	ホームズの考え	Holmes thought									
+344	Who	レディー・ブラックンストール	Lady Brackenstall									
+344	Who	船員	Sailor									
+344	hasProperty	接触した	meet									
+344	When	レディー・ブラックンストールの船旅	Voyage of the Lady Brackenstall									
+344	then											
+345	対象文	接触した船員はレディー・ブラックンストールと同じ階級の誰かだった	Contact the sailor was someone of the same class as the Lady Brackenstall									
+345	情報源	ホームズの考え	Holmes thought									
+345	Who	船員	Sailor									
+345	hasProperty	だった	equalTo									
+345	What	同じ階級	The same class									
+345	Why	レディー・ブラックンストールがその男をかばおうとしているため	For Lady black down stall trying to Kabao that guy									
+345	then											
+346	対象文	警察は犯人を見抜いていない	The police have not managed to see through criminal									
+346	情報源	ホームズの発言	Holmes remark									
+346	Who	警察	police									
+346	hasPredicate	見抜いていない	notKnow									
+346	What	犯人	Criminal									
+346	then											
+347	対象文	ジャック・クロッカーの行動は極めて重大な問題	Extremely serious problem behavior of Jack Crocker									
+347	情報源	ホームズの発言	Holmes remark									
+347	Who	ジャック・クロッカーの行動は	Behavior of Jack Crocker									
+347	hasProperty	重大な問題	Serious problems									
+347	Where											
+347	then											
+348	対象文	ジャック・クロッカーの行動が正当防衛と断定されるかわからない	I do not know what is declared legitimate defense behavior of Jack Crocker									
+348	情報源	ホームズの発言	Holmes remark									
+348	Who	ホームズ	Holmes									
+348	hasPredicate	わからない	notKnow									
+348	What	ジャック・クロッカーの行動が正当防衛と断定されるか	Or behavior of Jack Crocker is concluded that self-defense									
+348	then											
+349	対象文	ホームズはジャック・クロッカーにおおいに同情している	Holmes has been much sympathy to Jack Crocker									
+349	情報源	ホームズの発言	Holmes remark									
+349	Who	ホームズ	Holmes									
+349	hasProperty	同情している	sympathy									
+349	What	ジャック・クロッカー	Jack Crocker									
+349	then											
+350	対象文	ジャック・クロッカーが24時間以内に姿を隠す気なら誰も妨げない	Jack Crocker does not interfere with anyone if I feel that hide the appearance within 24 hours									
+350	情報源	ホームズの発言	Holmes remark									
+350	Who	ホームズ	Holmes									
+350	hasProperty	約束した	promise									
+350	What	ジャック・クロッカーを誰も妨げない	Nobody does not interfere with the Jack Crocker									
+350	then											
+351	対象文	ジャック・クロッカーが隠れた後事件がすべてが明らかになる	Incidents all become clear after Jack Crocker is hidden									
+351	情報源	ホームズの発言	Holmes remark									
+351	Who	事件	Incident									
+351	hasPredicate	明らかになる	beThought		#ORG:hasProperty:emerge							
+351	When	ジャック・クロッカーが隠れた後	After Jack Crocker is hidden									
+351	then											
+351	対象文	レディー・ブラックンストールは共犯者として非難を受ける	Lady Brackenstall receive the accused as an accomplice									
+351	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+351	Who	レディー・ブラックンストール	Lady Brackenstall									
+351	hasPredicate	受ける	beThought									
+351	What	非難を	accomplice									
+351	then											
+352	対象文	ジャック・クロッカーはレディー・ブラックンストールを置いて逃げない	Jack Crocker will not run away at the Lady Brackenstall									
+352	情報源	ジャック・クロッカーの発言	Jack Crocker remark									
+352	Who	ジャック・クロッカー	Jack Crocker									
+352	hasPredicate	逃げない	notEscape									
+352	Why	レディー・ブラックンストールは共犯者として拘束されるため	For Lady Brackenstall is restrained as accomplice									
+352	then											
+353	対象文	ホームズはジャック・クロッカーを試していた	Holmes had tried Jack Crocker									
+353	情報源	ホームズの発言	Holmes remark									
+353	Who	ホームズ	Holmes									
+353	hasPredicate	試していた	try									
+353	What	ジャック・クロッカー	Jack Crocker									
+353	Why	誠実さを確かめた	It confirmed the sincerity									
+353	then											
+354	対象文	スタンリィ・ホプキンスにヒント以上のことはできない	It can not be more than hints in Stanley Hopkins									
+354	情報源	ホームズの発言	Holmes remark									
+354	Who	ホームズ	Holmes									
+354	hasPredicate	できない	cannotDo									
+354	What	ヒント以上のこと	Tip more than that									
+354	then											
+355	対象文	ジャック・クロッカーが有罪か無罪かワトソンに聞いた	Jack Crocker heard on guilt or innocence or Watson									
+355	情報源											
+355	Who	ホームズ	Holmes									
+355	hasPredicate	聞いた	hear									
+355	What	ジャック・クロッカーが有罪か無罪か	Whether or innocence Jack Crocker guilty									
+355	then											
+356	対象文	ワトソンは無罪と言った	Watson said acquitted									
+356	情報源	ワトソンの発言	Remarks Watson									
+356	Who	ワトソン	Watson									
+356	hasPredicate	言った	say									
+356	What	無罪	Not guilty									
+356	then											
+357	対象文	ジャック・クロッカーは無罪放免	Jack Crocker acquitted									
+357	情報源	ホームズの発言	Holmes remark									
+357	Who	ジャック・クロッカー	Jack Crocker									
+357	hasPredicate	持たない	notHave									
+357	What	罪	sin									
+357	because	297	297									
+358	対象文	民の声は神の声	Voice of the people is the voice of God									
+358	情報源											
+358	Who	民の声	Voice of the people									
+358	hasPredicate	等しい	equalTo									
+358	What	神の声	Voice of God									
+358	then											
+359	対象文	ジャック・クロッカーは法が他の犠牲者を見出さない限りホームズのことを心配しなくていい	Jack Crocker law do not have to worry about Holmes as long as it does not find the other victims									
+359	情報源	ホームズの発言	Holmes remark									
+359	Who	ジャック・クロッカー	Jack Crocker									
+359	hasPredicate	心配しなくていい	notWarry									
+359	Why											
+359	then											

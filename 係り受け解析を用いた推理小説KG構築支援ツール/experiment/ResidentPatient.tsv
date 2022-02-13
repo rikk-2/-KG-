@@ -1,0 +1,2004 @@
+1	対象文	ホームズは以下を推測した	Holmes guessed		
+1	情報源				
+1	Who	ホームズ	Holmes		
+1	hasPredicate	推測した	guess		
+1	What	002-005	002-005		
+1	then				
+2	対象文	パーシィ・トリヴェリアンは医者である。	Percy Trevelyan is a doctor.		
+2	情報源				
+2	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+2	hasProperty	医者である	doctor		
+2	then				
+3	対象文	パーシィ・トリヴェリアンは開業してまもない	Percy Trevelyan has just opened		
+3	情報源				
+3	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+3	hasProperty	開業してまもない	justOpened		
+3	then				
+4	対象文	パーシィ・トリヴェリアンは儲かっている	Percy Trevelyan is profitable		
+4	情報源				
+4	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+4	hasProperty	儲かっている	profitable		
+4	then				
+5	対象文	パーシィ・トリヴェリアンはホームズに相談したい	Percy Trevelyan want to talk to Holmes		
+5	情報源				
+5	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+5	hasProperty	相談したい	wantToConsult		
+5	To	ホームズ	Holmes		
+5	then				
+6	対象文	ワトソンは以下を推測した	Watson guessed		
+6	情報源				
+6	Who	ワトソン	Watson		
+6	hasPredicate	推測した	guess		
+6	What	7	7		
+6	then				
+7	対象文	パーシィ・トリヴェリアンは33,4歳以下である	Percy Trevelyanis under 33,4-year-old		
+7	情報源				
+7	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+7	hasProperty	33,4歳以下である	under 33,4 years old		
+7	then				
+8	対象文	ワトソンは以下を思った	Watson thought		
+8	情報源				
+8	Who	ワトソン	Watson		
+8	hasPredicate	思った	think		
+8	What	009-017	009-017		
+8	then				
+9	対象文	パーシィ・トリヴェリアンの表情はやつれている	Expression of Percy Trevelyan is sloppy		
+9	情報源				
+9	Who	パーシィ・トリヴェリアンの表情	Expression of Percy Trevelyan		
+9	hasProperty	やつれている	sloppy		
+9	then				
+10	対象文	パーシィ・トリヴェリアンの顔色は悪い	Percy Trevelyan looks pale		
+10	情報源				
+10	Who	パーシィ・トリヴェリアンの顔色	Percy Trevelyan		
+10	hasProperty	悪い	pale		
+10	then				
+11	対象文	パーシィ・トリヴェリアンは力を搾り取られた	Percy Trevelyan was squeezed forces		
+11	情報源				
+11	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+11	hasPredicate	搾り取られた	beSqueezed		
+11	What	力	Power		
+11	then				
+12	対象文	パーシィ・トリヴェリアンは若さを奪われた	Percy Trevelyan was robbed of youth		
+12	情報源				
+12	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+12	hasPredicate	奪われた	beRobbed		
+12	What	若さ	Youth		
+12	then				
+13	対象文	パーシィ・トリヴェリアンは神経質である	Percy Trevelyan is nervous		
+13	情報源				
+13	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+13	hasProperty	神経質である	nervous		
+13	then				
+14	対象文	パーシィ・トリヴェリアンは居場所がない様子である	Percy Trevelyan seems to have nowhere to go		
+14	情報源				
+14	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+14	hasProperty	居場所がない様子である	haveNowhereToGo		
+14	then				
+15	対象文	パーシィ・トリヴェリアンの手は白い	Hand of Percy Trevelyan is white		
+15	情報源				
+15	Who	パーシィ・トリヴェリアンの手	Hand of Percy Trevelyan		
+15	hasProperty	白い	white		
+15	then				
+16	対象文	パーシィ・トリヴェリアンは医者のようでは無い	Percy Trevelyan does not seem to a doctor		
+16	情報源				
+16	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+16	hasProperty	医者のようでは無い	notSeemToDoctor		
+16	why	15	15		
+16	then				
+17	対象文	パーシィ・トリヴェリアンは芸術家に見える	Percy Trevelyan seems to an artist		
+17	情報源				
+17	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+17	hasProperty	芸術家に見える	seemToArtist		
+17	Why	15	15		
+17	then				
+18	対象文	パーシィ・トリヴェリアンの服装は地味である	Dress of Percy Trevelyan is a sober		
+18	情報源				
+18	Who	パーシィ・トリヴェリアンの服装	Dress of Percy Trevelyan		
+18	hasProperty	地味である	sober		
+18	then				
+19	対象文	パーシィ・トリヴェリアンは黒いフロック・コートを着ている	Percy Trevelyan wears a black frock-coat		
+19	情報源				
+19	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+19	hasProperty	着ている	wearing		
+19	What	黒いフロック・コート	Black frock coat		
+19	then				
+20	対象文	パーシィ・トリヴェリアンは黒めのズボンを履いている	Percy Trevelyan is wearing the trousers of Me black		
+20	情報源				
+20	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+20	hasProperty	履いている	wearing		
+20	What	黒めのズボン	black trousers		
+20	then				
+21	対象文	パーシィ・トリヴェリアンはわずかに色のあるネクタイを着けている	Percy Trevelyan is wearing a tie slightly with color		
+21	情報源				
+21	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+21	hasProperty	着けている	wearing		
+21	What	わずかに色のあるネクタイ	tieSlightlyWithColor		
+21	then				
+22	対象文	パーシィ・トリヴェリアンはホームズとワトソンに名前を告げた	Percy Trevelyan told the name to Holmes and Watson		
+22	情報源				
+22	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+22	hasPredicate	告げた	tell		
+22	What	名前	name		
+22	To	ホームズ	Holmes		
+22	To	ワトソン	Watson		
+22	then				
+23	対象文	パーシィ・トリヴェリアンはブルックリン街四〇三番地に住んでいる	Percy Trevelyan lives in Brooklyn, the city four hundred and three address		
+23	情報源				
+23	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+23	hasPredicate	住んでいる	live		
+23	Where	ブルックリン街四〇三番地	"403 Brooklyn Street"		
+23	then				
+24	対象文	ワトソンは以下を確認した	Watson confirmed the following:		
+24	情報源				
+24	Who	ワトソン	Watson		
+24	hasPredicate	確認した	confirm		
+24	What	25	25		
+24	then				
+25	対象文	パーシィ・トリヴェリアンは神経障害についての論文を書いた	Percy Trevelyan wrote a paper about the neurological disorder		
+25	情報源				
+25	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+25	hasPredicate	書いた	write		
+25	What	神経障害についての論文	paper about neurological disorders		
+25	then				
+26	対象文	パーシィ・トリヴェリアンは神経疾患を研究している	Percy Trevelyan have studied the neurological disorder		
+26	情報源				
+26	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+26	hasPredicate	研究している	study		
+26	To	神経疾患	Neurological disorder		
+26	then				
+27	対象文	パーシィ・トリヴェリアンは以下をホームズに言った	Percy Trevelyan told Holmes the following		
+27	情報源				
+27	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+27	hasPredicate	言った	say		
+27	To	ホームズ	Holmes		
+27	What	028-029	028-029		
+27	then				
+28	対象文	妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった	"Strange incident occurred in quick succession in the home of Percy Trevelyan"		
+28	情報源				
+28	Who	妙な事件	StrangeIncident		
+28	hasProperty	起こった	occur		
+28	Where	パーシィ・トリヴェリアンの自宅	"Home of Percy Trevelyan"		
+28	How	立て続けに	In quick succession		
+28	then				
+29	対象文	パーシィ・トリヴェリアンは事件のことを相談に来た	Percy Trevelyan came to the consultation that the incident		
+29	情報源				
+29	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+29	hasPredicate	相談に来た	comeToConsult		
+29	What	事件の事	incident		
+29	then				
+30	対象文	パーシィ・トリヴェリアンは以下を言った	Percy Trevelyan said the following:		
+30	情報源				
+30	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+30	hasPredicate	言った	say		
+30	On	031-157	031-157		
+30	then				
+31	対象文	パーシィ・トリヴェリアンの硬化症の研究は注目されていた	A study of sclerosis of Percy Trevelyan had been noted		
+31	情報源				
+31	Who	パーシィ・トリヴェリアンの硬化症の研究	A study of sclerosis of Percy Trevelyan		
+31	hasPredicate	注目されていた	beNoted		
+31	then				
+32	対象文	パーシィ・トリヴェリアンはブルース・ピンカトン賞を受賞した	Percy Trevelyan was awarded the Bruce Pinkerton Award		
+32	情報源				
+32	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+32	hasPredicate	受賞した	beAwarded		
+32	What	ブルース・ピンカトン賞	Bruce Pinkerton Award		
+32	then				
+33	対象文	志ある専門医はキャヴェンディッシュ・スクエア付近の十二の街に開業しなければならない	Aspiring specialists must open in twelve cities near Cavendish Square		
+33	情報源				
+33	Who	志ある専門医	Aspiring specialists		
+33	hasProperty	開業しなければならない	mustOpen		
+33	Where	キャヴェンディッシュ・スクエア付近の十二の街	Twelve city near Cavendish Square		
+33	then				
+34	対象文	パーシィ・トリヴェリアンは某台な賃料と調度のための支出を払わなければならない	Percy Trevelyan must pay the expenditure for certain stand rent and furnishings		
+34	情報源				
+34	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+34	hasPredicate	払わなければならない	mustPay		
+34	What	某大な賃料	Certain large rent		
+34	What	調度のための支出	Expenditure for furnishings		
+34	then				
+35	対象文	パーシィ・トリヴェリアンは数年分の生活費と体裁の良い馬車を雇う金を用意しなければならなかった	Percy Trevelyan had to prepare the money to hire a few years' worth of living expenses and the appearance of a good coach		
+35	情報源				
+35	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+35	hasPredicate	用意しなければならなかった	mustPrepare		
+35	What	数年分の生活費	Several years worth of living expenses		
+35	What	体裁の良い馬車を雇う金	Gold to hire the appearance of a good coach		
+35	then				
+36	対象文	パーシィ・トリヴェリアンは金を用意できなかった	Percy Trevelyan could not provide a gold		
+36	情報源				
+36	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+36	hasPredicate	用意できなかった	cannotProvide		
+36	What	金	Money		
+36	then				
+37	対象文	パーシィ・トリヴェリアンは以下を期待することしかできない	Percy Trevelyan can only be expected following		
+37	情報源				
+37	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+37	hasPredicate	期待することしかできない	expect		
+37	What	38	38		
+37	then				
+38	対象文	パーシィ・トリヴェリアンは10年後に開業する	Percy Trevelyan is opened after 10 years		
+38	情報源				
+38	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+38	hasPredicate	開業する	open		
+38	When	10年後	Ten years later		
+38	then				
+39	対象文	パーシィ・トリヴェリアンは思いがけない出来事から見通しがついた	Percy Trevelyan was with a prospect from unexpected events		
+39	情報源				
+39	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+39	hasPredicate	見通しがついた	prospect		
+39	From	思いがけない出来事	unexpected events		
+39	then				
+40	対象文	ブレッシントンはある朝パーシィ・トリヴェリアンの部屋を訪問した	Blessington visited the room in the morning Percy Trevelyan there		
+40	情報源				
+40	Who	ブレッシントン	Blessington		
+40	hasPredicate	訪問した	visit		
+40	To	パーシィ・トリヴェリアンの部屋	Room of Percy Trevelyan		
+40	When	ある朝	One morning		
+40	then				
+41	対象文	パーシィ・トリヴェリアンはブレッシントンを知らない	Percy Trevelyan do not know Blessington		
+41	情報源				
+41	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+41	hasProperty	知らない	notKnow		
+41	What	ブレッシントン	Blessington		
+41	then				
+42	対象文	ブレッシントンはパーシィ・トリヴェリアンに開業しない理由を尋ねた	Blessington asked why it is not opened to Percy Trevelyan		
+42	情報源				
+42	Who	ブレッシントン	Blessington		
+42	hasPredicate	尋ねた	ask		
+42	To	パーシィ・トリヴェリアン	Percy Trevelyan		
+42	What	開業しない理由	The reason for not opening		
+42	then				
+43	対象文	パーシィ・トリヴェリアンは肩をすくめた	Percy Trevelyan shrugged		
+43	情報源				
+43	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+43	hasPredicate	すくめた	shrug		
+43	What	肩	shoulder		
+43	then				
+44	対象文	ブレッシントンはパーシィ・トリヴェリアンに以下を言った	Blessington said the following to the Percy Trevelyan		
+44	情報源				
+44	Who	ブレッシントン	Blessington		
+44	hasPredicate	言った	say		
+44	What	045,047-053	045,047-053		
+44	To	パーシィ・トリヴェリアン	Percy Trevelyan		
+44	then				
+45	対象文	ブレッシントンはパーシィ・トリヴェリアンに投資する	Blessington is to invest in Percy Trevelyan		
+45	情報源				
+45	Who	ブレッシントン	Blessington		
+45	hasPredicate	投資する	invest		
+45	To	パーシィ・トリヴェリアン	Percy Trevelyan		
+45	then				
+46	対象文	パーシィ・トリヴェリアンは驚いた	Percy Trevelyan was surprised		
+46	情報源				
+46	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+46	hasProperty	驚いた	surprise		
+46	then				
+47	対象文	自身のための投資である	the investment for its own		
+47	情報源				
+47	Who	自身のための投資	Investment for its own		
+47	hasProperty	である	equalTo		
+47	then				
+48	対象文	ブレッシントンは数千の投資金を持っている	Blessington has to invest the net proceeds thousands		
+48	情報源				
+48	Who	ブレッシントン	Blessington		
+48	hasPredicate	持っている	have		
+48	What	数千の投資金	Several thousand investment gold		
+48	then				
+49	対象文	ブレッシントンはパーシィ・トリヴェリアンに数千の投資金をつぎ込もうと思っている	Blessington wants to invest thousands of dollars in Percy Trivelian		
+49	情報源				
+49	Who	ブレッシントン	Blessington		
+49	hasPredicate	つぎ込もうと思っている	wantToInvest		
+49	What	数千の投資金	Several thousand investment gold		
+49	To	パーシィ・トリヴェリアン	Percy Trevelyan		
+49	then				
+50	対象文	ブレッシントンは家を手に入れる	Blessington is to get a house		
+50	情報源				
+50	Who	ブレッシントン	Blessington		
+50	hasPredicate	手に入れる	obtain		
+50	What	家	House		
+50	then				
+51	対象文	ブレッシントンは調度を揃える	Blessington align the furniture		
+51	情報源				
+51	Who	ブレッシントン	Blessington		
+51	hasPredicate	揃える	align		
+51	What	調度	Furniture		
+51	then				
+52	対象文	パーシィ・トリヴェリアンは診察を行う	Percy Trevelyan do medical examination		
+52	情報源				
+52	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+52	hasPredicate	行う	do		
+52	What	診察	Medical examination		
+52	then				
+53	対象文	パーシィ・トリヴェリアンは稼ぎの３分の２をブレッシントンに渡す	Percy Trevelyan passes the two-thirds of earnings in Blessington		
+53	情報源				
+53	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+53	hasPredicate	渡す	pass		
+53	What	稼ぎの３分の２	Two-thirds of earnings		
+53	To	ブレッシントン	Blessington		
+53	then				
+54	対象文	ブレッシントンはパーシィ・トリヴェリアンに奇妙な提案をした	Blessington was a strange proposal to Percy Trevelyan		
+54	情報源				
+54	Who	ブレッシントン	Blessington		
+54	hasPredicate	した	do		
+54	What	奇態な提案	Strange proposal		
+54	To	パーシィ・トリヴェリアン	Percy Trevelyan		
+54	then				
+55	対象文	パーシィ・トリヴェリアンは提案通りの条件で開業した	Percy Trevelyan was opened under the conditions of the proposed street		
+55	情報源				
+55	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+55	hasPredicate	開業した	open		
+55	How	提案通りの条件	Conditions of the proposed street		
+55	then				
+56	対象文	ブレッシントンとパーシィ・トリヴェリアンは同居した	Blessington and Percy Trevelyan were living together		
+56	情報源				
+56	Who	ブレッシントン	Blessington		
+56	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+56	hasPredicate	同居した	liveTogether		
+56	then				
+57	対象文	ブレッシントンは患者件同居者である	Blessington is a patient matter living person		
+57	情報源				
+57	Who	ブレッシントン	Blessington		
+57	hasProperty	である	equalTo		
+57	What	患者兼同居者	Patients and living person		
+57	then				
+58	対象文	ブレッシントンの心臓は弱い	The heart of Blessington is weak		
+58	情報源				
+58	Who	ブレッシントンの心臓	The heart of Blessington		
+58	hasProperty	弱い	weak		
+58	then				
+59	対象文	ブレッシントンは医者の監督を常時必要とする	Blessington will always need the supervision of a doctor		
+59	情報源				
+59	Who	ブレッシントン	Blessington		
+59	hasProperty	必要とする	need		
+59	What	医者の監督	Director of doctor		
+59	When	常時	always		
+59	then				
+60	対象文	ブレッシントンは二階にある一番良い部屋二室を居間と寝室として使った	Blessington used the best room two-chamber located on the second floor as the living room and bedroom		
+60	情報源				
+60	Who	ブレッシントン	Blessington		
+60	hasPredicate	使った	use		
+60	What	二階にある一番良い部屋二室	The best two rooms located on the second floor		
+60	How	居間と寝室として	As a living room and bedroom		
+60	then				
+61	対象文	ブレッシントンは妙な癖を持っている	Blessington has a strange habit		
+61	情報源				
+61	Who	ブレッシントン	Blessington		
+61	hasProperty	持っている	have		
+61	What	妙な癖	Strange habit		
+61	then				
+62	対象文	ブレッシントンは人付き合いを避ける	Blessington avoid socializing		
+62	情報源				
+62	Who	ブレッシントン	Blessington		
+62	hasPredicate	避ける	avoid		
+62	What	人付き合い	Social disposition		
+62	then				
+63	対象文	ブレッシントンは外出をほとんどしない	Blessington is hardly going out		
+63	情報源				
+63	Who	ブレッシントン	Blessington		
+63	hasProperty	ほとんどしない	Hardly		
+63	What	外出	goOut		
+63	then				
+64	対象文	ブレッシントンの生活は不規則である	Life of Blessington is irregular		
+64	情報源				
+64	Who	ブレッシントンの生活	Life of Blessington		
+64	hasProperty	不規則である	irregular		
+64	then				
+65	対象文	ブレッシントンは以下を規則とする	Blessington is a rule the following		
+65	情報源				
+65	Who	ブレッシントン	Blessington		
+65	hasProperty	規則とする	rule		
+65	What	066-070	066-070		
+65	then				
+66	対象文	ブレッシントンは毎晩、同じ時間に診察室に行く	Blessington every night, go to the examination room at the same time		
+66	情報源				
+66	Who	ブレッシントン	Blessington		
+66	hasPredicate	行く	go		
+66	To	診察室	Examination room		
+66	When	毎晩、同じ時間	Every night, same time		
+66	then				
+67	対象文	ブレッシントンは帳簿を調べる	Blessington find the book		
+67	情報源				
+67	Who	ブレッシントン	Blessington		
+67	hasPredicate	調べる	investigate		
+67	What	帳簿	Account book		
+67	then				
+68	対象文	ブレッシントンは一ギニィに五シリングと三ペンスを置いていく	Blessington is going to put five shillings and three pence to one Ginyi		
+68	情報源				
+68	Who	ブレッシントン	Blessington		
+68	hasPredicate	置いていく	put		
+68	What	一ギニィに五シリングと三ペンス	Five shillings and three pence to one Ginyi		
+68	then				
+69	対象文	ブレッシントンは残りの金を自身の部屋に持っていく	Blessington is to bring the rest of the money in their own room		
+69	情報源				
+69	Who	ブレッシントン	Blessington		
+69	hasPredicate	持っていく	take		
+69	What	残りの金	The rest of the gold		
+69	To	自身の部屋	Own room		
+69	then				
+70	対象文	ブレッシントンは残りの金を自身の部屋の金庫にしまう	Blessington is put away the rest of the gold in its own room safe		
+70	情報源				
+70	Who	ブレッシントン	Blessington		
+70	hasPredicate	しまう	put		
+70	What	残りの金	The rest of the gold		
+70	Where	自身の部屋の金庫	Own room safe		
+70	then				
+71	対象文	ブレッシントンは何週間か前、パーシィ・トリヴェリアンの部屋を訪れた	Blessington is a few weeks ago, visited the room of Percy Trevelyan		
+71	情報源				
+71	Who	ブレッシントン	Blessington		
+71	hasPredicate	訪れた	visit		
+71	To	パーシィ・トリヴェリアンの部屋	Room of Percy Trevelyan		
+71	When	何週間か前	Few weeks ago		
+71	then				
+72	対象文	ブレッシントンは動揺した	Blessington was upset		
+72	情報源				
+72	Who	ブレッシントン	Blessington		
+72	hasPredicate	動揺した	upset		
+72	then				
+73	対象文	ブレッシントンはパーシィ・トリヴェリアンに以下を言った	Blessington said the following to the Percy Trevelyan		
+73	情報源				
+73	Who	ブレッシントン	Blessington		
+73	hasPredicate	言った	say		
+73	To	パーシィ・トリヴェリアン	Percy Trevelyan		
+73	What	74	74		
+73	then				
+74	対象文	押し込みの強盗がウエスト・エンド界隈で起こった	Robbery of the indentation has occurred in the West End neighborhood		
+74	情報源				
+74	Who	押し込みの強盗	Robbery of the indentation		
+74	hasProperty	起こった	happen		
+74	Where	ウエスト・エンド界隈	West End neighborhood		
+74	then				
+75	対象文	ブレッシントンは非常に興奮した	Blessington was very excited		
+75	情報源				
+75	Who	ブレッシントン	Blessington		
+75	hasPredicate	興奮した	excite		
+75	When	73	73		
+75	How	非常に	very		
+75	then				
+76	対象文	ブレッシントンは以下を言い張った	Blessington has insisted the following		
+76	情報源				
+76	Who	ブレッシントン	Blessington		
+76	hasPredicate	言い張った	insist		
+76	What	77	77		
+76	then				
+77	対象文	ブレッシントンとパーシィ・トリヴェリアンは閂を窓や扉に取り付けなければならない	Blessington and Percy Trevelyan must be fitted with a obex to the window and door		
+77	情報源				
+77	Who	ブレッシントン	Blessington		
+77	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+77	hasPredicate	取り付けなければならない	mustAttach		
+77	What	閂	Obex		
+77	To	窓や扉	Windows and doors		
+77	then				
+78	対象文	ブレッシントンは事件から一週間の間落ち着かなかった	Blessington did not settle for one week from the incident		
+78	情報源				
+78	Who	ブレッシントン	Blessington		
+78	hasProperty	落ち着かなかった	notSettle		
+78	When	事件から一週間の間	During the week from the incident		
+78	then				
+79	対象文	ブレッシントンは窓の外を覗いた	Blessington was peeped out of the window		
+79	情報源				
+79	Who	ブレッシントン	Blessington		
+79	hasPredicate	覗いた	peep		
+79	What	窓の外	Out of the window		
+79	then				
+80	対象文	ブレッシントンは日課の散歩をやめた	Blessington gave up a walk of daily routine		
+80	情報源				
+80	Who	ブレッシントン	Blessington		
+80	hasPredicate	やめた	stop		
+80	What	日課の散歩	Walk of the daily routine		
+80	then				
+81	対象文	パーシィ・トリヴェリアンは以下を感じた	Percy Trevelyan felt the following		
+81	情報源				
+81	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+81	hasPredicate	感じた	feel		
+81	What	82	82		
+81	then				
+82	対象文	ブレッシントンは何かを病的に恐れた	Blessington was afraid pathological something		
+82	情報源				
+82	Who	ブレッシントン	Blessington		
+82	hasPredicate	恐れた	fear		
+82	What	何か	something		
+82	How	病的に	Morbidly		
+82	then				
+83	対象文	ブレッシントンは気を悪くした	Blessington was offended		
+83	情報源				
+83	Who	ブレッシントン	Blessington		
+83	hasPredicate	気を悪くする	feelBad		
+83	When	84	84		
+83	then				
+84	対象文	パーシィ・トリヴェリアンはブレッシントンに恐怖に感じている事を尋ねる	Percy Trevelyan asks that feels fear in Blessington		
+84	情報源				
+84	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+84	hasPredicate	尋ねた	ask		
+84	To	ブレッシントン	Blessington		
+84	What	恐怖に感じている事	feelFear		
+84	then				
+85	対象文	ブレッシントンの恐怖は静まった	Fear of Blessington subsided		
+85	情報源				
+85	Who	ブレッシントンの恐怖	Fear of Blessington		
+85	hasProperty	静まった	subside		
+85	then				
+86	対象文	ブレッシントンは再び恐怖を覚えた	Blessington was remember the fear again		
+86	情報源				
+86	Who	ブレッシントン	Blessington		
+86	hasPredicate	再び覚えた	learn		
+86	What	恐怖	Fear		
+86	then				
+87	対象文	パーシィ・トリヴェリアンは2日前に手紙を受け取った	Percy Trevelyan received a letter two days ago		
+87	情報源				
+87	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+87	hasPredicate	受け取った	receive		
+87	What	手紙	letter		
+87	When	2日前	2 days ago		
+87	then				
+88	対象文	住所と日付は手紙に書かれていなかった	Address and date has not been written in the letter		
+88	情報源				
+88	Who	住所	Street address		
+88	Who	日付	date		
+88	hasPredicate	書かれていなかった	notBeWritten		
+88	On	手紙	letter		
+88	then				
+89	対象文	手紙の内容は以下を含む	The contents of the letter include the following:		
+89	情報源				
+89	Who	手紙の内容	The contents of the letter		
+89	hasPredicate	含む	include		
+89	What	090-093	090-093		
+89	then				
+90	対象文	ロシア貴族はイングランドに在留中である	Russian aristocracy is in residence in England		
+90	情報源				
+90	Who	ロシア貴族	Russian nobility		
+90	hasPredicate	在留中である	in residence		
+90	Where	イングランド	England		
+90	then				
+91	対象文	ロシア貴族は強硬症の発作に悩んでいる	Russian nobles suffer from bouts of hard-line disease		
+91	情報源				
+91	Who	ロシア貴族	Russian nobility		
+91	hasPredicate	悩んでいる	worry		
+91	What	強硬症の発作	bouts of hard-line disease		
+91	then				
+92	対象文	パーシィ・トリヴェリアンは強硬症の名医である	Percy Trevelyan is a good doctor of catalepsy		
+92	情報源				
+92	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+92	hasProperty	である	equalTo		
+92	What	強硬症の治療の名医	Doctors of the treatment of catalepsy		
+92	then				
+93	対象文	ロシア貴族は次の日の午後六時十五分頃にパーシィ・トリヴェリアンの診察を受けたい	Russian nobles want to consult a Percy Trevelyan around six o'clock fifteen minutes the afternoon of the next day		
+93	情報源				
+93	Who	ロシア貴族	Russian nobility		
+93	hasPredicate	受けたい	wantToReceive		
+93	What	パーシィ・トリヴェリアンの診察	Examination of Percy Trevelyan		
+93	When	次の日の午後六時十五分頃	Pm six of the next day tens of around five minutes		
+93	then				
+94	対象文	パーシィ・トリヴェリアンは診察室でロシア貴族を待った	Percy Trevelyan was waiting for the Russian aristocracy in the examination room		
+94	情報源				
+94	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+94	hasPredicate	待った	wait		
+94	Where	診察室	Examination room		
+94	What	ロシア貴族	Russian nobility		
+94	then				
+95	対象文	手伝いの少年は指定の時刻に患者を診察室に招き入れた	The Helper boy invited to the examination room of a patient at a specified time		
+95	情報源				
+95	Who	手伝いの少年	Helper boy		
+95	hasPredicate	招き入れた	invite		
+95	What	患者	patient		
+95	To	診察室	Examination room		
+95	When	指定の時刻	Specified time		
+95	then				
+96	対象文	初老の男と若い男は診察室に入ってきた	An elderly man and a young man came into the examination room		
+96	情報源				
+96	Who	初老の男	Elderly man		
+96	Who	若い男	Young man		
+96	hasPredicate	入ってきた	enter		
+96	To	診察室	Examination room		
+96	then				
+97	対象文	初老の男は痩せている	Elderly man is skinny		
+97	情報源				
+97	Who	初老の男	Elderly man		
+97	hasProperty	痩せている	thin		
+97	then				
+98	対象文	初老の男はおとなしい	Elderly man is docile		
+98	情報源				
+98	Who	初老の男	Elderly man		
+98	hasProperty	おとなしい	docile		
+98	then				
+99	対象文	初老の男はロシア貴族のようではない	Not the elderly man is like a Russian nobleman		
+99	情報源				
+99	Who	初老の男	Elderly man		
+99	hasProperty	ロシア貴族のようではない	Not like Russian nobility		
+99	then				
+100	対象文	若い男の背は高い	The young mank is tall		
+100	情報源				
+100	Who	若い男の背	Young man		
+100	hasProperty	高い	tall		
+100	then				
+101	対象文	若い男は屈強である	The young man is a hefty		
+101	情報源				
+101	Who	若い男	Young man		
+101	hasProperty	屈強である	hefty		
+101	then				
+102	対象文	若い男の顔は浅黒い	The young man's face is swarthy		
+102	情報源				
+102	Who	若い男の顔	face of young man		
+102	hasProperty	浅黒い	swarthy		
+102	then				
+103	対象文	若い男は恐ろしげである	The young man is a fearsome		
+103	情報源				
+103	Who	若い男	Young man		
+103	hasProperty	恐ろしげである	scary		
+103	then				
+104	対象文	若い男の胸と手はヘラクレスのようである	The young man of the chest and the hand is like Hercules		
+104	情報源				
+104	Who	若い男の胸	chest of Young man		
+104	Who	若い男の手	hand of Young man		
+104	hasProperty	ヘラクレスのようである	asHercules		
+104	then				
+105	対象文	若い男は初老の男を介護した	The young man was caring for an elderly man		
+105	情報源				
+105	Who	若い男	Young man		
+105	hasPredicate	介護した	care		
+105	What	初老の男	Elderly man		
+105	then				
+106	対象文	若い男は以下を言った	The young man said the following:		
+106	情報源				
+106	Who	若い男	Young man		
+106	hasPredicate	言った	say		
+106	What	106	106		
+106	then				
+107	対象文	初老の男は若い男の父親である	Elderly man is the young man's father		
+107	情報源				
+107	Who	初老の男	Elderly man		
+107	hasProperty	である	equalTo		
+107	What	若い男の父親	father of Young man		
+107	then				
+108	対象文	パーシィ・トリヴェリアンは若い男に診察に立ち会うことを勧めた	Percy Trevelyan advised that attend to the medical examination to the young man		
+108	情報源				
+108	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+108	hasPredicate	勧めた	recommend		
+108	What	診察に立ち会うこと	attending to the medical examination		
+108	To	若い男	Young man		
+108	then				
+109	対象文	若い男はパーシィ・トリヴェリアンの提案を断った	The young man refused the proposal of Percy Trevelyan		
+109	情報源				
+109	Who	若い男	Young man		
+109	hasPredicate	断った	refuse		
+109	What	パーシィ・トリヴェリアンの提案	Proposal of Percy Trevelyan		
+109	then				
+110	対象文	若い男は以下を言った	The young man said the following:		
+110	情報源				
+110	Who	若い男	Young man		
+110	hasPredicate	言った	say		
+110	What	111	111		
+110	then				
+111	対象文	若い男は診察中、待合室にいる	The young man during the examination, in the waiting room		
+111	情報源				
+111	Who	若い男	Young man		
+111	hasProperty	いる	exist		
+111	Where	待合室	waiting room		
+111	When	診察中	while Examination		
+111	then				
+112	対象文	若い男は診察室を退室した	The young man was leaving the examination room		
+112	情報源				
+112	Who	若い男	Young man		
+112	hasPredicate	退室した	leave		
+112	From	診察室	Examination room		
+112	then				
+113	対象文	初老の男とパーシィ・トリヴェリアンは症状のことを話した	An elderly man and Percy Trevelyan was talking about symptoms		
+113	情報源				
+113	Who	初老の男	Elderly man		
+113	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+113	hasPredicate	話した	talk		
+113	What	症状のこと	about symptoms		
+113	then				
+114	対象文	パーシィ・トリヴェリアンは覚え書きを取った	Percy Trevelyan took a Memorandum		
+114	情報源				
+114	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+114	hasPredicate	取った	take		
+114	What	覚え書き	Note		
+114	then				
+115	対象文	初老の男は高い教養を持っていない	An elderly man does not have a higher education		
+115	情報源				
+115	Who	初老の男	Elderly man		
+115	hasPredicate	持っていない	notHave		
+115	What	高い教養	Higher education		
+115	then				
+116	対象文	初老の男は返答をしなくなった	An elderly man was no longer a reply		
+116	情報源				
+116	Who	初老の男	Elderly man		
+116	hasPredicate	しなくなった	stop		
+116	What	返答	Reply		
+116	then				
+117	対象文	パーシィ・トリヴェリアンは以下を驚いた	Percy Trevelyan was surprised the following		
+117	情報源				
+117	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+117	hasPredicate	驚いた	surprise		
+117	What	118-120	118-120		
+117	then				
+118	対象文	初老の男は背をのばして椅子に座っている	Elderly man is sitting in a chair and stretched the back		
+118	情報源				
+118	Who	初老の男	Elderly man		
+118	hasPredicate	座っている	sit		
+118	On	椅子	Chair		
+118	How	背をのばして	Stretched back		
+118	then				
+119	対象文	初老の男の顔は無表情である	Elderly man's face is expressionless		
+119	情報源				
+119	Who	初老の男の顔	Face of elderly man		
+119	hasProperty	無表情である	expressionless		
+119	then				
+120	対象文	初老の男はパーシィ・トリヴェリアンを見つめている	Elderly man is staring at the Percy Trevelyan		
+120	情報源				
+120	Who	初老の男	Elderly man		
+120	hasPredicate	見つめている	gaze		
+120	What	パーシィ・トリヴェリアン	Percy Trevelyan		
+120	then				
+121	対象文	パーシィ・トリヴェリアンは初老の男の脈拍と体温と筋肉の硬直具合を調べた	Percy Trevelyan examined the rigid condition of pulse and body temperature and muscle of elderly man		
+121	情報源				
+121	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+121	hasPredicate	調べた	examine		
+121	What	初老の男の脈拍	Pulse of elderly man		
+121	What	初老の男の体温	Body temperature of elderly man		
+121	What	初老の男の筋肉の硬直具合	Rigid condition of an elderly man of muscle		
+121	then				
+122	対象文	初老の男は異常がなかった	An elderly man had no abnormality		
+122	情報源				
+122	Who	初老の男	Elderly man		
+122	hasProperty	異常がなかった	Abnormality was not		
+122	then				
+123	対象文	パーシィ・トリヴェリアンは亜硝酸アルミを階下の実験室に取りに行った	Percy Trevelyan went to take to the lab downstairs nitrite aluminum		
+123	情報源				
+123	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+123	hasPredicate	取りに行った	goToGet		
+123	What	亜硝酸アルミ	Nitrous acid aluminum		
+123	To	階下の実験室	Downstairs in the laboratory		
+123	then				
+124	対象文	パーシィ・トリヴェリアンは診察室に初老の男を残した	Percy Trevelyan left the elderly man in the examination room		
+124	情報源				
+124	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+124	hasPredicate	取り残した	I left behind was		
+124	What	初老の男	Elderly man		
+124	Where	診察室	Examination room		
+124	When	123			
+124	then				
+125	対象文	パーシィ・トリヴェリアンは5分後診察室に戻った	Percy Trevelyan went back to 5 minutes after the examination room		
+125	情報源				
+125	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+125	hasPredicate	戻った	Back was		
+125	To	診察室	Examination room		
+125	When	5分後	after 5 minutes		
+125	then				
+126	対象文	初老の男は診察室にいなかった	An elderly man was not in the examination room		
+126	情報源				
+126	Who	初老の男	Elderly man		
+126	hasProperty	いなかった	notExist		
+126	Where	診察室	Examination room		
+126	When	125			
+126	then				
+127	対象文	パーシィ・トリヴェリアンは待合室に飛び込んだ	Percy Trevelyan jumped into the waiting room		
+127	情報源				
+127	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+127	hasPredicate	飛び込んだ	jumpInto		
+127	To	待合室	waiting room		
+127	then				
+128	対象文	初老の男と若い男は待合室にいなかった	An elderly man and the young man was not in the waiting room		
+128	情報源				
+128	Who	初老の男	Elderly man		
+128	Who	若い男	Young man		
+128	hasProperty	いなかった	notExist		
+128	Where	待合室	waiting room		
+128	then				
+129	対象文	広間の戸は閉まっていた	Door of the hall was closed		
+129	情報源				
+129	Who	広間の戸	Door of the hall		
+129	hasProperty	閉まっていた	close		
+129	then				
+130	対象文	鍵はかかっていなかった	The key was not at stake		
+130	情報源				
+130	Who	鍵	key		
+130	hasProperty	かかっていなかった	notBeAtStake		
+130	then				
+131	対象文	手伝いの少年は物音を聞いていない	Helper boy did not hear the sounds		
+131	情報源				
+131	Who	手伝いの少年	Helper boy		
+131	hasPredicate	聞いていない	notListen		
+131	What	物音	Sounds		
+131	then				
+132	対象文	ブレッシントンは日課の散歩から帰ってきた	Blessington came back from a walk of daily routine		
+132	情報源				
+132	Who	ブレッシントン	Blessington		
+132	hasPredicate	帰ってきた	return		
+132	From	日課の散歩	Walk of the daily routine		
+132	then				
+133	対象文	パーシィ・トリヴェリアンは初老の男と若い男の事をブレッシントンに伝えなかった	Percy Trevelyan did not tell that of an elderly man and a young man in Blessington		
+133	情報源				
+133	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+133	hasPredicate	伝えなかった	notTell		
+133	To	ブレッシントン	Blessington		
+133	What	初老の男と若い男の事	about Elderly man and Young man		
+133	then				
+134	対象文	パーシィ・トリヴェリアンは以下を驚いた	Percy Trevelyan was surprised the following		
+134	情報源				
+134	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+134	hasPredicate	驚いた	surprise		
+134	What	135	135		
+134	then				
+135	対象文	初老の男と若い男は今晩の同じ時刻に診察室に入ってきた	An elderly man and a young man came into the examination room at the same time tonight		
+135	情報源				
+135	Who	初老の男	Elderly man		
+135	Who	若い男	Young man		
+135	hasPredicate	入ってきた	enter		
+135	To	診察室	Examination room		
+135	When	今晩の同じ時刻	Same time tonight		
+135	then				
+136	対象文	パーシィ・トリヴェリアンは初老の男と若い男を待合室に入れた	Percy Trevelyan was placed in a waiting room of an elderly man and a young man		
+136	情報源				
+136	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+136	hasPredicate	入れた	enter		
+136	What	初老の男	Elderly man		
+136	What	若い男	Young man		
+136	To	待合室	waiting room		
+136	then				
+137	対象文	パーシィ・トリヴェリアンは初老の男を診察した	Percy Trevelyan was examination of the elderly man		
+137	情報源				
+137	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+137	hasPredicate	診察した	examine		
+137	What	初老の男	Elderly man		
+137	then				
+138	対象文	初老の男と若い男は診察の後出ていった	An elderly man and the young man went out after the medical examination		
+138	情報源				
+138	Who	初老の男	Elderly man		
+138	Who	若い男	Young man		
+138	hasPredicate	出ていった	goOut		
+138	When	診察の後	After a medical examination		
+138	then				
+139	対象文	ブレッシントンは日課の散歩の後、階上に上がっていった	Blessington after the daily routine of a walk, went up to the upstairs		
+139	情報源				
+139	Who	ブレッシントン	Blessington		
+139	hasPredicate	上がっていった	goUp		
+139	To	階上	Upper floor		
+139	When	日課の散歩の後	After the daily routine of a walk		
+139	then				
+140	対象文	ブレッシントンは診察室に飛び込んだ	Blessington jumped into the examination room		
+140	情報源				
+140	Who	ブレッシントン	Blessington		
+140	hasPredicate	飛び込んだ	jumpInto		
+140	To	診察室	Examination room		
+140	then				
+141	対象文	ブレッシントンは混乱した	Blessington was confusion		
+141	情報源				
+141	Who	ブレッシントン	Blessington		
+141	hasPredicate	混乱した	confuse		
+141	When	140	140		
+141	then				
+142	対象文	ブレッシントンはパーシィ・トリヴェリアンにブレッシントンの部屋に入った人間を尋ねた	Blessington asked the man entered the room of Blessington to Percy Trevelyan		
+142	情報源				
+142	Who	ブレッシントン	Blessington		
+142	hasPredicate	尋ねた	ask		
+142	What	ブレッシントンの部屋に入った人間	Man entered the room of Blessington		
+142	To	パーシィ・トリヴェリアン	Percy Trevelyan		
+142	then				
+143	対象文	ブレッシントンはパーシィ・トリヴェリアンを疑った	Blessington could not believe Percy Trevelyan		
+143	情報源				
+143	Who	ブレッシントン	Blessington		
+143	hasPredicate	疑った	doubt		
+143	What	パーシィ・トリヴェリアン	Percy Trevelyan		
+143	then				
+144	対象文	ブレッシントンはわめき散らした	Blessington was scattered screaming		
+144	情報源				
+144	Who	ブレッシントン	Blessington		
+144	hasPredicate	わめき散らした	scream		
+144	then				
+145	対象文	パーシィ・トリヴェリアンはブレッシントンの部屋に行った	Percy Trevelyan went to the room of Blessington		
+145	情報源				
+145	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+145	hasPredicate	行った	go		
+145	What	ブレッシントンの部屋	Blessington room		
+145	then				
+146	対象文	足跡がブレッシントンの部屋の絨毯についていた	Footprints had been attached to the carpet of Blessington room		
+146	情報源				
+146	Who	足跡	Footprint		
+146	hasPredicate	ついていた	exist		
+146	On	ブレッシントンの部屋の絨毯	Blessington room of carpet		
+146	then				
+147	対象文	ブレッシントンは怒鳴った	Blessington was shouted		
+147	情報源				
+147	Who	ブレッシントン	Blessington		
+147	hasPredicate	怒鳴った	shout		
+147	then				
+148	対象文	足跡はブレッシントンの足跡より大きい	Footprint is larger than the footprint of Blessington		
+148	情報源				
+148	Who	足跡	Footprint		
+148	hasProperty	ブレッシントンの足跡より大きい	Larger than the footprint of Blessington		
+148	then				
+149	対象文	足跡は新しい	Footprints new		
+149	情報源				
+149	Who	足跡	Footprint		
+149	hasProperty	新しい	new		
+149	then				
+150	対象文	その日の外来の患者だけ来た	It came only outpatients of the day		
+150	情報源				
+150	Who	外来の患者	Outpatients		
+150	hasPredicate	来る	come		
+150	When	その日	that day		
+150	then				
+151	対象文	パーシィ・トリヴェリアンは推測した	Percy Trevelyan guessed		
+151	情報源				
+151	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+151	hasPredicate	推測した	guess		
+151	What	152	152		
+151	then				
+152	対象文	待合室にいた人物がブレッシントンの部屋に入った	Person who was in the waiting room is entered the room of Blessington		
+152	情報源				
+152	Who	待合室にいた人物	Person who was in the waiting room		
+152	hasPredicate	入った	enter		
+152	To	ブレッシントンの部屋	Blessington room		
+152	then				
+153	対象文	触られたものや盗まれたものはなかった	"
+Nothing was touched or stolen"		
+153	情報源				
+153	Who	触れられたもの	touched		
+153	Who	盗まれたもの	stolen		
+153	hasProperty	なかった	notExist		
+153	then				
+154	対象文	足跡は以下を証明した	Footprints proved the following:		
+154	情報源				
+154	Who	足跡	Footprint		
+154	hasPredicate	証明した	prove		
+154	What	155	155		
+154	then				
+155	対象文	誰かがブレッシントンの部屋に侵入した	Someone enters the room of Blessington		
+155	情報源				
+155	Who	誰か	someone		
+155	hasPredicate	侵入した	invade		
+155	To	ブレッシントンの部屋	Blessington room		
+155	then				
+156	対象文	ブレッシントンは以下を命令した	Blessington was ordered the following		
+156	情報源				
+156	Who	ブレッシントン	Blessington		
+156	hasPredicate	命令した	command		
+156	What	157	157		
+156	then				
+157	対象文	パーシィ・トリヴェリアンがホームズを訪問する	Percy Trevelyan to visit Holmes		
+157	情報源				
+157	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+157	hasPredicate	訪問する	visit		
+157	What	ホームズ	Holmes		
+157	then				
+158	対象文	パーシィ・トリヴェリアンは以下を思った	Percy Trevelyan thought the following		
+158	情報源				
+158	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+158	hasPredicate	思った	think		
+158	What	159-160	159-160		
+158	then				
+159	対象文	パーシィ・トリヴェリアンはホームズを訪問しほうがよい	Percy Trevelyan it is better to visit the Holmes		
+159	情報源				
+159	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+159	hasProperty	訪問したほうがよい	shouldVisit		
+159	What	ホームズ	Holmes		
+159	then				
+160	対象文	ブレッシントンは出来事を重要視しすぎている	Blessington is too much importance to the event		
+160	情報源				
+160	Who	ブレッシントン	Blessington		
+160	hasProperty	重要視しすぎている	too important		
+160	What	出来事	Event		
+160	then				
+161	対象文	パーシィ・トリヴェリアンはブレッシントンを落ち着かせるために以下を頼んだ	Percy Trevelyan asked the following in order to calm the Blessington		
+161	情報源				
+161	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+161	hasPredicate	頼んだ	ask		
+161	What	162	162		
+161	Why	ブレッシントンを落ち着かせるため	calm Blessington		
+161	then				
+162	対象文	ホームズがブルック街の住まいを訪問する	Holmes is to visit the house of Brook Street		
+162	情報源				
+162	Who	ホームズ	Holmes		
+162	hasPredicate	訪問する	visit		
+162	What	ブルック街の住まい	Brook Street house		
+162	then				
+163	対象文	ホームズとワトソンとパーシィ・トリヴェリアンは出発して25分以内でブルック街の住まいに到着した	Holmes and Watson and Percy Trevelyan arrived at the residence of Brook Street within 25 minutes of departure		
+163	情報源				
+163	Who	ホームズ	Holmes		
+163	Who	ワトソン	Watson		
+163	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+163	hasPredicate	到着した	arrive		
+163	To	ブルック街の住まい	Brook Street house		
+163	When	出発して25分以内	within 25 minutes		
+163	then				
+164	対象文	ブルック街の住まいは正面の平坦な家である	Brook Street house is a flat house front		
+164	情報源				
+164	Who	ブルック街の住まい	Brook Street house		
+164	hasProperty	正面の平坦な家である	flat house front		
+164	then				
+165	対象文	ブルック街の住まいは典型的な開業医宅である	Brook Street house is a typical practitioner home		
+165	情報源				
+165	Who	ブルック街の住まい	Brook Street house		
+165	hasProperty	典型的な開業医宅である	Typical practitioner home		
+165	then				
+166	対象文	手伝いの少年はホームズとワトソンを住まいの中に入れた	Helper boy was placed in the Holmes and Watson in the house		
+166	情報源				
+166	Who	手伝いの少年	Helper boy		
+166	hasPredicate	入れた	enter		
+166	What	ホームズ	Holmes		
+166	What	ワトソン	Watson		
+166	To	住まいの中	House		
+166	then				
+167	対象文	手伝いの少年は広い階段を上り始めた	Helper boy began to up the wide stairs		
+167	情報源				
+167	Who	手伝いの少年	Helper boy		
+167	hasPredicate	上り始めた	goUp		
+167	What	広い階段	Wide stairs		
+167	then				
+168	対象文	ホームズとワトソンは甲高い震えた声を聞いた	Holmes and Watson heard the high-pitched trembling voice		
+168	情報源				
+168	Who	ホームズ	Holmes		
+168	Who	ワトソン	Watson		
+168	hasPredicate	聞いた	hear		
+168	What	甲高い震えた声	High-pitched trembling voice		
+168	then				
+169	対象文	ブレッシントンはホームズとワトソンを威嚇した	Blessington was threatening the Holmes and Watson		
+169	情報源				
+169	Who	ブレッシントン	Blessington		
+169	hasPredicate	威嚇した	intimidate		
+169	What	ホームズ	Holmes		
+169	What	ワトソン	Watson		
+169	then				
+170	対象文	パーシィ・トリヴェリアンはブレッシントンを止めた	Percy Trevelyan was stopped Blessington		
+170	情報源				
+170	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+170	hasPredicate	止めた	stop		
+170	What	ブレッシントン	Blessington		
+170	then				
+171	対象文	ブレッシントンは落ち着いた	Blessington was calm		
+171	情報源				
+171	Who	ブレッシントン	Blessington		
+171	hasProperty	落ち着いた	calm		
+171	When	173	173		
+171	then				
+172	対象文	ブレッシントンはパーシィ・トリヴェリアンを認識した	Blessington recognized the Percy Trevelyan		
+172	情報源				
+172	Who	ブレッシントン	Blessington		
+172	hasProperty	認識した	recognize		
+172	What	パーシィ・トリヴェリアン	Percy Trevelyan		
+172	then				
+173	対象文	ブレッシントンはやつれていた	Blessington was haggard		
+173	情報源				
+173	Who	ブレッシントン	Blessington		
+173	hasProperty	やつれていた	beHaggard		
+173	then				
+174	対象文	ブレッシントンは不健康そうであった	Blessington was unhealthy likely		
+174	情報源				
+174	Who	ブレッシントン	Blessington		
+174	hasProperty	不健康そうであった	looksNotHealthy		
+174	then				
+175	対象文	ブレッシントンは拳銃を持っていた	Blessington had a pistol		
+175	情報源				
+175	Who	ブレッシントン	Blessington		
+175	hasPredicate	持っていた	have		
+175	What	拳銃	Pistol		
+175	then				
+176	対象文	ブレッシントンは拳銃を引っ込めた	Blessington was retracted a gun		
+176	情報源				
+176	Who	ブレッシントン	Blessington		
+176	hasPredicate	引っ込めた	withdraw		
+176	What	拳銃	Pistol		
+176	When	177	177		
+176	then				
+177	対象文	ホームズとワトソンとパーシィ・トリヴェリアンはブレッシントンに近寄った	Holmes and Watson and Percy Trevelyan was approached in Blessington		
+177	情報源				
+177	Who	ホームズ	Holmes		
+177	Who	ワトソン	Watson		
+177	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+177	hasPredicate	近寄った	approach		
+177	To	ブレッシントン	Blessington		
+177	then				
+178	対象文	ホームズは2人の男のことを尋ねた	Holmes asked the two boys		
+178	情報源				
+178	Who	ホームズ	Holmes		
+178	hasPredicate	尋ねた	ask		
+178	What	2人の男の事	about two men		
+178	then				
+179	対象文	ブレッシントンはホームズの質問に答えられない	Blessington is not the answer to the Homes of the question		
+179	情報源				
+179	Who	ブレッシントン	Blessington		
+179	hasPredicate	答えられない	cannotAnswer		
+179	What	ホームズの質問	question of Holmes		
+179	then				
+180	対象文	ホームズは再度尋ねた	Holmes asked again		
+180	情報源				
+180	Who	ホームズ	Holmes		
+180	hasPredicate	再度尋ねた	askAgain		
+180	then				
+181	対象文	ブレッシントンはホームズとワトソンをブレッシントンの寝室に招き入れた	Blessington was invited Holmes and Watson in the bedroom of Blessington		
+181	情報源				
+181	Who	ブレッシントン	Blessington		
+181	hasPredicate	招き入れた	invite		
+181	What	ホームズ	Holmes		
+181	What	ワトソン	Watson		
+181	To	ブレッシントンの寝室	Blessington bedroom		
+181	then				
+182	対象文	ブレッシントンは以下を言った	Blessington said the following:		
+182	情報源				
+182	Who	ブレッシントン	Blessington		
+182	hasPredicate	言った	say		
+182	What	183-185	183-185		
+182	then				
+183	対象文	ブレッシントンは銀行を信用していない	Blessington do not trust the bank		
+183	情報源				
+183	Who	ブレッシントン	Blessington		
+183	hasProperty	信用していない	notTrust		
+183	What	銀行	Bank		
+183	then				
+184	対象文	ブレッシントンは金を自身で管理した	Blessington was to manage the money on its own		
+184	情報源				
+184	Who	ブレッシントン	Blessington		
+184	hasPredicate	管理した	manage		
+184	What	金	Money		
+184	How	自身で	himself		
+184	then				
+185	対象文	2人の男はブレッシントンの金を盗もうとした	The two men tried to steal the money of Blessington		
+185	情報源				
+185	Who	2人の男	two men		
+185	hasPredicate	盗もうとした	tryToSteal		
+185	What	ブレッシントンの金	Money of Blessington		
+185	then				
+186	対象文	ホームズはもの問いたげな様子であった	"
+Holmes seemed to be asking"		
+186	情報源				
+186	Who	ホームズ	Holmes		
+186	hasProperty	もの問いたげな様子であった	seemToAsk		
+186	then				
+187	対象文	ホームズはブレッシントンの相談を断った	Holmes refused the consultation of Blessington		
+187	情報源				
+187	Who	ホームズ	Holmes		
+187	hasPredicate	断った	refuse		
+187	What	ブレッシントンの相談	Consultation of Blessington		
+187	then				
+188	対象文	ホームズは以下を言った	Holmes said the following:		
+188	情報源				
+188	Who	ホームズ	Holmes		
+188	hasPredicate	言った	say		
+188	What	189	189		
+188	then				
+189	対象文	ブレッシントンは嘘をついている	Blessington is lying		
+189	情報源				
+189	Who	ブレッシントン	Blessington		
+189	hasProperty	嘘をついている	lie		
+189	then				
+190	対象文	ホームズは嫌悪感を示した	Holmes showed disgust		
+190	情報源				
+190	Who	ホームズ	Holmes		
+190	hasPredicate	示した	indicate		
+190	What	嫌悪感	Disgust		
+190	then				
+191	対象文	ブレッシントンは困惑した	Blessington was puzzled		
+191	情報源				
+191	Who	ブレッシントン	Blessington		
+191	hasProperty	困惑した	confuse		
+191	then				
+192	対象文	ホームズは以下を要求した	Holmes has requested the following		
+192	情報源				
+192	Who	ホームズ	Holmes		
+192	hasPredicate	要求した	request		
+192	What	193	193		
+192	then				
+193	対象文	ブレッシントンが事実を話す	Speak the fact is Blessington		
+193	情報源				
+193	Who	ブレッシントン	Blessington		
+193	hasPredicate	話す	speak		
+193	What	事実	fact		
+193	then				
+194	対象文	ホームズは以下を推測した	Holmes was to guess the following		
+194	情報源				
+194	Who	ホームズ	Holmes		
+194	hasPredicate	推測した	guess		
+194	What	195-206	195-206		
+194	then				
+195	対象文	2人以上の男はブレッシントンを狙っている	Two or more of the man is aimed at Blessington		
+195	情報源				
+195	Who	2人以上の男	Two or more men		
+195	hasPredicate	狙っている	aim		
+195	What	ブレッシントン	Blessington		
+195	then				
+196	対象文	若い男はブレッシントンの部屋に忍び込んだ	The young man crept into the room of Blessington		
+196	情報源				
+196	Who	若い男	Young man		
+196	hasPredicate	忍び込んだ	crept		
+196	To	ブレッシントンの部屋	Blessington room		
+196	then				
+197	対象文	共謀者は以下を阻止した	Conspirators were prevented from following		
+197	情報源				
+197	Who	共謀者	Conspirators		
+197	hasPredicate	阻止した	prevent		
+197	What	198	198		
+197	then				
+198	対象文	パーシィ・トリヴェリアンが計画を妨げる	Percy Trevelyan is interfering with the plan		
+198	情報源				
+198	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+198	hasPredicate	妨げる	prevent		
+198	What	計略	Stratagem		
+198	then				
+199	対象文	初老の男は強硬症の振りをした	An elderly man was pretending of catalepsy		
+199	情報源				
+199	Who	初老の男	Elderly man		
+199	hasPredicate	振りをした	pretend		
+199	What	強硬症	catalepsy		
+199	then				
+200	対象文	ブレッシントンは外出中であった	Blessington was out of the office		
+200	情報源				
+200	Who	ブレッシントン	Blessington		
+200	hasProperty	外出中であった	out		
+200	When	196	196		
+200	then				
+201	対象文	侵入者は待合室に他の患者がいない時間を選んだ	Intruder chose the time that there are no other patients in the waiting room		
+201	情報源				
+201	Who	侵入者	invader		
+201	hasPredicate	選んだ	choose		
+201	What	待合室に他の患者がいない時間	Time that there are no other patients in the waiting room		
+201	then				
+202	対象文	侵入した時刻とブレッシントンの散歩の時間は重なった	Time of walk of invading the time and Blessington is overlapped		
+202	情報源				
+202	Who	侵入した時刻	Invading time		
+202	Who	ブレッシントンの散歩の時間	Time of walk of Blessington		
+202	hasProperty	重なった	overlap		
+202	then				
+203	対象文	侵入者はブレッシントンの日課を知らない	Intruder does not know the daily routine of Blessington		
+203	情報源				
+203	Who	侵入者	invader		
+203	hasProperty	知らない	notKnow		
+203	What	ブレッシントンの日課	Daily routine of Blessington		
+203	then				
+204	対象文	侵入者の目的は単なる窃盗ではない	The purpose of the intruder is not just theft		
+204	情報源				
+204	Who	侵入者の目的	The purpose of intruder		
+204	hasProperty	ではない	notEqualTo		
+204	What	単なる窃盗	Mere theft		
+204	then				
+205	対象文	ブレッシントンは侵入者の正体を知っている	Blessington know the identity of the intruder		
+205	情報源				
+205	Who	ブレッシントン	Blessington		
+205	hasProperty	知っている	know		
+205	What	侵入者の正体	The identity of the intruder		
+205	then				
+206	対象文	ブレッシントンは侵入者の正体を隠した	Blessington hid the identity of the intruder		
+206	情報源				
+206	Who	ブレッシントン	Blessington		
+206	hasPredicate	隠した	hide		
+206	What	侵入者の正体	The identity of the intruder		
+206	then				
+207	対象文	ワトソンは以下を提案した	Watson proposed the following		
+207	情報源				
+207	Who	ワトソン	Watson		
+207	hasPredicate	提案した	propose		
+207	What	208-209	208-209		
+207	then				
+208	対象文	ロシア人親子の話はパーシィ・トリヴェリアンの作り話である	Story of the Russian parent and child is the myth of Percy Trevelyan		
+208	情報源				
+208	Who	ロシア人親子の話	Story of the Russian parent and child		
+208	hasProperty	パーシィ・トリヴェリアンの作り話である	myth of Percy Trevelyan		
+208	then				
+209	対象文	パーシィ・トリヴェリアンはブレッシントンの部屋に侵入した	Percy Trevelyan was entering the room of Blessington		
+209	情報源				
+209	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+209	hasPredicate	侵入した	sneak		
+209	To	ブレッシントンの部屋	Blessington room		
+209	then				
+210	対象文	ホームズはワトソンの推測を否定した	Holmes denied the guess of Watson		
+210	情報源				
+210	Who	ホームズ	Holmes		
+210	hasPredicate	否定した	deny		
+210	What	ワトソンの推測	Guess of Watson		
+210	Why	211	211		
+210	then				
+211	対象文	絨毯の足跡はパーシィ・トリヴェリアンのものより長い	Footprint of carpet is longer than that of the Percy Trevelyan		
+211	情報源				
+211	Who	絨毯の足跡	Footprint of carpet		
+211	hasProperty	長い	longer		
+211	What	パーシィ・トリヴェリアンのものより	those of Percy Trevelyan		
+211	then				
+212	対象文	ホームズは以下を推測した	Holmes was to guess the following		
+212	情報源				
+212	Who	ホームズ	Holmes		
+212	hasPredicate	推測した	guess		
+212	What	213	213		
+212	then				
+213	対象文	次の日の朝、手紙がブルック街からホームズに届く	The morning of the next day, a letter arrives in Holmes from Brook Street		
+213	情報源				
+213	Who	手紙	letter		
+213	hasProperty	届く	arrive		
+213	From	ブルック街	Brook Street		
+213	To	ホームズ	Holmes		
+213	When	次の日の朝	The morning of the next day		
+213	then				
+214	対象文	ホームズの予言は当たった	Holmes prediction has come true		
+214	情報源				
+214	Who	ホームズの予言	Holmes prophecy		
+214	hasProperty	当たった	comeTrue		
+214	then				
+215	対象文	ホームズは通達の内容を予測できない	Holmes can not predict the contents of the notification		
+215	情報源				
+215	Who	ホームズ	Holmes		
+215	hasPredicate	予測できない	cannotPredict		
+215	From	通達の内容	The contents of Circular		
+215	To				
+215	then				
+216	対象文	パーシィ・トリヴェリアンは通達を書いた	Percy Trevelyan wrote intimation		
+216	情報源				
+216	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+216	hasPredicate	書いた	write		
+216	What	通達	Notification		
+216	then				
+217	対象文	パーシィ・トリヴェリアンは切羽詰まっていた	Percy Trevelyan was desperate		
+217	情報源				
+217	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+217	hasProperty	切羽詰まっていた	desperate		
+217	When	216	216		
+217	then				
+218	対象文	パーシィ・トリヴェリアンは以下を言った	Percy Trevelyan said the following:		
+218	情報源				
+218	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+218	hasPredicate	言った	say		
+218	What	219-223	219-223		
+218	then				
+219	対象文	ブレッシントンが自殺した	Blessington has committed suicide		
+219	情報源				
+219	Who	ブレッシントン	Blessington		
+219	hasPredicate	自殺した	suicide		
+219	then				
+220	対象文	昨夜、ブレッシントンは首をくくった	Last night, Blessington is enclosed the neck		
+220	情報源				
+220	Who	ブレッシントン	Blessington		
+220	hasPredicate	くくった	enclose		
+220	What	首	neck		
+220	When	昨夜	last night		
+220	then				
+221	対象文	警察は来ていた	The police had come		
+221	情報源				
+221	Who	警察	police		
+221	hasPredicate	来ていた	arrive		
+221	then				
+222	対象文	朝７時頃、女中はブレッシントンの部屋で死体を見つけた	Around 7 am, the maid found a corpse in the room of Blessington		
+222	情報源				
+222	Who	女中	maid		
+222	hasPredicate	見つけた	find		
+222	What	死体	cadaver		
+222	When	朝７時頃	Morning 7 o'clock		
+222	Where	ブレッシントンの部屋	Blessington room		
+222	then				
+223	対象文	ブレッシントンは金具に紐を結びつけてぶら下がって死んでいた	Blessington was dead hanging tied a string to the bracket		
+223	情報源				
+223	Who	ブレッシントン	Blessington		
+223	hasProperty	死んでいた	dead		
+223	How	金具に紐を結びつけてぶら下がって	Hanging tied a string to the bracket		
+223	then				
+224	対象文	死体は無残であった	Corpse was miserably		
+224	情報源				
+224	Who	死体	cadaver		
+224	hasProperty	無残であった	miserably		
+224	then				
+225	対象文	死体は寝間着を着ていた	The corpse was wearing a nightgown		
+225	情報源				
+225	Who	死体	cadaver		
+225	hasProperty	着ていた	wear		
+225	What	寝間着	Sleepwear		
+225	then				
+226	対象文	ラーナ警部は死体のそばに立っていた	Lanner police inspector was standing beside the corpse		
+226	情報源				
+226	Who	ラーナ警部	Lanner Inspector		
+226	hasPredicate	立っていた	stand		
+226	To	死体のそば	Near the corpse		
+226	then				
+227	対象文	ラーナ警部はホームズに挨拶した	Lanner inspector greeted Holmes		
+227	情報源				
+227	Who	ラーナ警部	Lanner Inspector		
+227	hasPredicate	挨拶した	greet		
+227	To	ホームズ	Holmes		
+227	then				
+228	対象文	ラーナ警部は以下を言った	Lanner police inspector said the following:		
+228	情報源				
+228	Who	ラーナ警部	Lanner Inspector		
+228	hasPredicate	言った	say		
+228	What	230-232	230-232		
+228	then				
+229	対象文	ブレッシントンは恐怖により正気を失った	Blessington lost sanity by fear		
+229	情報源				
+229	Who	ブレッシントン	Blessington		
+229	hasProperty	失った	lose		
+229	What	正気	sanity		
+229	Why	恐怖により	fear		
+229	then				
+230	対象文	ブレッシントンは寝台に寝た	Blessington was sleeping in bed		
+230	情報源				
+230	Who	ブレッシントン	Blessington		
+230	hasPredicate	寝た	sleep		
+230	On	寝台	bed		
+230	then				
+231	対象文	ブレッシントンは、朝5時に自殺した	Blessington has committed suicide at 5 o'clock in the morning		
+231	情報源				
+231	Who	ブレッシントン	Blessington		
+231	hasPredicate	自殺した	suicide		
+231	When	朝５時	0.208333333		
+231	then				
+232	対象文	ワトソンは以下を言った	Watson said the following:		
+232	情報源				
+232	Who	ワトソン	Watson		
+232	hasPredicate	言った	say		
+232	What	234	234		
+232	then				
+233	対象文	ブレッシントンは3時間前に死んだ	Blessington died before 3 hours		
+233	情報源				
+233	Who	ブレッシントン	Blessington		
+233	hasProperty	死んだ	die		
+233	When	三時間前	3 hours ago		
+233	then				
+234	対象文	ラーナ警部は以下を言った	Lanner police inspector said the following:		
+234	情報源				
+234	Who	ラーナ警部	Lanner Inspector		
+234	hasPredicate	言った	say		
+234	What	236-238	236-238		
+234	then				
+235	対象文	ねじ回しとねじは洗面台の上で発見された	Screwdriver and screws were found in the top of the wash basin		
+235	情報源				
+235	Who	ねじ回し	screwdriver		
+235	Who	ねじ	screw		
+235	hasPredicate	発見された	beFound		
+235	On	洗面台	Wash basin		
+235	then				
+236	対象文	ブレッシントンは煙草を吸ったようである	Blessington is as smoking a cigarette		
+236	情報源				
+236	Who	ブレッシントン	Blessington		
+236	hasPredicate	吸ったようである	smoke		
+236	What	煙草	tobacco		
+236	then				
+237	対象文	4つの葉巻の吸い殻は暖炉で見つけられた	Butts of four of the cigar was found in the fireplace		
+237	情報源				
+237	Who	4つの葉巻の吸い殻	Four of cigar butts		
+237	hasPredicate	見つけられた	find		
+237	Where	暖炉	fireplace		
+237	then				
+238	対象文	葉巻パイプはブレッシントンの部屋に無かった	Cigar Pipes was not in the room of Blessington		
+238	情報源				
+238	Who	葉巻パイプ	Cigar Pipes		
+238	hasProperty	無かった	notExist		
+238	Where	ブレッシントンの部屋	Blessington room		
+238	then				
+239	対象文	葉巻入れは上着のかくしの中に入っていた	Cigar purse had been entered in the each city of the jacket		
+239	情報源				
+239	Who	葉巻入れ	Cigar purse		
+239	hasProperty	入っていた	exist		
+239	Where	上着のかくしのなか	Some of the cities of the jacket		
+239	then				
+240	対象文	一本の葉巻は葉巻入れの中に残っていた	One of the cigar was left in the cigar purse		
+240	情報源				
+240	Who	一本の葉巻	One of the cigar		
+240	hasProperty	残っていた	exist		
+240	Where	葉巻入れ	Cigar purse		
+240	then				
+241	対象文	ホームズは残っていた葉巻を嗅いだ	Holmes smelled the cigar that was left		
+241	情報源				
+241	Who	ホームズ	Holmes		
+241	hasPredicate	嗅いだ	smell		
+241	What	残っていた葉巻	Cigar		
+241	then				
+242	対象文	ホームズは以下を言った	Holmes said the following:		
+242	情報源				
+242	Who	ホームズ	Holmes		
+242	hasPredicate	言った	say		
+242	What	244-256	244-256		
+242	then				
+243	対象文	残っていた葉巻はバナナの香りがする	The remaining had cigar banana flavored		
+243	情報源				
+243	Who	残っていた葉巻	Cigar		
+243	hasProperty	バナナの香りがする	Banana flavored		
+243	then				
+244	対象文	吸い殻の葉巻は東インドの植民地から輸入された代物である	The cigar butts is a thing that has been imported from the colonial East India		
+244	情報源				
+244	Who	吸い殻の葉巻	butts of Cigar		
+244	hasProperty	輸入された代物である	imported		
+244	From	東インドの植民地	East Indies colonial		
+244	then				
+245	対象文	残っていた葉巻の種類と吸い殻の葉巻の種類は異なる	The remaining types of cigars had a kind of cigar butts are different		
+245	情報源				
+245	Who	残っていた葉巻の種類	Kind of Cigar		
+245	Who	吸い殻の葉巻の種類	Kind of butts of Cigar		
+245	hasProperty	異なる	different		
+245	then				
+246	対象文	吸い殻の葉巻は長さの割に細い	Cigar butts are thin in spite of the length		
+246	情報源				
+246	Who	吸い殻の葉巻	butts of Cigar		
+246	hasProperty	長さの割に細い	Thin in spite of the length		
+246	then				
+247	対象文	2つの吸い殻はパイプを使って吸われたものである	Two of cigarette butts are those that were sucked through a pipe		
+247	情報源				
+247	Who	2つの吸い殻	two butts of Cigar		
+247	hasPredicate	吸われたものである	beSuck		
+247	How	パイプを使って	withPipe		
+247	then				
+248	対象文	別の2つの吸い殻はパイプを使って吸われたものではない	Another two cigarette butts are not has been sucked through the pipe		
+248	情報源				
+248	Who	別の2つの吸い殻	Another two butts of Cigar		
+248	hasPredicate	吸われたものではない	notBeSuck		
+248	What	パイプを使って	withPipe		
+248	then				
+249	対象文	2つの吸い殻はあまり鋭くない刃物を使って切られている	Two cigarette butts have been cut with a not very sharp knife		
+249	情報源				
+249	Who	2つの吸い殻	two butts of Cigar		
+249	hasPredicate	切られている	cut		
+249	How	あまり鋭くない刃物を使って	withUnsharpKnife		
+249	then				
+250	対象文	別の2つの吸い殻は丈夫な歯を使って噛み切られている	Another two butts are cut bite with a strong teeth		
+250	情報源				
+250	Who	別の2つの吸い殻	Another two butts of Cigar		
+250	hasPredicate	噛み切られている	cut		
+250	How	丈夫な歯を使って	withStrongTeeth		
+250	then				
+251	対象文	ブレッシントンは自殺していない	Blessington is not suicide		
+251	情報源				
+251	Who	ブレッシントン	Blessington		
+251	hasProperty	自殺していない	notSuicide		
+251	then				
+252	対象文	ブレッシントンは巧妙に仕組まれた方法で殺害された	Blessington was killed in was orchestrated to the clever way		
+252	情報源				
+252	Who	ブレッシントン	Blessington		
+252	hasPredicate	殺害された	beKilled		
+252	How	巧妙に仕組まれた方法で	clever way		
+252	then				
+253	対象文	首をくくった死体は、発見時の様子である	Corpses enclosed the neck, is a state at the time of discovery		
+253	情報源				
+253	Who	首をくくった死体	Corpses enclosed the neck		
+253	hasProperty	様子である	exist		
+253	When	発見時	discovery		
+253	then				
+254	対象文	犯人は正面玄関から入った	The criminal entered from the front entrance		
+254	情報源				
+254	Who	犯人	Criminal		
+254	hasPredicate	入った	enter		
+254	From	正面玄関	Front door		
+254	then				
+255	対象文	犯人は出た後、閂をかけた	After exiting the criminal, multiplied by the obex		
+255	情報源				
+255	Who	犯人	Criminal		
+255	hasPredicate	かけた	bet		
+255	What	閂	Obex		
+255	When	出た後	After exiting		
+255	then				
+256	対象文	ホームズは戸の鍵を調べた	Holmes examined the door of the key		
+256	情報源				
+256	Who	ホームズ	Holmes		
+256	hasPredicate	調べた	examine		
+256	What	戸の鍵	Door key		
+256	then				
+257	対象文	ホームズはパーシィ・トリヴェリアンに綱の事を尋ねた	Holmes asked that the rope to Percy Trevelyan		
+257	情報源				
+257	Who	ホームズ	Holmes		
+257	hasPredicate	尋ねた	ask		
+257	What	綱の事	That of the rope		
+257	To	パーシィ・トリヴェリアン	Percy Trevelyan		
+257	then				
+258	対象文	パーシィ・トリヴェリアンは以下を言った	Percy Trevelyan said the following:		
+258	情報源				
+258	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+258	hasPredicate	言った	say		
+258	What	260-262	260-262		
+258	then				
+259	対象文	ブレッシントンは大きな綱の輪を切って使った	Blessington spent off the wheel of a large rope		
+259	情報源				
+259	Who	ブレッシントン	Blessington		
+259	hasPredicate	切って使った	cut		
+259	What	大きな綱の輪	Wheel of a large rope		
+259	then				
+260	対象文	大きな綱の輪はブレッシントンの寝台の下に置いてある	Wheel of a big rope is placed under the bed of Blessington		
+260	情報源				
+260	Who	大きな綱の輪	Wheel of a large rope		
+260	hasProperty	置いてある	exist		
+260	Under	ブレッシントンの寝台	Blessington bed		
+260	then				
+261	対象文	ブレッシントンは家事の時、大きな綱の輪を使って逃げるつもりだった	Blessington when the housework, I was going to run away with the circle of large rope		
+261	情報源				
+261	Who	ブレッシントン	Blessington		
+261	hasProperty	逃げるつもりだった	escape		
+261	How	大きな綱の輪を使って	wheel of a large rope		
+261	When	火事の時	When the fire		
+261	then				
+262	対象文	ホームズは以下を言った	Holmes said the following:		
+262	情報源				
+262	Who	ホームズ	Holmes		
+262	hasPredicate	言った	say		
+262	What	264-269	264-269		
+262	then				
+263	対象文	大きな綱の輪はブレッシントンを救うはずのものであった	Wheel of a big rope were those that would save the Blessington		
+263	情報源				
+263	Who	大きな綱の輪	Wheel of a large rope		
+263	hasProperty	救うはずのものであった	save		
+263	What	ブレッシントン	Blessington		
+263	then				
+264	対象文	事実関係ははっきりしている	And facts are clear		
+264	情報源				
+264	Who	事実関係	Facts		
+264	hasProperty	はっきりしている	clearly		
+264	then				
+265	対象文	事件の疑わしい点は無い	Doubtful point is not the case		
+265	情報源				
+265	Who	事件の疑わしい点	Suspicious incidents		
+265	hasProperty	無い	notExist		
+265	then				
+266	対象文	事件の時、3番目の人物と初老の男と若い男はブレッシントンの部屋にいた	Time of the incident, the third person and an elderly man and a young man was in the room of Blessington		
+266	情報源				
+266	Who	3番目の人物	The third person		
+266	Who	初老の男	Elderly man		
+266	Who	若い男	Young man		
+266	hasProperty	いた	exist		
+266	Where	ブレッシントンの部屋	Blessington room		
+266	When	事件の時	Time of the incident		
+266	then				
+267	対象文	3番目の人物は初老の男と若い男を家の中に案内した	The third person was to guide the elderly man and a young man in the house		
+267	情報源				
+267	Who	3番目の人物	The third person		
+267	hasPredicate	案内した	guide		
+267	To	家の中	house		
+267	What	初老の男	Elderly man		
+267	What	若い男	Young man		
+267	then				
+268	対象文	3番目の人物は手伝いの少年である	The third person is a Helper boy		
+268	情報源				
+268	Who	3番目の人物	The third person		
+268	hasProperty	手伝いの少年である	Helper boy		
+268	then				
+269	対象文	パーシィ・トリヴェリアンは以下を言った	Percy Trevelyan said the following:		
+269	情報源				
+269	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+269	hasPredicate	言った	say		
+269	What	271	271		
+269	then				
+270	対象文	手伝いの少年は見当たらない	I do not see Helper boy		
+270	情報源				
+270	Who	手伝いの少年	Helper boy		
+270	hasProperty	見当たらない	notExist		
+270	then				
+271	対象文	ホームズは以下を言った	Holmes said the following:		
+271	情報源				
+271	Who	ホームズ	Holmes		
+271	hasPredicate	言った	say		
+271	What	273-296	273-296		
+271	then				
+272	対象文	手伝いの少年は事件の重要な役を担っている	Help the boy to play an important role in the incident		
+272	情報源				
+272	Who	手伝いの少年	Helper boy		
+272	hasProperty	担っている	play		
+272	What	事件の重要な役	An important role of the incident		
+272	then				
+273	対象文	事件の時、初老の男と若い男と手伝いの少年はつま先立ちで階段をのぼった	Time of the incident, an elderly man and a young man and Helper boy climbed the stairs in the tiptoe		
+273	情報源				
+273	Who	初老の男	Elderly man		
+273	Who	若い男	Young man		
+273	Who	手伝いの少年	Helper boy		
+273	hasPredicate	のぼった	goUp		
+273	What	階段	Stairs		
+273	How	つま先立ちで	Tiptoe		
+273	When	事件の時	Time of the incident		
+273	then				
+274	対象文	初老の男は先頭を歩いた	An elderly man was walking along the top		
+274	情報源				
+274	Who	初老の男	Elderly man		
+274	hasPredicate	歩いた	walk		
+274	Where	先頭	lead		
+274	then				
+275	対象文	若い男は真ん中を歩いた	The young man was walking down the middle		
+275	情報源				
+275	Who	若い男	Young man		
+275	hasPredicate	歩いた	walk		
+275	Where	真ん中	middle		
+275	then				
+276	対象文	手伝いの少年は最後尾を歩いた	Helper boy walked the last tail		
+276	情報源				
+276	Who	手伝いの少年	Helper boy		
+276	hasPredicate	歩いた	walk		
+276	Where	最後尾	end of a line		
+276	then				
+277	対象文	初老の男と若い男と手伝いの少年は以下を気づいた	An elderly man and a young man and Helper boy noticed the following:		
+277	情報源				
+277	Who	初老の男	Elderly man		
+277	Who	若い男	Young man		
+277	Who	手伝いの少年	Helper boy		
+277	hasPredicate	気づいた	notice		
+277	What	279	279		
+277	then				
+278	対象文	ブレッシントンの部屋の鍵はかかっている	The key to the room of Blessington rests		
+278	情報源				
+278	Who	ブレッシントンの部屋の鍵	Door of Blessington room		
+278	hasProperty	かかっている	beLocked		
+278	then				
+279	対象文	初老の男と若い男と手伝いの少年は針金を使って鍵をこじ開けた	An elderly man and a young man and Helper boy forced open the key using the wire		
+279	情報源				
+279	Who	初老の男	Elderly man		
+279	Who	若い男	Young man		
+279	Who	手伝いの少年	Helper boy		
+279	hasPredicate	こじ開けた	open		
+279	What	鍵	door		
+279	How	針金を使って	wire		
+279	then				
+280	対象文	鍵穴のなかに引っかき傷が存在する	There are scratches Some of the keyhole		
+280	情報源				
+280	Who	引っかき傷	Scratch		
+280	hasProperty	存在する	exist		
+280	Where	鍵穴のなか	Among the keyhole		
+280	then				
+281	対象文	初老の男と若い男と手伝いの少年はブレッシントンの部屋に侵入した	An elderly man and a young man and Helper boy entered the room of Blessington		
+281	情報源				
+281	Who	初老の男	Elderly man		
+281	Who	若い男	Young man		
+281	Who	手伝いの少年	Helper boy		
+281	hasPredicate	侵入した	enter		
+281	To	ブレッシントンの部屋	Blessington room		
+281	then				
+282	対象文	初老の男と若い男と手伝いの少年はブレッシントンを縛った	An elderly man and a young man and Helper boy was tied Blessington		
+282	情報源				
+282	Who	初老の男	Elderly man		
+282	Who	若い男	Young man		
+282	Who	手伝いの少年	Helper boy		
+282	hasPredicate	縛った	tie		
+282	What	ブレッシントン	Blessington		
+282	then				
+283	対象文	ブレッシントンの声は聞こえなかった	Voice of Blessington did not hear		
+283	情報源				
+283	Who	ブレッシントンの声	Voice of Blessington		
+283	hasProperty	聞こえなかった	notHear		
+283	Why	284	284		
+283	then				
+284	対象文	ブレッシントンの部屋の壁は厚い	The wall of the room of Blessington is thick		
+284	情報源				
+284	Who	ブレッシントンの部屋の壁	Wall of Blessington room		
+284	hasProperty	厚い	thick		
+284	then				
+285	対象文	初老の男と若い男と手伝いの少年は断罪の手段を相談した	An elderly man and a young man and Helper boy consulted a means of condemnation		
+285	情報源				
+285	Who	初老の男	Elderly man		
+285	Who	若い男	Young man		
+285	Who	手伝いの少年	Helper boy		
+285	hasPredicate	相談した	discuss		
+285	What	断罪の手段	Means of conviction		
+285	then				
+286	対象文	初老の男と若い男と手伝いの少年はブレッシントンの部屋にしばらくの間とどまった	An elderly man and a young man and Helper boy stayed for a while in the room of Blessington		
+286	情報源				
+286	Who	初老の男	Elderly man		
+286	Who	若い男	Young man		
+286	Who	手伝いの少年	Helper boy		
+286	hasProperty	しばらくの間とどまった	stay		
+286	Where	ブレッシントンの部屋	Blessington room		
+286	then				
+287	対象文	初老の男と若い男と手伝いの少年は葉巻を吸った	An elderly man and a young man and Helper boy was smoking a cigar		
+287	情報源				
+287	Who	初老の男	Elderly man		
+287	Who	若い男	Young man		
+287	Who	手伝いの少年	Helper boy		
+287	hasPredicate	吸った	smoke		
+287	What	葉巻	cigar		
+287	When	286	286		
+287	then				
+288	対象文	初老の男は椅子に座った	An elderly man sat in a chair		
+288	情報源				
+288	Who	初老の男	Elderly man		
+288	hasPredicate	座った	sit		
+288	On	椅子	Chair		
+288	When	286	286		
+288	then				
+289	対象文	初老の男は葉巻パイプを使って葉巻を吸った	An elderly man was smoking a cigar with a cigar pipe		
+289	情報源				
+289	Who	初老の男	Elderly man		
+289	hasPredicate	吸った	smoke		
+289	What	葉巻	cigar		
+289	How	葉巻パイプを使って	cigar pipe		
+289	then				
+290	対象文	若い男は灰を叩き落とした	The young man dropped beating ash		
+290	情報源				
+290	Who	若い男	Young man		
+290	hasPredicate	叩き落とした	drop		
+290	What	灰	Ash		
+290	then				
+291	対象文	手伝いの少年は歩き回っていた	Helper boy was walking around		
+291	情報源				
+291	Who	手伝いの少年	Helper boy		
+291	hasPredicate	歩き回っていた	wander		
+291	then				
+292	対象文	ブレッシントンの絞首刑は準備されていた	Hanging of Blessington had been prepared		
+292	情報源				
+292	Who	ブレッシントンの絞首刑	Hanging of Blessington		
+292	hasPredicate	準備されていた	bePrepared		
+292	then				
+293	対象文	初老の男と若い男と手伝いの少年は絞首刑台の変わりの道具をねじとねじ回しを使って固定する予定だった	An elderly man and a young man and Helper boy was scheduled to be fixed by using a screw and screwdriver a tool instead of hanging stand		
+293	情報源				
+293	Who	初老の男	Elderly man		
+293	Who	若い男	Young man		
+293	Who	手伝いの少年	Helper boy		
+293	hasPredicate	固定する予定だった	intendToFix		
+293	How	ねじとねじ回しを使って	screw and screwdriver		
+293	What	絞首刑台の代わりの道具	Instead of tools hanging stand		
+293	then				
+294	対象文	初老の男と若い男と手伝いの少年はブレッシントンの絞首刑を金具を使って実行した	An elderly man and a young man and Helper boy was performed using the metal fittings of the hanging of Blessington		
+294	情報源				
+294	Who	初老の男	Elderly man		
+294	Who	若い男	Young man		
+294	Who	手伝いの少年	Helper boy		
+294	hasPredicate	実行した	execute		
+294	What	ブレッシントンの絞首刑	Hanging of Blessington		
+294	How	金具を使って	bracket		
+294	then				
+295	対象文	ブレッシントンの絞首刑の後、初老の男と若い男は逃げた	After the hanging of Blessington, an elderly man and the young man fled		
+295	情報源				
+295	Who	初老の男	Elderly man		
+295	Who	若い男	Young man		
+295	hasPredicate	逃げた	escape		
+295	When	ブレッシントンの絞首刑の後	After the hanging of Blessington		
+295	then				
+296	対象文	ブレッシントンの絞首刑の後、手伝いの少年は閂をかけた	After the hanging of Blessington, help the boy is multiplied by the obex		
+296	情報源				
+296	Who	手伝いの少年	Helper boy		
+296	hasPredicate	かけた	lock		
+296	What	閂	Obex		
+296	When	ブレッシントンの絞首刑の後	After the hanging of Blessington		
+296	then				
+297	対象文	ホームズとワトソンはベイカー街に行った	Holmes and Watson went to the city Baker		
+297	情報源				
+297	Who	ホームズ	Holmes		
+297	Who	ワトソン	Watson		
+297	hasPredicate	行った	go		
+297	To	ベイカー街	Baker Street		
+297	then				
+298	対象文	ホームズは以下を言った	Holmes said the following:		
+298	情報源				
+298	Who	ホームズ	Holmes		
+298	hasPredicate	言った	say		
+298	What	299-301	299-301		
+298	then				
+299	対象文	3時までにホームズは帰ってくる	Holmes come back until three o'clock		
+299	情報源				
+299	Who	ホームズ	Holmes		
+299	hasPredicate	帰ってくる	return		
+299	When	3時までに	until 3 o'clock		
+299	then				
+300	対象文	ラーナ警部とパーシィ・トリヴェリアンはホームズを尋ねてくるだろう	Lanner Inspector and Percy Trevelyan will come asked Holmes		
+300	情報源				
+300	Who	ラーナ警部	Lanner Inspector		
+300	Who	パーシィ・トリヴェリアン	Percy Trevelyan		
+300	hasPredicate	訪ねてくるだろう	wouldCome		
+300	What	ホームズ	Holmes		
+300	then				
+301	対象文	ホームズは不明瞭なことを調べる	Holmes check that unclear		
+301	情報源				
+301	Who	ホームズ	Holmes		
+301	hasPredicate	調べる	investigate		
+301	What	不明瞭なこと	Unclear thing		
+301	then				
+302	対象文	ラーナ警部は以下を言った	Lanner police inspector said the following:		
+302	情報源				
+302	Who	ラーナ警部	Lanner Inspector		
+302	hasPredicate	言った	say		
+302	What	303	303		
+302	then				
+303	対象文	ラーナ警部は手伝いの少年を捕まえた	Lanner inspector caught the boy's help		
+303	情報源				
+303	Who	ラーナ警部	Lanner Inspector		
+303	hasPredicate	捕まえた	catch		
+303	What	手伝いの少年	Helper boy		
+303	then				
+304	対象文	初老の男と若い男と手伝いの少年とブレッシントンはワージントン銀行強盗団である	Boy and Blessington of an elderly man and a young man and help is a Worthington bank robbers		
+304	情報源				
+304	Who	初老の男	Elderly man		
+304	Who	若い男	Young man		
+304	Who	手伝いの少年	Helper boy		
+304	Who	ブレッシントン	Blessington		
+304	hasProperty	ワージントン銀行の強盗団である	the robbers of Worthington bank		
+304	then				
+305	対象文	ブレッシントンはサットンである	Blessington is a Sutton		
+305	情報源				
+305	Who	ブレッシントン	Blessington		
+305	hasProperty	サットンである	Sutton		
+305	then				
+306	対象文	ワージントン銀行の強盗団は5人である	Robbers of Worthington bank is 5 people		
+306	情報源				
+306	Who	ワージントン銀行の強盗団	Robbers of Worthington bank		
+306	hasProperty	5人である	5 people		
+306	then				
+307	対象文	5人目の男はカートライトという	That the 5th of man Cartwright		
+307	情報源				
+307	Who	5人目の男	5th man		
+307	hasProperty	カートライトという	Cartwright		
+307	then				
+308	対象文	ワーシンドン銀行の大事件のとき、トウビンという管理人は殺された	When the major event of Worthingdon bank, custodian of Tobin was killed		
+308	情報源				
+308	Who	トウビンという管理人	Moderator of Tobin		
+308	hasPredicate	殺された	beKilled		
+308	When	ワーシンドン銀行の大事件	Major event of Worthingdon bank		
+308	then				
+309	対象文	強盗団は７０００ポンドを持って逃げた	Robbers fled with 7,000 lbs		
+309	情報源				
+309	Who	強盗団	Robbers		
+309	hasPredicate	持って逃げた	escape		
+309	What	７０００ポンド	7,000 lbs		
+309	then				
+310	対象文	ワーシンドン銀行の大事件は１８７５年に起こった	Major event of Worthingdon bank took place in 1875		
+310	情報源				
+310	Who	ワーシンドン銀行の大事件	Major event of Worthingdon bank		
+310	hasProperty	起こった	happen		
+310	When	１８７５年	1875		
+310	then				
+311	対象文	強盗団全員が捕まえられた	Robbers everyone was caught		
+311	情報源				
+311	Who	強盗団全員	all of Robbers		
+311	hasPredicate	捕まえられた	beCaught		
+311	then				
+312	対象文	ワーシンドン銀行の大事件の証拠は決め手に欠けていた	Evidence of the major events of Worthingdon bank lacked the decisive factor		
+312	情報源				
+312	Who	ワーシンドン銀行の大事件の証拠	Evidence of the major events of Worthingdon bank		
+312	hasProperty	欠けていた	lack		
+312	What	決め手	decisive factor		
+312	then				
+313	対象文	ブレッシントンは一番の悪党である	Blessington is the biggest villain		
+313	情報源				
+313	Who	ブレッシントン	Blessington		
+313	hasProperty	一番の悪党である	worst villain		
+313	then				
+314	対象文	ブレッシントンは寝返った	Blessington betrayed		
+314	情報源				
+314	Who	ブレッシントン	Blessington		
+314	hasPredicate	寝返った	betray		
+314	then				
+315	対象文	ブレッシントンはワーシンドン銀行の大事件の証拠をばらした	Blessington was give away the evidence of the major events of Worthingdon bank		
+315	情報源				
+315	Who	ブレッシントン	Blessington		
+315	hasPredicate	ばらした	reveal		
+315	What	ワーシンドン銀行の大事件の証拠	Evidence of the major events of Worthingdon bank		
+315	then				
+316	対象文	カートライトは絞首刑となった	Cartwright was hanged		
+316	情報源				
+316	Who	カートライト	Cartwright		
+316	hasProperty	絞首刑となった	beHanged		
+316	Why	315	315		
+316	then				
+317	対象文	初老の男と初老の男と手伝いの少年は14年の禁錮を受けた	An elderly man and an elderly man and Helper boy received a imprisonment of 14 years		
+317	情報源				
+317	Who	初老の男	Elderly man		
+317	Who	若い男	Young man		
+317	Who	手伝いの少年	Helper boy		
+317	hasPredicate	受けた	receive		
+317	What	14年の禁錮	Imprisonment of 14 years		
+317	then				
+318	対象文	初老の男と若い男と手伝いの少年は刑期より早く釈放された	An elderly man and a young man and Helper boy was released earlier than the prison term		
+318	情報源				
+318	Who	初老の男	Elderly man		
+318	Who	若い男	Young man		
+318	Who	手伝いの少年	Helper boy		
+318	hasProperty	刑期より早く釈放された	beReleased earlier than the prison term		
+318	then				
+319	対象文	初老の男と若い男と手伝いの少年はブレッシントンを仇討ちしようとした	An elderly man and a young man and help the boy tried to revenge the Blessington		
+319	情報源				
+319	Who	初老の男	Elderly man		
+319	Who	若い男	Young man		
+319	Who	手伝いの少年	Helper boy		
+319	hasPredicate	仇討ちしようとした	tryToRevenge		
+319	What	ブレッシントン	Blessington		
+319	then				
+320	対象文	仇討の計画は2度失敗した	Plan of revenge failed twice		
+320	情報源				
+320	Who	仇討の計画	Plan of revenge		
+320	hasProperty	2度失敗した	failed twice		
+320	then				
+321	対象文	3度目の仇討の計画は成功した	Planning for the third time of revenge was successful		
+321	情報源				
+321	Who	3度目の仇討の計画	Planning for the third time of revenge		
+321	hasProperty	成功した	succeed		
+321	then				
+322	対象文	ブレッシントンは出所日を新聞で知った	Blessington knew the source date in the newspaper		
+322	情報源				
+322	Who	ブレッシントン	Blessington		
+322	hasProperty	知った	know		
+322	What	出所日	Source Date		
+322	How	新聞で	newspaper		
+322	then				
+323	対象文	ブレッシントンは仲間の復讐心の強さを知っていた	Blessington knew the revenge of the strength of fellow		
+323	情報源				
+323	Who	ブレッシントン	Blessington		
+323	hasProperty	知っていた	know		
+323	What	仲間の復讐心の強さ	The strength of the fellow revenge		
+323	then				
+324	対象文	ブレッシントンは自身の素性を隠したかった	Blessington wanted to hide his identity		
+324	情報源				
+324	Who	ブレッシントン	Blessington		
+324	hasProperty	隠したかった	wantToHide		
+324	What	自身の素性	Own identity		
+324	why	323	323		

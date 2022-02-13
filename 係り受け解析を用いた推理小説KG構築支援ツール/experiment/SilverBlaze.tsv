@@ -1,0 +1,2585 @@
+1	対象文	白銀号の失踪とジョン・ストレーカーの殺人事件はダートムアのキングス・パイランドで起きた	Murder of disappearances and John Straker of Silver issue took place in the King's Pyland of Dartmoor	
+1	情報源			
+1	Who	白銀号の失踪	Disappearance of Silver Blaze	
+1	Who	ジョン・ストレーカーの殺人事件	Murder of John Straker	
+1	hasPredicate	起きた	wake up	
+1	Where	ダートムア	Dartmoor	
+1	Where	キングス・パイランド	King's Pyland	
+1	then			
+2	対象文	白銀号の行方は知れないわけがない	There is no way that might whereabouts of Silver Blaze	
+2	情報源			
+2	Who	白銀号の行方	Future of Silver Blaze	
+2	hasProperty	知れないわけがない	no way that may	
+2	then			
+3	対象文	白銀号はアイソノミ系の馬である	Silver issue is a horse of Isonomy system	
+3	情報源			
+3	Who	白銀号	Silver Blaze	
+3	hasProperty	アイソノミ系の馬である	a horse of Isonomy system	
+3	then			
+4	対象文	白銀号は立派な記録を持っている	Silver issue has a good record	
+4	情報源			
+4	Who	白銀号	Silver Blaze	
+4	hasPredicate	持っている	have	
+4	What	立派な記録	Good record	
+4	then			
+5	対象文	白銀号は五歳である	Silver issue is five years old	
+5	情報源			
+5	Who	白銀号	Silver Blaze	
+5	hasProperty	五歳である	five years old	
+5	then			
+6	対象文	白銀号は競馬で全ての賞品を獲得した	Silver Blaze won all the prizes in horse racing	
+6	情報源			
+6	Who	白銀号	Silver Blaze	
+6	hasPredicate	獲得した	accuire	
+6	Where	競馬	Horseracing	
+6	what	全ての賞品	All of the prizes	
+6	then			
+7	対象文	ロス大佐は白銀号を所持している	Colonel Ross is in possession of the Silver Blaze	
+7	情報源			
+7	Who	ロス大佐	Colonel Ross	
+7	hasPredicate	所持している	have	
+7	what	白銀号	Silver Blaze	
+7	then			
+8	対象文	ロス大佐は白銀号を非常にうまく利用している	Colonel Ross is to use very well the Silver Blaze	
+8	情報源			
+8	Who	ロス大佐	Colonel Ross	
+8	hasPredicate	利用している	use	
+8	what	白銀号	Silver Blaze	
+8	How	非常にうまく	Very nicely	
+8	then			
+9	対象文	白銀号はウェセクス賞杯戦の一番人気の馬である	Silver Patent is the most popular horse of Wessex Cup game	
+9	情報源			
+9	Who	白銀号	Silver Blaze	
+9	hasProperty	一番人気の馬である	the most popular horse	
+9	Where	ウェセクス賞杯戦	Wessex Cup game	
+9	then			
+10	対象文	白銀号は高いオッズを持つ	Silver issue with high odds	
+10	情報源			
+10	Who	白銀号	Silver Blaze	
+10	hasPredicate	持つ	have	
+10	What	高いオッズ	High odds	
+10	then			
+11	対象文	白銀号は競馬界で人気を保持し続ける	Silver issue continues to hold the popular racing	
+11	情報源			
+11	Who	白銀号	Silver Blaze	
+11	hasPredicate	保持し続ける	Keep holding	
+11	Where	競馬界	Racing	
+11	What	人気	Popularity	
+11	then			
+12	対象文	白銀号は期待に答えてきた	Silver issue has been the answer to the expectations	
+12	情報源			
+12	Who	白銀号	Silver Blaze	
+12	hasPredicate	期待に答えてきた	answer to the expectations	
+12	then			
+13	対象文	白銀号の掛け金は高い	Premium of Silver issue high	
+13	情報源			
+13	Who	白銀号の賭金	Of Silver Blaze wager	
+13	hasProperty	高い	high	
+13	then			
+14	対象文	白銀号は莫大な金を賭けられた	Silver issue wagered a huge gold	
+14	情報源			
+14	Who	白銀号	Silver Blaze	
+14	hasPredicate	賭けられた	beWagered	
+14	What	莫大な金額	Enormous amount of money	
+14	then			
+15	対象文	白銀号の失踪は非常に大きな利害関係を持つ	Of Silver Blaze disappearance has a huge stake	
+15	情報源			
+15	Who	白銀号の失踪	Disappearance of Silver Blaze	
+15	hasPredicate	持つ	have	
+15	What	利害関係を	interest	
+15	How	非常に大きな	Very large	
+15	then			
+16	対象文	ジョン・ストレーカーは男である	John Straker is a man	
+16	情報源			
+16	Who	ジョン・ストレーカー	John Straker	
+16	hasProperty	男である	man	
+16	then			
+17	対象文	ジョン・ストレーカーはロス大佐の騎士を7年間やっていた	John Straker was doing a knight of Colonel Ross 7 years	
+17	情報源			
+17	Who	ジョン・ストレーカー	John Straker	
+17	hasPredicate	やっていた	do	
+17	what	ロス大佐の騎手	Jockey of Colonel Ross	
+17	When	7年前	7 years ago	
+17	then			
+18	対象文	ジョン・ストレーカーは太ったので騎手をやめた	I left the jockey since John Straker was fat	
+18	情報源			
+18	Who	ジョン・ストレーカー	John Straker	
+18	hasPredicate	やめた	retire	
+18	What	騎手	Jockey	
+18	Why	太った	fat	
+18	then			
+19	対象文	ジョン・ストレーカーはロス大佐の調馬師をやっている	John Straker is doing the horse trainer of Colonel Ross	
+19	情報源			
+19	Who	ジョン・ストレーカー	John Straker	
+19	hasPredicate	やっている	do	
+19	How	ロス大佐の調馬師	horse trainer of Colonel Ross	
+19	then			
+20	対象文	ジョン・ストレーカーは熱心で正直に働く	John Straker works dedicated and honest	
+20	情報源			
+20	Who	ジョン・ストレーカー	John Straker	
+20	hasPredicate	働く	work	
+20	How	熱心で正直に	Dedicated and honest	
+20	then			
+21	対象文	ジョン・ストレーカーは小さな調馬上で４頭の馬を調馬している	John Straker are the horse trainer of four animals in a small adjustment on horseback	
+21	情報源			
+21	Who	ジョン・ストレーカー	John Straker	
+21	hasPredicate	調馬している	train	
+21	What	４頭の馬	4 horses	
+21	Where	小さな調馬場	small riding ground	
+21	then			
+22	対象文	ジョン・ストレーカーはネッド・ハンターと２人の若者を起用している	John Straker has been appointed the Ned Hunter and two young men	
+22	情報源			
+22	Who	ジョン・ストレーカー	John Straker	
+22	hasPredicate	起用している	appoint	
+22	What	ネッド・ハンターと２人の若者	Ned Hunter and two young men	
+22	then			
+23	対象文	ネッド・ハンターは毎晩、寝ずにに厩舎を見張る	"Ned Hunter every night, watch the stables without sleeping"	
+23	情報源			
+23	Who	ネッド・ハンター	Ned Hunter	
+23	hasPredicate	見張る	Watch	
+23	When	毎晩	every night	
+23	Where	厩舎	stable	
+23	How	寝ずに	Without sleep	
+23	then			
+24	対象文	２人の若者は、厩舎の二階で寝る	"Two young people, sleep in the second floor of the stables"	
+24	情報源			
+24	Who	２人の若者	two young men	
+24	hasPredicate	寝る	sleep	
+24	Where	厩舎の二階	The second floor of the stables	
+24	then			
+25	対象文	ネッド・ハンターと２人の若者は性格が良い	Ned Hunter and two young good personality	
+25	情報源			
+25	Who	ネッド・ハンターと２人の若者	Ned Hunter and two young men	
+25	hasProperty	性格が良い	Good nature	
+25	then			
+26	対象文	ジョン・ストレーカーは結婚している	John Straker is married	
+26	情報源			
+26	Who	ジョン・ストレーカー	John Straker	
+26	hasProperty	結婚している	beMarried	
+26	then			
+27	対象文	ジョン・ストレーカーとジョン・ストレーカーの妻は、厩舎付近の家に住んでいる	Wife of John Straker and John Straker live in a house near the stables	
+27	情報源			
+27	Who	ジョン・ストレーカー	John Straker	
+27	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+27	hasPredicate	住んでいる	live	
+27	Where	厩舎付近の家	House near the stables	
+27	then			
+28	対象文	ジョン・ストレーカーとジョン・ストレーカーの妻は子供がいない	Wife of John Straker and John Straker do not have children	
+28	情報源			
+28	Who	ジョン・ストレーカー	John Straker	
+28	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+28	hasPredicate	いない	notHave	
+28	What	子供	children	
+28	then			
+29	対象文	ジョン・ストレーカーとジョン・ストレーカーの妻はエディス・バクスタを雇う	Wife of John Straker and John Straker hire Edith Baxter	
+29	情報源			
+29	Who	ジョン・ストレーカー	John Straker	
+29	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+29	hasPredicate	雇う	hire	
+29	What	エディス・バクスタ	Edith Baxter	
+29	then			
+30	対象文	ジョン・ストレーカーとジョン・ストレーカーの妻は気楽に暮らしている	Wife of John Straker and John Straker are comfortably living	
+30	情報源			
+30	Who	ジョン・ストレーカー	John Straker	
+30	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+30	hasPredicate	暮す	live	
+30	How	気楽に	Comfortably	
+30	then			
+31	対象文	ケープルトンはタヴィストックから二哩離れている	Mapleton is away two mile from Tavistock	
+31	情報源			
+31	Who	ケープルトン	Mapleton	
+31	hasProperty	二哩離れている	Away two mile	
+31	From	タヴィストック	Tavistock	
+31	then			
+32	対象文	大きな調馬場がケープルトンにある	Is a large riding ground is in Mapleton	
+32	情報源			
+32	Who	大きな調馬場	Big riding ground	
+32	hasPredicate	ある	exist	
+32	Where	ケープルトン	Mapleton	
+32	then			
+33	対象文	バックウォータ卿はケープルトンの調馬場を所有している	Lord Backwater owns the riding ground Mapleton	
+33	情報源			
+33	Who	バックウォータ卿	Lord Backwater	
+33	hasPredicate	所有している	have	
+33	What	ケープルトンの調馬場	Mapleton riding ground	
+33	then			
+34	対象文	サイラス・ブラウンはケープルトンの調馬場を管理している	Cyrus Brown manages the Mapleton riding ground	
+34	情報源			
+34	Who	サイラス・ブラウン	Cyrus Brown	
+34	hasPredicate	管理している	manage	
+34	What	ケープルトンの調馬場	Mapleton riding ground	
+34	then			
+35	対象文	ジョン・ストレーカーは、事件の夜、馬をいつも通り運動させた	"John Straker the night of the incident, was as usual movement of the horse"	
+35	情報源			
+35	Who	ジョン・ストレーカー	John Straker	
+35	hasPredicate	運動させた	They were allowed to exercise	
+35	What	馬	Horse	
+35	How	いつも通り	As usual	
+35	When	事件の夜	Night of the incident	
+35	then			
+36	対象文	九時頃、ジョン・ストレーカーは厩舎の戸を閉めた	"Around nine o'clock, John Straker closed the door of the stables"	
+36	情報源			
+36	Who	ジョン・ストレーカー	John Straker	
+36	hasPredicate	閉めた	close	
+36	What	厩舎の戸	Door of the stables	
+36	When	九時頃	Around nine o'clock	
+36	then			
+37	対象文	２人の若者はジョン・ストレーカーの家で夕飯を食べる	2 young men eat dinner in the house of John Straker	
+37	情報源			
+37	Who	２人の若者	two young men	
+37	hasPredicate	食べる	eat	
+37	Where	ジョン・ストレーカーの家	John Straker house	
+37	What	夕飯	Evening meal	
+37	then			
+38	対象文	事件の夜、ネッド・ハンターは厩舎で見張りをした	"Night of the incident, Ned Hunter was a lookout in the stables"	
+38	情報源			
+38	Who	ネッド・ハンター	Ned Hunter	
+38	hasPredicate	見張った	watch	
+38	Where	厩舎	stable	
+38	What			
+38	When	事件の夜	Night of the incident	
+38	then			
+39	対象文	エディス・バクスタは、九時過ぎにネッド・ハンターの分の羊のカレー料理を運んだ	"Edith Baxter is, carried the curry dishes minute of sheep of Ned Hunter to nine o'clock"	
+39	情報源			
+39	Who	エディス・バクスタ	Edith Baxter	
+39	hasPredicate	運んだ	bring	
+39	When	九時過ぎ	Nine o'clock	
+39	what	ネッド・ハンターの分の羊のカレー料理	Curry dishes minute of sheep of Ned Hunter	
+39	To	ネッド・ハンター	Ned Hunter	
+39	then			
+40	対象文	エディス・バクスタは、飲み物を添えなかった	Edith Baxter was not accompanied by a drink	
+40	情報源			
+40	Who	エディス・バクスタ	Edith Baxter	
+40	hasPredicate	添えなかった	notAccompany	
+40	What	飲みもの	Drink	
+40	Why	41	041-042	
+40	Why	42	041-042	
+40	then			
+41	対象文	仕事中、ネッド・ハンターは水以外の飲み物を飲むことができない	"At work, Ned Hunter can not drink a drink other than water"	
+41	情報源			
+41	Who	ネッド・ハンター	Ned Hunter	
+41	hasPredicate	飲むことができない	cannotDrink	
+41	What	水以外の飲みもの	Other than water to drink	
+41	When	仕事中	Working	
+41	then			
+42	対象文	厩舎には、水が出る栓がある。	"The stables, there is a water comes out plug."	
+42	情報源			
+42	Who	水が出る栓	Plug the water comes out	
+42	hasPredicate	ある	exist	
+42	Where	厩舎	stable	
+42	then			
+43	対象文	エディス・バクスタは道中は暗い荒地であるので、提灯を持っていた	"Since Edith Baxter Along the way is a dark wasteland, I had a lantern"	
+43	情報源			
+43	Who	エディス・バクスタ	Edith Baxter	
+43	hasPredicate	持っていた	have	
+43	What	提灯	lantern	
+43	Why	44	043a	
+43	Why	45	043b	
+43	When	39	39	
+43	then			
+44	対象文	道中は暗い	Dark journey	
+44	情報源			
+44	Who	道中	Along the way	
+44	hasProperty	暗い	dark	
+44	then			
+45	対象文	道中は荒野である	There in the wilderness Along the way	
+45	情報源			
+45	Who	道中	Along the way	
+45	hasProperty	荒野である	wilderness	
+45	then			
+46	対象文	エディス・バクスタとフィッロイ・シムソンは、厩舎から三十ヤードのところで出会った	Edith Baxter and Fitzroy Simpson was met at thirty yards from the stables	
+46	情報源			
+46	Who	エディス・バクスタ	Edith Baxter	
+46	Who	フィッロイ・シムソン	Fitzroy Simpson	
+46	hasPredicate	出会った	meet	
+46	Where	厩舎から三十ヤードのところ	At thirty yards from the stables	
+46	then			
+47	対象文	フィッロイ・シムソンは、エディス・バクスタに話しかけた	Fitzroy Simpson was talking to Edith Baxter	
+47	情報源			
+47	Who	フィッロイ・シムソン	Fitzroy Simpson	
+47	hasPredicate	話しかけた	talk	
+47	To	エディス・バクスタ	Edith Baxter	
+47	then			
+48	対象文	フィッロイ・シムソンは、鼠色のスコッチの服、羅紗のハンチング、羅紗のハンチング、ゲートルを身につけていた	"Fitzroy Simpson is, wore gray Scotch of clothes, hunting of woolen cloth, hunting of woolen cloth, to see the Gaiters"	
+48	情報源			
+48	Who	フィッロイ・シムソン	Fitzroy Simpson	
+48	hasPredicate	身につけていた	wear	
+48	What	鼠色のスコッチの服	Gray Scotch of clothes	
+48	What	羅紗のハンチング	Hunting of woolen cloth	
+48	What	ゲートル	Gaiters	
+48	then			
+49	対象文	フィッロイ・シムソンは太いステッキを持っていた	Fitzroy Simpson had a thick stick	
+49	情報源			
+49	Who	フィッロイ・シムソン	Fitzroy Simpson	
+49	hasPredicate	持っていた	had	
+49	What	太いステッキ	Thick stick	
+49	then			
+50	対象文	エディス・バクスタは以下を印象付けられた	Edith Baxter was impressed the following	
+50	情報源			
+50	Who	エディス・バクスタ	Edith Baxter	
+50	hasPredicate	印象付けられた	beImpressed	
+50	What	51	49	
+50	What	52	50	
+50	then			
+51	対象文	フィッロイ・シムソンの顔色は悪かった	Complexion of Fitzroy Simpson was bad	
+51	情報源			
+51	Who	フィッロイ・シムソンの顔色	Complexion of Fitzroy Simpson	
+51	hasProperty	悪かった	bad	
+51	then			
+52	対象文	フィッロイ・シムソンは落ち着かない様子だった	Fitzroy Simpson was a restless state	
+52	情報源			
+52	Who	フィッロイ・シムソン	Fitzroy Simpson	
+52	hasProperty	落ち着かない様子だった	restless state	
+52	then			
+53	対象文	フィッロイ・シムソンの年齢は三十過ぎに見える	Age of Fitzroy Simpson looks thirty too	
+53	情報源			
+53	Who	フィッロイ・シムソンの年齢	Age of Fitzroy Simpson	
+53	hasProperty	三十過ぎに見える	Look thirty too	
+53	then			
+54	対象文	フィッロイ・シムソンはエディス・バクスタに現在地を尋ねた	Fitzroy Simpson asked the current location to Edith Baxter	
+54	情報源			
+54	Who	フィッロイ・シムソン	Fitzroy Simpson	
+54	hasPredicate	尋ねた	ask	
+54	What	現在地	present location	
+54	To	エディス・バクスタ	Edith Baxter	
+54	then			
+55	対象文	フィッロイ・シムソンはエディス・バクスタに以下を言った	Fitzroy Simpson said the following to the Edith Baxter	
+55	情報源			
+55	Who	フィッロイ・シムソン	Fitzroy Simpson	
+55	hasPredicate	言った	say	
+55	What	56	054-055	
+55	What	57	054-055	
+55	What	58	054-055	
+55	To	エディス・バクスタ	Edith Baxter	
+55	then			
+56	対象文	フィッロイ・シムソンは、人の姿が見えたので安心した	"Fitzroy Simpson is, I was relieved because I saw the figure of a person"	
+56	情報源			
+56	Who	フィッロイ・シムソン	Fitzroy Simpson	
+56	hasPredicate	安心した	relive	
+56	Why	57	054a	
+56	then			
+57	対象文	フィッロイ・シムソンは、人の姿を見た	Fitzroy Simpson was the sight of people	
+57	情報源			
+57	Who	フィッロイ・シムソン	Fitzroy Simpson	
+57	hasPredicate	見た	see	
+57	What	人の姿	Figure of the people	
+57	then			
+58	対象文	フィッロイ・シムソンは荒地で野宿しようとしていた	Fitzroy Simpson was trying to camp out in the wasteland	
+58	情報源			
+58	Who	フィッロイ・シムソン	Fitzroy Simpson	
+58	hasPredicate	野宿しようとした	tryToCamp	
+58	Where	荒野	wilderness	
+58	then			
+59	対象文	エディス・バクスタは、以下をフィッロイ・シムソンに教えた	Edith Baxter was taught the following to Fitzroy Simpson	
+59	情報源			
+59	Who	エディス・バクスタ	Edith Baxter	
+59	hasPredicate	教えた	teach	
+59	To	フィッロイ・シムソン	Fitzroy Simpson	
+59	what	60	57	
+59	then			
+60	対象文	現在地は、キングス・パイランド調馬場である	present location is the King's Pyland riding ground	
+60	情報源			
+60	Who	現在地	present location	
+60	hasPredicate	である	equalTo	
+60	Near	キングス・パイランド調馬場	King's Pyland riding ground	
+60	then			
+61	対象文	フィッロイ・シムソンはエディス・バクスタに儲かる話を提案した	Fitzroy Simpson proposed a story that lucrative to Edith Baxter	
+61	情報源			
+61	Who	フィッロイ・シムソン	Fitzroy Simpson	
+61	hasPredicate	提案した	propose	
+61	What	儲かる話	Lucrative story	
+61	To	エディス・バクスタ	Edith Baxter	
+61	then			
+62	対象文	フィッロイ・シムソンは、チョッキのポケットから紙切れを取り出した	Fitzroy Simpson took out a piece of paper from the waistcoat pocket	
+62	情報源			
+62	Who	フィッロイ・シムソン	Fitzroy Simpson	
+62	hasPredicate	取り出した	fetch	
+62	What	紙切れ	A scrap of paper	
+62	From	チョッキのポケット	Vest pocket	
+62	then			
+63	対象文	フィッロイ・シムソンはエディス・バクスタに以下を頼んだ	Fitzroy Simpson asked the following to Edith Baxter	
+63	情報源			
+63	Who	フィッロイ・シムソン	Fitzroy Simpson	
+63	hasPredicate	頼んだ	ask	
+63	To	エディス・バクスタ	Edith Baxter	
+63	What	64	61	
+63	then			
+64	対象文	エディス・バクスタがネッド・ハンターに紙切れを手渡す	Edith Baxter is handed a piece of paper to Ned Hunter	
+64	情報源			
+64	Who	エディス・バクスタ	Edith Baxter	
+64	hasPredicate	手渡す	give	
+64	To	ネッド・ハンター	Ned Hunter	
+64	What	紙切れ	A scrap of paper	
+64	then			
+65	対象文	エディス・バクスタはフィッロイ・シムソンの様子を恐れた	Edith Baxter was afraid the state of Fitzroy Simpson	
+65	情報源			
+65	Who	エディス・バクスタ	Edith Baxter	
+65	hasPredicate	恐れた	fear	
+65	Why	フィッロイ・シムソンの様子	State of Fitzroy Simpson	
+65	then			
+66	対象文	エディス・バクスタは、厩舎の窓に掛けて行った	Edith Baxter was carried over to the window of the stables	
+66	情報源			
+66	Who	エディス・バクスタ	Edith Baxter	
+66	hasPredicate	駈けて行った	run	
+66	To	厩舎の窓	Stables of the window	
+66	then			
+67	対象文	厩舎の窓は開いていた	Stables of the window was open	
+67	情報源			
+67	Who	厩舎の窓	Stables of the window	
+67	hasProperty	開いていた	open	
+67	then			
+68	対象文	ネッド・ハンターは食事をしていた	Ned Hunter had a meal	
+68	情報源			
+68	Who	ネッド・ハンター	Ned Hunter	
+68	hasPredicate	食事をしていた	eat	
+68	then			
+69	対象文	エディス・バクスタはネッド・ハンターに伝えた	Edith Baxter was told to Ned Hunter	
+69	情報源			
+69	Who	エディス・バクスタ	Edith Baxter	
+69	hasPredicate	伝えた	tell	
+69	What	47-65	045-062	
+69	To	ネッド・ハンター	Ned Hunter	
+69	then			
+70	対象文	フィッロイ・シムソンはエディス・バクスタを追いかけてきた	Fitzroy Simpson has been chasing Edith Baxter	
+70	情報源			
+70	Who	フィッロイ・シムソン	Fitzroy Simpson	
+70	hasPredicate	追いかけてきた	chase	
+70	What	エディス・バクスタ	Edith Baxter	
+70	then			
+71	対象文	フィッロイ・シムソンはネッド・ハンターに挨拶した	Fitzroy Simpson was greeted Ned Hunter	
+71	情報源			
+71	Who	フィッロイ・シムソン	Fitzroy Simpson	
+71	hasPredicate	挨拶した	greet	
+71	To	ネッド・ハンター	Ned Hunter	
+71	then			
+72	対象文	フィッロイ・シムソンは厩舎の中を覗き込んだ	Fitzroy Simpson is looking into the inside of the stables	
+72	情報源			
+72	Who	フィッロイ・シムソン	Fitzroy Simpson	
+72	hasPredicate	覗き込んだ	peep	
+72	What	厩舎の中	Among the stables	
+72	From	厩舎の窓	Stables of the window	
+72	then			
+73	対象文	フィッロイ・シムソンはネッド・ハンターに話しかけた	Fitzroy Simpson spoke to Ned Hunter	
+73	情報源			
+73	Who	フィッロイ・シムソン	Fitzroy Simpson	
+73	hasPredicate	話しかけた	talk	
+73	To	ネッド・ハンター	Ned Hunter	
+73	then			
+74	対象文	エディス・バクスタは以下を断言した	Edith Baxter affirmed the following:	
+74	情報源			
+74	Who	エディス・バクスタ	Edith Baxter	
+74	hasPredicate	断言した	affirm	
+74	What	75	72	
+74	then			
+75	対象文	フィッロイ・シムソンは小さな紙包を握っていた	Fitzroy Simpson was holding a small parcel	
+75	情報源			
+75	Who	フィッロイ・シムソン	Fitzroy Simpson	
+75	hasPredicate	握っていた	hold	
+75	What	小さな紙包	Small parcel	
+75	When	73	70	
+75	then			
+76	対象文	ネッド・ハンターは、フィッロイ・シムソンが来た理由を尋ねた	"Ned Hunter, asked why he came Fitzroy Simpson"	
+76	情報源			
+76	Who	ネッド・ハンター	Ned Hunter	
+76	hasPredicate	尋ねた	ask	
+76	To	フィッロイ・シムソン	Fitzroy Simpson	
+76	What	フィッロイ・シムソンが来た理由	The reason for Fitzroy Simpson came	
+76	then			
+77	対象文	フィッロイ・シムソンはフィッロイ・シムソンに訪問の理由を説明する	Fitzroy Simpson explains the reason for the visit to Fitzroy Simpson	
+77	情報源			
+77	Who	フィッロイ・シムソン	Fitzroy Simpson	
+77	hasPredicate	説明する	explain	
+77	What	訪問の理由	The reason for visit	
+77	To	フィッロイ・シムソン	Fitzroy Simpson	
+77	then			
+78	対象文	フィッロイ・シムソンは競馬の予想を聞きに来た	Fitzroy Simpson came to listen to the expectations of horse racing	
+78	情報源			
+78	Who	フィッロイ・シムソン	Fitzroy Simpson	
+78	hasPredicate	聞きに来た	cameToListen	
+78	What	競馬の予想	Forecast of horse racing	
+78	then			
+79	対象文	フィッロイ・シムソンはネッド・ハンターに儲け話を提案した	Fitzroy Simpson proposed a story profit to Ned Hunter	
+79	情報源			
+79	Who	フィッロイ・シムソン	Fitzroy Simpson	
+79	hasPredicate	提案した	propose	
+79	What	儲け話	Profit story	
+79	To	ネッド・ハンター	Ned Hunter	
+79	then			
+80	対象文	フィッロイ・シムソンは以下をネッド・ハンターに言った	Fitzroy Simpson said the following to the Ned Hunter	
+80	情報源			
+80	Who	フィッロイ・シムソン	Fitzroy Simpson	
+80	hasPredicate	言った	say	
+80	What	81-83	076-077	
+80	To	ネッド・ハンター	Ned Hunter	
+80	then			
+81	対象文	二頭のウェセクス賞杯戦に出る馬がキングス・パイランドの厩舎にいる	Horse out to Wessex Cup round of the biceps are in the stables of King's Pyland	
+81	情報源			
+81	Who	二頭のウェセクス賞杯戦に出る馬	Horse out to Wessex Cup round of the biceps	
+81	hasPredicate	いる	exist	
+81	Where	キングス・パイランドの厩舎	Stables of King's Pyland	
+81	then			
+82	対象文	二頭の馬はウェセクス賞杯戦に出場する	Two horses to compete in Wessex Cup game	
+82	情報源			
+82	Who	二頭の馬	Two horses	
+82	hasPredicate	出場する	enter	
+82	Where	ウェセクス賞杯戦	Wessex Cup game	
+82	then			
+83	対象文	白銀号と栗毛の馬は、ウェセクス賞杯戦に出場する。	"Silver Patent and brown horses, to compete in the Wessex Cup game."	
+83	情報源			
+83	Who	白銀号	Silver Blaze	
+83	Who	栗毛の馬	Brown horse	
+83	hasPredicate	出場する	enter	
+83	To	ウェセクス賞杯戦	Wessex Cup game	
+83	then			
+84	対象文	フィッロイ・シムソンはネッド・ハンターから競馬の確実な予想を聞き出そうとした	Fitzroy Simpson tried to prize out a reliable forecast of horse racing from Ned Hunter	
+84	情報源			
+84	Who	フィッロイ・シムソン	Fitzroy Simpson	
+84	hasPredicate	聞き出そうとした	tryToListen	
+84	What	競馬の確実な予想	Bets of horse racing	
+84	From	ネッド・ハンター	Ned Hunter	
+84	then			
+85	対象文	フィッロイ・シムソンは、以下をネッド・ハンターに確認した	Fitzroy Simpson was confirmed the following to Ned Hunter	
+85	情報源			
+85	Who	フィッロイ・シムソン	Fitzroy Simpson	
+85	hasPredicate	確認した	confirm	
+85	To	ネッド・ハンター	Ned Hunter	
+85	What	86	080-081	
+85	What	87	080-081	
+85	then			
+86	対象文	馬主筋は栗毛の馬に賭けた	Owner muscle bet on brown horse	
+86	情報源			
+86	Who	馬主筋	Owner muscle	
+86	hasPredicate	賭けた	bet	
+86	To	栗毛の馬	Brown horse	
+86	then			
+87	対象文	栗毛の馬はウェセクス賞杯戦で有利である	Brown horse is advantageous in Wessex Cup game	
+87	情報源			
+87	Who	栗毛の馬は	Brown horse	
+87	hasProperty	有利である	advantageous	
+87	Where	ウェセクス賞杯戦	Wessex Cup game	
+87	then			
+88	対象文	ネッド・ハンターはフィッロイ・シムソンを牽制した	Ned Hunter was check the Fitzroy Simpson	
+88	情報源			
+88	Who	ネッド・ハンター	Ned Hunter	
+88	hasPredicate	牽制した	check	
+88	What	フィッロイ・シムソン	Fitzroy Simpson	
+88	then			
+89	対象文	ネッド・ハンターは厩舎の犬を放しに行った	Ned Hunter went to release the dog of the stables	
+89	情報源			
+89	Who	ネッド・ハンター	Ned Hunter	
+89	hasPredicate	放しに行った	go to release	
+89	What	厩舎の犬	Dog of the stables	
+89	then			
+90	対象文	エディス・バクスタは厩舎からジョン・ストレーカーの家に駆け戻った	Edith Baxter went back ran from the stables to the house of John Straker	
+90	情報源			
+90	Who	エディス・バクスタ	Edith Baxter	
+90	hasPredicate	駈け戻った	return	
+90	To	ジョン・ストレーカーの家	John Straker house	
+90	From	厩舎	stable	
+90	then			
+91	対象文	エディス・バクスタは、以下を見た	Edith Baxter saw the following	
+91	情報源			
+91	Who	エディス・バクスタ	Edith Baxter	
+91	hasPredicate	見た	see	
+91	What	92-94	086-088	
+91	then			
+92	対象文	フィッロイ・シムソンは、厩舎の窓から厩舎の中に半身を乗り入れていた	Fitzroy Simpson had served a half-length in the stables from the window of the stables	
+92	情報源			
+92	Who	フィッロイ・シムソン	Fitzroy Simpson	
+92	hasPredicate	乗り入れていた	serve	
+92	To	厩舎の中	Among the stables	
+92	From	厩舎の窓	Stables of the window	
+92	What	半身	Half-length	
+92	then			
+93	対象文	フィッロイ・シムソンはいなかった	Fitzroy Simpson was not	
+93	情報源			
+93	Who	フィッロイ・シムソン	Fitzroy Simpson	
+93	hasPredicate	いなかった	notExist	
+93	When	94	88	
+93	then			
+94	対象文	ネッド・ハンターは、フィッロイ・シムソンを犬を使って追い払った	"Ned Hunter, drove off with the dog Fitzroy Simpson"	
+94	情報源			
+94	Who	ネッド・ハンター	Ned Hunter	
+94	hasPredicate	追い払った	driveOff	
+94	What	フィッロイ・シムソン	Fitzroy Simpson	
+94	How	犬を使って	Use the dog	
+94	then			
+95	対象文	ネッド・ハンターは、厩舎の周りでフィッロイ・シムソンを探した	"Ned Hunter, was looking for a Fitzroy Simpson around the stables"	
+95	情報源			
+95	Who	ネッド・ハンター	Ned Hunter	
+95	hasPredicate	探した	lookFor	
+95	Near	厩舎	stable	
+95	What	フィッロイ・シムソン	Fitzroy Simpson	
+95	then			
+96	対象文	ネッド・ハンターはフィッロイ・シムソンを見つけることができなかった	Ned Hunter could not find the Fitzroy Simpson	
+96	情報源			
+96	Who	ネッド・ハンター	Ned Hunter	
+96	hasPredicate	見つけることができなかった	cannotFind	
+96	What	フィッロイ・シムソン	Fitzroy Simpson	
+96	then			
+97	対象文	ワトソンはホームズに以下を尋ねた	Watson was asked the following in Holmes	
+97	情報源			
+97	Who	ワトソン	Watson	
+97	hasPredicate	尋ねた	ask	
+97	To	ホームズ	Holmes	
+97	What	98	92	
+97	then			
+98	対象文	ネッド・ハンターは厩舎の戸を閉めた	Ned Hunter closed the door of the stables	
+98	情報源			
+98	Who	ネッド・ハンター	Ned Hunter	
+98	hasPredicate	閉めた	close	
+98	What	厩舎の戸	Door of the stables	
+98	When	94	88	
+98	then			
+99	対象文	ホームズはワトソンに以下を答えた	Holmes answered the following to Watson	
+99	情報源			
+99	Who	ホームズ	Holmes	
+99	hasPredicate	答えた	answer	
+99	To	ワトソン	Watson	
+99	What	100	94	
+99	then			
+100	対象文	ネッド・ハンターは厩舎の戸を閉めた	Ned Hunter closed the door of the stables	
+100	情報源			
+100	Who	ネッド・ハンター	Ned Hunter	
+100	hasPredicate	閉めた	close	
+100	What	厩舎の戸	Door of the stables	
+100	When	94	88	
+100	then			
+101	対象文	人は厩舎の窓から厩舎の中から入ることができない	People can not enter from the windows of the stables stables	
+101	情報源			
+101	Who	人	Man	
+101	hasPredicate	入れない	cannotEnter	
+101	From	厩舎の窓	Stables of the window	
+101	To	厩舎の中	Among the stables	
+101	Why	102	96	
+101	then			
+102	対象文	厩舎の窓は小さい	Stables of the window is small	
+102	情報源			
+102	Who	厩舎の窓	Stables of the window	
+102	hasProperty	小さい	small	
+102	then			
+103	対象文	ネッド・ハンターは２人の若者の帰りを待った	Ned Hunter was waiting for the return of the two young men	
+103	情報源			
+103	Who	ネッド・ハンター	Ned Hunter	
+103	hasPredicate	待った	wait	
+103	What	２人の若者の帰り	Return of the two young men	
+103	then			
+104	対象文	ネッド・ハンターはジョン・ストレーカーに報告した	Ned Hunter was reported to John Straker	
+104	情報源			
+104	Who	ネッド・ハンター	Ned Hunter	
+104	hasPredicate	報告した	report	
+104	To	ジョン・ストレーカー	John Straker	
+104	What	46-96	044-090	
+104	then			
+105	対象文	ジョン・ストレーカーは興奮した	John Straker were excited	
+105	情報源			
+105	Who	ジョン・ストレーカー	John Straker	
+105	hasProperty	興奮した	excite	
+105	When	104	98	
+105	then			
+106	対象文	ネッド・ハンターは理解できなかった	Ned Hunter could not understand	
+106	情報源			
+106	Who	ネッド・ハンター	Ned Hunter	
+106	hasPredicate	理解できなかった	cannotUnderstand	
+106	What	105	99	
+106	then			
+107	対象文	ジョン・ストレーカーは不安を感じた	John Straker felt anxiety	
+107	情報源			
+107	Who	ジョン・ストレーカー	John Straker	
+107	hasPredicate	感じた	feel	
+107	What	不安	anxiety	
+107	When	104	98	
+107	then			
+108	対象文	ジョン・ストレーカーの妻は事件の夜１時に目を覚ました	Wife of John Straker woke up to one o'clock the night of the incident	
+108	情報源			
+108	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+108	hasPredicate	目を覚ました	wakeUp	
+108	When	事件の夜１時	Pm 1 incident	
+108	then			
+109	対象文	ジョン・ストレーカーは厩舎を確認しに行こうとした	John Straker tried to go to check the stables	
+109	情報源			
+109	Who	ジョン・ストレーカー	John Straker	
+109	hasPredicate	確認しに行こうとした	tryToCheck	
+109	What	厩舎	stable	
+109	then			
+110	対象文	事件の夜は雨が降っていた	It was raining the night of the incident	
+110	情報源			
+110	Who	事件の夜	Night of the incident	
+110	hasPredicate	雨が降っていた	rain	
+110	then			
+111	対象文	ジョン・ストレーカーの妻はジョン・ストレーカーを止めた	Wife of John Straker was stopped John Straker	
+111	情報源			
+111	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+111	hasPredicate	止めた	stop	
+111	What	ジョン・ストレーカー	John Straker	
+111	Why	110	104	
+111	then			
+112	対象文	ジョン・ストレーカーはジョン・ストレーカーの妻の警告を聞き入れなかった	John Straker did not heed the warning of the wife of John Straker	
+112	情報源			
+112	Who	ジョン・ストレーカー	John Straker	
+112	hasPredicate	聞き入れなかった	notHeed	
+112	What	ジョン・ストレーカーの妻の警告	Warning of the wife of John Straker	
+112	then			
+113	対象文	事件の夜、ジョン・ストレーカーは厩舎を確認しに行った	"Night of the incident, John Straker went to check the stables"	
+113	情報源			
+113	Who	ジョン・ストレーカー	John Straker	
+113	hasPredicate	確認しに行った	check	
+113	What	厩舎	stable	
+113	When	事件の夜	Night of the incident	
+113	then			
+114	対象文	ジョン・ストレーカーの妻は事件の翌朝７時に起きた	Wife of John Straker was up at the next morning 7 of the incident	
+114	情報源			
+114	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+114	hasPredicate	起きた	wakeUp	
+114	When	事件の翌朝の７時	O'clock the next morning of 7 cases	
+114	then			
+115	対象文	ジョン・ストレーカーは事件の翌朝の７時に厩舎から家に帰ってきていなかった	John Straker did not come home from the next morning at 7 o'clock stables of the incident	
+115	情報源			
+115	Who	ジョン・ストレーカー	John Straker	
+115	hasPredicate	帰ってきていなかった	notReturn	
+115	To	ジョン・ストレーカーの家	John Straker house	
+115	From	厩舎	stable	
+115	When	事件の翌朝の７時	O'clock the next morning of 7 cases	
+115	then			
+116	対象文	ジョン・ストレーカーの妻とエディス・バクスタは厩舎に行った	My wife and Edith Baxter John Straker went to the stables	
+116	情報源			
+116	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+116	Who	エディス・バクスタ	Edith Baxter	
+116	hasPredicate	行った	go	
+116	To	厩舎	stable	
+116	then			
+117	対象文	厩舎の戸は開いていた	Door of the stables was open	
+117	情報源			
+117	Who	厩舎の戸	Door of the stables	
+117	hasProperty	開いていた	open	
+117	When	116	110	
+117	then			
+118	対象文	ネッド・ハンターは深く眠っていた	Ned Hunter was sleeping deeply	
+118	情報源			
+118	Who	ネッド・ハンター	Ned Hunter	
+118	hasPredicate	眠っていた	sleeping	
+118	What	116	110	
+118	How	深く	deeply	
+118	then			
+119	対象文	白銀号は厩舎にいなかった	Silver issue was not in the stables	
+119	情報源			
+119	Who	白銀号	Silver Blaze	
+119	hasPredicate	いなかった	notExist	
+119	When	116	110	
+119	Where	厩舎	stable	
+119	then			
+120	対象文	ジョン・ストレーカーは厩舎にいなかった	John Straker was not in the stables	
+120	情報源			
+120	Who	ジョン・ストレーカー	John Straker	
+120	hasPredicate	いなかった	notExist	
+120	When	116	110	
+120	Where	厩舎	stable	
+120	then			
+121	対象文	ジョン・ストレーカーの妻は２人の若者を起した	Wife of John Straker has caused two young men	
+121	情報源			
+121	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+121	hasPredicate	起した	wakeUp	
+121	What	２人の若者	two young men	
+121	then			
+122	対象文	２人の若者は以下を証言した	two young men testified the following:	
+122	情報源			
+122	Who	２人の若者	two young men	
+122	hasPredicate	証言した	testify	
+122	What	123	117	
+122	then			
+123	対象文	事件の夜は何事もなかった	Nothing had happened the night of the incident	
+123	情報源			
+123	Who	事件の夜	Night of the incident	
+123	hasPredicate	何事もなかった	notHappen	
+123	then			
+124	対象文	ネッド・ハンターは強い薬品により、深く眠っていた	"Ned Hunter by strong chemicals, was sleeping deeply"	
+124	情報源			
+124	Who	ネッド・ハンター	Ned Hunter	
+124	hasPredicate	眠っていた	sleeping	
+124	Why	強い薬品	Strong chemicals	
+124	How	深く	deeply	
+124	then			
+125	対象文	二人の若者とジョン・ストレーカーの妻とエディス・バクスタはジョン・ストレーカーと白銀号を探しに行った	Two of the young people and John Straker wife and Edith Baxter went to look for John Straker and Silver Blaze	
+125	情報源			
+125	Who	二人の若者	Two young men	
+125	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+125	Who	エディス・バクスタ	Edith Baxter	
+125	hasPredicate	探しに行った	lookFor	
+125	What	ジョン・ストレーカー	John Straker	
+125	What	白銀号	Silver Blaze	
+125	then			
+126	対象文	白銀号は荒地にいなかった	Silver issue was not in the wasteland	
+126	情報源			
+126	Who	白銀号	Silver Blaze	
+126	hasPredicate	いなかった	notExist	
+126	Where	荒地	Wasteland	
+126	then			
+127	対象文	ジョン・ストレーカーの外套は、厩舎から四分の一哩のところのはりえにしだの藪に掛かっていた	The mantle of John Straker had hanging on the bush of the beam broom of at the one-quarter mile from the stables	
+127	情報源			
+127	Who	ジョン・ストレーカーの外套	The mantle of John Straker	
+127	hasPredicate	掛かっていた	hang	
+127	Where	厩舎から４分の１哩のところ	At the 1 mile of 4 minutes from the stables	
+127	On	はりえにしだの藪	beam broom bush	
+127	then			
+128	対象文	ジョン・ストレーカーは、はりえにしだの藪の先の窪みで死んでいた	"John Straker, was dead in the recess of the bush of the previous beam broom"	
+128	情報源			
+128	Who	ジョン・ストレーカー	John Straker	
+128	hasProperty	死んでいた	dead	
+128	Where	はりえにしだの藪の先の窪み	Depression in the bush of the previous beam broom	
+128	then			
+129	対象文	ジョン・ストレーカーの頭蓋骨は、何か重い兇器を使って粉砕されていた	Skull of John Straker had been crushed with something heavy Kyoki	
+129	情報源			
+129	Who	ジョン・ストレーカーの頭蓋骨	Skull of John Straker	
+129	hasPredicate	粉砕されていた	beCrushed	
+129	How	何か重い兇器を使って	Using something heavy Kyoki	
+129	then			
+130	対象文	ジョン・ストレーカーの腿は、極めて鋭い凶器を使って長く鮮やかに斬られていた	Thigh of John Straker had been slashed to long vivid using a very sharp weapon	
+130	情報源			
+130	Who	ジョン・ストレーカーの腿	Thigh of John Straker	
+130	hasPredicate	斬られていた	beSlashed	
+130	How	極めて鋭い凶器を使って	Use a very sharp weapon	
+130	How	長く鮮やかに	Long vividly	
+130	then			
+131	対象文	死体の右の手は小さなナイフを握っていた	The right hand of the corpse was holding a small knife	
+131	情報源			
+131	Who	死体の右の手	Right hand of the corpse	
+131	hasPredicate	握っていた	hold	
+131	What	小さなナイフ	A small knife	
+131	then			
+132	対象文	血がナイフについていた	Blood was on the knife	
+132	情報源			
+132	Who	血	blood	
+132	hasPredicate	ついていた	put	
+132	On	ナイフ	knife	
+132	then			
+133	対象文	死体の左の手はネクタイを掴んでいた	The left hand of the corpse had grabbed the tie	
+133	情報源			
+133	Who	死体の左の手	Hand to the left of the corpse	
+133	hasPredicate	掴んでいた	grab	
+133	What	ネクタイ	tie	
+133	then			
+134	対象文	エディス・バクスタとネッド・ハンターは、以下を証言した	"Edith Baxter and Ned Hunter, testified the following:"	
+134	情報源			
+134	Who	エディス・バクスタ	Edith Baxter	
+134	Who	ネッド・ハンター	Ned Hunter	
+134	hasPredicate	証言した	testify	
+134	What	135	129	
+134	then			
+135	対象文	フィッロイ・シムソンはネクタイをつけていた	Fitzroy Simpson wore a tie	
+135	情報源			
+135	Who	フィッロイ・シムソン	Fitzroy Simpson	
+135	hasPredicate	つけていた	wear	
+135	What	ネクタイ	tie	
+135	then			
+136	対象文	ネッド・ハンターは、以下を申し立てた	"Ned Hunter, filed the following"	
+136	情報源			
+136	Who	ネッド・ハンター	Ned Hunter	
+136	hasPredicate	申し立てた	say	
+136	What	137	130	
+136	then			
+137	対象文	フィッロイ・シムソンはネッド・ハンターの分の羊のカレー料理に薬を混ぜた	Fitzroy Simpson was mixed with medicine to curry dishes minute of sheep of Ned Hunter	
+137	情報源			
+137	Who	フィッロイ・シムソン	Fitzroy Simpson	
+137	hasPredicate	混ぜた	mix	
+137	What	薬	medicine	
+137	To	ネッド・ハンターの分の羊のカレー料理	Curry dishes minute of sheep of Ned Hunter	
+137	When	72	69	
+137	then			
+138	対象文	白銀号の足跡は殺人現場にあった	Footprint of Silver issue was on the murder scene	
+138	情報源			
+138	Who	白銀号の足跡	Footprint of Silver Blaze	
+138	hasPredicate	あった	exist	
+138	Near	殺害現場	Murder scene	
+138	then			
+139	対象文	ジョン・ストレーカーの格闘中、白銀号はジョン・ストレーカーのそばにいたようである	"During the fighting of John Straker, it seems Shirogane issue was in the vicinity of John Straker"	
+139	情報源			
+139	Who	白銀号	Silver Blaze	
+139	hasPredicate	いたようである	exist	
+139	Near	ジョン・ストレーカー	John Straker	
+139	When	ジョン・ストレーカーの格闘中	During the fighting of John Straker	
+139	then			
+140	対象文	ジョンストレーカは格闘した	Johns tray mosquitoes were fighting	
+140	情報源			
+140	Who	ジョン・ストレーカー	John Straker	
+140	hasPredicate	格闘した	fight	
+140	then			
+141	対象文	白銀号は行方不明である	Silver Blaze is missing	
+141	情報源			
+141	Who	白銀号	Silver Blaze	
+141	hasProperty	行方不明である	missing	
+141	then			
+142	対象文	白銀号は莫大な賞金を掛けられていた	Silver issue had been multiplied by the huge prize	
+142	情報源			
+142	Who	白銀号	Silver Blaze	
+142	hasProperty	掛けられていた	It has been over	
+142	What	莫大な賞金	Huge prize	
+142	then			
+143	対象文	ダートムアのジプシーは白銀号に注意を向ける	Dartmoor of Gypsy directs attention to the Silver Blaze	
+143	情報源			
+143	Who	ダートムアのジプシー	Gypsy of Dartmoor	
+143	hasPredicate	注意を向ける	Attention	
+143	To	白銀号	Silver Blaze	
+143	Why	142	135	
+143	then			
+144	対象文	ネッド・ハンターの分の羊のカレー料理は多量の阿片末を含んでいた	Curry dishes minute of sheep of Ned Hunter contained the end of a large amount of opium	
+144	情報源			
+144	Who	ネッド・ハンターの分の羊のカレー料理	Curry dishes minute of sheep of Ned Hunter	
+144	hasProperty	含んでいた	include	
+144	What	多量の阿片末	A large amount of opium end	
+144	then			
+145	対象文	食事後、２人の若者は異常なかった	"After the meal, the two young people did not, but there was no abnormality"	
+145	情報源			
+145	Who	２人の若者	two young men	
+145	hasProperty	異常なかった	notAbnormal	
+145	When	食事後	After eating	
+145	then			
+146	対象文	グレゴリ警部はフィッロイ・シムソンを捕まえた	Gregory inspector caught the Fitzroy Simpson	
+146	情報源			
+146	Who	グレゴリ警部	Gregory Inspector	
+146	hasPredicate	捕まえた	arrest	
+146	What	フィッロイ・シムソン	Fitzroy Simpson	
+146	then			
+147	対象文	フィッロイ・シムソンは立派な生れである	Fitzroy Simpson is a respectable birth	
+147	情報源			
+147	Who	フィッロイ・シムソン	Fitzroy Simpson	
+147	hasProperty	立派な生れである	respectableBirth	
+147	then			
+148	対象文	フィッロイ・シムソンは立派に育てられた	Fitzroy Simpson was well brought up	
+148	情報源			
+148	Who	フィッロイ・シムソン	Fitzroy Simpson	
+148	hasPredicate	育てられた	beRaised	
+148	How	立派に	Admirably	
+148	then			
+149	対象文	フィッロイ・シムソンは競馬の賭けを失敗した	Fitzroy Simpson failed a bet of horse racing	
+149	情報源			
+149	Who	フィッロイ・シムソン	Fitzroy Simpson	
+149	hasPredicate	失敗した	fail	
+149	What	競馬の賭け	Betting horse racing	
+149	then			
+150	対象文	フィッロイ・シムソンは、ロンドンのスポート倶楽部で小さな賭事の胴元をやって生計を立てている。	Fitzroy Simpson has made a living doing the bookmaker of small gambling in London of Sport Club.	
+150	情報源			
+150	Who	フィッロイ・シムソン	Fitzroy Simpson	
+150	hasPredicate	立てている	live	
+150	Where	ロンドンのスポート倶楽部	Sport Club of London	
+150	What	生計		
+150	How	小さな賭事の胴元をやって	Doing bookmaker of small gambling	
+150	then			
+151	対象文	フィッロイ・シムソンは、小さな賭事の胴元をやっている	"Fitzroy Simpson is, is doing a bookmaker of small gambling"	
+151	情報源			
+151	Who	フィッロイ・シムソン	Fitzroy Simpson	
+151	hasPredicate	やっている	do	
+151	What	小さな賭事の胴元	Bookmaker of a small gambling	
+151	then			
+152	対象文	フィッロイ・シムソンは、五千ポンドを白銀号の競走馬に賭けていた	"Fitzroy Simpson had bet 5,000 pounds Silver issue of race horses"	
+152	情報源			
+152	Who	フィッロイ・シムソン	Fitzroy Simpson	
+152	hasPredicate	賭けていた	bet	
+152	What	五千ポンド	Five thousand lbs	
+152	To	白銀号の競走馬	Silver Blaze of racehorses	
+152	then			
+153	対象文	フィッロイ・シムソンは、デスボロについての情報を集めていた	Fitzroy Simpson had gathered information about the Desborough	
+153	情報源			
+153	Who	フィッロイ・シムソン	Fitzroy Simpson	
+153	hasPredicate	集めていた	collect	
+153	What	デスボロについての情報	Information about the Desborough	
+153	then			
+154	対象文	フィッロイ・シムソンは以下を述べた	Fitzroy Simpson said the following:	
+154	情報源			
+154	Who	フィッロイ・シムソン	Fitzroy Simpson	
+154	hasPredicate	述べた	say	
+154	What	155	147	
+154	then			
+155	対象文	フィッロイ・シムソンは競馬の情報収集のためケープルトンの厩舎に出かけていた	Fitzroy Simpson had went to the stables of Mapleton for horse racing information collection	
+155	情報源			
+155	Who	フィッロイ・シムソン	Fitzroy Simpson	
+155	hasPredicate	出かけていた	goOut	
+155	To	ケープルトンの厩舎	Stables of Mapleton	
+155	When	146	139	
+155	Why	競馬の情報収集のため	For horse racing information collection	
+155	then			
+156	対象文	デスボロは、白銀号に次ぐ人気を持つ	Desborough has a popularity second only to Silver Blaze	
+156	情報源			
+156	Who	デスボロ	Desborough	
+156	hasPredicate	持つ	have	
+156	What	白銀号に次ぐ人気	Popularity second only to Silver Blaze	
+156	then			
+157	対象文	サイラス・ブラウンはデスボロを管理している	Cyrus Brown manages the Desborough	
+157	情報源			
+157	Who	サイラス・ブラウン	Cyrus Brown	
+157	hasPredicate	管理している	manage	
+157	What	デスボロ	Desborough	
+157	then			
+158	対象文	フィッロイ・シムソンは以上を認めた	Fitzroy Simpson admitted more	
+158	情報源			
+158	Who	フィッロイ・シムソン	Fitzroy Simpson	
+158	hasPredicate	認めた	admit	
+158	What	46-96	044-090	
+158	then			
+159	対象文	フィッロイ・シムソンは以下を申し立てた	Fitzroy Simpson was filed the following	
+159	情報源			
+159	Who	フィッロイ・シムソン	Fitzroy Simpson	
+159	hasPredicate	申し立てた	say	
+159	What	160	152	
+159	then			
+160	対象文	フィッロイ・シムソンは事件に無関係である	Fitzroy Simpson is independent of the incident	
+160	情報源			
+160	Who	フィッロイ・シムソン	Fitzroy Simpson	
+160	hasProperty	事件に無関係である	independent of the incident	
+160	then			
+161	対象文	フィッロイ・シムソンは顔色を変えた	Fitzroy Simpson has changed the complexion	
+161	情報源			
+161	Who	フィッロイ・シムソン	Fitzroy Simpson	
+161	hasPredicate	変えた	change	
+161	What	顔色	complexion	
+161	When	162	154	
+161	then			
+162	対象文	フィッロイ・シムソンはネクタイを見せられた	Fitzroy Simpson was shown a tie	
+162	情報源			
+162	Who	フィッロイ・シムソン	Fitzroy Simpson	
+162	hasPredicate	見せられた	beShown	
+162	What	ネクタイ	tie	
+162	then			
+163	対象文	フィッロイ・シムソンは殺人現場のネクタイを説明できなかった	Fitzroy Simpson could not explain the tie of the murder scene	
+163	情報源			
+163	Who	フィッロイ・シムソン	Fitzroy Simpson	
+163	hasPredicate	説明できなかった	cannotExplain	
+163	What	殺人現場のネクタイ	Tie of the murder scene	
+163	then			
+164	対象文	フィッロイ・シムソンは事件の夜、十分な兇器を持っていた	"Fitzroy Simpson the night of the incident, had enough Kyoki"	
+164	情報源			
+164	Who	フィッロイ・シムソン	Fitzroy Simpson	
+164	hasPredicate	持っていた	have	
+164	What	十分な凶器	Enough weapon	
+164	When	事件の夜	Night of the incident	
+164	then			
+165	対象文	事件の夜、フィッロイ・シムソンは野外にいたので濡れていた	"Night of the incident, Fitzroy Simpson was wet so was in the open air"	
+165	情報源			
+165	Who	フィッロイ・シムソン	Fitzroy Simpson	
+165	hasProperty	濡れていた	wet	
+165	Why	野外にいた	It was in the open air	
+165	When	事件の夜	Night of the incident	
+165	then			
+166	対象文	フィッロイ・シムソンは傷を負っていない	Fitzroy Simpson is not injured	
+166	情報源			
+166	Who	フィッロイ・シムソン	Fitzroy Simpson	
+166	hasProperty	傷を負っていない	notInjured	
+166				
+166	then			
+167	対象文	ワトソンは以下を言った	Watson said the following:	
+167	情報源			
+167	Who	ワトソン	Watson	
+167	hasPredicate	言った	say	
+167	What	168	160	
+167	then			
+168	対象文	ジョン・ストレーカーは自傷した	John Straker was self-harm	
+168	情報源			
+168	Who	ジョン・ストレーカー	John Straker	
+168	hasPredicate	自傷した	self-harm	
+168	When	169	161	
+168	then			
+169	対象文	ジョン・ストレーカーは、殴打されたため痙攣的にもがいた	John Straker was convulsions to struggling because it was beaten	
+169	情報源			
+169	Who	ジョン・ストレーカー	John Straker	
+169	hasPredicate	もがいた	struggle	
+169	Why	殴打されたため	beBeaten	
+169	How	痙攣的に	Convulsions to	
+169	then			
+170	対象文	ジョン・ストレーカーは殴打された	John Straker was beaten	
+170	情報源			
+170	Who	ジョン・ストレーカー	John Straker	
+170	hasPredicate	殴打された	beBeaten	
+170	then			
+171	対象文	ホームズは以下を言った	Holmes said the following:	
+171	情報源			
+171	Who	ホームズ	Holmes	
+171	hasPredicate	言った	say	
+171	What	172	163	
+171	then			
+172	対象文	警察の推理は以下である	Police of reasoning are the following	
+172	情報源			
+172	Who	警察の推理	Police reasoning of	
+172	hasPredicate	である	equalTo	
+172	What	173-183		
+#REF!	then			
+173	対象文	事件の夜、フィッロイ・シムソンはネッド・ハンターを眠らせた	"On the night of the incident, Fitzroy Simpson put Ned Hunter to sleep"	
+173	情報源			
+173	Who	フィッロイ・シムソン	Fitzroy Simpson	
+173	hasPredicate	眠らせた	sleep	
+173	What	ネッド・ハンター	Ned Hunter	
+173	When	事件の夜	Night of the incident	
+173	then			
+174	対象文	フィッロイ・シムソンは、厩舎の合鍵を手に入れた	"Fitzroy Simpson is, got a duplicate key of the stables"	
+174	情報源			
+174	Who	フィッロイ・シムソン	Fitzroy Simpson	
+174	hasPredicate	手に入れた	get	
+174	What	厩舎の合鍵	Duplicate key of the stables	
+174	then			
+175	対象文	フィッロイ・シムソンは白銀号を荒地の方に連れ出した	Fitzroy Simpson took his a silvery white issue towards the wasteland	
+175	情報源			
+175	Who	フィッロイ・シムソン	Fitzroy Simpson	
+175	hasPredicate	連れ出した	bring	
+175	What	白銀号	Silver Blaze	
+175	To	荒地の方	Those of wasteland	
+175	then			
+176	対象文	フィッロイ・シムソンは、厩舎の戸を開けっ放しにした	Fitzroy Simpson was the door of the stables left open	
+176	情報源			
+176	Who	フィッロイ・シムソン	Fitzroy Simpson	
+176	hasPredicate	開け放しにした	open	
+176	What	厩舎の戸	Door of the stables	
+176	When	175	166	
+176	then			
+177	対象文	フィッロイ・シムソンとジョン・ストレーカーは出会った	Fitzroy Simpson and John Straker met	
+177	情報源			
+177	Who	フィッロイ・シムソン	Fitzroy Simpson	
+177	Who	ジョン・ストレーカー	John Straker	
+177	hasPredicate	出会った	meet	
+177	When	175	166	
+177	then			
+178	対象文	フィッロイ・シムソンとジョン・ストレーカーは争った	Fitzroy Simpson and John Straker fought	
+178	情報源			
+178	Who	フィッロイ・シムソン	Fitzroy Simpson	
+178	Who	ジョン・ストレーカー	John Straker	
+178	hasPredicate	争った	fight	
+178	then			
+179	対象文	フィッロイ・シムソンはジョン・ストレーカーの頭を太いステッキで叩き潰した	Fitzroy Simpson was crushed beating the head of John Straker by a thick stick	
+179	情報源			
+179	Who	フィッロイ・シムソン	Fitzroy Simpson	
+179	hasPredicate	叩き潰した	mash	
+179	What	ジョン・ストレーカーの頭	Head of John Straker	
+179	How	太いステッキを使って	Use a thick stick	
+179	then			
+180	対象文	戦闘中、フィッロイ・シムソンは傷を負わなかった	"In combat, Fitzroy Simpson was not wounded"	
+180	情報源			
+180	Who	フィッロイ・シムソン	Fitzroy Simpson	
+180	hasPredicate	傷を負わなかった	notInjured	
+180	When	戦闘中	In combat	
+180	What	傷		
+180	then			
+181	対象文	フィッロイ・シムソンは白銀号を隠した	Fitzroy Simpson hid Silver Blaze	
+181	情報源			
+181	Who	フィッロイ・シムソン	Fitzroy Simpson	
+181	hasPredicate	隠した	hide	
+181	What	白銀号	Silver Blaze	
+181	then			
+182	対象文	戦闘中、白銀号は脱走した	"In combat, silvery white issue escaped"	
+182	情報源			
+182	Who	白銀号	Silver Blaze	
+182	hasPredicate	逸走した	escape	
+182	When	戦闘中	In combat	
+182	then			
+183	対象文	白銀号は荒野をうろついている	Silver issue is wandering around in the wilderness	
+183	情報源			
+183	Who	白銀号	Silver Blaze	
+183	hasPredicate	うろついている	wander	
+183	Where	荒野	wilderness	
+183	then			
+184	対象文	グレゴリ警部は以下を言った	Gregory Inspector said the following:	
+184	情報源			
+184	Who	グレゴリ警部	Gregory Inspector	
+184	hasPredicate	言った	say	
+184	What	186-186	176-177	
+184	then			
+185	対象文	戦闘中、ジョン・ストレーカーは自傷した	"During the battle, John Straker was self-harm"	
+185	情報源			
+185	Who	ジョン・ストレーカー	John Straker	
+185	hasPredicate	自傷した	self-halm	
+185	When	戦闘中	In combat	
+185	then			
+186	対象文	フィッロイ・シムソンはナイフを持っていなかった	Fitzroy Simpson did not have a knife	
+186	情報源			
+186	Who	フィッロイ・シムソン	Fitzroy Simpson	
+186	hasPredicate	持っていなかった	notHave	
+186	What	ナイフ	knife	
+186	then			
+187	対象文	グレゴリ警部は、フィッロイ・シムソンを疑った	"Gregory inspector, was suspected Fitzroy Simpson"	
+187	情報源			
+187	Who	グレゴリ警部	Gregory Inspector	
+187	hasPredicate	疑う	suspect	
+187	What	フィッロイ・シムソン	Fitzroy Simpson	
+187	Why	188-192		
+187	then			
+188	対象文	白銀号の失踪はフィッロイ・シムソンに利益を生む	Of Silver Blaze disappearance is profitable to Fitzroy Simpson	
+188	情報源			
+188	Who	白銀号の失踪	Disappearance of Silver Blaze	
+188	hasPredicate	生む	profitable	
+188	What	利益		
+188	To	フィッロイ・シムソン	Fitzroy Simpson	
+188	then			
+189	対象文	フィッロイ・シムソンはネッド・ハンターの分の羊のカレー料理に阿片末を盛った疑いがある	Fitzroy Simpson there is a doubt with a late opium in the curry dishes minute of sheep of Ned Hunter	
+189	情報源			
+189	Who	フィッロイ・シムソン	Fitzroy Simpson	
+189	hasProperty	盛った疑いがある	put	
+189	What	阿片末	opium	
+189	To	ネッド・ハンターの分の羊のカレー料理	Curry dishes minute of sheep of Ned Hunter	
+189	then			
+190	対象文	事件の夜、フィッロイ・シムソンは野外にいた	"Night of the incident, Fitzroy Simpson was in the open air"	
+190	情報源			
+190	Who	フィッロイ・シムソン	Fitzroy Simpson	
+190	hasPredicate	いた	exist	
+190	When	事件の夜	Night of the incident	
+190	Where	野外	Open air	
+190	then			
+191	対象文	事件の夜、フィッロイ・シムソンは太いステッキを持っていた	"Night of the incident, Fitzroy Simpson had a thick stick"	
+191	情報源			
+191	Who	フィッロイ・シムソン	Fitzroy Simpson	
+191	hasPredicate	持っていた	have	
+191	What	太いステッキ	Thick stick	
+191	When	事件の夜	Night of the incident	
+191	then			
+192	対象文	ジョン・ストレーカーの死体はフィッロイ・シムソンのネクタイを握っていた	Corpse of John Straker had held the tie of Fitzroy Simpson	
+192	情報源			
+192	Who	ジョン・ストレーカーの死体	Corpse of John Straker	
+192	hasPredicate	握っていた	hold	
+192	What	フィッロイ・シムソンのネクタイ	Tie of Fitzroy Simpson	
+192	then			
+193	対象文	ホームズは不十分な理由によりグレゴリ警部の推論を疑った	Holmes could not believe the reasoning of the Gregorian Inspector by insufficient reasons	
+193	情報源			
+193	Who	ホームズ	Holmes	
+193	hasPredicate	疑った	suspect	
+193	What	グレゴリ警部の推論	Inference of Gregory Inspector	
+193	Why	不十分な理由	Insufficient reasons	
+193	then			
+194	対象文	ホームズはグレゴリ警部に白銀号を連れ出した理由、合鍵所持の真意、阿片末の入手経路、白銀号の隠し場所、紙切れに対するフィッロイ・シムソンの主張を尋ねた	"Holmes asked Gregory Inspector reason that bring out the white silver issue, the spirit of the duplicate key possession, opium end of the acquisition route, cache of Silver Nos., The assertion of Fitzroy Simpson for a piece of paper"	
+194	情報源			
+194	Who	ホームズ	Holmes	
+194	hasPredicate	尋ねた	ask	
+194	To	グレゴリ警部	Gregory Inspector	
+194	What	白銀号を連れ出した理由	The reason for bring out the Silver Blaze	
+194	What	合鍵所持の真意	Spirit of the duplicate key possession	
+194	What	阿片末の入手経路	Opium at the end of available route	
+194	What	白銀号の隠し場所	Cache of Silver Blaze	
+194	What	紙切れに対するフィッロイ・シムソンの主張	Claims of Fitzroy Simpson for a piece of paper	
+194	then			
+195	対象文	フィッロイ・シムソンは以下を証言した	Fitzroy Simpson testified the following:	
+195	情報源			
+195	Who	フィッロイ・シムソン	Fitzroy Simpson	
+195	hasPredicate	証言した	testify	
+195	What	196	187	
+195	then			
+196	対象文	フィッロイ・シムソンはエディス・バクスタに十ポンドの紙幣を渡そうとした	Fitzroy Simpson was trying to pass a bill of tens of pounds to Edith Baxter	
+196	情報源			
+196	Who	フィッロイ・シムソン	Fitzroy Simpson	
+196	hasPredicate	渡そうとした	tryToGive	
+196	What	十ポンドの紙幣	Ten pounds of paper money	
+196	To	エディス・バクスタ	Edith Baxter	
+196	then			
+197	対象文	グレゴリ警部以下を言った	Said the following Gregory Inspector	
+197	情報源			
+197	Who	グレゴリ警部	Gregory Inspector	
+197	hasPredicate	言った	say	
+197	What	198-210	188-201	
+197	then			
+198	対象文	フィッロイ・シムソンは、タヴィストックの土地を知っている	Fitzroy Simpson knows the Tavistock of land	
+198	情報源			
+198	Who	フィッロイ・シムソン	Fitzroy Simpson	
+198	hasPredicate	知っている	know	
+198	Why	199	189	
+198	What	タヴィストックの土地	Tavistock of land	
+198	then			
+199	対象文	フィッロイ・シムソンはタヴィストックに訪れた	Fitzroy Simpson visited in Tavistock	
+199	情報源			
+199	Who	フィッロイ・シムソン	Fitzroy Simpson	
+199	hasPredicate	訪れた	visit	
+199	Where	タヴィストック	Tavistock	
+199	then			
+200	対象文	フィッロイ・シムソンは阿片末をロンドンから持ってきた	Fitzroy Simpson has been with the opium from London	
+200	情報源			
+200	Who	フィッロイ・シムソン	Fitzroy Simpson	
+200	hasPredicate	持ってきた	bring	
+200	What	阿片末	optium	
+200	From	ロンドン	London	
+200	then			
+201	対象文	フィッロイ・シムソンは厩舎の合鍵を捨てた	Fitzroy Simpson was discarded the duplicate key of the stables	
+201	情報源			
+201	Who	フィッロイ・シムソン	Fitzroy Simpson	
+201	hasPredicate	捨てた	discard	
+201	What	厩舎の合鍵	Duplicate key of the stables	
+201	then			
+202	対象文	フィッロイ・シムソンは白銀号を殺した	Fitzroy Simpson killed Silver Blaze	
+202	情報源			
+202	Who	フィッロイ・シムソン	Fitzroy Simpson	
+202	hasPredicate	殺した	kill	
+202	What	白銀号	Silver Blaze	
+202	then			
+203	対象文	フィッロイ・シムソンは以下を弁明した	Fitzroy Simpson was defense the following	
+203	情報源			
+203	Who	フィッロイ・シムソン	Fitzroy Simpson	
+203	hasPredicate	弁明した	defense	
+203	What	204	195	
+203	then			
+204	対象文	フィッロイ・シムソンはネクタイを紛失した	Fitzroy Simpson had lost the tie	
+204	情報源			
+204	Who	フィッロイ・シムソン	Fitzroy Simpson	
+204	hasPredicate	紛失した	lose	
+204	What	ネクタイ	tie	
+204	then			
+205	対象文	グレゴリ警部は以下を言った	Gregory Inspector said the following:	
+205	情報源			
+205	Who	グレゴリ警部	Gregory Inspector	
+205	hasPredicate	言った	say	
+205	What	206-209	197-200	
+205	then			
+206	対象文	事件の夜、ジプシーの一群は殺人現場付近でキャンプをした	"Night of the incident, a group of Gypsy was a camp in the vicinity of the murder scene"	
+206	情報源			
+206	Who	ジプシーの一群	A group of Gypsy	
+206	hasPredicate	行った	go	
+206	What	キャンプ	camp	
+206	When	事件の夜	Night of the incident	
+206	Near	殺害現場	Murder scene	
+206	then			
+207	対象文	フィッロイ・シムソンはジプシーに白銀号を渡した	Fitzroy Simpson handed a silvery white issue in Gypsy	
+207	情報源			
+207	Who	フィッロイ・シムソン	Fitzroy Simpson	
+207	hasPredicate	渡した	give	
+207	What	白銀号	Silver Blaze	
+207	To	ジプシー	Gypsy	
+207	then			
+208	対象文	ジプシーは白銀号を持っている	Gypsy has a silvery white No.	
+208	情報源			
+208	Who	ジプシー	Gypsy	
+208	hasPredicate	持っている	have	
+208	What	白銀号	Silver Blaze	
+208	then			
+209	対象文	警察はジプシーを探している	The police are looking for a gypsy	
+209	情報源			
+209	Who	警察	police	
+209	hasPredicate	探している	lookFor	
+209	What	ジプシーの一群	A group of Gypsy	
+209	then			
+210	対象文	グレゴリ警部はタヴィストック周辺の全ての厩と小舎を調べた	Gregory inspector examined the all of the stables and the small building near Tavistock	
+210	情報源			
+210	Who	グレゴリ警部	Gregory Inspector	
+210	hasPredicate	調べた	examine	
+210	What	タヴィストック周辺の全ての厩と小舎	All of the stables and the small building near Tavistock	
+210	then			
+211	対象文	ケープルトンの厩舎はデスボロを飼っている	Stables of Mapleton keeps a Desborough	
+211	情報源			
+211	Who	ケープルトンの厩舎	Stables of Mapleton	
+211	hasPredicate	飼っている	keep	
+211	What	デスボロ	Desborough	
+211	then			
+212	対象文	デスボロは白銀号に次ぐ人気を持つ	Desborough has a popularity second only to Silver Blaze	
+212	情報源			
+212	Who	デスボロ	Desborough	
+212	hasPredicate	持つ	have	
+212	What	白銀号に次ぐ人気	Popularity second only to Silver Blaze	
+212	then			
+213	対象文	サイラス・ブラウンは白銀号の失踪により得する	Silas Brown is obtained by the disappearance of Silver Blaze	
+213	情報源			
+213	Who	サイラス・ブラウン	Cyrus Brown	
+213	hasPredicate	得する	obtain	
+213	How	白銀号の失踪により	By the disappearance of Silver Blaze	
+213	then			
+214	対象文	サイラス・ブラウンはデスボロを調馬する	Silas Brown is training the Desborough	
+214	情報源			
+214	Who	サイラス・ブラウン	Cyrus Brown	
+214	hasPredicate	調馬する	train	
+214	What	デスボロ	Desborough	
+214	then			
+215	対象文	サイラス・ブラウンはデスボロに大金を賭けている	Silas Brown is betting a lot of money to Desborough	
+215	情報源			
+215	Who	サイラス・ブラウン	Cyrus Brown	
+215	hasPredicate	賭けている	bet	
+215	What	大金	Lot of money	
+215	To	デスボロ	Desborough	
+215	then			
+216	対象文	サイラス・ブラウンとジョン・ストレーカーは仲が悪い	Cyrus Brown and John Straker has a bad relationship	
+216	情報源			
+216	Who	サイラス・ブラウン	Cyrus Brown	
+216	Who	ジョン・ストレーカー	John Straker	
+216	hasProperty	仲が悪い	bad terms	
+216	then			
+217	対象文	警察はサイラス・ブラウンの厩舎を調べた	The police looked into Cyrus Brown stables	
+217	情報源			
+217	Who	警察	police	
+217	hasPredicate	調べた	examine	
+217	What	サイラス・ブラウンの厩舎	Cyrus Brown stables	
+217	then			
+218	対象文	警察はサイラス・ブラウンの厩舎で白銀号を見つけられなかった	The police could not find the white silver degree in Silas Brown stables	
+218	情報源			
+218	Who	警察	police	
+218	hasPredicate	見つけられなかった	cannotFind	
+218	Where	サイラス・ブラウンの厩舎	Cyrus Brown stables	
+218	What	白銀号	Silver Blaze	
+218	then			
+219	対象文	サイラス・ブラウンとフィッロイ・シムソンは接点がない	Silas Brown and Fitzroy Simpson has no contact	
+219	情報源			
+219	Who	サイラス・ブラウン	Cyrus Brown	
+219	Who	フィッロイ・シムソン	Fitzroy Simpson	
+219	hasProperty	接点がない	noContact	
+219	then			
+220	対象文	事件の夜、ジョン・ストレーカーは蝋マッチ一箱、煙草入れ、銀時計、金貨、鉛筆さし、書附、ナイフ、蝋燭を持っていた	"Night of the incident, John Straker the wax match a box, put tobacco, Gindokei, gold coins, pointing a pencil, had Shofu, knife, the candle"	
+220	情報源			
+220	Who	ジョン・ストレーカー	John Straker	
+220	hasPredicate	持っていた	have	
+220	What	蝋マッチ一箱	Wax match a box	
+220	What	煙草入れ	Cigarette case	
+220	What	銀時計	silver watch	
+220	What	金貨	Gold coin	
+220	What	鉛筆さし	pencil case	
+220	What	書附	paper	
+220	What	ナイフ	knife	
+220	What	蝋燭	candle	
+220	When	事件の夜	Night of the incident	
+220	then			
+221	対象文	ホームズは以下を言った	Holmes said the following:	
+221	情報源			
+221	Who	ホームズ	Holmes	
+221	hasPredicate	言った	say	
+221	What	222	213	
+221	then			
+222	対象文	ナイフは普通のものではない	Knife is not a normal thing	
+222	情報源			
+222	Who	ナイフ	knife	
+222	hasProperty	普通のものではない	notOrdinary	
+222	then			
+223	対象文	ワトソンは以下を言った	Watson said the following:	
+223	情報源			
+223	Who	ワトソン	Watson	
+223	hasPredicate	言った	say	
+223	What	224	215	
+223	then			
+224	対象文	ナイフは白内障用のメスである	Knife is a knife for cataract	
+224	情報源			
+224	Who	ナイフ	knife	
+224	hasProperty	白内障用のメスである	for catarct	
+224	then			
+225	対象文	ホームズは奇抜なメスを不思議に思った	Holmes thought a wacky female wonder	
+225	情報源			
+225	Who	ホームズ	Holmes	
+225	hasPredicate	思った	think	
+225	How	不思議に	Mysteriously	
+225	What	226-227	217-218	
+225	then			
+226	対象文	ジョン・ストレーカーが尖鋭に作られたナイフを持っていた	John Straker had a knife made in sharp	
+226	情報源			
+226	Who	ジョン・ストレーカー	John Straker	
+226	hasPredicate	持っていた	have	
+226	What	尖鋭に作られたナイフ	Knife made in sharp	
+226	then			
+227	対象文	ジョン・ストレーカーが隠すことができないナイフを持っていた	John Straker had a knife that can not hide	
+227	情報源			
+227	Who	ジョン・ストレーカー	John Straker	
+227	hasPredicate	持っていた	have	
+227	What	隠すことのできないナイフ	Knife that can not hide	
+227	then			
+228	対象文	コルクはナイフの刃先に当ててあった	Cork had been applied to the cutting edge of the knife	
+228	情報源			
+228	Who	コルク	cork	
+228	hasProperty	当ててあった	guard	
+228	On	ナイフの刃先	The cutting edge of the knife	
+228	then			
+229	対象文	コルクはジョン・ストレーカーの死体のそばに落ちていた	Cork had fallen beside the corpse of John Straker	
+229	情報源			
+229	Who	コルク	cork	
+229	hasPredicate	落ちていた	exist	
+229	Near	ジョン・ストレーカーの死体	Corpse of John Straker	
+229	then			
+230	対象文	ジョン・ストレーカーの妻は以下を証言した	Wife of John Straker testified the following:	
+230	情報源			
+230	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+230	hasPredicate	証言した	testify	
+230	What	231-232	222-223	
+230	then			
+231	対象文	ナイフは化粧台におかれていた	The knife had been placed on the dressing table	
+231	情報源			
+231	Who	ナイフ	knife	
+231	hasPredicate	置かれていた	exist	
+231	On	化粧台	Dressing table	
+231	then			
+232	対象文	ジョン・ストレーカーはナイフを持っていた	John Straker had a knife	
+232	情報源			
+232	Who	ジョン・ストレーカー	John Straker	
+232	hasPredicate	持って行った	have	
+232	When	113	107	
+232	What	ナイフ	knife	
+232	then			
+233	対象文	グレゴリ警部は以下を言った	Gregory Inspector said the following:	
+233	情報源			
+233	Who	グレゴリ警部	Gregory Inspector	
+233	hasPredicate	言った	say	
+233	What	234	225	
+233	then			
+234	対象文	ナイフは護身用にも攻撃用にも役に立たない	Knife is useless even for the attack even for self-defense	
+234	情報源			
+234	Who	ナイフ	knife	
+234	hasProperty	役に立たない	Useless	
+234	How	護身用	For self-defense	
+234	How	攻撃用	For the attack	
+234	then			
+235	対象文	書附は三枚の受取済の清算書、ロス大佐からの命令の手紙、勘定書を含む	"papers includes liquidation manual of the three pieces of receiving already, letter of instructions from Colonel Ross, the bill"	
+235	情報源			
+235	Who	書附	paper	
+235	hasPredicate	含む	Include	
+235	What	三枚の受取済の清算書	Three pieces of receipt already in liquidation certificate	
+235	What	ロス大佐からの命令の手紙	Letter of instructions from Colonel Ross	
+235	What	勘定書	Bill	
+235	then			
+236	対象文	勘定書はロンドンの帽飾店からウィリアム・ダービシャに送られた	Bill was sent from London of the cap decoration shop in William Derbyshire	
+236	情報源			
+236	Who	勘定書	Bill	
+236	hasPredicate	送られた	beSent	
+236	From	ロンドンの帽飾店	Hat of London decoration shop	
+236	To	ウィリアム・ダービシャ	William Derbyshire	
+236	then			
+237	対象文	勘定書の合計金額は高い	The total amount of the bill is high	
+237	情報源			
+237	Who	勘定書の合計金額	The total amount of the bill	
+237	hasProperty	高価である	expensive	
+237	then			
+238	対象文	ウィリアム・ダービシャとジョン・ストレーカーは友人である	William Derbyshire and John Straker is a friend	
+238	情報源			
+238	Who	ウィリアム・ダービシャ	William Derbyshire	
+238	Who	ジョン・ストレーカー	John Straker	
+238	hasProperty	友人である	friend	
+238	then			
+239	対象文	ジョン・ストレーカーはウィリアム・ダービシャに手紙を送る	John Straker will send a letter to William Derbyshire	
+239	情報源			
+239	Who	ジョン・ストレーカー	John Straker	
+239	hasPredicate	送る	send	
+239	What	手紙	letter	
+239	To	ウィリアム・ダービシャ	William Derbyshire	
+239	then			
+240	対象文	ホームズは以下を言った	Holmes said the following:	
+240	情報源			
+240	Who	ホームズ	Holmes	
+240	hasPredicate	言った	say	
+240	What	241	232	
+240	then			
+241	対象文	ウィリアム・ダービシャ夫人は贅沢家である	William Derbyshire wife has expensive tastes	
+241	情報源			
+241	Who	ウィリアム・ダービシャ夫人	William Derbyshire Mrs.	
+241	hasProperty	贅沢家である	expensive tastes	
+241	then			
+242	対象文	ジョン・ストレーカーはウィリアム・ダービシャ高い着物を送った	John Straker sent a William Derbyshire expensive wear	
+242	情報源			
+242	Who	ジョン・ストレーカー	John Straker	
+242	hasPredicate	送った	send	
+242	To	ウィリアム・ダービシャ	William Derbyshire	
+242	What	高い着物	expensive wear	
+242	then			
+243	対象文	ホームズはジョン・ストレーカーの妻に以下を確認した	Holmes was confirmed the following to the wife of John Straker	
+243	情報源			
+243	Who	ホームズ	Holmes	
+243	hasPredicate	確認した	confirm	
+243	To	ジョン・ストレーカーの妻	Wife of John Straker	
+243	What	244	235	
+243	then			
+244	対象文	ジョン・ストレーカーの妻はプリマスの遊園会の時、勘定書の服を身につけていた	"Wife of John Straker when Amusement Association of Plymouth, was wearing the clothes of the bill"	
+244	情報源			
+244	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+244	hasPredicate	身につけていた	wear	
+244	What	勘定書の服	Bill of clothes	
+244	When	園遊会	garden party	
+244	Where	プリマス	Plymouth	
+244	then			
+245	対象文	ジョン・ストレーカーの妻は以下を言った	Wife of John Straker said the following:	
+245	情報源			
+245	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+245	hasPredicate	言った	say	
+245	What	246	237	
+245	then			
+246	対象文	ジョン・ストレーカーの妻は勘定書の服を持っていない	Wife of John Straker do not have a bill clothes	
+246	情報源			
+246	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+246	hasPredicate	持っていない	notHave	
+246	What	勘定書の服	Bill of clothes	
+246	then			
+247	対象文	ホームズとワトソンとグレゴリ警部は死体のあった窪みに移動した	Holmes and Watson and Gregory Inspector was moved to the depression there was a dead body	
+247	情報源			
+247	Who	ホームズ	Holmes	
+247	Who	ワトソン	Watson	
+247	Who	ロス大佐	Colonel Ross	
+247	Who	グレゴリ警部	Gregory Inspector	
+247	hasPredicate	移動した	move	
+247	To	死体のあった窪み	Depression there was a dead body	
+247	then			
+248	対象文	ジョン・ストレーカーの外套ははりえにしだの藪にかかっていた	The mantle of John Straker was hanged a thicket of beams broom	
+248	情報源			
+248	Who	ジョン・ストレーカーの外套	The mantle of John Straker	
+248	hasPredicate	かかっていた	hang	
+248	On	はりえにしだの藪	beam broom bush	
+248	then			
+249	対象文	グレゴリ警部は以下を言った	Gregory Inspector said the following:	
+249	情報源			
+249	Who	グレゴリ警部	Gregory Inspector	
+249	hasPredicate	言った	say	
+249	What	250-251	241-242	
+249	then			
+250	対象文	事件の夜、風邪は吹いていなかった	"Night of the incident, the wind was not blowing"	
+250	情報源			
+250	Who	風邪	cold	
+250	hasProperty	吹いていなかった	notBlow	
+250	When	事件の夜	Night of the incident	
+250	then			
+251	対象文	事件の夜、雨は土砂降りだった	"Night of the incident, the rain was pouring rain"	
+251	情報源			
+251	Who	雨	rain	
+251	hasPredicate	土砂降りだった	downpour	rain heavyly
+251	When	事件の夜	Night of the incident	
+251	then			
+252	対象文	ホームズはグレゴリ警部に以下を尋ねた	Holmes was asked the following in Gregory Inspector	
+252	情報源			
+252	Who	ホームズ	Holmes	
+252	hasPredicate	尋ねた	ask	
+252	To	グレゴリ警部	Gregory Inspector	
+252	What	253-254	244-245	
+252	then			
+253	対象文	ジョン・ストレーカーの外套は風邪により飛ばされていない	The mantle of John Straker has not been blown off by the cold	
+253	情報源			
+253	Who	ジョン・ストレーカーの外套	The mantle of John Straker	
+253	hasPredicate	飛ばされていない	notBeBlown	
+253	How	風により	By the wind	
+253	then			
+254	対象文	ジョン・ストレーカーの外套は人の手によりはりえにしだの藪に置かれた	The mantle of John Straker was placed in the thicket of beams broom by the hand of man	
+254	情報源			
+254	Who	ジョン・ストレーカーの外套	The mantle of John Straker	
+254	hasPredicate	置かれた	put	
+254	How	人の手により	manhand	
+254	On	はりえにしだの藪	beam broom bush	
+254	then			
+255	対象文	グレゴリ警部はホームズに以下を言った	Gregory inspector said the following in Holmes	
+255	情報源			
+255	Who	グレゴリ警部	Gregory Inspector	
+255	hasPredicate	言った	say	
+255	What	256	247	
+255	To	ホームズ	Holmes	
+255	then			
+256	対象文	ジョン・ストレーカーの外套は人の手ではりえにしだの藪に乗せられた	The mantle of John Straker is in the hand of man has been placed on the thicket of Nishida Rie	
+256	情報源			
+256	Who	ジョン・ストレーカーの外套	The mantle of John Straker	
+256	hasPredicate	乗せられた	bePlaced	
+256	How	人の手で	manhand	
+256	On	はりえにしだの藪	beam broom bush	
+256	then			
+257	対象文	ホームズはグレゴリ警部は以下を尋ねた	Holmes Gregory inspector asked the following	
+257	情報源			
+257	Who	ホームズ	Holmes	
+257	hasPredicate	尋ねた	ask	
+257	To	グレゴリ警部	Gregory Inspector	
+257	What	258	249	
+257	then			
+258	対象文	いろんな人は殺害現場の地面を歩き廻った	Many people were traveling around to walk the ground of the murder scene	
+258	情報源			
+258	Who	いろんな人	Various people	
+258	hasPredicate	歩き廻った	wander	
+258	On	殺害現場の地面	Ground of murder scene	
+258	then			
+259	対象文	グレゴリ警部は殺害現場をそのままにしておいた	Gregory inspector had been the murder scene as it is	
+259	情報源			
+259	Who	グレゴリ警部	Gregory Inspector	
+259	hasPredicate	そのままにしておいた	asItIs	
+259	What	殺害現場	Murder scene	
+259	then			
+260	対象文	グレゴリ警部はホームズにジョン・ストレーカーの片方の靴、フィツロイ・シムソンの片方の靴、白銀号の蹄鉄の型を渡した	"Gregory inspector passed one of the shoes of John Straker to Holmes, one of the shoes of Fitzroy Simpson, the type of horseshoe of Silver Blaze"	
+260	情報源			
+260	Who	グレゴリ警部	Gregory Inspector	
+260	hasPredicate	渡した	give	
+260	To	ホームズ	Holmes	
+260	What	ジョン・ストレーカーの片方の靴	One of the shoes of John Straker	
+260	What	フィツロイ・シムソンの片方の靴	One of the shoes of Fitzroy Simpson	
+260	What	白銀号の蹄鉄の型	The type of Silver issue of the horseshoe	
+260	then			
+261	対象文	ホームズは窪みの底で燃え残った半分ばかりのマッチを見つけた	Holmes found a match of just half that remained burning at the bottom of the depression	
+261	情報源			
+261	Who	ホームズ	Holmes	
+261	hasPredicate	見つけた	find	
+261	What	燃え残った半分ばかりのマッチ	Match of just remaining half burned	
+261	Where	窪みの底	The bottom of the depression	
+261	then			
+262	対象文	グレゴリ警部は殺人現場を調べた	Gregory inspector examined the murder scene	
+262	情報源			
+262	Who	グレゴリ警部	Gregory Inspector	
+262	hasPredicate	調べた	examine	
+262	Near	殺人現場	Murder scene	
+262	then			
+263	対象文	ロス大佐は以下を言った	Colonel Ross said the following:	
+263	情報源			
+263	Who	ロス大佐	Colonel Ross	
+263	hasPredicate	言った	say	
+263	What	264	255	
+263	then			
+264	対象文	次の競馬において、ロス大佐は白銀号を出馬させない	"In the next horse race, Colonel Ross will not run for the Silver Blaze"	
+264	情報源			
+264	Who	ロス大佐	Colonel Ross	
+264	hasPredicate	出馬させない	notEnter	
+264	What	白銀号	Silver Blaze	
+264	Where	次の競馬	The following horse racing	
+264	then			
+265	対象文	ホームズは以下を断言した	Holmes was declared the following	
+265	情報源			
+265	Who	ホームズ	Holmes	
+265	hasPredicate	断言した	declare	
+265	What	266-267	257-258	
+265	then			
+266	対象文	白銀号は次の競馬で出馬することができる	Silver issue can be ran in the next horse racing	
+266	情報源			
+266	Who	白銀号	Silver Blaze	
+266	hasPredicate	出馬することができる	canEnter	
+266	Where	次の競馬	The following horse racing	
+266	then			
+267	対象文	ホームズは必ず白銀号を探し出す	Holmes always find a Silver Blaze	
+267	情報源			
+267	Who	ホームズ	Holmes	
+267	hasPredicate	必ず探し出す	find	
+267	What	白銀号	Silver Blaze	
+267	then			
+268	対象文	ホームズは以下を言った	Holmes said the following:	
+268	情報源			
+268	Who	ホームズ	Holmes	
+268	hasPredicate	言った	say	
+268	What	269-270	260-269	
+268	then			
+269	対象文	白銀号はケープルトンに行った	Silver Blaze went to Mapleton	
+269	情報源			
+269	Who	白銀号	Silver Blaze	
+269	hasPredicate	行った	go	
+269	To	ケープルトン	Mapleton	
+269	Why	270-276	261-267	
+269	then			
+270	対象文	白銀号はキングス・パイランドに帰っていない	Silver issue is not returned to King's Pyland	
+270	情報源			
+270	Who	白銀号	Silver Blaze	
+270	hasPredicate	帰ってない	notReturn	
+270	To	キングス・パイランド	King's Pyland	
+270	then			
+271	対象文	白銀号は荒地をうろついていない	Silver issue is not hanging around the wasteland	
+271	情報源			
+271	Who	白銀号	Silver Blaze	
+271	hasPredicate	うろついていない	notWander	
+271	Where	荒地	Wasteland	
+271	Why	272	263	
+271	then			
+272	対象文	馬は群集生の強い動物である	Horse is a strong crowd live animals	
+272	情報源			
+272	Who	馬	Horse	
+272	hasProperty	群集性の強い動物である	strong crowd live animal	
+272	then			
+273	対象文	ジプシーは白銀号を誘拐していない	Gypsy has not kidnapped Silver Blaze	
+273	情報源			
+273	Who	ジプシー	Gypsy	
+273	hasPredicate	誘拐していない	notKidnap	
+273	What	白銀号	Silver Blaze	
+273	Why	274-276	265-267	
+273	then			
+274	対象文	ジプシーは警察を避ける	Gypsy avoid police	
+274	情報源			
+274	Who	ジプシー	Gypsy	
+274	hasPredicate	避ける	avoid	
+274	What	警察	police	
+274	then			
+275	対象文	ジプシーは事件を知った時キャンプを引き払った	Gypsy left the camp when the know the incident	
+275	情報源			
+275	Who	ジプシー	Gypsy	
+275	hasPredicate	引き払った	leave	
+275	When	事件を知った	aware of the incident	
+275	What	キャンプ	camp	
+275	then			
+276	対象文	白銀号は売ることができない	Silver issue can not sell	
+276	情報源			
+276	Who	白銀号	Silver Blaze	
+276	hasPredicate	売ることができない	cannotSell	
+276	then			
+277	対象文	白銀号の足跡はケープルトンの方の窪みに残っている	Footprint of Silver issue remains in the recess in the direction of Mapleton	
+277	情報源			
+277	Who	白銀号の足跡	Footprint of Silver Blaze	
+277	hasPredicate	残っている	remain	
+277	Where	ケープルトンの方の窪み	Depression in the person of Mapleton	
+277	Why	278	269	
+277	then			
+278	対象文	事件の夜、ケープルトンの方向の窪みは雨を受けた	"Night of the incident, the depression of the direction of Mapleton received a rain"	
+278	情報源			
+278	Who	ケープルトンの方向の窪み	Depression in the direction of Mapleton	
+278	hasPredicate	雨を受けた	receiveTheRain	
+278	When	事件の夜	Night of the incident	
+278	then			
+279	対象文	ホームズとワトソンはケープルトンの方の窪みに行った	Holmes and Watson went into the recess in the direction of Mapleton	
+279	情報源			
+279	Who	ホームズ	Holmes	
+279	Who	ワトソン	Watson	
+279	hasPredicate	行った	go	
+279	To	ケープルトンの方の窪み	Depression in the person of Mapleton	
+279	then			
+280	対象文	ワトソンは窪みの右側で白銀号の足跡を探した	Watson looked in the footsteps of Silver degree in the right side of the recess	
+280	情報源			
+280	Who	ワトソン	Watson	
+280	hasPredicate	探した	lookFor	
+280	Near	窪みの右側	The right side of the recess	
+280	What	白銀号の足跡	Footprint of Silver Blaze	
+280	then			
+281	対象文	ホームズは窪みの左側で白銀号の足跡を探した	Holmes looked for footprints of Silver degree in the left side of the recess	
+281	情報源			
+281	Who	ホームズ	Holmes	
+281	hasPredicate	探した	lookFor	
+281	Near	窪みの左側	The left side of the recess	
+281	What	白銀号の足跡	Footprint of Silver Blaze	
+281	then			
+282	対象文	ホームズは窪みの左側の柔らかい土の上で馬蹄の跡を見つけた	Holmes found a trace of the horseshoe on the left side of the soft soil of the depression	
+282	情報源			
+282	Who	ホームズ	Holmes	
+282	hasPredicate	見つけた	find	
+282	What	馬蹄の跡	Horseshoe marks	
+282	When	窪みの左側	The left side of the recess	
+282	On	軟らかい土	Soft soil	
+282	then			
+283	対象文	白銀号の蹄鉄の型は馬蹄の跡に一致した	Horseshoe type of Silver issue was consistent with the trace of a horseshoe	
+283	情報源			
+283	Who	白銀号の蹄鉄の型	The type of Silver issue of the horseshoe	
+283	hasPredicate	一致した	match	
+283	To	馬蹄の跡	Horseshoe marks	
+283	then			
+284	対象文	ホームズとワトソンは窪みからケープルトンの方向に乾いた固い草土を歩いて行った	Holmes and Watson walked the hard grass soil dry in the direction of the Mapleton from depression	
+284	情報源			
+284	Who	ホームズ	Holmes	
+284	Who	ワトソン	Watson	
+284	hasPredicate	歩いて行った	walk	
+284	From	窪み	Dent	
+284	To	ケープルトンの方向	Direction of Mapleton	
+284	On	乾いた固い草土	Dry hard grass soil	
+284	then			
+285	対象文	ホームズとワトソンは土地の傾斜しているところで馬蹄の跡を見つけた	Holmes and Watson found a trace of the horseshoe where is the slope of the land	
+285	情報源			
+285	Who	ホームズ	Holmes	
+285	Who	ワトソン	Watson	
+285	hasPredicate	見つけた	find	
+285	What	馬蹄の跡	Horseshoe marks	
+285	Where	土地の傾斜しているところ	Where is the slope of the land	
+285	then			
+286	対象文	土地は傾斜している	Land is inclined	
+286	情報源			
+286	Who	土地	land	
+286	hasProperty	傾斜している	incline	
+285	then			
+286	対象文	ホームズはケープルトンの付近で馬蹄の跡と男の靴の跡を見つけた	Holmes found a trace of the horseshoe of the mark and the man's shoe in the vicinity of the Mapleton	
+286	情報源			
+286	Who	ホームズ	Holmes	
+286	hasPredicate	見つけた	find	
+286	What	馬蹄の跡	Horseshoe marks	
+286	What	男の靴の跡	Traces of man's shoes	
+286	Near	ケープルトン	Mapleton	
+286	then			
+287	対象文	馬蹄の跡と男の靴の跡は横に並んでいた	Trace of the horseshoe of the mark and the man's shoes were side-by-side	
+287	情報源			
+287	Who	馬蹄の跡	Horseshoe marks	
+287	Who	男の靴の跡	Traces of man's shoes	
+287	hasProperty	横に並んでいた	side-by-side	
+287	then			
+288	対象文	ホームズは以下を苦悩した	Holmes was suffering the following	
+288	情報源			
+288	Who	ホームズ	Holmes	
+288	hasPredicate	苦悩した	suffer	
+288	Why	289	280	
+288	then			
+289	対象文	馬蹄の跡と男の靴の跡はキングス・パイランドの方向に向いていた	Trace of the horseshoe of the mark and the man of shoes was facing in the direction of the King's Pyland	
+289	情報源			
+289	Who	馬蹄の跡	Horseshoe marks	
+289	Who	男の靴の跡	Traces of man's shoes	
+289	hasPredicate	向いていた	face	
+289	To	キングス・パイランドの方向	Direction of the King's Pyland	
+289	then			
+290	対象文	ワトソンはキングス・パイランドの方へ向いている足跡の近くでケープルトンの方へ向いている足跡を見つけた	Watson found the footprints that is oriented towards the Mapleton near the footprints facing towards the King's Pyland	
+290	情報源			
+290	Who	ワトソン	Watson	
+290	hasPredicate	見つけた	find	
+290	What	ケープルトンの方へ向いている足跡	Footprint that is oriented towards the Mapleton	
+290	Near	キングス・パイランドの方へ向いている足跡	Footprint that is oriented towards the King's Pyland	
+290	then			
+291	対象文	ホームズとワトソンはケープルトンの方へ向いている足跡を追跡した	Holmes and Watson track the footprints that is oriented towards the Mapleton	
+291	情報源			
+291	Who	ホームズ	Holmes	
+291	Who	ワトソン	Watson	
+291	hasPredicate	追跡した	track	
+291	What	ケープルトンの方へ向いている足跡	Footprint that is oriented towards the Mapleton	
+291	then			
+292	対象文	ケープルトンの方へ向いている足跡はケープルトン調馬場の厩舎の入口で途切れた	Footprint that is oriented towards the Mapleton was interrupted at the entrance to the stables of Mapleton riding ground	
+292	情報源			
+292	Who	ケープルトンの方へ向いている足跡	Footprint that is oriented towards the Mapleton	
+292	hasPredicate	途切れた	interrupt	
+292	Where	ケープルトン調馬場の厩舎の入口	The entrance of the stables of Mapleton riding ground	
+292	then			
+293	対象文	馬丁はケープルトン調馬場の厩舎から出てきた	Stableman came out from the stables of Mapleton riding ground	
+293	情報源			
+293	Who	馬丁	Stableman	
+293	hasPredicate	出てきた	come	
+293	From	ケープルトン調馬場の厩舎	Mapleton riding ground stables	
+293	then			
+294	対象文	ホームズは馬丁に以下を言った	Holmes said the following to the groom	
+294	情報源			
+294	Who	ホームズ	Holmes	
+294	hasPredicate	言った	say	
+294	To	馬丁	Stableman	
+294	What	295	286	
+294	then			
+295	対象文	ホームズは明日の朝５時にサイラス・ブラウンに会いたい	Holmes want to meet Cyrus Brown at 5:00 tomorrow morning	
+295	情報源			
+295	Who	ホームズ	Holmes	
+295	hasPredicate	会いたい	wantToMeet	
+295	To	サイラス・ブラウン	Cyrus Brown	
+295	When	明日の朝５時	5:00 tomorrow morning	
+295	then			
+296	対象文	馬丁は以下を言った	Groom said the following:	
+296	情報源			
+296	Who	馬丁	Stableman	
+296	hasPredicate	言った	say	
+296	What	297-298	288-289	
+296	then			
+297	対象文	サイラス・ブラウンは早朝に起床する	Cyrus Brown wakes up early in the morning	
+297	情報源			
+297	Who	ホームズ	Holmes	
+297	hasPredicate	会うことができる	canMeet	
+297	To	サイラス・ブラウン	Cyrus Brown	
+297	When	早朝	early morning	
+297	then			
+298	対象文	サイラス・ブラウンは早朝に起床する	Cyrus Brown wakes up early in the morning	
+298	情報源			
+298	Who	サイラス・ブラウン	Cyrus Brown	
+298	hasPredicate	起床する	wakeUp	
+298	When	早朝	early morning	
+298	then			
+299	対象文	サイラス・ブラウンは狼狽した	Cyrus Brown was upset	
+299	情報源			
+299	Who	サイラス・ブラウン	Cyrus Brown	
+299	hasPredicate	狼狽した	upset	
+299	When	300	291	
+299	then			
+300	対象文	ホームズはサイラス・ブラウンに囁いた	Holmes whispered to Cyrus Brown	
+300	情報源			
+300	Who	ホームズ	Holmes	
+300	hasPredicate	囁いた	whisper	
+300	To	サイラス・ブラウン	Cyrus Brown	
+300	then			
+301	対象文	サイラス・ブラウンはホームズに従った	Cyrus Brown according to Holmes	
+301	情報源			
+301	Who	サイラス・ブラウン	Cyrus Brown	
+301	hasPredicate	従った	follow	
+301	To	ホームズ	Holmes	
+301	then			
+302	対象文	ホームズはサイラス・ブラウンに以下を言い伝えた	Holmes legend the following to the Cyrus Brown	
+302	情報源			
+302	Who	ホームズ	Holmes	
+302	hasPredicate	言い伝えた	say	
+302	To	サイラス・ブラウン	Cyrus Brown	
+302	What	205	196	
+302	then			
+303	対象文	サイラス・ブラウンは悪事を働かないことを約束した	Cyrus Brown has promised that does not work evil	
+303	情報源			
+303	Who	サイラス・ブラウン	Cyrus Brown	
+303	hasPredicate	約束した	promise	
+303	To	ホームズ	Holmes	
+303	What	304-305	295 and 296	
+303	then			
+304	対象文	サイラス・ブラウンは悪事を働かない	Cyrus Brown does not work evil	
+304	情報源			
+304	Who	サイラス・ブラウン	Cyrus Brown	
+304	hasPredicate	働かない	notWork	
+304	What	悪事	Crime	
+304	then			
+305	対象文	競馬の時、サイラス・ブラウンは白銀号を自分の物のように扱う	"Time of horse racing, Cyrus Brown is dealing with the Silver issue as their own thing"	
+305	情報源			
+305	Who	サイラス・ブラウン	Cyrus Brown	
+305	hasPredicate	扱う	deal	
+305	What	白銀号	Silver Blaze	
+305	How	自分のもののように	As your stuff	
+305	When	競馬の時	When the horse racing	
+305	then			
+306	対象文	ワトソンはモームずに以下を尋ねた	Watson was asked the following in not a Maugham	
+306	情報源			
+306	Who	ワトソン	Watson	
+306	hasPredicate	尋ねた	ask	
+306	To	ホームズ	Holmes	
+306	What	307	298	
+306	then			
+307	対象文	サイラス・ブラウンは白銀号を誘拐していた	Cyrus Brown had been kidnapped Silver Blaze	
+307	情報源			
+307	Who	サイラス・ブラウン	Cyrus Brown	
+307	hasPredicate	誘拐していた	kidnap	
+307	What	白銀号	Silver Blaze	
+307	then			
+308	対象文	ホームズはワトソンに以下を言った	Holmes said the following in Watson	
+308	情報源			
+308	Who	ホームズ	Holmes	
+308	hasPredicate	言った	say	
+308	What	309-319	300-310	
+308	To	ワトソン	Watson	
+308	then			
+309	対象文	サイラス・ブラウンは自分の悪事を認めた	Cyrus Brown admitted his wrongdoing	
+309	情報源			
+309	Who	サイラス・ブラウン	Cyrus Brown	
+309	hasPredicate	認めた	admit	
+309	What	自身の悪事	Own wickedness	
+309	When	310	301	
+309	then			
+310	対象文	ホームズはサイラス・ブラウンに自身の推理を話した	Holmes told its own reasoning in Cyrus Brown	
+310	情報源			
+310	Who	ホームズ	Holmes	
+310	hasPredicate	話した	say	
+310	To	サイラス・ブラウン	Cyrus Brown	
+310	What	ホームズの推理	Holmes reasoning of	
+310	then			
+311	対象文	男の靴の跡とサイラス・ブラウンの靴は適応していた	Mark and Cyrus Brown shoes of a man of the shoes had been adapted	
+311	情報源			
+311	Who	男の靴の跡	Traces of man's shoes	
+311	Who	サイラス・ブラウンの靴	Cyrus Brown shoes	
+311	hasPredicate	適合していた	fit	
+311	then			
+312	対象文	サイラス・ブラウンの部下は白銀号を窃盗できない	Of Cyrus Brown subordinates can not stealing the Silver Blaze	
+312	情報源			
+312	Who	サイラス・ブラウンの部下	Subordinates of Cyrus Brown	
+312	hasPredicate	窃盗できない	cannotSteal	
+312	What	白銀号	Silver Blaze	
+312	then			
+313	対象文	事件の翌朝、サイラス・ブラウンは荒地で白銀号を見つけた	"The next morning of the incident, Cyrus Brown found a white silver degree in wasteland"	
+313	情報源			
+313	Who	サイラス・ブラウン	Cyrus Brown	
+313	hasPredicate	見つけた	find	
+313	On	荒地	Wasteland	
+313	What	白銀号	Silver Blaze	
+313	When	事件の翌朝	The next morning of the incident	
+313	then			
+314	対象文	サイラス・ブラウンは白銀号を誘拐した	Cyrus Brown was kidnapped Silver Blaze	
+314	情報源			
+314	Who	サイラス・ブラウン	Cyrus Brown	
+314	hasPredicate	誘拐した	kidnap	
+314	What	白銀号	Silver Blaze	
+314	then			
+315	対象文	白銀号の額は白い	The amount of Silver issue white	
+315	情報源			
+315	Who	白銀号の額	The amount of Silver Blaze	
+315	hasProperty	白い	white	
+315	then			
+316	対象文	ホームズは白銀号をキングス・パイランドに連れて行かなかった	Holmes was not taken to a silvery white issue to the King's Pyland	
+316	情報源			
+316	Who	ホームズ	Holmes	
+316	hasPredicate	連れて行かなかった	notTake	
+316	What	白銀号	Silver Blaze	
+316	To	キングス・パイランド	King's Pyland	
+316	then			
+317	対象文	ホームズはサイラス・ブラウンに以下を指示した	Holmes has instructed the following to Cyrus Brown	
+317	情報源			
+317	Who	ホームズ	Holmes	
+317	hasPredicate	指示した	instruct	
+317	What	318	309	
+317	To	サイラス・ブラウン	Cyrus Brown	
+317	then			
+318	対象文	サイラス・ブラウンはケープルトン調馬場の厩舎に白銀号を隠す	Cyrus Brown hide the Silver issue to the stables of Mapleton riding ground	
+318	情報源			
+318	Who	サイラス・ブラウン	Cyrus Brown	
+318	hasPredicate	隠す	hide	
+318	What	白銀号	Silver Blaze	
+318	Where	ケープルトン調馬場の厩舎	Mapleton riding ground stables	
+318	then			
+319	対象文	サイラス・ブラウンは罪を逃れる方法を考える	Cyrus Brown think of a way to escape the sin	
+319	情報源			
+319	Who	サイラス・ブラウン	Cyrus Brown	
+319	hasPredicate	考える	think	
+319	What	罪を逃れる方法	How to escape the sin	
+319	then			
+320	対象文	ワトソンはホームズに以下を確認した	Watson was confirmed the following in Holmes	
+320	情報源			
+320	Who	ワトソン	Watson	
+320	hasPredicate	確認した	confirm	
+320	To	ホームズ	Holmes	
+320	What	328	319	
+320	then			
+321	対象文	グレゴリ警部はタヴィストック周辺の全ての厩と小舎を調査した	Gregory inspector investigated all of the stables and the small building near Tavistock	
+321	情報源			
+321	Who	グレゴリ警部	Gregory Inspector	
+321	hasPredicate	調査した	investigate	
+321	What	タヴィストック周辺の全ての厩と小舎	All of the stables and the small building near Tavistock	
+321	then			
+322	対象文	ホームズは以下を言った	Holmes said the following:	
+322	情報源			
+322	Who	ホームズ	Holmes	
+322	hasPredicate	言った	say	
+322	What	323	314	
+322	then			
+323	対象文	サイラス・ブラウンは白銀に細工を施した	Cyrus Brown was subjected to crafted in Baiyin	
+323	情報源			
+323	Who	サイラス・ブラウン	Cyrus Brown	
+323	hasPredicate	施した	give	
+323	What	細工	Work	
+323	To	白銀	Silver	
+323	then			
+324	対象文	ワトソンはホームズに以下を言った	Watson said the following in Holmes	
+324	情報源			
+324	Who	ワトソン	Watson	
+324	hasPredicate	言った	say	
+324	What	325	316	
+324	To	ホームズ	Holmes	
+324	then			
+325	対象文	サイラス・ブラウンは利益を得る	Cyrus Brown benefit	
+325	情報源			
+325	Who	サイラス・ブラウン	Cyrus Brown	
+325	hasPredicate	得る	get	
+325	What	利益	Profits	
+325	When	326	317	
+325	then			
+326	対象文	サイラス・ブラウンは白銀号を傷つける	Cyrus Brown hurt Silver Blaze	
+326	情報源			
+326	Who	サイラス・ブラウン	Cyrus Brown	
+326	hasPredicate	傷つける	hurt	
+326	What	白銀号	Silver Blaze	
+326	then			
+327	対象文	ホームズはワトソンに以下を言った	Holmes said the following in Watson	
+327	情報源			
+327	Who	ホームズ	Holmes	
+327	hasPredicate	言った	say	
+327	To	ワトソン	Watson	
+327	What	328	319	
+327	then			
+328	対象文	サイラス・ブラウンは、罪を軽くするために白銀を傷つけない	"Cyrus Brown, not to damage the silvery white in order to lighten the sin"	
+328	情報源			
+328	Who	サイラス・ブラウン	Cyrus Brown	
+328	hasPredicate	傷つけない	notHurt	
+328	What	白銀	Silver	
+328	Why	罪を軽くするため	In order to lighten the sin	
+328	then			
+329	対象文	サイラス・ブラウンは罪を軽くしようとした	Cyrus Brown tried to lighten the sin	
+329	情報源			
+329	Who	サイラス・ブラウン	Cyrus Brown	
+329	hasPredicate	軽くしようとした	tryToLighten	
+329	What	罪	sin	
+329	then			
+330	対象文	ホームズはロス大佐に騎手の用意を頼んだ	Holmes asked prepare for jockeys to Colonel Ross	
+330	情報源			
+330	Who	ホームズ	Holmes	
+330	hasPredicate	頼んだ	ask	
+330	What	騎手の用意	Ready for jockey	
+330	To	ロス大佐	Colonel Ross	
+330	then			
+331	対象文	ホームズはグレゴリ警部にジョン・ストレーカーの写真を用意させた	Holmes was prepared for a photo of John Straker to Gregory Inspector	
+331	情報源			
+331	Who	ホームズ	Holmes	
+331	hasPredicate	用意させた	prepare	
+331	To	グレゴリ警部	Gregory Inspector	
+331	What	ジョン・ストレーカーの写真	Photos of John Straker	
+331	then			
+332	対象文	グレゴリ警部はホームズにジョン・ストレーカーの写真を渡した	Gregory inspector passed a photo of John Straker Holmes	
+332	情報源			
+332	Who	グレゴリ警部	Gregory Inspector	
+332	hasPredicate	渡した	give	
+332	What	ジョン・ストレーカーの写真	Photos of John Straker	
+332	To	ホームズ	Holmes	
+332	then			
+333	対象文	ホームズは厩舎番の若者に羊の異変を尋ねた	Holmes asked the accident of the sheep to the youth of the stables number	
+333	情報源			
+333	Who	ホームズ	Holmes	
+333	hasPredicate	尋ねた	ask	
+333	What	羊の異変	Accident of sheep	
+333	To	厩舎番の若者	Youth stables number	
+333	then			
+334	対象文	厩番の若者はホームズに以下を言った	Stables number of young people said the following in Holmes	
+334	情報源			
+334	Who	厩舎番の若者	Youth stables number	
+334	hasPredicate	言った	say	
+334	To	ホームズ	Holmes	
+334	What	335	325	
+334	then			
+335	対象文	３頭の羊が跛になった	3 sheep became lame	
+335	情報源			
+335	Who	３頭の羊	3 sheep	
+335	hasProperty	跛になった	lame	
+335	then			
+336	対象文	ホームズは以下を不思議に思った	Holmes was wondering the following:	
+336	情報源			
+336	Who	ホームズ	Holmes	
+336	hasPredicate	不思議に思った	wonder	
+336	What	337	327	
+336	then			
+337	対象文	事件の夜、厩舎の犬は何もしなかった	"Night of the incident, the dog of the stables did nothing"	
+337	情報源			
+337	Who	厩舎の犬	Dog of the stables	
+337	hasPredicate	何もしなかった	doNothing	
+337	When	事件の夜	Night of the incident	
+337	then			
+338	対象文	白銀号の名前は競走加入者表に書かれていた	The name of the Silver issue was written in race subscriber table	
+338	情報源			
+338	Who	白銀号の名前	The name of the Silver Blaze	
+338	hasPredicate	書かれていた	beWritten	
+338	On	競争加入者表	Competition subscriber table	
+338	then			
+339	対象文	栗毛の馬は重量検査所から出てきた	Brown horse came out from the weight inspection stations	
+339	情報源			
+339	Who	栗毛の馬	Brown horse	
+339	hasPredicate	出てきた	come	
+339	From	重量検査所	Weight inspection stations	
+339	then			
+340	対象文	ロス大佐の騎手は栗毛の馬に乗っている	Jockey of Colonel Ross is riding a brown horse	
+340	情報源			
+340	Who	ロス大佐の騎手	Jockey of Colonel Ross	
+340	hasPredicate	乗っている	ride	
+340	On	栗毛の馬	Brown horse	
+340	then			
+341	対象文	ロス大佐は以下を言った	Colonel Ross said the following:	
+341	情報源			
+341	Who	ロス大佐	Colonel Ross	
+341	hasPredicate	言った	say	
+341	What	342	332	
+341	then			
+342	対象文	栗毛の馬は額が白くないから白銀号ではない	Brown horse is not a Silver issue because not white forehead	
+342	情報源			
+342	Who	栗毛の馬	Brown horse	
+342	hasProperty	白銀号ではない	Not a Silver Blaze	
+342	Why	額が白くない	It is not white forehead	
+342	then			
+343	対象文	ホームズはアルコールを使用して栗毛の馬の顔と脚を洗わせた	Holmes was washed a brown horse of the face and legs of using alcohol	
+343	情報源			
+343	Who	ホームズ	Holmes	
+343	hasPredicate	洗わせた	wash	
+343	What	栗毛の馬の顔	Face of brown horse	
+343	What	栗毛の馬の脚	Brown Umanoashi of	
+343	How	アルコールを使用して	Use the alcohol	
+343	then			
+344	対象文	栗毛の馬の顔と脚は白くなった	Face and legs of brown horse became white	
+344	情報源			
+344	Who	栗毛の馬の顔	Face of brown horse	
+344	Who	栗毛の馬の脚	Brown Umanoashi of	
+344	hasProperty	白くなった	white	
+344	then			
+345	対象文	ホームズは以下を言った	Holmes said the following:	
+345	情報源			
+345	Who	ホームズ	Holmes	
+345	hasPredicate	言った	say	
+345	What	346-352	336-342	
+345	then			
+346	対象文	栗毛の馬は白銀号である	Brown horse is a Silver Blaze	
+346	情報源			
+346	Who	栗毛の馬	Brown horse	
+346	hasProperty	白銀号である	Silver Blaze	
+346	then			
+347	対象文	ホームズは白銀号を見つけ出した	Holmes finds the Silver Blaze	
+347	情報源			
+347	Who	ホームズ	Holmes	
+347	hasPredicate	見つけ出した	find	
+347	What	白銀号	Silver Blaze	
+347	then			
+348	対象文	ホームズは白銀号を競馬に栗毛のまま出場させた	Holmes was played remains of brown a silvery white issue in horse racing	
+348	情報源			
+348	Who	ホームズ	Holmes	
+348	hasPredicate	出場させた	enter	
+348	To	競馬	Horseracing	
+348	What	白銀号	Silver Blaze	
+348	How	栗毛色のまま	Remains of brown color	
+348	then			
+349	対象文	ホームズは殺害者を捕まえた	Holmes caught the murderer	
+349	情報源			
+349	Who	ホームズ	Holmes	
+349	hasPredicate	捕まえた	catch	
+349	What	殺害者	murderer	
+349	then			
+350	対象文	ジョン・ストレーカーは信用できない男である	Is the man that John Straker can not trust	
+350	情報源			
+350	Who	ジョン・ストレーカー	John Straker	
+350	hasProperty	信頼できない男である	not reliable man	
+350	then			
+351	対象文	事件の夜、白銀号はジョン・ストレーカーを殺した	"Night of the incident, Silver Blaze killed John Straker"	
+351	情報源			
+351	Who	白銀号	Silver Blaze	
+351	hasPredicate	殺した	kill	
+351	What	ジョン・ストレーカー	John Straker	
+351	When	事件の夜	Night of the incident	
+351	then			
+352	対象文	白銀号は自己防衛した	Silver issue was self-defense	
+352	情報源			
+352	Who	白銀号	Silver Blaze	
+352	hasProperty	自己防衛した	self-defence	
+352	then			
+353	対象文	ロス大佐は驚いた	Colonel Ross was surprised	
+353	情報源			
+353	Who	ロス大佐	Colonel Ross	
+353	hasPredicate	驚いた	beSurprise	
+353	then			
+354	対象文	ホームズは以下を推論した	Holmes was infer the following	
+354	情報源			
+354	Who	ホームズ	Holmes	
+354	hasPredicate	推論した	infer	
+354	What	355-395	345-381	
+354	then			
+355	対象文	ネッド・ハンターは阿片末の味を気づかなかった	Ned Hunter did not notice the taste of the opium	
+355	情報源			
+355	Who	ネッド・ハンター	Ned Hunter	
+355	hasPredicate	気づかなかった	notNotice	
+355	What	阿片末の味	Taste of the opium	
+355	Why	356	346	
+355	then			
+356	対象文	犯人は、羊のカレー料理を使って阿片末の味を消した	"The criminal, erased the taste of opium with the sheep curry dishes"	
+356	情報源			
+356	Who	犯人	Criminal	
+356	hasPredicate	消した	erase	
+356	What	阿片末の味	Taste of opium	
+356	How	羊のカレー料理を使って	Use the sheep curry dishes	
+356	then			
+357	対象文	フィツロイ・シムソンは事件に以下の理由から無関係である	Fitzroy Simpson is irrelevant for the following reasons in the incident	
+357	情報源			
+357	Who	フィツロイ・シムソン	Fitzroy Simpson	
+357	hasProperty	無関係である	independent of the incident	
+357	Why	358-359	348-349	
+357	To	事件		
+357	then			
+358	対象文	フィツロイ・シムソンは献立を決めていない	Fitzroy Simpson has not decided the menu	
+358	情報源			
+358	Who	フィツロイ・シムソン	Fitzroy Simpson	
+358	hasPredicate	決めていない	notDecide	
+358	What	献立	menu	
+358	then			
+359	対象文	フィツロイ・シムソンは献立がカレーの夜を予測し難い	Fitzroy Simpson is hard to predict the evening menu is curry	
+359	情報源			
+359	Who	フィツロイ・シムソン	Fitzroy Simpson	
+359	hasPredicate	予測し難い	difficult to predict	
+359	What	献立がカレーの夜	Night menu is curry	
+359	then			
+360	対象文	ホームズはジョン・ストレーカーとジョン・ストレーカーの妻を疑う	Holmes doubt the wife of John Straker and John Straker	
+360	情報源			
+360	Who	ホームズ	Holmes	
+360	hasPredicate	疑う	suspect	
+360	What	ジョン・ストレーカー	John Straker	
+360	What	ジョン・ストレーカーの妻	Wife of John Straker	
+360	Why	361-363	351-353	
+360	then			
+361	対象文	ジョン・ストレーカーとジョン・ストレーカーの妻は献立を決めることができる	Wife of John Straker and John Straker is able to determine the menu	
+361	情報源			
+361	Who	ジョン・ストレーカー	John Straker	
+361	Who	ジョン・ストレーカーの妻	Wife of John Straker	
+361	hasPredicate	決めることができる	canDetermine	
+361	What	献立	menu	
+361	then			
+362	対象文	ネッド・ハンターの分の料理は阿片末含んでいる	Minute of cooking of Ned Hunter includes the opium	
+362	情報源			
+362	Who	ネッド・ハンターの分の料理	Minute of cooking of Ned Hunter	
+362	hasPredicate	含んでいる	include	
+362	What	阿片末	Opium	
+362	then			
+363	対象文	２人の若者の分の料理は阿片末を含んでいない	Minute of the cuisine of the two young men does not include the opium	
+363	情報源			
+363	Who	２人の若者の分の料理	Minute of the cuisine of the two young men	
+363	hasPredicate	含んでいない	notInclude	
+363	What	阿片末	Opium	
+363	then			
+364	対象文	犯人は厩舎の犬をよく知っている	The criminal knows well the dog of stables	
+364	情報源			
+364	Who	犯人	Criminal	
+364	hasPredicate	よく知っている	know	
+364	What	厩舎の犬	Dog of the stables	
+364	Why	365	355	
+364	then			
+365	対象文	事件の夜、厩舎の犬は吠えなかった	"Night of the incident, the dog of the stables did not bark"	
+365	情報源			
+365	Who	厩舎の犬	Dog of the stables	
+365	hasPredicate	吠えなかった	notBark	
+365	When	事件の夜	Night of the incident	
+365	then			
+366	対象文	調馬師は馬を傷つけて大金を得る	horse trainer get a lot of money hurt the horse	
+366	情報源			
+366	Who	調馬師	horse trainer	
+366	hasPredicate	得る	get	
+366	What	大金	Lot of money	
+366	How	馬を傷つけて	Hurt the horse	
+366	then			
+367	対象文	調馬師は馬を傷つける	horse trainer hurt the horse	
+367	情報源			
+367	Who	調馬師	horse trainer	
+367	hasPredicate	傷つける	hurt	
+367	What	馬	Horse	
+367	then			
+368	対象文	調馬師は騎手を使って八百長をする	horse trainer is the match-fixing by using a jockey	
+368	情報源			
+368	Who	調馬師	horse trainer	
+368	hasPredicate	する	Make	
+368	How	騎手を使って	Use the jockey	
+368	What	八百長	Fixed game	
+368	then			
+369	対象文	ジョンストレーカの死体はナイフを持っていた	Corpse of Johns tray mosquitoes had a knife	
+369	情報源			
+369	Who	ジョン・ストレーカーの死体	Corpse of John Straker	
+369	hasPredicate	持っていた	have	
+369	What	ナイフ	knife	
+369	then			
+370	対象文	ナイフは奇抜である	Knife is a novel	
+370	情報源			
+370	Who	ナイフ	knife	
+370	hasProperty	奇抜である	wacky	
+370	then			
+371	対象文	ジョン・ストレーカーはナイフを使って、白銀を痕跡を残さずに傷つけようとした	"John Straker uses the knife, tried to hurt a silvery white without leaving a trace"	
+371	情報源			
+371	Who	ジョン・ストレーカー	John Straker	
+371	hasPredicate	傷つけようとした	hurt	
+371	How	ナイフを使って	Use the knife	
+371	How	痕跡を残さずに	Without leaving a trace	
+371	What	白銀	Silver	
+371	then			
+372	対象文			
+372	情報源			
+372	Who	傷つけられた馬	Injured horse	
+372	hasPredicate	引き起こす	cause	
+372	What	跛	Lame	
+372	then			
+373	対象文	不正は発覚しない	Fraud is not discovered	
+373	情報源			
+373	Who	不正	Injustice	
+373	hasPredicate	発覚しない	notBeDiscovered	
+373	then			
+374	対象文	ジョン・ストレーカーは荒地に白銀を連れ出した	John Straker took his a silvery white to wasteland	
+374	情報源			
+374	Who	ジョン・ストレーカー	John Straker	
+374	hasPredicate	連れ出した	take	
+374	What	白銀	Silver	
+374	To	荒地	Wasteland	
+374	Why	375	364	
+374	then			
+375	対象文	不正は発覚しない	Fraud is not discovered	
+375	情報源			
+375	Who	ジョン・ストレーカー	John Straker	
+375	hasPredicate	必要とした	need	
+375	What	広いスペース	Wide space	
+375	When	371	360	
+375	then			
+376	対象文	ジョン・ストレーカーは荒地は暗いため、蝋燭とマッチを持って出た	"For John Straker the wasteland is dark, I came out with a candle and matches"	
+376	情報源			
+376	Who	ジョン・ストレーカー	John Straker	
+376	hasPredicate	持って出た	take	
+376	What	蝋燭	candle	
+376	What	マッチ	Match	
+376	Why	荒地は暗い	Wasteland dark	
+376	then			
+377	対象文	荒野は暗い	Wilderness dark	
+377	情報源			
+377	Who	荒野	wilderness	
+377	hasProperty	暗い	dark	
+377	then			
+378	対象文	ジョン・ストレーカーは以下の理由でお金を必要とした	John Straker was necessary money for the following reasons	
+378	情報源			
+378	Who	ジョン・ストレーカー	John Straker	
+378	hasPredicate	必要とした	need	
+378	What	お金	money	
+378	Why	379-381	367-369	
+378	then			
+379	対象文	ジョン・ストレーカーは２つの家庭を養う	John Straker cultivate two home	
+379	情報源			
+379	Who	ジョン・ストレーカー	John Straker	
+379	hasPredicate	養う	cultivate	
+379	What	２つの家庭	Two of the home	
+379	then			
+380	対象文	ウィリアム・ダービシャ婦人は贅沢な好みである	William Derbyshire women is a luxurious taste	
+380	情報源			
+380	Who	ウィリアム・ダービシャ婦人	William Derbyshire Women	
+380	hasPredicate	贅沢な好みである	luxurious taste	
+380	then			
+381	対象文	ジョン・ストレーカーはウィリアム・ダービシャ婦人に高い服を贈った	John Straker presented him a high clothes to William Derbyshire Women	
+381	情報源			
+381	Who	ジョン・ストレーカー	John Straker	
+381	hasPredicate	贈った	give	
+381	What	高い服	Expensive clothes	
+381	What	ウィリアム・ダービシャ婦人	William Derbyshire Women	
+381	then			
+382	対象文	事件の夜、ジョン・ストレーカーは人目を避けるために白銀号を荒地の窪みに連れ出した	"Night of the incident, John Straker took Silver Blaze in the recess of wasteland in order to avoid the public eye"	
+382	情報源			
+382	Who	ジョン・ストレーカー	John Straker	
+382	hasPredicate	連れ出した	take	
+382	When	事件の夜	Night of the incident	
+382	To	荒地の窪み	Dent of wasteland	
+382	What	白銀	Silver Blaze	
+382	Why	人目を避ける	Avoid a glance	
+382	then			
+383	対象文	フィツロイ・シムソンは犬から逃げる時、ネクタイを落とした	"Fitzroy Simpson when escape from the dog, dropped the tie"	
+383	情報源			
+383	Who	フィツロイ・シムソン	Fitzroy Simpson	
+383	hasPredicate	落とした	drop	
+383	What	ネクタイ	tie	
+383	When	犬から逃げた	I ran away from the dog	
+383	then			
+384	対象文	ジョン・ストレーカーは白銀の脚を縛るためにネクタイを拾った	John Straker and picked up the tie in order to bind the Silver Blaze legs	
+384	情報源			
+384	Who	ジョン・ストレーカー	John Straker	
+384	hasPredicate	拾った	pick	
+384	What	ネクタイ	tie	
+384	Why	白銀の脚を縛る	Tie Silver Blaze legs	
+384	then			
+385	対象文	ジョン・ストレーカーは白銀の脚を縛る	John Straker is tie theSilver Blaze legs	
+385	情報源			
+385	Who	ジョン・ストレーカー	John Straker	
+385	hasPredicate	縛る	Tie	
+385	What	白銀の脚	Silver Blaze legs	
+385	then			
+386	対象文	ジョン・ストレーカーは荒地の窪みでマッチの火をつけた	John Straker turned on the fire of the match in the recess of the wasteland	
+386	情報源			
+386	Who	ジョン・ストレーカー	John Straker	
+386	hasPredicate	つけた	fire	
+386	What	マッチの火	match	
+386	Where	荒地の窪み	Dent of wasteland	
+386	then			
+387	対象文	白銀号は危険を感じたため暴れた	Silver Blaze issue was rampage because he felt the danger	
+387	情報源			
+387	Who	白銀号	Silver Blaze	
+387	hasPredicate	暴れた	rampage	
+387	When	386	373	
+387	Why	危険を感じた	I felt the danger	
+387	then			
+388	対象文	ジョン・ストレーカーは白銀号に蹴られて、額を強打した	"John Straker is kicked in Silver Patent, was a nasty blow to the forehead"	
+388	情報源			
+388	Who	ジョン・ストレーカー	John Straker	
+388	hasPredicate	強打した	smash	
+388	What	額	amount	
+388	When	387	374	
+388	How	白銀号に蹴られて	Kicked in Silver Blaze	
+388	then			
+389	対象文	白銀号はジョンストレーカの額を蹴った	Silver Blaze kicked the amount of Johns tray mosquitoes	
+389	情報源			
+389	Who	白銀号	Silver Blaze	
+389	hasPredicate	蹴った	kick	
+389	What	ジョンストレーカの額	The amount of Johns tray mosquitoes	
+389	then			
+390	対象文	ジョン・ストレーカーは転倒時、自分の腿を刺した	"When John Straker crashed, stabbed his thigh"	
+390	情報源			
+390	Who	ジョン・ストレーカー	John Straker	
+390	hasPredicate	刺した	stab	
+390	What	自分の腿	His thigh	
+390	What	転倒時	A fall	
+390	then			
+391	対象文	作業の前、ジョン・ストレーカーは外套を脱いだ	"Previous work, John Straker took off the cloak"	
+391	情報源			
+391	Who	ジョン・ストレーカー	John Straker	
+391	hasPredicate	脱いだ	takeOff	
+391	What	ジョン・ストレーカーの外套	The mantle of John Straker	
+391	When	作業の前	Previous work	
+391	then			
+392	対象文	ジョン・ストレーカーは羊を使って、腱の手術を練習した	"John Straker uses the sheep, practiced surgery for tendon"	
+392	情報源			
+392	Who	ジョン・ストレーカー	John Straker	
+392	hasPredicate	練習した	practice	
+392	What	腱の手術	Surgery of tendon	
+392	How	羊を使って	Use the sheep	
+392	then			
+393	対象文	ホームズは帽飾店へ赴いて以下を確認した	Holmes was confirmed the following went to the hat decoration shop	
+393	情報源			
+393	Who	ホームズ	Holmes	
+393	hasPredicate	確認した	confirm	
+393	What	394	380	
+393	How	帽飾店へ赴いて	And I went to the hat decoration shop	
+393	then			
+394	対象文	ジョン・ストレーカーは高い服を買っていた	John Straker had bought a high clothes	
+394	情報源			
+394	Who	ジョン・ストレーカー	John Straker	
+394	hasPredicate	買っていた	buy	
+394	What	高い服	Expensive clothes	
+394	then			
+395	対象文	ジョン・ストレーカーは借金を抱えた	John Straker was in debt	
+395	情報源			
+395	Who	ジョン・ストレーカー	John Straker	
+395	hasPredicate	抱えた	have	
+395	What	借金	debt	
+395	Why	396	382	
+395	then			
+396	対象文	ロス大佐はホームズに馬の行方を尋ねた	Colonel Ross asked the whereabouts of the horse to Holmes	
+396	情報源			
+396	Who	ロス大佐	Colonel Ross	
+396	hasPredicate	尋ねた	ask	
+396	To	ホームズ	Holmes	
+396	What	馬の行方	Whereabouts of the horse	
+396	then			
+397	対象文	ホームズはロス大佐に馬の行方を教えなかった	Holmes did not tell the whereabouts of the horse to Colonel Ross	
+397	情報源			
+397	Who	ホームズ	Holmes	
+397	hasPredicate	教えなかった	notTell	
+397	What	馬の行方	Whereabouts of the horse	
+397	To	ロス大佐	Colonel Ross	
+397	then			

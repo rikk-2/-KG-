@@ -1,0 +1,22 @@
+ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場面内の述語	場面内の目的語
+1	対象文	パーシィ・トリヴェリアンは力を搾り取られた			〇	〇	〇
+1	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+1	hasPredicate	搾り取られた	True	hasPredicate	〇	〇	〇
+1	Obj	力	True	What	〇	〇	〇
+2	対象文	ネッド・ハンターと２人の若者は性格が良い			×	〇	無
+2	Who	ネッド・ハンター	False		×	〇	無
+2	Who	２人の若者	False		×	〇	無
+2	hasPredicate	性格が良い	True	hasProperty	×	〇	無
+3	対象文	そのため、ラウンドヘイはお金をもらっていた			〇	〇	△
+3	Who	ラウンドヘイ	True		〇	〇	△
+3	hasPredicate	もらっていた	True	hasPredicate	〇	〇	△
+3	Obj	そのため、	False	判別不能	〇	〇	△
+3	Obj	お金	True	What	〇	〇	△
+4	対象文	妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった			〇	〇	×
+4	Who	妙な事件	True		〇	〇	×
+4	hasPredicate	起こった	True	hasProperty	〇	〇	×
+4	Obj	パーシィ・トリヴェリアンの自宅	False	判別不能	〇	〇	×
+4	Obj	立て続け	False	判別不能	〇	〇	×
+5	対象文	"踊る人形fは\""E\""である"			〇	×	無
+5	Who	踊る人形f	True		〇	×	無
+5	hasPredicate	"\""E\""である"	False		〇	×	無

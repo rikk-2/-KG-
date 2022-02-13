@@ -1,0 +1,30 @@
+1	対象文	パーシィ・トリヴェリアンは力を搾り取られた	Percy Trevelyan was squeezed forces		
+1	情報源				
+1	Who	パーシィ・トリヴェリアン			
+1	hasPredicate	搾り取られた	beSqueezed		
+1	What	力	Power		
+1	then				
+2	対象文	ネッド・ハンターと２人の若者は性格が良い	Ned Hunter and two young good personality	
+2	情報源			
+2	Who	ネッド・ハンターと２人の若者	Ned Hunter and two young men	
+2	hasProperty	性格が良い	Good nature	
+2	then			
+3	対象文	そのため、ラウンドヘイはお金をもらっていた	Therefore, Roundhay was getting money					7にtherefore: 8を入れる
+3	情報源							
+3	hasPredicate	もらっていた	get					
+3	Who	ラウンドヘイ	Roundhay					
+3	What	お金	money					
+3	From	モーティマー	Mortimer		
+4	対象文	妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった	\"Strange incident occurred in quick succession in the home of Percy Trevelyan\"		
+4	情報源				
+4	Who	妙な事件	StrangeIncident		
+4	hasProperty	起こった	occur		
+4	Where	\"パーシィ・トリヴェリアンの自宅	\"Home of Percy Trevelyan\"		
+4	How	立て続けに	In quick succession		
+4	then				
+5	対象文	踊る人形fは\"E\"である	Doll F is \"E\"							
+5	情報源									
+5	hasPredicate	である	equalTo							
+5	Who	踊る人形f	Dancing dolls F		Object					
+5	What	E	E		Object		because 152,153?			
+5	because	152,153	152,153	

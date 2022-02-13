@@ -1,0 +1,1304 @@
+ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場面内の述語	場面内の目的語
+1	対象文	ホームズは以下を推測した			〇	〇	×
+1	Who	ホームズ	True		〇	〇	×
+1	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+1	Obj	以下	False	判別不能	〇	〇	×
+2	対象文	パーシィ・トリヴェリアンは医者である。			〇	×	無
+2	Who	パーシィ・トリヴェリアン	True		〇	×	無
+2	hasPredicate	医者である。	False		〇	×	無
+3	対象文	パーシィ・トリヴェリアンは開業してまもない			〇	〇	無
+3	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+3	hasPredicate	開業してまもない	True	hasProperty	〇	〇	無
+4	対象文	パーシィ・トリヴェリアンは儲かっている			〇	〇	無
+4	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+4	hasPredicate	儲かっている	True	hasProperty	〇	〇	無
+5	対象文	パーシィ・トリヴェリアンはホームズに相談したい			〇	〇	〇
+5	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+5	hasPredicate	相談したい	True	hasProperty	〇	〇	〇
+5	Obj	ホームズ	True	To	〇	〇	〇
+6	対象文	ワトソンは以下を推測した			〇	〇	×
+6	Who	ワトソン	True		〇	〇	×
+6	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+6	Obj	以下	False	判別不能	〇	〇	×
+7	対象文	パーシィ・トリヴェリアンは33,4歳以下である			〇	〇	無
+7	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+7	hasPredicate	33,4歳以下である	True	hasProperty	〇	〇	無
+8	対象文	ワトソンは以下を思った			〇	〇	×
+8	Who	ワトソン	True		〇	〇	×
+8	hasPredicate	思った	True	hasPredicate	〇	〇	×
+8	Obj	以下	False	判別不能	〇	〇	×
+9	対象文	パーシィ・トリヴェリアンの表情はやつれている			〇	〇	無
+9	Who	パーシィ・トリヴェリアンの表情	True		〇	〇	無
+9	hasPredicate	やつれている	True	hasProperty	〇	〇	無
+10	対象文	パーシィ・トリヴェリアンの顔色は悪い			〇	〇	無
+10	Who	パーシィ・トリヴェリアンの顔色	True		〇	〇	無
+10	hasPredicate	悪い	True	hasProperty	〇	〇	無
+11	対象文	パーシィ・トリヴェリアンは力を搾り取られた			〇	〇	〇
+11	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+11	hasPredicate	搾り取られた	True	hasPredicate	〇	〇	〇
+11	Obj	力	True	What	〇	〇	〇
+12	対象文	パーシィ・トリヴェリアンは若さを奪われた			〇	〇	〇
+12	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+12	hasPredicate	奪われた	True	hasPredicate	〇	〇	〇
+12	Obj	若さ	True	What	〇	〇	〇
+13	対象文	パーシィ・トリヴェリアンは神経質である			〇	〇	無
+13	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+13	hasPredicate	神経質である	True	hasProperty	〇	〇	無
+14	対象文	パーシィ・トリヴェリアンは居場所がない様子である			〇	〇	無
+14	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+14	hasPredicate	居場所がない様子である	True	hasProperty	〇	〇	無
+15	対象文	パーシィ・トリヴェリアンの手は白い			〇	〇	無
+15	Who	パーシィ・トリヴェリアンの手	True		〇	〇	無
+15	hasPredicate	白い	True	hasProperty	〇	〇	無
+16	対象文	パーシィ・トリヴェリアンは医者のようでは無い			〇	〇	無
+16	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+16	hasPredicate	医者のようでは無い	True	hasProperty	〇	〇	無
+17	対象文	パーシィ・トリヴェリアンは芸術家に見える			〇	×	×
+17	Who	パーシィ・トリヴェリアン	True		〇	×	×
+17	hasPredicate	見える	False		〇	×	×
+17	Obj	芸術家	False	判別不能	〇	×	×
+18	対象文	パーシィ・トリヴェリアンの服装は地味である			〇	〇	無
+18	Who	パーシィ・トリヴェリアンの服装	True		〇	〇	無
+18	hasPredicate	地味である	True	hasProperty	〇	〇	無
+19	対象文	パーシィ・トリヴェリアンは黒いフロック・コートを着ている			〇	〇	〇
+19	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+19	hasPredicate	着ている	True	hasProperty	〇	〇	〇
+19	Obj	黒いフロック・コート	True	What	〇	〇	〇
+20	対象文	パーシィ・トリヴェリアンは黒めのズボンを履いている			〇	〇	〇
+20	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+20	hasPredicate	履いている	True	hasProperty	〇	〇	〇
+20	Obj	黒めのズボン	True	What	〇	〇	〇
+21	対象文	パーシィ・トリヴェリアンはわずかに色のあるネクタイを着けている			〇	×	×
+21	Who	パーシィ・トリヴェリアン	True		〇	×	×
+21	hasPredicate	わずかに色のあるネクタイを着けている	False		〇	×	×
+21	Obj	色のあるネクタイ	False	判別不能	〇	×	×
+22	対象文	パーシィ・トリヴェリアンはホームズとワトソンに名前を告げた			〇	〇	〇
+22	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+22	hasPredicate	告げた	True	hasPredicate	〇	〇	〇
+22	Obj	ホームズ	True	To	〇	〇	〇
+22	Obj	ワトソン	True	To	〇	〇	〇
+22	Obj	名前	True	What	〇	〇	〇
+23	対象文	パーシィ・トリヴェリアンはブルックリン街四〇三番地に住んでいる			〇	〇	〇
+23	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+23	hasPredicate	住んでいる	True	hasPredicate	〇	〇	〇
+23	Obj	ブルックリン街四〇三番地	True	Where	〇	〇	〇
+24	対象文	ワトソンは以下を確認した			〇	〇	×
+24	Who	ワトソン	True		〇	〇	×
+24	hasPredicate	確認した	True	hasPredicate	〇	〇	×
+24	Obj	以下	False	判別不能	〇	〇	×
+25	対象文	パーシィ・トリヴェリアンは神経障害についての論文を書いた			〇	〇	〇
+25	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+25	hasPredicate	書いた	True	hasPredicate	〇	〇	〇
+25	Obj	神経障害についての論文	True	What	〇	〇	〇
+26	対象文	パーシィ・トリヴェリアンは神経疾患を研究している			〇	〇	〇
+26	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+26	hasPredicate	研究している	True	hasPredicate	〇	〇	〇
+26	Obj	神経疾患	True	To	〇	〇	〇
+27	対象文	パーシィ・トリヴェリアンは以下をホームズに言った			〇	〇	△
+27	Who	パーシィ・トリヴェリアン	True		〇	〇	△
+27	hasPredicate	言った	True	hasPredicate	〇	〇	△
+27	Obj	以下	False	判別不能	〇	〇	△
+27	Obj	ホームズ	True	To	〇	〇	△
+28	対象文	妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった			〇	〇	△
+28	Who	妙な事件	True		〇	〇	△
+28	hasPredicate	起こった	True	hasProperty	〇	〇	△
+28	Obj	パーシィ・トリヴェリアンの自宅	True	Where	〇	〇	△
+28	Obj	立て続け	False	判別不能	〇	〇	△
+29	対象文	パーシィ・トリヴェリアンは事件のことを相談に来た			〇	×	×
+29	Who	パーシィ・トリヴェリアン	True		〇	×	×
+29	hasPredicate	来た	False		〇	×	×
+29	Obj	事件のことを相談	False	判別不能	〇	×	×
+30	対象文	パーシィ・トリヴェリアンは以下を言った			〇	〇	×
+30	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+30	hasPredicate	言った	True	hasPredicate	〇	〇	×
+30	Obj	以下	False	判別不能	〇	〇	×
+31	対象文	パーシィ・トリヴェリアンの硬化症の研究は注目されていた			〇	〇	無
+31	Who	パーシィ・トリヴェリアンの硬化症の研究	True		〇	〇	無
+31	hasPredicate	注目されていた	True	hasPredicate	〇	〇	無
+32	対象文	パーシィ・トリヴェリアンはブルース・ピンカトン賞を受賞した			〇	〇	〇
+32	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+32	hasPredicate	受賞した	True	hasPredicate	〇	〇	〇
+32	Obj	ブルース・ピンカトン賞	True	What	〇	〇	〇
+33	対象文	志ある専門医はキャヴェンディッシュ・スクエア付近の十二の街に開業しなければならない			〇	〇	〇
+33	Who	志ある専門医	True		〇	〇	〇
+33	hasPredicate	開業しなければならない	True	hasProperty	〇	〇	〇
+33	Obj	キャヴェンディッシュ・スクエア付近の十二の街	True	Where	〇	〇	〇
+34	対象文	パーシィ・トリヴェリアンは某台な賃料と調度のための支出を払わなければならない			〇	〇	△
+34	Who	パーシィ・トリヴェリアン	True		〇	〇	△
+34	hasPredicate	払わなければならない	True	hasPredicate	〇	〇	△
+34	Obj	某台な賃料	False	判別不能	〇	〇	△
+34	Obj	調度のための支出	True	What	〇	〇	△
+35	対象文	パーシィ・トリヴェリアンは数年分の生活費と体裁の良い馬車を雇う金を用意しなければならなかった			〇	〇	〇
+35	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+35	hasPredicate	用意しなければならなかった	True	hasPredicate	〇	〇	〇
+35	Obj	数年分の生活費	True	What	〇	〇	〇
+35	Obj	体裁の良い馬車を雇う金	True	What	〇	〇	〇
+36	対象文	パーシィ・トリヴェリアンは金を用意できなかった			〇	〇	〇
+36	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+36	hasPredicate	用意できなかった	True	hasPredicate	〇	〇	〇
+36	Obj	金	True	What	〇	〇	〇
+37	対象文	パーシィ・トリヴェリアンは以下を期待することしかできない			〇	×	×
+37	Who	パーシィ・トリヴェリアン	True		〇	×	×
+37	hasPredicate	できない	False		〇	×	×
+37	Obj	以下を期待すること	False	判別不能	〇	×	×
+38	対象文	パーシィ・トリヴェリアンは10年後に開業する			〇	〇	〇
+38	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+38	hasPredicate	開業する	True	hasPredicate	〇	〇	〇
+38	Obj	10年後	True	When	〇	〇	〇
+39	対象文	パーシィ・トリヴェリアンは思いがけない出来事から見通しがついた			〇	〇	〇
+39	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+39	hasPredicate	見通しがついた	True	hasPredicate	〇	〇	〇
+39	Obj	思いがけない出来事	True	From	〇	〇	〇
+40	対象文	ブレッシントンはある朝パーシィ・トリヴェリアンの部屋を訪問した			〇	〇	〇
+40	Who	ブレッシントン	True		〇	〇	〇
+40	hasPredicate	訪問した	True	hasPredicate	〇	〇	〇
+40	Obj	ある朝	True	When	〇	〇	〇
+40	Obj	パーシィ・トリヴェリアンの部屋	True	To	〇	〇	〇
+41	対象文	パーシィ・トリヴェリアンはブレッシントンを知らない			〇	〇	〇
+41	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+41	hasPredicate	知らない	True	hasProperty	〇	〇	〇
+41	Obj	ブレッシントン	True	What	〇	〇	〇
+42	対象文	ブレッシントンはパーシィ・トリヴェリアンに開業しない理由を尋ねた			〇	〇	×
+42	Who	ブレッシントン	True		〇	〇	×
+42	hasPredicate	尋ねた	True	hasPredicate	〇	〇	×
+42	Obj	パーシィ・トリヴェリアンに開業しない理由	False	判別不能	〇	〇	×
+43	対象文	パーシィ・トリヴェリアンは肩をすくめた			〇	〇	〇
+43	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+43	hasPredicate	すくめた	True	hasPredicate	〇	〇	〇
+43	Obj	肩	True	What	〇	〇	〇
+44	対象文	ブレッシントンはパーシィ・トリヴェリアンに以下を言った			〇	〇	△
+44	Who	ブレッシントン	True		〇	〇	△
+44	hasPredicate	言った	True	hasPredicate	〇	〇	△
+44	Obj	パーシィ・トリヴェリアン	True	To	〇	〇	△
+44	Obj	以下	False	判別不能	〇	〇	△
+45	対象文	ブレッシントンはパーシィ・トリヴェリアンに投資する			〇	〇	〇
+45	Who	ブレッシントン	True		〇	〇	〇
+45	hasPredicate	投資する	True	hasPredicate	〇	〇	〇
+45	Obj	パーシィ・トリヴェリアン	True	To	〇	〇	〇
+46	対象文	パーシィ・トリヴェリアンは驚いた			〇	〇	無
+46	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+46	hasPredicate	驚いた	True	hasProperty	〇	〇	無
+47	対象文	自身のための投資である			×	×	無
+47	Who		False		×	×	無
+47	hasPredicate	自身のための投資である	False		×	×	無
+48	対象文	ブレッシントンは数千の投資金を持っている			〇	〇	〇
+48	Who	ブレッシントン	True		〇	〇	〇
+48	hasPredicate	持っている	True	hasPredicate	〇	〇	〇
+48	Obj	数千の投資金	True	What	〇	〇	〇
+49	対象文	ブレッシントンはパーシィ・トリヴェリアンに数千の投資金をつぎ込もうと思っている			〇	×	無
+49	Who	ブレッシントン	True		〇	×	無
+49	hasPredicate	パーシィ・トリヴェリアンに数千の投資金をつぎ込もうと思っている	False		〇	×	無
+50	対象文	ブレッシントンは家を手に入れる			〇	×	△
+50	Who	ブレッシントン	True		〇	×	△
+50	hasPredicate	入れる	False		〇	×	△
+50	Obj	家	True	What	〇	×	△
+50	Obj	手	False	判別不能	〇	×	△
+51	対象文	ブレッシントンは調度を揃える			〇	〇	〇
+51	Who	ブレッシントン	True		〇	〇	〇
+51	hasPredicate	揃える	True	hasPredicate	〇	〇	〇
+51	Obj	調度	True	What	〇	〇	〇
+52	対象文	パーシィ・トリヴェリアンは診察を行う			〇	〇	〇
+52	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+52	hasPredicate	行う	True	hasPredicate	〇	〇	〇
+52	Obj	診察	True	What	〇	〇	〇
+53	対象文	パーシィ・トリヴェリアンは稼ぎの３分の２をブレッシントンに渡す			〇	〇	〇
+53	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+53	hasPredicate	渡す	True	hasPredicate	〇	〇	〇
+53	Obj	稼ぎの３分の２	True	What	〇	〇	〇
+53	Obj	ブレッシントン	True	To	〇	〇	〇
+54	対象文	ブレッシントンはパーシィ・トリヴェリアンに奇妙な提案をした			〇	〇	△
+54	Who	ブレッシントン	True		〇	〇	△
+54	hasPredicate	した	True	hasPredicate	〇	〇	△
+54	Obj	パーシィ・トリヴェリアン	True	To	〇	〇	△
+54	Obj	奇妙な提案	False	判別不能	〇	〇	△
+55	対象文	パーシィ・トリヴェリアンは提案通りの条件で開業した			〇	〇	〇
+55	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+55	hasPredicate	開業した	True	hasPredicate	〇	〇	〇
+55	Obj	提案通りの条件	True	How	〇	〇	〇
+56	対象文	ブレッシントンとパーシィ・トリヴェリアンは同居した			〇	〇	無
+56	Who	ブレッシントン	True		〇	〇	無
+56	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+56	hasPredicate	同居した	True	hasPredicate	〇	〇	無
+57	対象文	ブレッシントンは患者件同居者である			〇	×	無
+57	Who	ブレッシントン	True		〇	×	無
+57	hasPredicate	患者件同居者である	False		〇	×	無
+58	対象文	ブレッシントンの心臓は弱い			〇	〇	無
+58	Who	ブレッシントンの心臓	True		〇	〇	無
+58	hasPredicate	弱い	True	hasProperty	〇	〇	無
+59	対象文	ブレッシントンは医者の監督を常時必要とする			〇	×	△
+59	Who	ブレッシントン	True		〇	×	△
+59	hasPredicate	する	False		〇	×	△
+59	Obj	医者の監督	True	What	〇	×	△
+59	Obj	常時	True	When	〇	×	△
+59	Obj	必要	False	判別不能	〇	×	△
+60	対象文	ブレッシントンは二階にある一番良い部屋二室を居間と寝室として使った			〇	〇	△
+60	Who	ブレッシントン	True		〇	〇	△
+60	hasPredicate	使った	True	hasPredicate	〇	〇	△
+60	Obj	二階にある一番良い部屋二室	True	What	〇	〇	△
+60	Obj	居間	False	判別不能	〇	〇	△
+60	Obj	寝室	False	判別不能	〇	〇	△
+60	Obj	して	False	判別不能	〇	〇	△
+61	対象文	ブレッシントンは妙な癖を持っている			〇	〇	〇
+61	Who	ブレッシントン	True		〇	〇	〇
+61	hasPredicate	持っている	True	hasProperty	〇	〇	〇
+61	Obj	妙な癖	True	What	〇	〇	〇
+62	対象文	ブレッシントンは人付き合いを避ける			〇	〇	〇
+62	Who	ブレッシントン	True		〇	〇	〇
+62	hasPredicate	避ける	True	hasPredicate	〇	〇	〇
+62	Obj	人付き合い	True	What	〇	〇	〇
+63	対象文	ブレッシントンは外出をほとんどしない			〇	〇	〇
+63	Who	ブレッシントン	True		〇	〇	〇
+63	hasPredicate	ほとんどしない	True	hasProperty	〇	〇	〇
+63	Obj	外出	True	What	〇	〇	〇
+64	対象文	ブレッシントンの生活は不規則である			〇	〇	無
+64	Who	ブレッシントンの生活	True		〇	〇	無
+64	hasPredicate	不規則である	True	hasProperty	〇	〇	無
+65	対象文	ブレッシントンは以下を規則とする			〇	×	×
+65	Who	ブレッシントン	True		〇	×	×
+65	hasPredicate	する	False		〇	×	×
+65	Obj	以下	False	判別不能	〇	×	×
+65	Obj	規則	False	判別不能	〇	×	×
+66	対象文	ブレッシントンは毎晩、同じ時間に診察室に行く			〇	×	△
+66	Who	ブレッシントン	True		〇	×	△
+66	hasPredicate	毎晩、同じ時間に診察室に行く	False		〇	×	△
+66	Obj	同じ時間	False	判別不能	〇	×	△
+66	Obj	診察室	True	To	〇	×	△
+67	対象文	ブレッシントンは帳簿を調べる			〇	〇	〇
+67	Who	ブレッシントン	True		〇	〇	〇
+67	hasPredicate	調べる	True	hasPredicate	〇	〇	〇
+67	Obj	帳簿	True	What	〇	〇	〇
+68	対象文	ブレッシントンは一ギニィに五シリングと三ペンスを置いていく			〇	〇	×
+68	Who	ブレッシントン	True		〇	〇	×
+68	hasPredicate	置いていく	True	hasPredicate	〇	〇	×
+68	Obj	一ギニィ	False	判別不能	〇	〇	×
+68	Obj	五シリング	False	判別不能	〇	〇	×
+68	Obj	三ペンス	False	判別不能	〇	〇	×
+69	対象文	ブレッシントンは残りの金を自身の部屋に持っていく			×	×	無
+69	Who		False		×	×	無
+69	hasPredicate	ブレッシントンは残りの金を自身の部屋に持っていく	False		×	×	無
+70	対象文	ブレッシントンは残りの金を自身の部屋の金庫にしまう			〇	〇	〇
+70	Who	ブレッシントン	True		〇	〇	〇
+70	hasPredicate	しまう	True	hasPredicate	〇	〇	〇
+70	Obj	残りの金	True	What	〇	〇	〇
+70	Obj	自身の部屋の金庫	True	Where	〇	〇	〇
+71	対象文	ブレッシントンは何週間か前、パーシィ・トリヴェリアンの部屋を訪れた			〇	×	〇
+71	Who	ブレッシントン	True		〇	×	〇
+71	hasPredicate	何週間か前、パーシィ・トリヴェリアンの部屋を訪れた	False		〇	×	〇
+71	Obj	パーシィ・トリヴェリアンの部屋	True	To	〇	×	〇
+72	対象文	ブレッシントンは動揺した			〇	〇	無
+72	Who	ブレッシントン	True		〇	〇	無
+72	hasPredicate	動揺した	True	hasPredicate	〇	〇	無
+73	対象文	ブレッシントンはパーシィ・トリヴェリアンに以下を言った			〇	〇	△
+73	Who	ブレッシントン	True		〇	〇	△
+73	hasPredicate	言った	True	hasPredicate	〇	〇	△
+73	Obj	パーシィ・トリヴェリアン	True	To	〇	〇	△
+73	Obj	以下	False	判別不能	〇	〇	△
+74	対象文	押し込みの強盗がウエスト・エンド界隈で起こった			〇	〇	〇
+74	Who	押し込みの強盗	True		〇	〇	〇
+74	hasPredicate	起こった	True	hasProperty	〇	〇	〇
+74	Obj	ウエスト・エンド界隈	True	Where	〇	〇	〇
+75	対象文	ブレッシントンは非常に興奮した			〇	×	無
+75	Who	ブレッシントン	True		〇	×	無
+75	hasPredicate	非常に興奮した	False		〇	×	無
+76	対象文	ブレッシントンは以下を言い張った			〇	〇	×
+76	Who	ブレッシントン	True		〇	〇	×
+76	hasPredicate	言い張った	True	hasPredicate	〇	〇	×
+76	Obj	以下	False	判別不能	〇	〇	×
+77	対象文	ブレッシントンとパーシィ・トリヴェリアンは閂を窓や扉に取り付けなければならない			〇	〇	△
+77	Who	ブレッシントン	True		〇	〇	△
+77	Who	パーシィ・トリヴェリアン	True		〇	〇	△
+77	hasPredicate	取り付けなければならない	True	hasPredicate	〇	〇	△
+77	Obj	閂	True	What	〇	〇	△
+77	Obj	窓	False	判別不能	〇	〇	△
+77	Obj	扉	False	判別不能	〇	〇	△
+78	対象文	ブレッシントンは事件から一週間の間落ち着かなかった			〇	〇	×
+78	Who	ブレッシントン	True		〇	〇	×
+78	hasPredicate	落ち着かなかった	True	hasProperty	〇	〇	×
+78	Obj	事件	False	判別不能	〇	〇	×
+78	Obj	一週間の間	False	判別不能	〇	〇	×
+79	対象文	ブレッシントンは窓の外を覗いた			〇	〇	〇
+79	Who	ブレッシントン	True		〇	〇	〇
+79	hasPredicate	覗いた	True	hasPredicate	〇	〇	〇
+79	Obj	窓の外	True	What	〇	〇	〇
+80	対象文	ブレッシントンは日課の散歩をやめた			〇	〇	〇
+80	Who	ブレッシントン	True		〇	〇	〇
+80	hasPredicate	やめた	True	hasPredicate	〇	〇	〇
+80	Obj	日課の散歩	True	What	〇	〇	〇
+81	対象文	パーシィ・トリヴェリアンは以下を感じた			〇	〇	×
+81	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+81	hasPredicate	感じた	True	hasPredicate	〇	〇	×
+81	Obj	以下	False	判別不能	〇	〇	×
+82	対象文	ブレッシントンは何かを病的に恐れた			〇	×	〇
+82	Who	ブレッシントン	True		〇	×	〇
+82	hasPredicate	病的に恐れた	False		〇	×	〇
+82	Obj	何か	True	What	〇	×	〇
+83	対象文	ブレッシントンは気を悪くした			〇	×	×
+83	Who	ブレッシントン	True		〇	×	×
+83	hasPredicate	悪くした	False		〇	×	×
+83	Obj	気	False	判別不能	〇	×	×
+84	対象文	パーシィ・トリヴェリアンはブレッシントンに恐怖に感じている事を尋ねる			〇	×	×
+84	Who	パーシィ・トリヴェリアン	True		〇	×	×
+84	hasPredicate	尋ねる	False		〇	×	×
+84	Obj	ブレッシントンに恐怖に感じている事	False	判別不能	〇	×	×
+85	対象文	ブレッシントンの恐怖は静まった			〇	〇	無
+85	Who	ブレッシントンの恐怖	True		〇	〇	無
+85	hasPredicate	静まった	True	hasProperty	〇	〇	無
+86	対象文	ブレッシントンは再び恐怖を覚えた			〇	×	〇
+86	Who	ブレッシントン	True		〇	×	〇
+86	hasPredicate	再び恐怖を覚えた	False		〇	×	〇
+86	Obj	恐怖	True	What	〇	×	〇
+87	対象文	パーシィ・トリヴェリアンは2日前に手紙を受け取った			〇	〇	〇
+87	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+87	hasPredicate	受け取った	True	hasPredicate	〇	〇	〇
+87	Obj	2日前	True	When	〇	〇	〇
+87	Obj	手紙	True	What	〇	〇	〇
+88	対象文	住所と日付は手紙に書かれていなかった			〇	〇	〇
+88	Who	住所	True		〇	〇	〇
+88	Who	日付	True		〇	〇	〇
+88	hasPredicate	書かれていなかった	True	hasPredicate	〇	〇	〇
+88	Obj	手紙	True	On	〇	〇	〇
+89	対象文	手紙の内容は以下を含む			〇	〇	×
+89	Who	手紙の内容	True		〇	〇	×
+89	hasPredicate	含む	True	hasPredicate	〇	〇	×
+89	Obj	以下	False	判別不能	〇	〇	×
+90	対象文	ロシア貴族はイングランドに在留中である			〇	〇	〇
+90	Who	ロシア貴族	True		〇	〇	〇
+90	hasPredicate	在留中である	True	hasPredicate	〇	〇	〇
+90	Obj	イングランド	True	Where	〇	〇	〇
+91	対象文	ロシア貴族は強硬症の発作に悩んでいる			〇	〇	〇
+91	Who	ロシア貴族	True		〇	〇	〇
+91	hasPredicate	悩んでいる	True	hasPredicate	〇	〇	〇
+91	Obj	強硬症の発作	True	What	〇	〇	〇
+92	対象文	パーシィ・トリヴェリアンは強硬症の名医である			〇	×	無
+92	Who	パーシィ・トリヴェリアン	True		〇	×	無
+92	hasPredicate	強硬症の名医である	False		〇	×	無
+93	対象文	ロシア貴族は次の日の午後六時十五分頃にパーシィ・トリヴェリアンの診察を受けたい			〇	〇	〇
+93	Who	ロシア貴族	True		〇	〇	〇
+93	hasPredicate	受けたい	True	hasPredicate	〇	〇	〇
+93	Obj	次の日の午後六時十五分頃	True	When	〇	〇	〇
+93	Obj	パーシィ・トリヴェリアンの診察	True	What	〇	〇	〇
+94	対象文	パーシィ・トリヴェリアンは診察室でロシア貴族を待った			〇	〇	〇
+94	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+94	hasPredicate	待った	True	hasPredicate	〇	〇	〇
+94	Obj	診察室	True	Where	〇	〇	〇
+94	Obj	ロシア貴族	True	What	〇	〇	〇
+95	対象文	手伝いの少年は指定の時刻に患者を診察室に招き入れた			〇	〇	〇
+95	Who	手伝いの少年	True		〇	〇	〇
+95	hasPredicate	招き入れた	True	hasPredicate	〇	〇	〇
+95	Obj	指定の時刻	True	When	〇	〇	〇
+95	Obj	患者	True	What	〇	〇	〇
+95	Obj	診察室	True	To	〇	〇	〇
+96	対象文	初老の男と若い男は診察室に入ってきた			×	×	無
+96	Who		False		×	×	無
+96	hasPredicate	初老の男と若い男は診察室に入ってきた	False		×	×	無
+97	対象文	初老の男は痩せている			〇	〇	無
+97	Who	初老の男	True		〇	〇	無
+97	hasPredicate	痩せている	True	hasProperty	〇	〇	無
+98	対象文	初老の男はおとなしい			〇	〇	無
+98	Who	初老の男	True		〇	〇	無
+98	hasPredicate	おとなしい	True	hasProperty	〇	〇	無
+99	対象文	初老の男はロシア貴族のようではない			〇	〇	無
+99	Who	初老の男	True		〇	〇	無
+99	hasPredicate	ロシア貴族のようではない	True	hasProperty	〇	〇	無
+100	対象文	若い男の背は高い			〇	〇	無
+100	Who	若い男の背	True		〇	〇	無
+100	hasPredicate	高い	True	hasProperty	〇	〇	無
+101	対象文	若い男は屈強である			〇	〇	無
+101	Who	若い男	True		〇	〇	無
+101	hasPredicate	屈強である	True	hasProperty	〇	〇	無
+102	対象文	若い男の顔は浅黒い			〇	〇	無
+102	Who	若い男の顔	True		〇	〇	無
+102	hasPredicate	浅黒い	True	hasProperty	〇	〇	無
+103	対象文	若い男は恐ろしげである			〇	〇	無
+103	Who	若い男	True		〇	〇	無
+103	hasPredicate	恐ろしげである	True	hasProperty	〇	〇	無
+104	対象文	若い男の胸と手はヘラクレスのようである			×	〇	無
+104	Who	若い男の胸	True		×	〇	無
+104	Who	手	False		×	〇	無
+104	hasPredicate	ヘラクレスのようである	True	hasProperty	×	〇	無
+105	対象文	若い男は初老の男を介護した			〇	〇	〇
+105	Who	若い男	True		〇	〇	〇
+105	hasPredicate	介護した	True	hasPredicate	〇	〇	〇
+105	Obj	初老の男	True	What	〇	〇	〇
+106	対象文	若い男は以下を言った			〇	〇	×
+106	Who	若い男	True		〇	〇	×
+106	hasPredicate	言った	True	hasPredicate	〇	〇	×
+106	Obj	以下	False	判別不能	〇	〇	×
+107	対象文	初老の男は若い男の父親である			〇	×	無
+107	Who	初老の男	True		〇	×	無
+107	hasPredicate	若い男の父親である	False		〇	×	無
+108	対象文	パーシィ・トリヴェリアンは若い男に診察に立ち会うことを勧めた			〇	〇	×
+108	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+108	hasPredicate	勧めた	True	hasPredicate	〇	〇	×
+108	Obj	若い男に診察に立ち会うこと	False	判別不能	〇	〇	×
+109	対象文	若い男はパーシィ・トリヴェリアンの提案を断った			〇	〇	〇
+109	Who	若い男	True		〇	〇	〇
+109	hasPredicate	断った	True	hasPredicate	〇	〇	〇
+109	Obj	パーシィ・トリヴェリアンの提案	True	What	〇	〇	〇
+110	対象文	若い男は以下を言った			〇	〇	×
+110	Who	若い男	True		〇	〇	×
+110	hasPredicate	言った	True	hasPredicate	〇	〇	×
+110	Obj	以下	False	判別不能	〇	〇	×
+111	対象文	若い男は診察中、待合室にいる			〇	〇	△
+111	Who	若い男	True		〇	〇	△
+111	hasPredicate	いる	True	hasProperty	〇	〇	△
+111	Obj	診察中、	False	判別不能	〇	〇	△
+111	Obj	待合室	True	Where	〇	〇	△
+112	対象文	若い男は診察室を退室した			〇	〇	〇
+112	Who	若い男	True		〇	〇	〇
+112	hasPredicate	退室した	True	hasPredicate	〇	〇	〇
+112	Obj	診察室	True	From	〇	〇	〇
+113	対象文	初老の男とパーシィ・トリヴェリアンは症状のことを話した			〇	〇	〇
+113	Who	初老の男	True		〇	〇	〇
+113	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+113	hasPredicate	話した	True	hasPredicate	〇	〇	〇
+113	Obj	症状のこと	True	What	〇	〇	〇
+114	対象文	パーシィ・トリヴェリアンは覚え書きを取った			〇	〇	〇
+114	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+114	hasPredicate	取った	True	hasPredicate	〇	〇	〇
+114	Obj	覚え書き	True	What	〇	〇	〇
+115	対象文	初老の男は高い教養を持っていない			〇	〇	〇
+115	Who	初老の男	True		〇	〇	〇
+115	hasPredicate	持っていない	True	hasPredicate	〇	〇	〇
+115	Obj	高い教養	True	What	〇	〇	〇
+116	対象文	初老の男は返答をしなくなった			〇	×	無
+116	Who	初老の男	True		〇	×	無
+116	hasPredicate	返答をしなくなった	False		〇	×	無
+117	対象文	パーシィ・トリヴェリアンは以下を驚いた			〇	〇	×
+117	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+117	hasPredicate	驚いた	True	hasPredicate	〇	〇	×
+117	Obj	以下	False	判別不能	〇	〇	×
+118	対象文	初老の男は背をのばして椅子に座っている			〇	×	〇
+118	Who	初老の男	True		〇	×	〇
+118	hasPredicate	背をのばして椅子に座っている	False		〇	×	〇
+118	Obj	椅子	True	On	〇	×	〇
+119	対象文	初老の男の顔は無表情である			〇	〇	無
+119	Who	初老の男の顔	True		〇	〇	無
+119	hasPredicate	無表情である	True	hasProperty	〇	〇	無
+120	対象文	初老の男はパーシィ・トリヴェリアンを見つめている			〇	〇	〇
+120	Who	初老の男	True		〇	〇	〇
+120	hasPredicate	見つめている	True	hasPredicate	〇	〇	〇
+120	Obj	パーシィ・トリヴェリアン	True	What	〇	〇	〇
+121	対象文	パーシィ・トリヴェリアンは初老の男の脈拍と体温と筋肉の硬直具合を調べた			〇	〇	△
+121	Who	パーシィ・トリヴェリアン	True		〇	〇	△
+121	hasPredicate	調べた	True	hasPredicate	〇	〇	△
+121	Obj	初老の男の脈拍	True	What	〇	〇	△
+121	Obj	体温	False	判別不能	〇	〇	△
+121	Obj	筋肉の硬直具合	False	判別不能	〇	〇	△
+122	対象文	初老の男は異常がなかった			〇	〇	無
+122	Who	初老の男	True		〇	〇	無
+122	hasPredicate	異常がなかった	True	hasProperty	〇	〇	無
+123	対象文	パーシィ・トリヴェリアンは亜硝酸アルミを階下の実験室に取りに行った			〇	×	無
+123	Who	パーシィ・トリヴェリアン	True		〇	×	無
+123	hasPredicate	亜硝酸アルミを階下の実験室に取りに行った	False		〇	×	無
+124	対象文	パーシィ・トリヴェリアンは診察室に初老の男を残した			〇	×	〇
+124	Who	パーシィ・トリヴェリアン	True		〇	×	〇
+124	hasPredicate	残した	False		〇	×	〇
+124	Obj	診察室	True	Where	〇	×	〇
+124	Obj	初老の男	True	What	〇	×	〇
+125	対象文	パーシィ・トリヴェリアンは5分後診察室に戻った			〇	〇	〇
+125	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+125	hasPredicate	戻った	True	hasPredicate	〇	〇	〇
+125	Obj	5分後	True	When	〇	〇	〇
+125	Obj	診察室	True	To	〇	〇	〇
+126	対象文	初老の男は診察室にいなかった			〇	〇	〇
+126	Who	初老の男	True		〇	〇	〇
+126	hasPredicate	いなかった	True	hasProperty	〇	〇	〇
+126	Obj	診察室	True	Where	〇	〇	〇
+127	対象文	パーシィ・トリヴェリアンは待合室に飛び込んだ			〇	〇	〇
+127	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+127	hasPredicate	飛び込んだ	True	hasPredicate	〇	〇	〇
+127	Obj	待合室	True	To	〇	〇	〇
+128	対象文	初老の男と若い男は待合室にいなかった			〇	〇	〇
+128	Who	初老の男	True		〇	〇	〇
+128	Who	若い男	True		〇	〇	〇
+128	hasPredicate	いなかった	True	hasProperty	〇	〇	〇
+128	Obj	待合室	True	Where	〇	〇	〇
+129	対象文	広間の戸は閉まっていた			〇	〇	無
+129	Who	広間の戸	True		〇	〇	無
+129	hasPredicate	閉まっていた	True	hasProperty	〇	〇	無
+130	対象文	鍵はかかっていなかった			〇	〇	無
+130	Who	鍵	True		〇	〇	無
+130	hasPredicate	かかっていなかった	True	hasProperty	〇	〇	無
+131	対象文	手伝いの少年は物音を聞いていない			〇	〇	〇
+131	Who	手伝いの少年	True		〇	〇	〇
+131	hasPredicate	聞いていない	True	hasPredicate	〇	〇	〇
+131	Obj	物音	True	What	〇	〇	〇
+132	対象文	ブレッシントンは日課の散歩から帰ってきた			〇	×	無
+132	Who	ブレッシントン	True		〇	×	無
+132	hasPredicate	日課の散歩から帰ってきた	False		〇	×	無
+133	対象文	パーシィ・トリヴェリアンは初老の男と若い男の事をブレッシントンに伝えなかった			〇	〇	△
+133	Who	パーシィ・トリヴェリアン	True		〇	〇	△
+133	hasPredicate	伝えなかった	True	hasPredicate	〇	〇	△
+133	Obj	初老の男	False	判別不能	〇	〇	△
+133	Obj	若い男の事	False	判別不能	〇	〇	△
+133	Obj	ブレッシントン	True	To	〇	〇	△
+134	対象文	パーシィ・トリヴェリアンは以下を驚いた			〇	〇	×
+134	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+134	hasPredicate	驚いた	True	hasPredicate	〇	〇	×
+134	Obj	以下	False	判別不能	〇	〇	×
+135	対象文	初老の男と若い男は今晩の同じ時刻に診察室に入ってきた			×	×	無
+135	Who		False		×	×	無
+135	hasPredicate	初老の男と若い男は今晩の同じ時刻に診察室に入ってきた	False		×	×	無
+136	対象文	パーシィ・トリヴェリアンは初老の男と若い男を待合室に入れた			〇	〇	〇
+136	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+136	hasPredicate	入れた	True	hasPredicate	〇	〇	〇
+136	Obj	初老の男	True	What	〇	〇	〇
+136	Obj	若い男	True	What	〇	〇	〇
+136	Obj	待合室	True	To	〇	〇	〇
+137	対象文	パーシィ・トリヴェリアンは初老の男を診察した			〇	〇	〇
+137	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+137	hasPredicate	診察した	True	hasPredicate	〇	〇	〇
+137	Obj	初老の男	True	What	〇	〇	〇
+138	対象文	初老の男と若い男は診察の後出ていった			×	×	無
+138	Who		False		×	×	無
+138	hasPredicate	初老の男と若い男は診察の後出ていった	False		×	×	無
+139	対象文	ブレッシントンは日課の散歩の後、階上に上がっていった			〇	×	無
+139	Who	ブレッシントン	True		〇	×	無
+139	hasPredicate	日課の散歩の後、階上に上がっていった	False		〇	×	無
+140	対象文	ブレッシントンは診察室に飛び込んだ			〇	〇	〇
+140	Who	ブレッシントン	True		〇	〇	〇
+140	hasPredicate	飛び込んだ	True	hasPredicate	〇	〇	〇
+140	Obj	診察室	True	To	〇	〇	〇
+141	対象文	ブレッシントンは混乱した			〇	〇	無
+141	Who	ブレッシントン	True		〇	〇	無
+141	hasPredicate	混乱した	True	hasPredicate	〇	〇	無
+142	対象文	ブレッシントンはパーシィ・トリヴェリアンにブレッシントンの部屋に入った人間を尋ねた			〇	〇	〇
+142	Who	ブレッシントン	True		〇	〇	〇
+142	hasPredicate	尋ねた	True	hasPredicate	〇	〇	〇
+142	Obj	パーシィ・トリヴェリアン	True	To	〇	〇	〇
+142	Obj	ブレッシントンの部屋に入った人間	True	What	〇	〇	〇
+143	対象文	ブレッシントンはパーシィ・トリヴェリアンを疑った			〇	〇	〇
+143	Who	ブレッシントン	True		〇	〇	〇
+143	hasPredicate	疑った	True	hasPredicate	〇	〇	〇
+143	Obj	パーシィ・トリヴェリアン	True	What	〇	〇	〇
+144	対象文	ブレッシントンはわめき散らした			〇	〇	無
+144	Who	ブレッシントン	True		〇	〇	無
+144	hasPredicate	わめき散らした	True	hasPredicate	〇	〇	無
+145	対象文	パーシィ・トリヴェリアンはブレッシントンの部屋に行った			〇	〇	〇
+145	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+145	hasPredicate	行った	True	hasPredicate	〇	〇	〇
+145	Obj	ブレッシントンの部屋	True	What	〇	〇	〇
+146	対象文	足跡がブレッシントンの部屋の絨毯についていた			〇	〇	〇
+146	Who	足跡	True		〇	〇	〇
+146	hasPredicate	ついていた	True	hasPredicate	〇	〇	〇
+146	Obj	ブレッシントンの部屋の絨毯	True	On	〇	〇	〇
+147	対象文	ブレッシントンは怒鳴った			〇	〇	無
+147	Who	ブレッシントン	True		〇	〇	無
+147	hasPredicate	怒鳴った	True	hasPredicate	〇	〇	無
+148	対象文	足跡はブレッシントンの足跡より大きい			〇	×	×
+148	Who	足跡	True		〇	×	×
+148	hasPredicate	大きい	False		〇	×	×
+148	Obj	ブレッシントンの足跡	False	判別不能	〇	×	×
+149	対象文	足跡は新しい			〇	〇	無
+149	Who	足跡	True		〇	〇	無
+149	hasPredicate	新しい	True	hasProperty	〇	〇	無
+150	対象文	その日の外来の患者だけ来た			×	×	×
+150	Who		False		×	×	×
+150	hasPredicate	来た	False		×	×	×
+150	Obj	その日の外来の患者	False	判別不能	×	×	×
+151	対象文	パーシィ・トリヴェリアンは推測した			〇	〇	無
+151	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+151	hasPredicate	推測した	True	hasPredicate	〇	〇	無
+152	対象文	待合室にいた人物がブレッシントンの部屋に入った			〇	〇	〇
+152	Who	待合室にいた人物	True		〇	〇	〇
+152	hasPredicate	入った	True	hasPredicate	〇	〇	〇
+152	Obj	ブレッシントンの部屋	True	To	〇	〇	〇
+153	対象文	触られたものや盗まれたものはなかった			×	〇	無
+153	Who	触られたもの	False		×	〇	無
+153	Who	盗まれたもの	True		×	〇	無
+153	hasPredicate	なかった	True	hasProperty	×	〇	無
+154	対象文	足跡は以下を証明した			〇	〇	×
+154	Who	足跡	True		〇	〇	×
+154	hasPredicate	証明した	True	hasPredicate	〇	〇	×
+154	Obj	以下	False	判別不能	〇	〇	×
+155	対象文	誰かがブレッシントンの部屋に侵入した			×	〇	△
+155	Who		False		×	〇	△
+155	hasPredicate	侵入した	True	hasPredicate	×	〇	△
+155	Obj	誰か	False	判別不能	×	〇	△
+155	Obj	ブレッシントンの部屋	True	To	×	〇	△
+156	対象文	ブレッシントンは以下を命令した			〇	〇	×
+156	Who	ブレッシントン	True		〇	〇	×
+156	hasPredicate	命令した	True	hasPredicate	〇	〇	×
+156	Obj	以下	False	判別不能	〇	〇	×
+157	対象文	パーシィ・トリヴェリアンがホームズを訪問する			〇	〇	〇
+157	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+157	hasPredicate	訪問する	True	hasPredicate	〇	〇	〇
+157	Obj	ホームズ	True	What	〇	〇	〇
+158	対象文	パーシィ・トリヴェリアンは以下を思った			〇	〇	×
+158	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+158	hasPredicate	思った	True	hasPredicate	〇	〇	×
+158	Obj	以下	False	判別不能	〇	〇	×
+159	対象文	パーシィ・トリヴェリアンはホームズを訪問しほうがよい			〇	×	無
+159	Who	パーシィ・トリヴェリアン	True		〇	×	無
+159	hasPredicate	ホームズを訪問しほうがよい	False		〇	×	無
+160	対象文	ブレッシントンは出来事を重要視しすぎている			〇	〇	〇
+160	Who	ブレッシントン	True		〇	〇	〇
+160	hasPredicate	重要視しすぎている	True	hasProperty	〇	〇	〇
+160	Obj	出来事	True	What	〇	〇	〇
+161	対象文	パーシィ・トリヴェリアンはブレッシントンを落ち着かせるために以下を頼んだ			〇	×	×
+161	Who	パーシィ・トリヴェリアン	True		〇	×	×
+161	hasPredicate	ブレッシントンを落ち着かせるために以下を頼んだ	False		〇	×	×
+161	Obj	以下	False	判別不能	〇	×	×
+162	対象文	ホームズがブルック街の住まいを訪問する			〇	〇	〇
+162	Who	ホームズ	True		〇	〇	〇
+162	hasPredicate	訪問する	True	hasPredicate	〇	〇	〇
+162	Obj	ブルック街の住まい	True	What	〇	〇	〇
+163	対象文	ホームズとワトソンとパーシィ・トリヴェリアンは出発して25分以内でブルック街の住まいに到着した			〇	〇	〇
+163	Who	ホームズ	True		〇	〇	〇
+163	Who	ワトソン	True		〇	〇	〇
+163	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+163	hasPredicate	到着した	True	hasPredicate	〇	〇	〇
+163	Obj	出発して25分以内	True	When	〇	〇	〇
+163	Obj	ブルック街の住まい	True	To	〇	〇	〇
+164	対象文	ブルック街の住まいは正面の平坦な家である			〇	〇	無
+164	Who	ブルック街の住まい	True		〇	〇	無
+164	hasPredicate	正面の平坦な家である	True	hasProperty	〇	〇	無
+165	対象文	ブルック街の住まいは典型的な開業医宅である			〇	〇	無
+165	Who	ブルック街の住まい	True		〇	〇	無
+165	hasPredicate	典型的な開業医宅である	True	hasProperty	〇	〇	無
+166	対象文	手伝いの少年はホームズとワトソンを住まいの中に入れた			〇	〇	〇
+166	Who	手伝いの少年	True		〇	〇	〇
+166	hasPredicate	入れた	True	hasPredicate	〇	〇	〇
+166	Obj	ホームズ	True	What	〇	〇	〇
+166	Obj	ワトソン	True	What	〇	〇	〇
+166	Obj	住まいの中	True	To	〇	〇	〇
+167	対象文	手伝いの少年は広い階段を上り始めた			〇	〇	〇
+167	Who	手伝いの少年	True		〇	〇	〇
+167	hasPredicate	上り始めた	True	hasPredicate	〇	〇	〇
+167	Obj	広い階段	True	What	〇	〇	〇
+168	対象文	ホームズとワトソンは甲高い震えた声を聞いた			〇	〇	〇
+168	Who	ホームズ	True		〇	〇	〇
+168	Who	ワトソン	True		〇	〇	〇
+168	hasPredicate	聞いた	True	hasPredicate	〇	〇	〇
+168	Obj	甲高い震えた声	True	What	〇	〇	〇
+169	対象文	ブレッシントンはホームズとワトソンを威嚇した			〇	〇	〇
+169	Who	ブレッシントン	True		〇	〇	〇
+169	hasPredicate	威嚇した	True	hasPredicate	〇	〇	〇
+169	Obj	ホームズ	True	What	〇	〇	〇
+169	Obj	ワトソン	True	What	〇	〇	〇
+170	対象文	パーシィ・トリヴェリアンはブレッシントンを止めた			〇	〇	〇
+170	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+170	hasPredicate	止めた	True	hasPredicate	〇	〇	〇
+170	Obj	ブレッシントン	True	What	〇	〇	〇
+171	対象文	ブレッシントンは落ち着いた			〇	〇	無
+171	Who	ブレッシントン	True		〇	〇	無
+171	hasPredicate	落ち着いた	True	hasProperty	〇	〇	無
+172	対象文	ブレッシントンはパーシィ・トリヴェリアンを認識した			〇	〇	〇
+172	Who	ブレッシントン	True		〇	〇	〇
+172	hasPredicate	認識した	True	hasProperty	〇	〇	〇
+172	Obj	パーシィ・トリヴェリアン	True	What	〇	〇	〇
+173	対象文	ブレッシントンはやつれていた			〇	〇	無
+173	Who	ブレッシントン	True		〇	〇	無
+173	hasPredicate	やつれていた	True	hasProperty	〇	〇	無
+174	対象文	ブレッシントンは不健康そうであった			〇	〇	無
+174	Who	ブレッシントン	True		〇	〇	無
+174	hasPredicate	不健康そうであった	True	hasProperty	〇	〇	無
+175	対象文	ブレッシントンは拳銃を持っていた			〇	〇	〇
+175	Who	ブレッシントン	True		〇	〇	〇
+175	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+175	Obj	拳銃	True	What	〇	〇	〇
+176	対象文	ブレッシントンは拳銃を引っ込めた			〇	〇	〇
+176	Who	ブレッシントン	True		〇	〇	〇
+176	hasPredicate	引っ込めた	True	hasPredicate	〇	〇	〇
+176	Obj	拳銃	True	What	〇	〇	〇
+177	対象文	ホームズとワトソンとパーシィ・トリヴェリアンはブレッシントンに近寄った			〇	〇	〇
+177	Who	ホームズ	True		〇	〇	〇
+177	Who	ワトソン	True		〇	〇	〇
+177	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+177	hasPredicate	近寄った	True	hasPredicate	〇	〇	〇
+177	Obj	ブレッシントン	True	To	〇	〇	〇
+178	対象文	ホームズは2人の男のことを尋ねた			〇	〇	×
+178	Who	ホームズ	True		〇	〇	×
+178	hasPredicate	尋ねた	True	hasPredicate	〇	〇	×
+178	Obj	2人の男のこと	False	判別不能	〇	〇	×
+179	対象文	ブレッシントンはホームズの質問に答えられない			〇	〇	〇
+179	Who	ブレッシントン	True		〇	〇	〇
+179	hasPredicate	答えられない	True	hasPredicate	〇	〇	〇
+179	Obj	ホームズの質問	True	What	〇	〇	〇
+180	対象文	ホームズは再度尋ねた			〇	〇	無
+180	Who	ホームズ	True		〇	〇	無
+180	hasPredicate	再度尋ねた	True	hasPredicate	〇	〇	無
+181	対象文	ブレッシントンはホームズとワトソンをブレッシントンの寝室に招き入れた			〇	〇	〇
+181	Who	ブレッシントン	True		〇	〇	〇
+181	hasPredicate	招き入れた	True	hasPredicate	〇	〇	〇
+181	Obj	ホームズ	True	What	〇	〇	〇
+181	Obj	ワトソン	True	What	〇	〇	〇
+181	Obj	ブレッシントンの寝室	True	To	〇	〇	〇
+182	対象文	ブレッシントンは以下を言った			〇	〇	×
+182	Who	ブレッシントン	True		〇	〇	×
+182	hasPredicate	言った	True	hasPredicate	〇	〇	×
+182	Obj	以下	False	判別不能	〇	〇	×
+183	対象文	ブレッシントンは銀行を信用していない			〇	〇	〇
+183	Who	ブレッシントン	True		〇	〇	〇
+183	hasPredicate	信用していない	True	hasProperty	〇	〇	〇
+183	Obj	銀行	True	What	〇	〇	〇
+184	対象文	ブレッシントンは金を自身で管理した			〇	〇	△
+184	Who	ブレッシントン	True		〇	〇	△
+184	hasPredicate	管理した	True	hasPredicate	〇	〇	△
+184	Obj	金	True	What	〇	〇	△
+184	Obj	自身	False	判別不能	〇	〇	△
+185	対象文	2人の男はブレッシントンの金を盗もうとした			〇	×	無
+185	Who	2人の男	True		〇	×	無
+185	hasPredicate	ブレッシントンの金を盗もうとした	False		〇	×	無
+186	対象文	ホームズはもの問いたげな様子であった			〇	〇	無
+186	Who	ホームズ	True		〇	〇	無
+186	hasPredicate	もの問いたげな様子であった	True	hasProperty	〇	〇	無
+187	対象文	ホームズはブレッシントンの相談を断った			〇	〇	〇
+187	Who	ホームズ	True		〇	〇	〇
+187	hasPredicate	断った	True	hasPredicate	〇	〇	〇
+187	Obj	ブレッシントンの相談	True	What	〇	〇	〇
+188	対象文	ホームズは以下を言った			〇	〇	×
+188	Who	ホームズ	True		〇	〇	×
+188	hasPredicate	言った	True	hasPredicate	〇	〇	×
+188	Obj	以下	False	判別不能	〇	〇	×
+189	対象文	ブレッシントンは嘘をついている			〇	×	×
+189	Who	ブレッシントン	True		〇	×	×
+189	hasPredicate	ついている	False		〇	×	×
+189	Obj	嘘	False	判別不能	〇	×	×
+190	対象文	ホームズは嫌悪感を示した			〇	〇	〇
+190	Who	ホームズ	True		〇	〇	〇
+190	hasPredicate	示した	True	hasPredicate	〇	〇	〇
+190	Obj	嫌悪感	True	What	〇	〇	〇
+191	対象文	ブレッシントンは困惑した			〇	〇	無
+191	Who	ブレッシントン	True		〇	〇	無
+191	hasPredicate	困惑した	True	hasProperty	〇	〇	無
+192	対象文	ホームズは以下を要求した			〇	〇	×
+192	Who	ホームズ	True		〇	〇	×
+192	hasPredicate	要求した	True	hasPredicate	〇	〇	×
+192	Obj	以下	False	判別不能	〇	〇	×
+193	対象文	ブレッシントンが事実を話す			〇	〇	〇
+193	Who	ブレッシントン	True		〇	〇	〇
+193	hasPredicate	話す	True	hasPredicate	〇	〇	〇
+193	Obj	事実	True	What	〇	〇	〇
+194	対象文	ホームズは以下を推測した			〇	〇	×
+194	Who	ホームズ	True		〇	〇	×
+194	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+194	Obj	以下	False	判別不能	〇	〇	×
+195	対象文	2人以上の男はブレッシントンを狙っている			〇	〇	〇
+195	Who	2人以上の男	True		〇	〇	〇
+195	hasPredicate	狙っている	True	hasPredicate	〇	〇	〇
+195	Obj	ブレッシントン	True	What	〇	〇	〇
+196	対象文	若い男はブレッシントンの部屋に忍び込んだ			〇	〇	〇
+196	Who	若い男	True		〇	〇	〇
+196	hasPredicate	忍び込んだ	True	hasPredicate	〇	〇	〇
+196	Obj	ブレッシントンの部屋	True	To	〇	〇	〇
+197	対象文	共謀者は以下を阻止した			〇	〇	×
+197	Who	共謀者	True		〇	〇	×
+197	hasPredicate	阻止した	True	hasPredicate	〇	〇	×
+197	Obj	以下	False	判別不能	〇	〇	×
+198	対象文	パーシィ・トリヴェリアンが計画を妨げる			〇	〇	×
+198	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+198	hasPredicate	妨げる	True	hasPredicate	〇	〇	×
+198	Obj	計画	False	判別不能	〇	〇	×
+199	対象文	初老の男は強硬症の振りをした			〇	×	×
+199	Who	初老の男	True		〇	×	×
+199	hasPredicate	した	False		〇	×	×
+199	Obj	強硬症の振り	False	判別不能	〇	×	×
+200	対象文	ブレッシントンは外出中であった			〇	〇	無
+200	Who	ブレッシントン	True		〇	〇	無
+200	hasPredicate	外出中であった	True	hasProperty	〇	〇	無
+201	対象文	侵入者は待合室に他の患者がいない時間を選んだ			〇	〇	〇
+201	Who	侵入者	True		〇	〇	〇
+201	hasPredicate	選んだ	True	hasPredicate	〇	〇	〇
+201	Obj	待合室に他の患者がいない時間	True	What	〇	〇	〇
+202	対象文	侵入した時刻とブレッシントンの散歩の時間は重なった			〇	〇	無
+202	Who	侵入した時刻	True		〇	〇	無
+202	Who	ブレッシントンの散歩の時間	True		〇	〇	無
+202	hasPredicate	重なった	True	hasProperty	〇	〇	無
+203	対象文	侵入者はブレッシントンの日課を知らない			〇	〇	〇
+203	Who	侵入者	True		〇	〇	〇
+203	hasPredicate	知らない	True	hasProperty	〇	〇	〇
+203	Obj	ブレッシントンの日課	True	What	〇	〇	〇
+204	対象文	侵入者の目的は単なる窃盗ではない			〇	×	無
+204	Who	侵入者の目的	True		〇	×	無
+204	hasPredicate	単なる窃盗ではない	False		〇	×	無
+205	対象文	ブレッシントンは侵入者の正体を知っている			〇	〇	〇
+205	Who	ブレッシントン	True		〇	〇	〇
+205	hasPredicate	知っている	True	hasProperty	〇	〇	〇
+205	Obj	侵入者の正体	True	What	〇	〇	〇
+206	対象文	ブレッシントンは侵入者の正体を隠した			〇	〇	〇
+206	Who	ブレッシントン	True		〇	〇	〇
+206	hasPredicate	隠した	True	hasPredicate	〇	〇	〇
+206	Obj	侵入者の正体	True	What	〇	〇	〇
+207	対象文	ワトソンは以下を提案した			〇	〇	×
+207	Who	ワトソン	True		〇	〇	×
+207	hasPredicate	提案した	True	hasPredicate	〇	〇	×
+207	Obj	以下	False	判別不能	〇	〇	×
+208	対象文	ロシア人親子の話はパーシィ・トリヴェリアンの作り話である			〇	〇	無
+208	Who	ロシア人親子の話	True		〇	〇	無
+208	hasPredicate	パーシィ・トリヴェリアンの作り話である	True	hasProperty	〇	〇	無
+209	対象文	パーシィ・トリヴェリアンはブレッシントンの部屋に侵入した			〇	〇	〇
+209	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+209	hasPredicate	侵入した	True	hasPredicate	〇	〇	〇
+209	Obj	ブレッシントンの部屋	True	To	〇	〇	〇
+210	対象文	ホームズはワトソンの推測を否定した			〇	〇	〇
+210	Who	ホームズ	True		〇	〇	〇
+210	hasPredicate	否定した	True	hasPredicate	〇	〇	〇
+210	Obj	ワトソンの推測	True	What	〇	〇	〇
+211	対象文	絨毯の足跡はパーシィ・トリヴェリアンのものより長い			〇	〇	×
+211	Who	絨毯の足跡	True		〇	〇	×
+211	hasPredicate	長い	True	hasProperty	〇	〇	×
+211	Obj	パーシィ・トリヴェリアンのもの	False	判別不能	〇	〇	×
+212	対象文	ホームズは以下を推測した			〇	〇	×
+212	Who	ホームズ	True		〇	〇	×
+212	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+212	Obj	以下	False	判別不能	〇	〇	×
+213	対象文	次の日の朝、手紙がブルック街からホームズに届く			〇	〇	△
+213	Who	手紙	True		〇	〇	△
+213	hasPredicate	届く	True	hasProperty	〇	〇	△
+213	Obj	次の日の朝、	False	判別不能	〇	〇	△
+213	Obj	ブルック街	True	From	〇	〇	△
+213	Obj	ホームズ	True	To	〇	〇	△
+214	対象文	ホームズの予言は当たった			〇	〇	無
+214	Who	ホームズの予言	True		〇	〇	無
+214	hasPredicate	当たった	True	hasProperty	〇	〇	無
+215	対象文	ホームズは通達の内容を予測できない			〇	〇	〇
+215	Who	ホームズ	True		〇	〇	〇
+215	hasPredicate	予測できない	True	hasPredicate	〇	〇	〇
+215	Obj	通達の内容	True	From	〇	〇	〇
+216	対象文	パーシィ・トリヴェリアンは通達を書いた			〇	〇	〇
+216	Who	パーシィ・トリヴェリアン	True		〇	〇	〇
+216	hasPredicate	書いた	True	hasPredicate	〇	〇	〇
+216	Obj	通達	True	What	〇	〇	〇
+217	対象文	パーシィ・トリヴェリアンは切羽詰まっていた			〇	〇	無
+217	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+217	hasPredicate	切羽詰まっていた	True	hasProperty	〇	〇	無
+218	対象文	パーシィ・トリヴェリアンは以下を言った			〇	〇	×
+218	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+218	hasPredicate	言った	True	hasPredicate	〇	〇	×
+218	Obj	以下	False	判別不能	〇	〇	×
+219	対象文	ブレッシントンが自殺した			〇	〇	無
+219	Who	ブレッシントン	True		〇	〇	無
+219	hasPredicate	自殺した	True	hasPredicate	〇	〇	無
+220	対象文	昨夜、ブレッシントンは首をくくった			〇	×	〇
+220	Who	ブレッシントン	True		〇	×	〇
+220	hasPredicate	昨夜、ブレッシントンは首をくくった	False		〇	×	〇
+220	Obj	首	True	What	〇	×	〇
+221	対象文	警察は来ていた			〇	〇	無
+221	Who	警察	True		〇	〇	無
+221	hasPredicate	来ていた	True	hasPredicate	〇	〇	無
+222	対象文	朝７時頃、女中はブレッシントンの部屋で死体を見つけた			〇	〇	△
+222	Who	女中	True		〇	〇	△
+222	hasPredicate	見つけた	True	hasPredicate	〇	〇	△
+222	Obj	朝７時頃、	False	判別不能	〇	〇	△
+222	Obj	ブレッシントンの部屋	True	Where	〇	〇	△
+222	Obj	死体	True	What	〇	〇	△
+223	対象文	ブレッシントンは金具に紐を結びつけてぶら下がって死んでいた			〇	×	無
+223	Who	ブレッシントン	True		〇	×	無
+223	hasPredicate	金具に紐を結びつけてぶら下がって死んでいた	False		〇	×	無
+224	対象文	死体は無残であった			〇	〇	無
+224	Who	死体	True		〇	〇	無
+224	hasPredicate	無残であった	True	hasProperty	〇	〇	無
+225	対象文	死体は寝間着を着ていた			〇	〇	〇
+225	Who	死体	True		〇	〇	〇
+225	hasPredicate	着ていた	True	hasProperty	〇	〇	〇
+225	Obj	寝間着	True	What	〇	〇	〇
+226	対象文	ラーナ警部は死体のそばに立っていた			〇	〇	〇
+226	Who	ラーナ警部	True		〇	〇	〇
+226	hasPredicate	立っていた	True	hasPredicate	〇	〇	〇
+226	Obj	死体のそば	True	To	〇	〇	〇
+227	対象文	ラーナ警部はホームズに挨拶した			〇	〇	〇
+227	Who	ラーナ警部	True		〇	〇	〇
+227	hasPredicate	挨拶した	True	hasPredicate	〇	〇	〇
+227	Obj	ホームズ	True	To	〇	〇	〇
+228	対象文	ラーナ警部は以下を言った			〇	〇	×
+228	Who	ラーナ警部	True		〇	〇	×
+228	hasPredicate	言った	True	hasPredicate	〇	〇	×
+228	Obj	以下	False	判別不能	〇	〇	×
+229	対象文	ブレッシントンは恐怖により正気を失った			〇	〇	〇
+229	Who	ブレッシントン	True		〇	〇	〇
+229	hasPredicate	失った	True	hasProperty	〇	〇	〇
+229	Obj	恐怖により	True	Why	〇	〇	〇
+229	Obj	正気	True	What	〇	〇	〇
+230	対象文	ブレッシントンは寝台に寝た			〇	〇	〇
+230	Who	ブレッシントン	True		〇	〇	〇
+230	hasPredicate	寝た	True	hasPredicate	〇	〇	〇
+230	Obj	寝台	True	On	〇	〇	〇
+231	対象文	ブレッシントンは、朝5時に自殺した			×	〇	×
+231	Who	ブレッシントンは、	False		×	〇	×
+231	hasPredicate	自殺した	True	hasPredicate	×	〇	×
+231	Obj	朝5時	False	判別不能	×	〇	×
+232	対象文	ワトソンは以下を言った			〇	〇	×
+232	Who	ワトソン	True		〇	〇	×
+232	hasPredicate	言った	True	hasPredicate	〇	〇	×
+232	Obj	以下	False	判別不能	〇	〇	×
+233	対象文	ブレッシントンは3時間前に死んだ			〇	〇	×
+233	Who	ブレッシントン	True		〇	〇	×
+233	hasPredicate	死んだ	True	hasProperty	〇	〇	×
+233	Obj	3時間前	False	判別不能	〇	〇	×
+234	対象文	ラーナ警部は以下を言った			〇	〇	×
+234	Who	ラーナ警部	True		〇	〇	×
+234	hasPredicate	言った	True	hasPredicate	〇	〇	×
+234	Obj	以下	False	判別不能	〇	〇	×
+235	対象文	ねじ回しとねじは洗面台の上で発見された			〇	〇	×
+235	Who	ねじ回し	True		〇	〇	×
+235	Who	ねじ	True		〇	〇	×
+235	hasPredicate	発見された	True	hasPredicate	〇	〇	×
+235	Obj	洗面台の上	False	判別不能	〇	〇	×
+236	対象文	ブレッシントンは煙草を吸ったようである			〇	〇	〇
+236	Who	ブレッシントン	True		〇	〇	〇
+236	hasPredicate	吸ったようである	True	hasPredicate	〇	〇	〇
+236	Obj	煙草	True	What	〇	〇	〇
+237	対象文	4つの葉巻の吸い殻は暖炉で見つけられた			〇	〇	〇
+237	Who	4つの葉巻の吸い殻	True		〇	〇	〇
+237	hasPredicate	見つけられた	True	hasPredicate	〇	〇	〇
+237	Obj	暖炉	True	Where	〇	〇	〇
+238	対象文	葉巻パイプはブレッシントンの部屋に無かった			〇	〇	〇
+238	Who	葉巻パイプ	True		〇	〇	〇
+238	hasPredicate	無かった	True	hasProperty	〇	〇	〇
+238	Obj	ブレッシントンの部屋	True	Where	〇	〇	〇
+239	対象文	葉巻入れは上着のかくしの中に入っていた			〇	〇	×
+239	Who	葉巻入れ	True		〇	〇	×
+239	hasPredicate	入っていた	True	hasProperty	〇	〇	×
+239	Obj	上着のかくしの中	False	判別不能	〇	〇	×
+240	対象文	一本の葉巻は葉巻入れの中に残っていた			〇	〇	×
+240	Who	一本の葉巻	True		〇	〇	×
+240	hasPredicate	残っていた	True	hasProperty	〇	〇	×
+240	Obj	葉巻入れの中	False	判別不能	〇	〇	×
+241	対象文	ホームズは残っていた葉巻を嗅いだ			〇	〇	〇
+241	Who	ホームズ	True		〇	〇	〇
+241	hasPredicate	嗅いだ	True	hasPredicate	〇	〇	〇
+241	Obj	残っていた葉巻	True	What	〇	〇	〇
+242	対象文	ホームズは以下を言った			〇	〇	×
+242	Who	ホームズ	True		〇	〇	×
+242	hasPredicate	言った	True	hasPredicate	〇	〇	×
+242	Obj	以下	False	判別不能	〇	〇	×
+243	対象文	残っていた葉巻はバナナの香りがする			〇	〇	無
+243	Who	残っていた葉巻	True		〇	〇	無
+243	hasPredicate	バナナの香りがする	True	hasProperty	〇	〇	無
+244	対象文	吸い殻の葉巻は東インドの植民地から輸入された代物である			〇	×	無
+244	Who	吸い殻の葉巻	True		〇	×	無
+244	hasPredicate	東インドの植民地から輸入された代物である	False		〇	×	無
+245	対象文	残っていた葉巻の種類と吸い殻の葉巻の種類は異なる			〇	〇	無
+245	Who	残っていた葉巻の種類	True		〇	〇	無
+245	Who	吸い殻の葉巻の種類	True		〇	〇	無
+245	hasPredicate	異なる	True	hasProperty	〇	〇	無
+246	対象文	吸い殻の葉巻は長さの割に細い			〇	〇	無
+246	Who	吸い殻の葉巻	True		〇	〇	無
+246	hasPredicate	長さの割に細い	True	hasProperty	〇	〇	無
+247	対象文	2つの吸い殻はパイプを使って吸われたものである			〇	×	無
+247	Who	2つの吸い殻	True		〇	×	無
+247	hasPredicate	パイプを使って吸われたものである	False		〇	×	無
+248	対象文	別の2つの吸い殻はパイプを使って吸われたものではない			〇	×	無
+248	Who	別の2つの吸い殻	True		〇	×	無
+248	hasPredicate	パイプを使って吸われたものではない	False		〇	×	無
+249	対象文	2つの吸い殻はあまり鋭くない刃物を使って切られている			〇	×	無
+249	Who	2つの吸い殻	True		〇	×	無
+249	hasPredicate	あまり鋭くない刃物を使って切られている	False		〇	×	無
+250	対象文	別の2つの吸い殻は丈夫な歯を使って噛み切られている			〇	×	無
+250	Who	別の2つの吸い殻	True		〇	×	無
+250	hasPredicate	丈夫な歯を使って噛み切られている	False		〇	×	無
+251	対象文	ブレッシントンは自殺していない			〇	〇	無
+251	Who	ブレッシントン	True		〇	〇	無
+251	hasPredicate	自殺していない	True	hasProperty	〇	〇	無
+252	対象文	ブレッシントンは巧妙に仕組まれた方法で殺害された			〇	〇	×
+252	Who	ブレッシントン	True		〇	〇	×
+252	hasPredicate	殺害された	True	hasPredicate	〇	〇	×
+252	Obj	巧妙に仕組まれた方法	False	判別不能	〇	〇	×
+253	対象文	首をくくった死体は、発見時の様子である			×	×	無
+253	Who	首をくくった死体は、	False		×	×	無
+253	hasPredicate	発見時の様子である	False		×	×	無
+254	対象文	犯人は正面玄関から入った			〇	〇	〇
+254	Who	犯人	True		〇	〇	〇
+254	hasPredicate	入った	True	hasPredicate	〇	〇	〇
+254	Obj	正面玄関	True	From	〇	〇	〇
+255	対象文	犯人は出た後、閂をかけた			×	〇	△
+255	Who		False		×	〇	△
+255	hasPredicate	かけた	True	hasPredicate	×	〇	△
+255	Obj	犯人は出た後、	False	判別不能	×	〇	△
+255	Obj	閂	True	What	×	〇	△
+256	対象文	ホームズは戸の鍵を調べた			〇	〇	〇
+256	Who	ホームズ	True		〇	〇	〇
+256	hasPredicate	調べた	True	hasPredicate	〇	〇	〇
+256	Obj	戸の鍵	True	What	〇	〇	〇
+257	対象文	ホームズはパーシィ・トリヴェリアンに綱の事を尋ねた			〇	〇	〇
+257	Who	ホームズ	True		〇	〇	〇
+257	hasPredicate	尋ねた	True	hasPredicate	〇	〇	〇
+257	Obj	パーシィ・トリヴェリアン	True	To	〇	〇	〇
+257	Obj	綱の事	True	What	〇	〇	〇
+258	対象文	パーシィ・トリヴェリアンは以下を言った			〇	〇	×
+258	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+258	hasPredicate	言った	True	hasPredicate	〇	〇	×
+258	Obj	以下	False	判別不能	〇	〇	×
+259	対象文	ブレッシントンは大きな綱の輪を切って使った			〇	×	無
+259	Who	ブレッシントン	True		〇	×	無
+259	hasPredicate	大きな綱の輪を切って使った	False		〇	×	無
+260	対象文	大きな綱の輪はブレッシントンの寝台の下に置いてある			〇	〇	×
+260	Who	大きな綱の輪	True		〇	〇	×
+260	hasPredicate	置いてある	True	hasProperty	〇	〇	×
+260	Obj	ブレッシントンの寝台の下	False	判別不能	〇	〇	×
+261	対象文	ブレッシントンは家事の時、大きな綱の輪を使って逃げるつもりだった			〇	×	無
+261	Who	ブレッシントン	True		〇	×	無
+261	hasPredicate	家事の時、大きな綱の輪を使って逃げるつもりだった	False		〇	×	無
+262	対象文	ホームズは以下を言った			〇	〇	×
+262	Who	ホームズ	True		〇	〇	×
+262	hasPredicate	言った	True	hasPredicate	〇	〇	×
+262	Obj	以下	False	判別不能	〇	〇	×
+263	対象文	大きな綱の輪はブレッシントンを救うはずのものであった			〇	×	無
+263	Who	大きな綱の輪	True		〇	×	無
+263	hasPredicate	ブレッシントンを救うはずのものであった	False		〇	×	無
+264	対象文	事実関係ははっきりしている			〇	〇	無
+264	Who	事実関係	True		〇	〇	無
+264	hasPredicate	はっきりしている	True	hasProperty	〇	〇	無
+265	対象文	事件の疑わしい点は無い			〇	〇	無
+265	Who	事件の疑わしい点	True		〇	〇	無
+265	hasPredicate	無い	True	hasProperty	〇	〇	無
+266	対象文	事件の時、3番目の人物と初老の男と若い男はブレッシントンの部屋にいた			〇	〇	△
+266	Who	3番目の人物	True		〇	〇	△
+266	Who	初老の男	True		〇	〇	△
+266	Who	若い男	True		〇	〇	△
+266	hasPredicate	いた	True	hasProperty	〇	〇	△
+266	Obj	事件の時、	False	判別不能	〇	〇	△
+266	Obj	ブレッシントンの部屋	True	Where	〇	〇	△
+267	対象文	3番目の人物は初老の男と若い男を家の中に案内した			〇	〇	〇
+267	Who	3番目の人物	True		〇	〇	〇
+267	hasPredicate	案内した	True	hasPredicate	〇	〇	〇
+267	Obj	初老の男	True	What	〇	〇	〇
+267	Obj	若い男	True	What	〇	〇	〇
+267	Obj	家の中	True	To	〇	〇	〇
+268	対象文	3番目の人物は手伝いの少年である			〇	〇	無
+268	Who	3番目の人物	True		〇	〇	無
+268	hasPredicate	手伝いの少年である	True	hasProperty	〇	〇	無
+269	対象文	パーシィ・トリヴェリアンは以下を言った			〇	〇	×
+269	Who	パーシィ・トリヴェリアン	True		〇	〇	×
+269	hasPredicate	言った	True	hasPredicate	〇	〇	×
+269	Obj	以下	False	判別不能	〇	〇	×
+270	対象文	手伝いの少年は見当たらない			〇	〇	無
+270	Who	手伝いの少年	True		〇	〇	無
+270	hasPredicate	見当たらない	True	hasProperty	〇	〇	無
+271	対象文	ホームズは以下を言った			〇	〇	×
+271	Who	ホームズ	True		〇	〇	×
+271	hasPredicate	言った	True	hasPredicate	〇	〇	×
+271	Obj	以下	False	判別不能	〇	〇	×
+272	対象文	手伝いの少年は事件の重要な役を担っている			〇	〇	〇
+272	Who	手伝いの少年	True		〇	〇	〇
+272	hasPredicate	担っている	True	hasProperty	〇	〇	〇
+272	Obj	事件の重要な役	True	What	〇	〇	〇
+273	対象文	事件の時、初老の男と若い男と手伝いの少年はつま先立ちで階段をのぼった			〇	〇	△
+273	Who	初老の男	True		〇	〇	△
+273	Who	若い男	True		〇	〇	△
+273	Who	手伝いの少年	True		〇	〇	△
+273	hasPredicate	のぼった	True	hasPredicate	〇	〇	△
+273	Obj	事件の時、	False	判別不能	〇	〇	△
+273	Obj	つま先立ち	False	判別不能	〇	〇	△
+273	Obj	階段	True	What	〇	〇	△
+274	対象文	初老の男は先頭を歩いた			〇	〇	〇
+274	Who	初老の男	True		〇	〇	〇
+274	hasPredicate	歩いた	True	hasPredicate	〇	〇	〇
+274	Obj	先頭	True	Where	〇	〇	〇
+275	対象文	若い男は真ん中を歩いた			〇	〇	〇
+275	Who	若い男	True		〇	〇	〇
+275	hasPredicate	歩いた	True	hasPredicate	〇	〇	〇
+275	Obj	真ん中	True	Where	〇	〇	〇
+276	対象文	手伝いの少年は最後尾を歩いた			〇	〇	〇
+276	Who	手伝いの少年	True		〇	〇	〇
+276	hasPredicate	歩いた	True	hasPredicate	〇	〇	〇
+276	Obj	最後尾	True	Where	〇	〇	〇
+277	対象文	初老の男と若い男と手伝いの少年は以下を気づいた			〇	〇	×
+277	Who	初老の男	True		〇	〇	×
+277	Who	若い男	True		〇	〇	×
+277	Who	手伝いの少年	True		〇	〇	×
+277	hasPredicate	気づいた	True	hasPredicate	〇	〇	×
+277	Obj	以下	False	判別不能	〇	〇	×
+278	対象文	ブレッシントンの部屋の鍵はかかっている			〇	〇	無
+278	Who	ブレッシントンの部屋の鍵	True		〇	〇	無
+278	hasPredicate	かかっている	True	hasProperty	〇	〇	無
+279	対象文	初老の男と若い男と手伝いの少年は針金を使って鍵をこじ開けた			〇	×	〇
+279	Who	初老の男	True		〇	×	〇
+279	Who	若い男	True		〇	×	〇
+279	Who	手伝いの少年	True		〇	×	〇
+279	hasPredicate	針金を使って鍵をこじ開けた	False		〇	×	〇
+279	Obj	鍵	True	What	〇	×	〇
+280	対象文	鍵穴のなかに引っかき傷が存在する			〇	〇	〇
+280	Who	引っかき傷	True		〇	〇	〇
+280	hasPredicate	存在する	True	hasProperty	〇	〇	〇
+280	Obj	鍵穴のなか	True	Where	〇	〇	〇
+281	対象文	初老の男と若い男と手伝いの少年はブレッシントンの部屋に侵入した			〇	〇	〇
+281	Who	初老の男	True		〇	〇	〇
+281	Who	若い男	True		〇	〇	〇
+281	Who	手伝いの少年	True		〇	〇	〇
+281	hasPredicate	侵入した	True	hasPredicate	〇	〇	〇
+281	Obj	ブレッシントンの部屋	True	To	〇	〇	〇
+282	対象文	初老の男と若い男と手伝いの少年はブレッシントンを縛った			〇	〇	〇
+282	Who	初老の男	True		〇	〇	〇
+282	Who	若い男	True		〇	〇	〇
+282	Who	手伝いの少年	True		〇	〇	〇
+282	hasPredicate	縛った	True	hasPredicate	〇	〇	〇
+282	Obj	ブレッシントン	True	What	〇	〇	〇
+283	対象文	ブレッシントンの声は聞こえなかった			〇	〇	無
+283	Who	ブレッシントンの声	True		〇	〇	無
+283	hasPredicate	聞こえなかった	True	hasProperty	〇	〇	無
+284	対象文	ブレッシントンの部屋の壁は厚い			〇	〇	無
+284	Who	ブレッシントンの部屋の壁	True		〇	〇	無
+284	hasPredicate	厚い	True	hasProperty	〇	〇	無
+285	対象文	初老の男と若い男と手伝いの少年は断罪の手段を相談した			〇	〇	〇
+285	Who	初老の男	True		〇	〇	〇
+285	Who	若い男	True		〇	〇	〇
+285	Who	手伝いの少年	True		〇	〇	〇
+285	hasPredicate	相談した	True	hasPredicate	〇	〇	〇
+285	Obj	断罪の手段	True	What	〇	〇	〇
+286	対象文	初老の男と若い男と手伝いの少年はブレッシントンの部屋にしばらくの間とどまった			〇	×	△
+286	Who	初老の男	True		〇	×	△
+286	Who	若い男	True		〇	×	△
+286	Who	手伝いの少年	True		〇	×	△
+286	hasPredicate	とどまった	False		〇	×	△
+286	Obj	ブレッシントンの部屋	True	Where	〇	×	△
+286	Obj	しばらくの間	False	判別不能	〇	×	△
+287	対象文	初老の男と若い男と手伝いの少年は葉巻を吸った			〇	〇	〇
+287	Who	初老の男	True		〇	〇	〇
+287	Who	若い男	True		〇	〇	〇
+287	Who	手伝いの少年	True		〇	〇	〇
+287	hasPredicate	吸った	True	hasPredicate	〇	〇	〇
+287	Obj	葉巻	True	What	〇	〇	〇
+288	対象文	初老の男は椅子に座った			〇	〇	〇
+288	Who	初老の男	True		〇	〇	〇
+288	hasPredicate	座った	True	hasPredicate	〇	〇	〇
+288	Obj	椅子	True	On	〇	〇	〇
+289	対象文	初老の男は葉巻パイプを使って葉巻を吸った			〇	×	〇
+289	Who	初老の男	True		〇	×	〇
+289	hasPredicate	葉巻パイプを使って葉巻を吸った	False		〇	×	〇
+289	Obj	葉巻	True	What	〇	×	〇
+290	対象文	若い男は灰を叩き落とした			〇	〇	〇
+290	Who	若い男	True		〇	〇	〇
+290	hasPredicate	叩き落とした	True	hasPredicate	〇	〇	〇
+290	Obj	灰	True	What	〇	〇	〇
+291	対象文	手伝いの少年は歩き回っていた			〇	〇	無
+291	Who	手伝いの少年	True		〇	〇	無
+291	hasPredicate	歩き回っていた	True	hasPredicate	〇	〇	無
+292	対象文	ブレッシントンの絞首刑は準備されていた			〇	〇	無
+292	Who	ブレッシントンの絞首刑	True		〇	〇	無
+292	hasPredicate	準備されていた	True	hasPredicate	〇	〇	無
+293	対象文	初老の男と若い男と手伝いの少年は絞首刑台の変わりの道具をねじとねじ回しを使って固定する予定だった			〇	×	無
+293	Who	初老の男	True		〇	×	無
+293	Who	若い男	True		〇	×	無
+293	Who	手伝いの少年	True		〇	×	無
+293	hasPredicate	絞首刑台の変わりの道具をねじとねじ回しを使って固定する予定だった	False		〇	×	無
+294	対象文	初老の男と若い男と手伝いの少年はブレッシントンの絞首刑を金具を使って実行した			〇	×	〇
+294	Who	初老の男	True		〇	×	〇
+294	Who	若い男	True		〇	×	〇
+294	Who	手伝いの少年	True		〇	×	〇
+294	hasPredicate	金具を使って実行した	False		〇	×	〇
+294	Obj	ブレッシントンの絞首刑	True	What	〇	×	〇
+295	対象文	ブレッシントンの絞首刑の後、初老の男と若い男は逃げた			〇	〇	×
+295	Who	初老の男	True		〇	〇	×
+295	Who	若い男	True		〇	〇	×
+295	hasPredicate	逃げた	True	hasPredicate	〇	〇	×
+295	Obj	ブレッシントンの絞首刑の後、	False	判別不能	〇	〇	×
+296	対象文	ブレッシントンの絞首刑の後、手伝いの少年は閂をかけた			〇	〇	△
+296	Who	手伝いの少年	True		〇	〇	△
+296	hasPredicate	かけた	True	hasPredicate	〇	〇	△
+296	Obj	ブレッシントンの絞首刑の後、	False	判別不能	〇	〇	△
+296	Obj	閂	True	What	〇	〇	△
+297	対象文	ホームズとワトソンはベイカー街に行った			〇	〇	〇
+297	Who	ホームズ	True		〇	〇	〇
+297	Who	ワトソン	True		〇	〇	〇
+297	hasPredicate	行った	True	hasPredicate	〇	〇	〇
+297	Obj	ベイカー街	True	To	〇	〇	〇
+298	対象文	ホームズは以下を言った			〇	〇	×
+298	Who	ホームズ	True		〇	〇	×
+298	hasPredicate	言った	True	hasPredicate	〇	〇	×
+298	Obj	以下	False	判別不能	〇	〇	×
+299	対象文	3時までにホームズは帰ってくる			×	×	無
+299	Who		False		×	×	無
+299	hasPredicate	3時までにホームズは帰ってくる	False		×	×	無
+300	対象文	ラーナ警部とパーシィ・トリヴェリアンはホームズを尋ねてくるだろう			×	×	無
+300	Who		False		×	×	無
+300	hasPredicate	ラーナ警部とパーシィ・トリヴェリアンはホームズを尋ねてくるだろう	False		×	×	無
+301	対象文	ホームズは不明瞭なことを調べる			〇	〇	〇
+301	Who	ホームズ	True		〇	〇	〇
+301	hasPredicate	調べる	True	hasPredicate	〇	〇	〇
+301	Obj	不明瞭なこと	True	What	〇	〇	〇
+302	対象文	ラーナ警部は以下を言った			〇	〇	×
+302	Who	ラーナ警部	True		〇	〇	×
+302	hasPredicate	言った	True	hasPredicate	〇	〇	×
+302	Obj	以下	False	判別不能	〇	〇	×
+303	対象文	ラーナ警部は手伝いの少年を捕まえた			〇	〇	〇
+303	Who	ラーナ警部	True		〇	〇	〇
+303	hasPredicate	捕まえた	True	hasPredicate	〇	〇	〇
+303	Obj	手伝いの少年	True	What	〇	〇	〇
+304	対象文	初老の男と若い男と手伝いの少年とブレッシントンはワージントン銀行強盗団である			〇	×	無
+304	Who	初老の男	True		〇	×	無
+304	Who	若い男	True		〇	×	無
+304	Who	手伝いの少年	True		〇	×	無
+304	Who	ブレッシントン	True		〇	×	無
+304	hasPredicate	ワージントン銀行強盗団である	False		〇	×	無
+305	対象文	ブレッシントンはサットンである			〇	〇	無
+305	Who	ブレッシントン	True		〇	〇	無
+305	hasPredicate	サットンである	True	hasProperty	〇	〇	無
+306	対象文	ワージントン銀行の強盗団は5人である			〇	〇	無
+306	Who	ワージントン銀行の強盗団	True		〇	〇	無
+306	hasPredicate	5人である	True	hasProperty	〇	〇	無
+307	対象文	5人目の男はカートライトという			〇	×	×
+307	Who	5人目の男	True		〇	×	×
+307	hasPredicate	いう	False		〇	×	×
+307	Obj	カートライト	False	判別不能	〇	×	×
+308	対象文	ワーシンドン銀行の大事件のとき、トウビンという管理人は殺された			×	〇	×
+308	Who	トウビン	False		×	〇	×
+308	Who	いう管理人	False		×	〇	×
+308	hasPredicate	殺された	True	hasPredicate	×	〇	×
+308	Obj	ワーシンドン銀行の大事件のとき、	False	判別不能	×	〇	×
+309	対象文	強盗団は７０００ポンドを持って逃げた			〇	×	無
+309	Who	強盗団	True		〇	×	無
+309	hasPredicate	７０００ポンドを持って逃げた	False		〇	×	無
+310	対象文	ワーシンドン銀行の大事件は１８７５年に起こった			〇	〇	〇
+310	Who	ワーシンドン銀行の大事件	True		〇	〇	〇
+310	hasPredicate	起こった	True	hasProperty	〇	〇	〇
+310	Obj	１８７５年	True	When	〇	〇	〇
+311	対象文	強盗団全員が捕まえられた			〇	〇	無
+311	Who	強盗団全員	True		〇	〇	無
+311	hasPredicate	捕まえられた	True	hasPredicate	〇	〇	無
+312	対象文	ワーシンドン銀行の大事件の証拠は決め手に欠けていた			〇	〇	〇
+312	Who	ワーシンドン銀行の大事件の証拠	True		〇	〇	〇
+312	hasPredicate	欠けていた	True	hasProperty	〇	〇	〇
+312	Obj	決め手	True	What	〇	〇	〇
+313	対象文	ブレッシントンは一番の悪党である			〇	〇	無
+313	Who	ブレッシントン	True		〇	〇	無
+313	hasPredicate	一番の悪党である	True	hasProperty	〇	〇	無
+314	対象文	ブレッシントンは寝返った			〇	〇	無
+314	Who	ブレッシントン	True		〇	〇	無
+314	hasPredicate	寝返った	True	hasPredicate	〇	〇	無
+315	対象文	ブレッシントンはワーシンドン銀行の大事件の証拠をばらした			〇	〇	〇
+315	Who	ブレッシントン	True		〇	〇	〇
+315	hasPredicate	ばらした	True	hasPredicate	〇	〇	〇
+315	Obj	ワーシンドン銀行の大事件の証拠	True	What	〇	〇	〇
+316	対象文	カートライトは絞首刑となった			〇	×	×
+316	Who	カートライト	True		〇	×	×
+316	hasPredicate	なった	False		〇	×	×
+316	Obj	絞首刑	False	判別不能	〇	×	×
+317	対象文	初老の男と初老の男と手伝いの少年は14年の禁錮を受けた			〇	〇	〇
+317	Who	初老の男	True		〇	〇	〇
+317	Who	初老の男	True		〇	〇	〇
+317	Who	手伝いの少年	True		〇	〇	〇
+317	hasPredicate	受けた	True	hasPredicate	〇	〇	〇
+317	Obj	14年の禁錮	True	What	〇	〇	〇
+318	対象文	初老の男と若い男と手伝いの少年は刑期より早く釈放された			〇	〇	無
+318	Who	初老の男	True		〇	〇	無
+318	Who	若い男	True		〇	〇	無
+318	Who	手伝いの少年	True		〇	〇	無
+318	hasPredicate	刑期より早く釈放された	True	hasProperty	〇	〇	無
+319	対象文	初老の男と若い男と手伝いの少年はブレッシントンを仇討ちしようとした			〇	×	無
+319	Who	初老の男	True		〇	×	無
+319	Who	若い男	True		〇	×	無
+319	Who	手伝いの少年	True		〇	×	無
+319	hasPredicate	ブレッシントンを仇討ちしようとした	False		〇	×	無
+320	対象文	仇討の計画は2度失敗した			〇	×	×
+320	Who	仇討の計画	True		〇	×	×
+320	hasPredicate	失敗した	False		〇	×	×
+320	Obj	2度	False	判別不能	〇	×	×
+321	対象文	3度目の仇討の計画は成功した			〇	〇	無
+321	Who	3度目の仇討の計画	True		〇	〇	無
+321	hasPredicate	成功した	True	hasProperty	〇	〇	無
+322	対象文	ブレッシントンは出所日を新聞で知った			〇	〇	△
+322	Who	ブレッシントン	True		〇	〇	△
+322	hasPredicate	知った	True	hasProperty	〇	〇	△
+322	Obj	出所日	True	What	〇	〇	△
+322	Obj	新聞	False	判別不能	〇	〇	△
+323	対象文	ブレッシントンは仲間の復讐心の強さを知っていた			〇	〇	〇
+323	Who	ブレッシントン	True		〇	〇	〇
+323	hasPredicate	知っていた	True	hasProperty	〇	〇	〇
+323	Obj	仲間の復讐心の強さ	True	What	〇	〇	〇
+324	対象文	ブレッシントンは自身の素性を隠したかった			〇	〇	〇
+324	Who	ブレッシントン	True		〇	〇	〇
+324	hasPredicate	隠したかった	True	hasProperty	〇	〇	〇
+324	Obj	自身の素性	True	What	〇	〇	〇

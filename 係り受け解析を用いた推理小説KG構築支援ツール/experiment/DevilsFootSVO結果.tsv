@@ -1,0 +1,2003 @@
+ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場面内の述語	場面内の目的語
+1	対象文	1897年早春、ホームズとワトソンはポルデュー湾のコテージにいた			〇	〇	△
+1	Who	ホームズ	True		〇	〇	△
+1	Who	ワトソン	True		〇	〇	△
+1	hasPredicate	いた	True	hasPredicate	〇	〇	△
+1	Obj	1897年早春、	False	判別不能	〇	〇	△
+1	Obj	ポルデュー湾のコテージ	True	Where	〇	〇	△
+2	対象文	ラウンドヘイは中年男だ			〇	×	無
+2	Who	ラウンドヘイ	True		〇	×	無
+2	hasPredicate	中年男だ	False		〇	×	無
+3	対象文	ラウンドヘイは社交的だ			〇	〇	無
+3	Who	ラウンドヘイ	True		〇	〇	無
+3	hasPredicate	社交的だ	True	hasProperty	〇	〇	無
+4	対象文	ラウンドヘイは愛想がよい			〇	〇	無
+4	Who	ラウンドヘイ	True		〇	〇	無
+4	hasPredicate	愛想がよい	True	hasProperty	〇	〇	無
+5	対象文	ラウンドヘイは民間伝承の知識を持つ			〇	〇	〇
+5	Who	ラウンドヘイ	True		〇	〇	〇
+5	hasPredicate	持つ	True	hasPredicate	〇	〇	〇
+5	Obj	民間伝承の知識	True	What	〇	〇	〇
+6	対象文	モーティマーは財産を持っていた			〇	×	〇
+6	Who	モーティマー	True		〇	×	〇
+6	hasPredicate	持っていた	False		〇	×	〇
+6	Obj	財産	True	What	〇	×	〇
+7	対象文	モーティマーはラウンドヘイから牧師館の部屋を借りていた			〇	〇	〇
+7	Who	モーティマー	True		〇	〇	〇
+7	hasPredicate	借りていた	True	hasPredicate	〇	〇	〇
+7	Obj	ラウンドヘイ	True	From	〇	〇	〇
+7	Obj	牧師館の部屋	True	What	〇	〇	〇
+8	対象文	そのため、ラウンドヘイはお金をもらっていた			〇	〇	△
+8	Who	ラウンドヘイ	True		〇	〇	△
+8	hasPredicate	もらっていた	True	hasPredicate	〇	〇	△
+8	Obj	そのため、	False	判別不能	〇	〇	△
+8	Obj	お金	True	What	〇	〇	△
+9	対象文	3月16日朝食直後に、ラウンドヘイとモーティマーがポルデュー湾のコテージに来た			〇	〇	×
+9	Who	ラウンドヘイ	True		〇	〇	×
+9	Who	モーティマー	True		〇	〇	×
+9	hasPredicate	来た	True	hasPredicate	〇	〇	×
+9	Obj	3月16日朝食直後に、	False	判別不能	〇	〇	×
+9	Obj	ポルデュー湾のコテージ	False	判別不能	〇	〇	×
+10	対象文	ラウンドヘイは動揺していた			〇	〇	無
+10	Who	ラウンドヘイ	True		〇	〇	無
+10	hasPredicate	動揺していた	True	hasPredicate	〇	〇	無
+11	対象文	ラウンドヘイは以下を言った			〇	〇	×
+11	Who	ラウンドヘイ	True		〇	〇	×
+11	hasPredicate	言った	True	hasPredicate	〇	〇	×
+11	Obj	以下	False	判別不能	〇	〇	×
+12	対象文	昨日の夜に、事件が起きた			〇	〇	×
+12	Who	事件	True		〇	〇	×
+12	hasPredicate	起きた	True	hasPredicate	〇	〇	×
+12	Obj	昨日の夜に、	False	判別不能	〇	〇	×
+13	対象文	事件は異常だ			〇	〇	無
+13	Who	事件	True		〇	〇	無
+13	hasPredicate	異常だ	True	hasProperty	〇	〇	無
+14	対象文	事件は悲劇的だ			〇	〇	無
+14	Who	事件	True		〇	〇	無
+14	hasPredicate	悲劇的だ	True	hasProperty	〇	〇	無
+15	対象文	ラウンドヘイとモーティマーは落ち着かなかった			〇	〇	無
+15	Who	ラウンドヘイ	True		〇	〇	無
+15	Who	モーティマー	True		〇	〇	無
+15	hasPredicate	落ち着かなかった	True	hasPredicate	〇	〇	無
+16	対象文	モーティマーはラウンドヘイに以下を尋ねた			〇	〇	△
+16	Who	モーティマー	True		〇	〇	△
+16	hasPredicate	尋ねた	True	hasPredicate	〇	〇	△
+16	Obj	ラウンドヘイ	True	Whom	〇	〇	△
+16	Obj	以下	False	判別不能	〇	〇	△
+17	対象文	モーティマーが話をする			〇	〇	×
+17	Who	モーティマー	True		〇	〇	×
+17	hasPredicate	する	True	hasPredicate	〇	〇	×
+17	Obj	話	False	判別不能	〇	〇	×
+18	対象文	ホームズは以下を言った			〇	〇	×
+18	Who	ホームズ	True		〇	〇	×
+18	hasPredicate	言った	True	hasPredicate	〇	〇	×
+18	Obj	以下	False	判別不能	〇	〇	×
+19	対象文	モーティマーが第一発見者だった			〇	〇	無
+19	Who	モーティマー	True		〇	〇	無
+19	hasPredicate	第一発見者だった	True	hasProperty	〇	〇	無
+20	対象文	ラウンドヘイに話を勧めた			×	〇	〇
+20	Who		False		×	〇	〇
+20	hasPredicate	勧めた	True	hasPredicate	×	〇	〇
+20	Obj	ラウンドヘイ	True	Whom	×	〇	〇
+20	Obj	話	True	What	×	〇	〇
+21	対象文	ラウンドヘイは以下を言った			〇	〇	×
+21	Who	ラウンドヘイ	True		〇	〇	×
+21	hasPredicate	言った	True	hasPredicate	〇	〇	×
+21	Obj	以下	False	判別不能	〇	〇	×
+22	対象文	オーウェンとジョージとブレンダはモーティマーの家族である			〇	×	無
+22	Who	オーウェン	True		〇	×	無
+22	Who	ジョージ	True		〇	×	無
+22	Who	ブレンダ	True		〇	×	無
+22	hasPredicate	モーティマーの家族である	False		〇	×	無
+23	対象文	トリジェニス家はトリダニック・ワーサにある			〇	〇	〇
+23	Who	トリジェニス家	True		〇	〇	〇
+23	hasPredicate	ある	True	hasPredicate	〇	〇	〇
+23	Obj	トリダニック・ワーサ	True	Where	〇	〇	〇
+24	対象文	10時過ぎで、モーティマーはトリジェニス家から帰った			〇	〇	△
+24	Who	モーティマー	True		〇	〇	△
+24	hasPredicate	帰った	True	hasPredicate	〇	〇	△
+24	Obj	10時過ぎで、	False	判別不能	〇	〇	△
+24	Obj	トリジェニス家	True	From	〇	〇	△
+25	対象文	10時過ぎで、オーウェンとジョージとブレンダはカードゲームをしていた			〇	〇	△
+25	Who	オーウェン	True		〇	〇	△
+25	Who	ジョージ	True		〇	〇	△
+25	Who	ブレンダ	True		〇	〇	△
+25	hasPredicate	していた	True	hasPredicate	〇	〇	△
+25	Obj	10時過ぎで、	False	判別不能	〇	〇	△
+25	Obj	カードゲーム	True	What	〇	〇	△
+26	対象文	10時過ぎで、オーウェンとジョージとブレンダは元気だった			〇	〇	×
+26	Who	オーウェン	True		〇	〇	×
+26	Who	ジョージ	True		〇	〇	×
+26	Who	ブレンダ	True		〇	〇	×
+26	hasPredicate	元気だった	True	hasPredicate	〇	〇	×
+26	Obj	10時過ぎで、	False	判別不能	〇	〇	×
+27	対象文	今朝、モーティマーは早起きをした			〇	×	×
+27	Who	モーティマー	True		〇	×	×
+27	hasPredicate	今朝、モーティマーは早起きをした	False		〇	×	×
+27	Obj	早起き	False	判別不能	〇	×	×
+28	対象文	朝食前に、モーティマーはトリダニック・ワーサ方面へ散歩にいった			〇	×	×
+28	Who	モーティマー	True		〇	×	×
+28	hasPredicate	いった	False		〇	×	×
+28	Obj	朝食前に、	False	判別不能	〇	×	×
+28	Obj	トリダニック・ワーサ方面	False	判別不能	〇	×	×
+28	Obj	散歩	False	判別不能	〇	×	×
+29	対象文	モーティマーはドクター・リチャードの四輪馬車に追いつかれた			〇	〇	×
+29	Who	モーティマー	True		〇	〇	×
+29	hasPredicate	追いつかれた	True	hasPredicate	〇	〇	×
+29	Obj	ドクター・リチャードの四輪馬車	False	判別不能	〇	〇	×
+30	対象文	モーティマーはドクター・リチャードに会った			〇	〇	〇
+30	Who	モーティマー	True		〇	〇	〇
+30	hasPredicate	会った	True	hasPredicate	〇	〇	〇
+30	Obj	ドクター・リチャード	True	What	〇	〇	〇
+31	対象文	ドクター・リチャードは緊急連絡を受けた			〇	〇	〇
+31	Who	ドクター・リチャード	True		〇	〇	〇
+31	hasPredicate	受けた	True	hasPredicate	〇	〇	〇
+31	Obj	緊急連絡	True	What	〇	〇	〇
+32	対象文	モーティマーとドクター・リチャードはトリダニック・ワーサに向かった			〇	〇	〇
+32	Who	モーティマー	True		〇	〇	〇
+32	Who	ドクター・リチャード	True		〇	〇	〇
+32	hasPredicate	向かった	True	hasPredicate	〇	〇	〇
+32	Obj	トリダニック・ワーサ	True	To	〇	〇	〇
+33	対象文	モーティマーとドクター・リチャードはトリダニック・ワーサに到着した			〇	〇	〇
+33	Who	モーティマー	True		〇	〇	〇
+33	Who	ドクター・リチャード	True		〇	〇	〇
+33	hasPredicate	到着した	True	hasPredicate	〇	〇	〇
+33	Obj	トリダニック・ワーサ	True	Where	〇	〇	〇
+34	対象文	トリジェニス家は異常だった			〇	〇	無
+34	Who	トリジェニス家	True		〇	〇	無
+34	hasPredicate	異常だった	True	hasProperty	〇	〇	無
+35	対象文	オーウェンとジョージとブレンダはテーブルに座っていた			〇	〇	〇
+35	Who	オーウェン	True		〇	〇	〇
+35	Who	ジョージ	True		〇	〇	〇
+35	Who	ブレンダ	True		〇	〇	〇
+35	hasPredicate	座っていた	True	hasPredicate	〇	〇	〇
+35	Obj	テーブル	True	On	〇	〇	〇
+36	対象文	カードがテーブルの上にあった			〇	〇	×
+36	Who	カード	True		〇	〇	×
+36	hasPredicate	あった	True	hasPredicate	〇	〇	×
+36	Obj	テーブルの上	False	判別不能	〇	〇	×
+37	対象文	蝋燭は燃え尽きていた			〇	〇	無
+37	Who	蝋燭	True		〇	〇	無
+37	hasPredicate	燃え尽きていた	True	hasPredicate	〇	〇	無
+38	対象文	ブレンダは椅子にもたれていた			〇	〇	〇
+38	Who	ブレンダ	True		〇	〇	〇
+38	hasPredicate	もたれていた	True	hasPredicate	〇	〇	〇
+38	Obj	椅子	True	Where	〇	〇	〇
+39	対象文	ブレンダは死んでいた			〇	〇	無
+39	Who	ブレンダ	True		〇	〇	無
+39	hasPredicate	死んでいた	True	hasProperty	〇	〇	無
+40	対象文	ブレンダは硬直していた			〇	〇	無
+40	Who	ブレンダ	True		〇	〇	無
+40	hasPredicate	硬直していた	True	hasPredicate	〇	〇	無
+41	対象文	オーウェンとジョージはブレンダの両脇に座っていた			〇	〇	〇
+41	Who	オーウェン	True		〇	〇	〇
+41	Who	ジョージ	True		〇	〇	〇
+41	hasPredicate	座っていた	True	hasPredicate	〇	〇	〇
+41	Obj	ブレンダの両脇	True	Where	〇	〇	〇
+42	対象文	オーウェンとジョージは馬鹿笑いしていた			〇	〇	無
+42	Who	オーウェン	True		〇	〇	無
+42	Who	ジョージ	True		〇	〇	無
+42	hasPredicate	馬鹿笑いしていた	True	hasPredicate	〇	〇	無
+43	対象文	オーウェンとジョージは喚いていた			〇	〇	無
+43	Who	オーウェン	True		〇	〇	無
+43	Who	ジョージ	True		〇	〇	無
+43	hasPredicate	喚いていた	True	hasPredicate	〇	〇	無
+44	対象文	オーウェンとジョージは歌っていた			〇	〇	無
+44	Who	オーウェン	True		〇	〇	無
+44	Who	ジョージ	True		〇	〇	無
+44	hasPredicate	歌っていた	True	hasPredicate	〇	〇	無
+45	対象文	オーウェンとジョージの神経は損なわれていた			×	〇	無
+45	Who	オーウェン	True		×	〇	無
+45	Who	ジョージの神経	False		×	〇	無
+45	hasPredicate	損なわれていた	True	hasPredicate	×	〇	無
+46	対象文	オーウェンとジョージとブレンダは恐怖の表情を持っていた			〇	×	〇
+46	Who	オーウェン	True		〇	×	〇
+46	Who	ジョージ	True		〇	×	〇
+46	Who	ブレンダ	True		〇	×	〇
+46	hasPredicate	持っていた	False		〇	×	〇
+46	Obj	恐怖の表情	True	What	〇	×	〇
+47	対象文	家には、ポーターがいた			〇	〇	×
+47	Who	ポーター	True		〇	〇	×
+47	hasPredicate	いた	True	hasPredicate	〇	〇	×
+47	Obj	家には、	False	判別不能	〇	〇	×
+48	対象文	ポーターはコックである			〇	×	無
+48	Who	ポーター	True		〇	×	無
+48	hasPredicate	コックである	False		〇	×	無
+49	対象文	ポーターは家政婦である			〇	×	無
+49	Who	ポーター	True		〇	×	無
+49	hasPredicate	家政婦である	False		〇	×	無
+50	対象文	ポーターは以下を言った			〇	〇	×
+50	Who	ポーター	True		〇	〇	×
+50	hasPredicate	言った	True	hasPredicate	〇	〇	×
+50	Obj	以下	False	判別不能	〇	〇	×
+51	対象文	昨晩、ポーターは熟睡していた			〇	×	無
+51	Who	ポーター	True		〇	×	無
+51	hasPredicate	昨晩、ポーターは熟睡していた	False		〇	×	無
+52	対象文	昨晩、ポーターは何も聞こえなかった			×	×	無
+52	Who	ポーター何	False		×	×	無
+52	hasPredicate	昨晩、ポーターは何も聞こえなかった	False		×	×	無
+53	対象文	オーウェンとジョージとブレンダは何も盗まれなかった			×	〇	無
+53	Who	オーウェン何	False		×	〇	無
+53	Who	ジョージ	True		×	〇	無
+53	Who	ブレンダ	True		×	〇	無
+53	hasPredicate	盗まれなかった	True	hasPredicate	×	〇	無
+54	対象文	トリジェニス家は荒らされなかった			〇	〇	無
+54	Who	トリジェニス家	True		〇	〇	無
+54	hasPredicate	荒らされなかった	True	hasPredicate	〇	〇	無
+55	対象文	ラウンドヘイはブレンダの死の理由を分からない			〇	〇	〇
+55	Who	ラウンドヘイ	True		〇	〇	〇
+55	hasPredicate	分からない	True	hasPredicate	〇	〇	〇
+55	Obj	ブレンダの死の理由	True	What	〇	〇	〇
+56	対象文	ラウンドヘイはオーウェンとジョージの狂気の理由をわからない			〇	〇	×
+56	Who	ラウンドヘイ	True		〇	〇	×
+56	hasPredicate	わからない	True	hasPredicate	〇	〇	×
+56	Obj	オーウェン	False	判別不能	〇	〇	×
+56	Obj	ジョージの狂気の理由	False	判別不能	〇	〇	×
+57	対象文	ホームズは以下を思った			〇	〇	×
+57	Who	ホームズ	True		〇	〇	×
+57	hasPredicate	思った	True	hasPredicate	〇	〇	×
+57	Obj	以下	False	判別不能	〇	〇	×
+58	対象文	事件は異常な性質を持つ			〇	〇	〇
+58	Who	事件	True		〇	〇	〇
+58	hasPredicate	持つ	True	hasPredicate	〇	〇	〇
+58	Obj	異常な性質	True	What	〇	〇	〇
+59	対象文	ラウンドヘイは以下を言った			〇	〇	×
+59	Who	ラウンドヘイ	True		〇	〇	×
+59	hasPredicate	言った	True	hasPredicate	〇	〇	×
+59	Obj	以下	False	判別不能	〇	〇	×
+60	対象文	ラウンドヘイはトリジェニス家にいかなかった			〇	〇	〇
+60	Who	ラウンドヘイ	True		〇	〇	〇
+60	hasPredicate	いかなかった	True	hasPredicate	〇	〇	〇
+60	Obj	トリジェニス家	True	Where	〇	〇	〇
+61	対象文	モーティマーは牧師館へ説明のために来た			〇	〇	〇
+61	Who	モーティマー	True		〇	〇	〇
+61	hasPredicate	来た	True	hasPredicate	〇	〇	〇
+61	Obj	牧師館	True	To	〇	〇	〇
+61	Obj	説明のため	True	Why	〇	〇	〇
+62	対象文	ラウンドヘイはホームズに相談するために来た			〇	×	無
+62	Who	ラウンドヘイ	True		〇	×	無
+62	hasPredicate	ホームズに相談するために来た	False		〇	×	無
+64	対象文	トリジェニス家はポルドュー湾のコテージから1マイル離れている			〇	〇	〇
+64	Who	トリジェニス家	True		〇	〇	〇
+64	hasPredicate	離れている	True	hasPredicate	〇	〇	〇
+64	Obj	ポルドュー湾のコテージ	True	From	〇	〇	〇
+64	Obj	1マイル	True	How	〇	〇	〇
+65	対象文	トリジェニス家はポルドュー湾のコテージより内陸にある			〇	〇	〇
+65	Who	トリジェニス家	True		〇	〇	〇
+65	hasPredicate	ある	True	hasPredicate	〇	〇	〇
+65	Obj	ポルドュー湾のコテージ	True	From	〇	〇	〇
+65	Obj	内陸	True	Where	〇	〇	〇
+66	対象文	モーティマーは黙っていた			〇	〇	無
+66	Who	モーティマー	True		〇	〇	無
+66	hasPredicate	黙っていた	True	hasPredicate	〇	〇	無
+67	対象文	ラウンドヘイは感情を前面に出してきた			〇	〇	△
+67	Who	ラウンドヘイ	True		〇	〇	△
+67	hasPredicate	出してきた	True	hasPredicate	〇	〇	△
+67	Obj	感情	True	What	〇	〇	△
+67	Obj	前面	False	判別不能	〇	〇	△
+68	対象文	ワトソンは以下を思った			〇	〇	×
+68	Who	ワトソン	True		〇	〇	×
+68	hasPredicate	思った	True	hasPredicate	〇	〇	×
+68	Obj	以下	False	判別不能	〇	〇	×
+69	対象文	モーティマーは自制をしていた			〇	×	×
+69	Who	モーティマー	True		〇	×	×
+69	hasPredicate	していた	False		〇	×	×
+69	Obj	自制	False	判別不能	〇	×	×
+70	対象文	モーティマーはラウンドヘイより興奮していた			〇	〇	×
+70	Who	モーティマー	True		〇	〇	×
+70	hasPredicate	興奮していた	True	hasPredicate	〇	〇	×
+70	Obj	ラウンドヘイ	False	判別不能	〇	〇	×
+71	対象文	モーティマーは以下を言った			〇	〇	×
+71	Who	モーティマー	True		〇	〇	×
+71	hasPredicate	言った	True	hasPredicate	〇	〇	×
+71	Obj	以下	False	判別不能	〇	〇	×
+72	対象文	モーティマーはトリジェニス家で食事をとった			〇	×	△
+72	Who	モーティマー	True		〇	×	△
+72	hasPredicate	とった	False		〇	×	△
+72	Obj	トリジェニス家	True	Where	〇	×	△
+72	Obj	食事	False	判別不能	〇	×	△
+73	対象文	ジョージが以下を言った			〇	〇	×
+73	Who	ジョージ	True		〇	〇	×
+73	hasPredicate	言った	True	hasPredicate	〇	〇	×
+73	Obj	以下	False	判別不能	〇	〇	×
+74	対象文	我々はホイストをやる			〇	〇	〇
+74	Who	我々	True		〇	〇	〇
+74	hasPredicate	やる	True	hasPredicate	〇	〇	〇
+74	Obj	ホイスト	True	What	〇	〇	〇
+75	対象文	9時頃に、モーティマーとオーウェンとジョージとブレンダは座った			〇	〇	×
+75	Who	モーティマー	True		〇	〇	×
+75	Who	オーウェン	True		〇	〇	×
+75	Who	ジョージ	True		〇	〇	×
+75	Who	ブレンダ	True		〇	〇	×
+75	hasPredicate	座った	True	hasPredicate	〇	〇	×
+75	Obj	9時頃に、	False	判別不能	〇	〇	×
+76	対象文	10時15分過ぎに、モーティマーは立ち上がった			〇	〇	×
+76	Who	モーティマー	True		〇	〇	×
+76	hasPredicate	立ち上がった	True	hasPredicate	〇	〇	×
+76	Obj	10時15分過ぎに、	False	判別不能	〇	〇	×
+77	対象文	モーティマーはオーウェンとジョージとブレンダと別れた			〇	〇	〇
+77	Who	モーティマー	True		〇	〇	〇
+77	hasPredicate	別れた	True	hasPredicate	〇	〇	〇
+77	Obj	オーウェン	True	What	〇	〇	〇
+77	Obj	ジョージ	True	What	〇	〇	〇
+77	Obj	ブレンダ	True	What	〇	〇	〇
+78	対象文	モーティマーとオーウェンとジョージとブレンダは良い雰囲気を持っていた			〇	×	〇
+78	Who	モーティマー	True		〇	×	〇
+78	Who	オーウェン	True		〇	×	〇
+78	Who	ジョージ	True		〇	×	〇
+78	Who	ブレンダ	True		〇	×	〇
+78	hasPredicate	持っていた	False		〇	×	〇
+78	Obj	良い雰囲気	True	How	〇	×	〇
+79	対象文	ポーターは寝ていた			〇	〇	無
+79	Who	ポーター	True		〇	〇	無
+79	hasPredicate	寝ていた	True	hasPredicate	〇	〇	無
+80	対象文	モーティマーは一人で広間から出た			〇	〇	×
+80	Who	モーティマー	True		〇	〇	×
+80	hasPredicate	出た	True	hasPredicate	〇	〇	×
+80	Obj	一人	False	判別不能	〇	〇	×
+80	Obj	広間	False	判別不能	〇	〇	×
+81	対象文	モーティマーはドアを後ろ手で閉めた			〇	〇	△
+81	Who	モーティマー	True		〇	〇	△
+81	hasPredicate	閉めた	True	hasPredicate	〇	〇	△
+81	Obj	ドア	True	What	〇	〇	△
+81	Obj	後ろ手	False	判別不能	〇	〇	△
+82	対象文	窓がオーウェンとジョージの近くにある			〇	〇	△
+82	Who	窓	True		〇	〇	△
+82	hasPredicate	ある	True	hasPredicate	〇	〇	△
+82	Obj	オーウェン	True	Near	〇	〇	△
+82	Obj	ジョージの近く	False	判別不能	〇	〇	△
+83	対象文	窓は閉まっていた			〇	〇	無
+83	Who	窓	True		〇	〇	無
+83	hasPredicate	閉まっていた	True	hasPredicate	〇	〇	無
+84	対象文	ブラインドは上がっていた			〇	〇	無
+84	Who	ブラインド	True		〇	〇	無
+84	hasPredicate	上がっていた	True	hasPredicate	〇	〇	無
+85	対象文	今朝、窓は閉まっていた			〇	×	無
+85	Who	窓	True		〇	×	無
+85	hasPredicate	今朝、窓は閉まっていた	False		〇	×	無
+86	対象文	今朝、ブラインドは上がっていた			〇	×	無
+86	Who	ブラインド	True		〇	×	無
+86	hasPredicate	今朝、ブラインドは上がっていた	False		〇	×	無
+87	対象文	部外者は出入りしていない			〇	〇	無
+87	Who	部外者	True		〇	〇	無
+87	hasPredicate	出入りしていない	True	hasPredicate	〇	〇	無
+89	対象文	オーウェンとジョージは座っていた			〇	〇	無
+89	Who	オーウェン	True		〇	〇	無
+89	Who	ジョージ	True		〇	〇	無
+89	hasPredicate	座っていた	True	hasPredicate	〇	〇	無
+90	対象文	オーウェンとジョージは恐怖のために狂っていた			〇	〇	〇
+90	Who	オーウェン	True		〇	〇	〇
+90	Who	ジョージ	True		〇	〇	〇
+90	hasPredicate	狂っていた	True	hasPredicate	〇	〇	〇
+90	Obj	恐怖のため	True	Why	〇	〇	〇
+91	対象文	ブレンダは首を椅子の肘あてにのせていた			〇	〇	〇
+91	Who	ブレンダ	True		〇	〇	〇
+91	hasPredicate	のせていた	True	hasPredicate	〇	〇	〇
+91	Obj	首	True	What	〇	〇	〇
+91	Obj	椅子の肘あて	True	On	〇	〇	〇
+92	対象文	ブレンダは死んでいた			〇	〇	無
+92	Who	ブレンダ	True		〇	〇	無
+92	hasPredicate	死んでいた	True	hasPredicate	〇	〇	無
+93	対象文	犯人は悪魔である			〇	×	無
+93	Who	犯人	True		〇	×	無
+93	hasPredicate	悪魔である	False		〇	×	無
+94	対象文	犯人は部屋に入りこんだ			〇	〇	〇
+94	Who	犯人	True		〇	〇	〇
+94	hasPredicate	入りこんだ	True	hasPredicate	〇	〇	〇
+94	Obj	部屋	True	To	〇	〇	〇
+95	対象文	犯人はオーウェンとジョージとブレンダの理性を打ち砕いた			〇	〇	△
+95	Who	犯人	True		〇	〇	△
+95	hasPredicate	打ち砕いた	True	hasPredicate	〇	〇	△
+95	Obj	オーウェン	False	判別不能	〇	〇	△
+95	Obj	ジョージ	False	判別不能	〇	〇	△
+95	Obj	ブレンダの理性	True	What	〇	〇	△
+96	対象文	昔、モーティマーはオーウェンとジョージとブレンダと意見を違えた			×	×	×
+96	Who	モーティマー	False		×	×	×
+96	hasPredicate	昔、モーティマーはオーウェンとジョージとブレンダと意見を違えた	False		×	×	×
+96	Obj	オーウェン	False	判別不能	×	×	×
+96	Obj	ジョージ	False	判別不能	×	×	×
+96	Obj	ブレンダ	False	判別不能	×	×	×
+96	Obj	意見	False	判別不能	×	×	×
+97	対象文	モーティマーとオーウェンとジョージとブレンダは錫鉱夫の家に生まれた			〇	〇	〇
+97	Who	モーティマー	True		〇	〇	〇
+97	Who	オーウェン	True		〇	〇	〇
+97	Who	ジョージ	True		〇	〇	〇
+97	Who	ブレンダ	True		〇	〇	〇
+97	hasPredicate	生まれた	True	hasPredicate	〇	〇	〇
+97	Obj	錫鉱夫の家	True	Where	〇	〇	〇
+98	対象文	錫鉱夫はある会社に事業を売却した			×	×	×
+98	Who	錫鉱夫	False		×	×	×
+98	hasPredicate	売却した	False		×	×	×
+98	Obj	ある会社	False	判別不能	×	×	×
+98	Obj	事業	False	判別不能	×	×	×
+100	対象文	錫鉱夫は十分な資金を得た			〇	〇	〇
+100	Who	錫鉱夫	True		〇	〇	〇
+100	hasPredicate	得た	True	hasPredicate	〇	〇	〇
+100	Obj	十分な資金	True	What	〇	〇	〇
+101	対象文	錫鉱夫は引退した			〇	〇	無
+101	Who	錫鉱夫	True		〇	〇	無
+101	hasPredicate	引退した	True	hasPredicate	〇	〇	無
+102	対象文	モーティマーは金銭の配分に不満だった			〇	〇	×
+102	Who	モーティマー	True		〇	〇	×
+102	hasPredicate	不満だった	True	hasPredicate	〇	〇	×
+102	Obj	金銭の配分	False	判別不能	〇	〇	×
+103	対象文	モーティマーは、オーウェンとジョージとブレンダと問題を持った			×	〇	〇
+103	Who	モーティマーは、	False		×	〇	〇
+103	hasPredicate	持った	True	hasPredicate	×	〇	〇
+103	Obj	オーウェン	True	Whom	×	〇	〇
+103	Obj	ジョージ	True	Whom	×	〇	〇
+103	Obj	ブレンダ	True	Whom	×	〇	〇
+103	Obj	問題	True	What	×	〇	〇
+104	対象文	問題は忘れられた			〇	〇	無
+104	Who	問題	True		〇	〇	無
+104	hasPredicate	忘れられた	True	hasPredicate	〇	〇	無
+105	対象文	現在、モーティマーはオーウェンとジョージとブレンダと友情を持った			〇	×	〇
+105	Who	モーティマー	True		〇	×	〇
+105	hasPredicate	現在、モーティマーはオーウェンとジョージとブレンダと友情を持った	False		〇	×	〇
+105	Obj	オーウェン	True	Whom	〇	×	〇
+105	Obj	ジョージ	True	Whom	〇	×	〇
+105	Obj	ブレンダ	True	Whom	〇	×	〇
+105	Obj	友情	True	What	〇	×	〇
+106	対象文	モーティマーはしばらく考えた			〇	×	無
+106	Who	モーティマー	True		〇	×	無
+106	hasPredicate	しばらく考えた	False		〇	×	無
+107	対象文	モーティマーは以下を言った			〇	〇	×
+107	Who	モーティマー	True		〇	〇	×
+107	hasPredicate	言った	True	hasPredicate	〇	〇	×
+107	Obj	以下	False	判別不能	〇	〇	×
+108	対象文	モーティマーはある事実を思い出した			〇	〇	〇
+108	Who	モーティマー	True		〇	〇	〇
+108	hasPredicate	思い出した	True	hasPredicate	〇	〇	〇
+108	Obj	ある事実	True	What	〇	〇	〇
+109	対象文	カードの最中、モーティマーは窓に対して背を向けていた			〇	×	×
+109	Who	モーティマー	True		〇	×	×
+109	hasPredicate	向けていた	False		〇	×	×
+109	Obj	カードの最中、	False	判別不能	〇	×	×
+109	Obj	窓に対して	False	判別不能	〇	×	×
+109	Obj	背	False	判別不能	〇	×	×
+110	対象文	モーティマーはジョージと向かい合わせに座っていた			〇	〇	△
+110	Who	モーティマー	True		〇	〇	△
+110	hasPredicate	座っていた	True	hasPredicate	〇	〇	△
+110	Obj	ジョージ	True	What	〇	〇	△
+110	Obj	向かい合わせ	False	判別不能	〇	〇	△
+111	対象文	一度、ジョージは窓に険しい視線を送った			〇	〇	△
+111	Who	ジョージ	True		〇	〇	△
+111	hasPredicate	送った	True	hasPredicate	〇	〇	△
+111	Obj	一度、	False	判別不能	〇	〇	△
+111	Obj	窓	True	To	〇	〇	△
+111	Obj	険しい視線	True	What	〇	〇	△
+112	対象文	モーティマーは振りかえった			〇	〇	無
+112	Who	モーティマー	True		〇	〇	無
+112	hasPredicate	振りかえった	True	hasPredicate	〇	〇	無
+113	対象文	窓は締まっていた			〇	〇	無
+113	Who	窓	True		〇	〇	無
+113	hasPredicate	締まっていた	True	hasPredicate	〇	〇	無
+114	対象文	ブラインドはあがっていた			〇	〇	無
+114	Who	ブラインド	True		〇	〇	無
+114	hasPredicate	あがっていた	True	hasPredicate	〇	〇	無
+115	対象文	モーティマーは芝生の茂みを見た			〇	〇	〇
+115	Who	モーティマー	True		〇	〇	〇
+115	hasPredicate	見た	True	hasPredicate	〇	〇	〇
+115	Obj	芝生の茂み	True	What	〇	〇	〇
+116	対象文	モーティマーは以下を感じた			〇	〇	×
+116	Who	モーティマー	True		〇	〇	×
+116	hasPredicate	感じた	True	hasPredicate	〇	〇	×
+116	Obj	以下	False	判別不能	〇	〇	×
+117	対象文	何かが茂みの中を動いている			×	〇	△
+117	Who		False		×	〇	△
+117	hasPredicate	動いている	True	hasPredicate	×	〇	△
+117	Obj	何か	False	判別不能	×	〇	△
+117	Obj	茂みの中	True	Where	×	〇	△
+118	対象文	ジョージは以下を思った			〇	〇	×
+118	Who	ジョージ	True		〇	〇	×
+118	hasPredicate	思った	True	hasPredicate	〇	〇	×
+118	Obj	以下	False	判別不能	〇	〇	×
+119	対象文	何かが茂みの中にいる			×	〇	△
+119	Who		False		×	〇	△
+119	hasPredicate	いる	True	hasPredicate	×	〇	△
+119	Obj	何か	False	判別不能	×	〇	△
+119	Obj	茂みの中	True	Where	×	〇	△
+120	対象文	モーティマーは何かを確かめなかった			〇	〇	〇
+120	Who	モーティマー	True		〇	〇	〇
+120	hasPredicate	確かめなかった	True	hasPredicate	〇	〇	〇
+120	Obj	何か	True	What	〇	〇	〇
+121	対象文	モーティマーは以下を思った			〇	〇	×
+121	Who	モーティマー	True		〇	〇	×
+121	hasPredicate	思った	True	hasPredicate	〇	〇	×
+121	Obj	以下	False	判別不能	〇	〇	×
+122	対象文	何かは重要ではない			×	〇	×
+122	Who		False		×	〇	×
+122	hasPredicate	重要ではない	True	hasProperty	×	〇	×
+122	Obj	何か	False	判別不能	×	〇	×
+123	対象文	何かは嫌な気配を持たなかった			×	〇	△
+123	Who		False		×	〇	△
+123	hasPredicate	持たなかった	True	hasPredicate	×	〇	△
+123	Obj	何か	False	判別不能	×	〇	△
+123	Obj	嫌な気配	True	What	×	〇	△
+124	対象文	今朝、モーティマーは散歩した			〇	×	無
+124	Who	モーティマー	True		〇	×	無
+124	hasPredicate	今朝、モーティマーは散歩した	False		〇	×	無
+125	対象文	今朝、ドクター・リチャードの四輪馬車に追いつかれた			×	×	×
+125	Who		False		×	×	×
+125	hasPredicate	今朝、ドクター・リチャードの四輪馬車に追いつかれた	False		×	×	×
+125	Obj	ドクター・リチャードの四輪馬車	False	判別不能	×	×	×
+126	対象文	ドクター・リチャードは以下を言った			〇	〇	×
+126	Who	ドクター・リチャード	True		〇	〇	×
+126	hasPredicate	言った	True	hasPredicate	〇	〇	×
+126	Obj	以下	False	判別不能	〇	〇	×
+127	対象文	ポーターはモーティマーに緊急メッセージを伝えた			〇	〇	〇
+127	Who	ポーター	True		〇	〇	〇
+127	hasPredicate	伝えた	True	hasPredicate	〇	〇	〇
+127	Obj	モーティマー	True	Whom	〇	〇	〇
+127	Obj	緊急メッセージ	True	What	〇	〇	〇
+128	対象文	モーティマーはトリジェニス家に行った			〇	〇	〇
+128	Who	モーティマー	True		〇	〇	〇
+128	hasPredicate	行った	True	hasPredicate	〇	〇	〇
+128	Obj	トリジェニス家	True	To	〇	〇	〇
+129	対象文	モーティマーとドクター・リチャードは部屋を調べた			〇	〇	〇
+129	Who	モーティマー	True		〇	〇	〇
+129	Who	ドクター・リチャード	True		〇	〇	〇
+129	hasPredicate	調べた	True	hasPredicate	〇	〇	〇
+129	Obj	部屋	True	What	〇	〇	〇
+130	対象文	何時間も前に、蝋燭と暖炉は燃え尽きた			〇	〇	×
+130	Who	蝋燭	True		〇	〇	×
+130	Who	暖炉	True		〇	〇	×
+130	hasPredicate	燃え尽きた	True	hasPredicate	〇	〇	×
+130	Obj	何時間も前に、	False	判別不能	〇	〇	×
+131	対象文	夜明けまで、オーウェンとジョージは座っていた			〇	〇	×
+131	Who	オーウェン	True		〇	〇	×
+131	Who	ジョージ	True		〇	〇	×
+131	hasPredicate	座っていた	True	hasPredicate	〇	〇	×
+131	Obj	夜明けまで、	False	判別不能	〇	〇	×
+132	対象文	ドクター・リチャードは以下を言った			〇	〇	〇
+132	Who	ドクター・リチャード	True		〇	〇	〇
+132	hasPredicate	言った	True	hasPredicate	〇	〇	〇
+132	Obj	以下	True	What	〇	〇	〇
+133	対象文	ブレンダの死後、少なくとも6時間が経過している			〇	×	×
+133	Who	6時間	True		〇	×	×
+133	hasPredicate	少なくとも6時間が経過している	False		〇	×	×
+133	Obj	ブレンダの死後、	False	判別不能	〇	×	×
+134	対象文	ブレンダは乱暴されていない			〇	〇	無
+134	Who	ブレンダ	True		〇	〇	無
+134	hasPredicate	乱暴されていない	True	hasPredicate	〇	〇	無
+135	対象文	ブレンダは恐怖の表情を持っていた			〇	〇	〇
+135	Who	ブレンダ	True		〇	〇	〇
+135	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+135	Obj	恐怖の表情	True	What	〇	〇	〇
+136	対象文	ジョージとオーウェンは歌を歌っていた			〇	〇	〇
+136	Who	ジョージ	True		〇	〇	〇
+136	Who	オーウェン	True		〇	〇	〇
+136	hasPredicate	歌っていた	True	hasPredicate	〇	〇	〇
+136	Obj	歌	True	What	〇	〇	〇
+137	対象文	ジョージとオーウェンは意味不明なことを喋っていた			〇	〇	〇
+137	Who	ジョージ	True		〇	〇	〇
+137	Who	オーウェン	True		〇	〇	〇
+137	hasPredicate	喋っていた	True	hasPredicate	〇	〇	〇
+137	Obj	意味不明なこと	True	What	〇	〇	〇
+138	対象文	オーウェンとジョージは猿に似ていた			〇	〇	〇
+138	Who	オーウェン	True		〇	〇	〇
+138	Who	ジョージ	True		〇	〇	〇
+138	hasPredicate	似ていた	True	hasPredicate	〇	〇	〇
+138	Obj	猿	True	What	〇	〇	〇
+139	対象文	ドクター・リチャードの顔は真っ青だった			〇	〇	無
+139	Who	ドクター・リチャードの顔	True		〇	〇	無
+139	hasPredicate	真っ青だった	True	hasProperty	〇	〇	無
+140	対象文	ドクター・リチャードは失神しかけた			〇	〇	無
+140	Who	ドクター・リチャード	True		〇	〇	無
+140	hasPredicate	失神しかけた	True	hasPredicate	〇	〇	無
+141	対象文	ドクター・リチャードは椅子に座った			〇	〇	×
+141	Who	ドクター・リチャード	True		〇	〇	×
+141	hasPredicate	座った	True	hasPredicate	〇	〇	×
+141	Obj	椅子	False	判別不能	〇	〇	×
+142	対象文	1日目の朝、ホームズとワトソンとモーティマーは四輪馬車の走行音を聞いた			〇	〇	△
+142	Who	ホームズ	True		〇	〇	△
+142	Who	ワトソン	True		〇	〇	△
+142	Who	モーティマー	True		〇	〇	△
+142	hasPredicate	聞いた	True	hasPredicate	〇	〇	△
+142	Obj	1日目の朝、	False	判別不能	〇	〇	△
+142	Obj	四輪馬車の走行音	True	What	〇	〇	△
+143	対象文	ホームズとワトソンとモーティマーは脇によけた			〇	〇	〇
+143	Who	ホームズ	True		〇	〇	〇
+143	Who	ワトソン	True		〇	〇	〇
+143	Who	モーティマー	True		〇	〇	〇
+143	hasPredicate	よけた	True	hasPredicate	〇	〇	〇
+143	Obj	脇	True	To	〇	〇	〇
+144	対象文	ホームズとワトソンとモーティマーは馬車の通過を待った			〇	〇	〇
+144	Who	ホームズ	True		〇	〇	〇
+144	Who	ワトソン	True		〇	〇	〇
+144	Who	モーティマー	True		〇	〇	〇
+144	hasPredicate	待った	True	hasPredicate	〇	〇	〇
+144	Obj	馬車の通過	True	What	〇	〇	〇
+145	対象文	ホームズとワトソンとモーティマーは馬車とすれ違った			〇	〇	〇
+145	Who	ホームズ	True		〇	〇	〇
+145	Who	ワトソン	True		〇	〇	〇
+145	Who	モーティマー	True		〇	〇	〇
+145	hasPredicate	すれ違った	True	hasPredicate	〇	〇	〇
+145	Obj	馬車	True	What	〇	〇	〇
+146	対象文	ワトソンは窓から視線を感じた			〇	〇	〇
+146	Who	ワトソン	True		〇	〇	〇
+146	hasPredicate	感じた	True	hasPredicate	〇	〇	〇
+146	Obj	窓	True	From	〇	〇	〇
+146	Obj	視線	True	What	〇	〇	〇
+147	対象文	窓に、恐怖の顔があった			〇	〇	×
+147	Who	恐怖の顔	True		〇	〇	×
+147	hasPredicate	あった	True	hasPredicate	〇	〇	×
+147	Obj	窓に、	False	判別不能	〇	〇	×
+148	対象文	顔は薄ら笑いを持っていた			〇	〇	〇
+148	Who	顔	True		〇	〇	〇
+148	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+148	Obj	薄ら笑い	True	What	〇	〇	〇
+149	対象文	モーティマーは以下を言った			〇	〇	×
+149	Who	モーティマー	True		〇	〇	×
+149	hasPredicate	言った	True	hasPredicate	〇	〇	×
+149	Obj	以下	False	判別不能	〇	〇	×
+150	対象文	オーウェンとジョージがヘルストンに連れていかれる			×	×	無
+150	Who		False		×	×	無
+150	hasPredicate	オーウェンとジョージがヘルストンに連れていかれる	False		×	×	無
+151	対象文	トリジェニス家は広い			〇	〇	無
+151	Who	トリジェニス家	True		〇	〇	無
+151	hasPredicate	広い	True	hasPredicate	〇	〇	無
+152	対象文	トリジェニス家は快適だ			〇	〇	無
+152	Who	トリジェニス家	True		〇	〇	無
+152	hasPredicate	快適だ	True	hasPredicate	〇	〇	無
+153	対象文	トリジェニス家は相当な庭を持つ			〇	〇	×
+153	Who	トリジェニス家	True		〇	〇	×
+153	hasPredicate	持つ	True	hasPredicate	〇	〇	×
+153	Obj	相当な庭	False	判別不能	〇	〇	×
+154	対象文	トリジェニス家の庭は草花で埋め尽くされていた			〇	〇	×
+154	Who	トリジェニス家の庭	True		〇	〇	×
+154	hasPredicate	埋め尽くされていた	True	hasPredicate	〇	〇	×
+154	Obj	草花	False	判別不能	〇	〇	×
+155	対象文	居間の窓は庭に面している			〇	〇	〇
+155	Who	居間の窓	True		〇	〇	〇
+155	hasPredicate	面している	True	hasPredicate	〇	〇	〇
+155	Obj	庭	True	To	〇	〇	〇
+156	対象文	モーティマーは以下を言った			〇	〇	×
+156	Who	モーティマー	True		〇	〇	×
+156	hasPredicate	言った	True	hasPredicate	〇	〇	×
+156	Obj	以下	False	判別不能	〇	〇	×
+157	対象文	邪悪なものが窓から入ってきた			×	×	無
+157	Who		False		×	×	無
+157	hasPredicate	邪悪なものが窓から入ってきた	False		×	×	無
+158	対象文	ポーターは以下を言った			〇	〇	×
+158	Who	ポーター	True		〇	〇	×
+158	hasPredicate	言った	True	hasPredicate	〇	〇	×
+158	Obj	以下	False	判別不能	〇	〇	×
+159	対象文	昨日の夜、ポーターは何も聞こえなかった			×	〇	×
+159	Who	ポーター何	False		×	〇	×
+159	hasPredicate	聞こえなかった	True	hasPredicate	×	〇	×
+159	Obj	昨日の夜、	False	判別不能	×	〇	×
+160	対象文	オーウェンとジョージとブレンダは良い精神状態を持っていた			〇	〇	〇
+160	Who	オーウェン	True		〇	〇	〇
+160	Who	ジョージ	True		〇	〇	〇
+160	Who	ブレンダ	True		〇	〇	〇
+160	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+160	Obj	良い精神状態	True	What	〇	〇	〇
+161	対象文	オーウェンとジョージとブレンダは良い機嫌を持っていた			〇	〇	〇
+161	Who	オーウェン	True		〇	〇	〇
+161	Who	ジョージ	True		〇	〇	〇
+161	Who	ブレンダ	True		〇	〇	〇
+161	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+161	Obj	良い機嫌	True	What	〇	〇	〇
+162	対象文	今朝、ポーターは部屋に入った			〇	×	〇
+162	Who	ポーター	True		〇	×	〇
+162	hasPredicate	今朝、ポーターは部屋に入った	False		〇	×	〇
+162	Obj	部屋	True	To	〇	×	〇
+163	対象文	ポーターは無惨な光景を見た			〇	〇	〇
+163	Who	ポーター	True		〇	〇	〇
+163	hasPredicate	見た	True	hasPredicate	〇	〇	〇
+163	Obj	無惨な光景	True	What	〇	〇	〇
+164	対象文	ポーターは倒れた			〇	〇	無
+164	Who	ポーター	True		〇	〇	無
+164	hasPredicate	倒れた	True	hasPredicate	〇	〇	無
+165	対象文	ポーターは意識を取り戻した			〇	〇	〇
+165	Who	ポーター	True		〇	〇	〇
+165	hasPredicate	取り戻した	True	hasPredicate	〇	〇	〇
+165	Obj	意識	True	What	〇	〇	〇
+166	対象文	ポーターは窓を開けた			〇	〇	〇
+166	Who	ポーター	True		〇	〇	〇
+166	hasPredicate	開けた	True	hasPredicate	〇	〇	〇
+166	Obj	窓	True	What	〇	〇	〇
+167	対象文	ポーターは小道を駆け下った			〇	〇	〇
+167	Who	ポーター	True		〇	〇	〇
+167	hasPredicate	駆け下った	True	hasPredicate	〇	〇	〇
+167	Obj	小道	True	What	〇	〇	〇
+168	対象文	ポーターはドクター・リチャードへ農家の少年を送った			〇	〇	〇
+168	Who	ポーター	True		〇	〇	〇
+168	hasPredicate	送った	True	hasPredicate	〇	〇	〇
+168	Obj	ドクター・リチャード	True	Whom	〇	〇	〇
+168	Obj	農家の少年	True	What	〇	〇	〇
+169	対象文	ブレンダは自分のベッドに寝かせている			〇	〇	〇
+169	Who	ブレンダ	True		〇	〇	〇
+169	hasPredicate	寝かせている	True	hasPredicate	〇	〇	〇
+169	Obj	自分のベッド	True	Where	〇	〇	〇
+170	対象文	精神病院の馬車にオーウェンとジョージを乗せた			×	〇	〇
+170	Who		False		×	〇	〇
+170	hasPredicate	乗せた	True	hasPredicate	×	〇	〇
+170	Obj	精神病院の馬車	True	On	×	〇	〇
+170	Obj	オーウェン	True	What	×	〇	〇
+170	Obj	ジョージ	True	What	×	〇	〇
+171	対象文	オーウェンとジョージのために4人の男が必要だった			〇	〇	×
+171	Who	4人の男	True		〇	〇	×
+171	hasPredicate	必要だった	True	hasPredicate	〇	〇	×
+171	Obj	オーウェン	False	判別不能	〇	〇	×
+171	Obj	ジョージのため	False	判別不能	〇	〇	×
+172	対象文	ポーターは1日も家に留まる気を持たない			×	×	×
+172	Who	ポーター1日	False		×	×	×
+172	hasPredicate	持たない	False		×	×	×
+172	Obj	家に留まる気	False	判別不能	×	×	×
+174	対象文	ポーターはセント・アイヴスに帰る			〇	〇	〇
+174	Who	ポーター	True		〇	〇	〇
+174	hasPredicate	帰る	True	hasPredicate	〇	〇	〇
+174	Obj	セント・アイヴス	True	To	〇	〇	〇
+175	対象文	ホームズとワトソンとモーティマーは階段を上った			〇	〇	〇
+175	Who	ホームズ	True		〇	〇	〇
+175	Who	ワトソン	True		〇	〇	〇
+175	Who	モーティマー	True		〇	〇	〇
+175	hasPredicate	上った	True	hasPredicate	〇	〇	〇
+175	Obj	階段	True	What	〇	〇	〇
+176	対象文	ホームズとワトソンとモーティマーは死体を見た			〇	〇	〇
+176	Who	ホームズ	True		〇	〇	〇
+176	Who	ワトソン	True		〇	〇	〇
+176	Who	モーティマー	True		〇	〇	〇
+176	hasPredicate	見た	True	hasPredicate	〇	〇	〇
+176	Obj	死体	True	What	〇	〇	〇
+177	対象文	ブレンダは恐怖の表情を持っていた			〇	〇	〇
+177	Who	ブレンダ	True		〇	〇	〇
+177	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+177	Obj	恐怖の表情	True	What	〇	〇	〇
+178	対象文	ホームズとワトソンとモーティマーは居間に行った			〇	〇	〇
+178	Who	ホームズ	True		〇	〇	〇
+178	Who	ワトソン	True		〇	〇	〇
+178	Who	モーティマー	True		〇	〇	〇
+178	hasPredicate	行った	True	hasPredicate	〇	〇	〇
+178	Obj	居間	True	To	〇	〇	〇
+179	対象文	一晩中、暖炉は焚かれていた			〇	〇	×
+179	Who	暖炉	True		〇	〇	×
+179	hasPredicate	焚かれていた	True	hasPredicate	〇	〇	×
+179	Obj	一晩中、	False	判別不能	〇	〇	×
+180	対象文	黒焦げの灰が暖炉の中に残っていた			〇	〇	〇
+180	Who	黒焦げの灰	True		〇	〇	〇
+180	hasPredicate	残っていた	True	hasPredicate	〇	〇	〇
+180	Obj	暖炉の中	True	Where	〇	〇	〇
+181	対象文	テーブルに、燃えさしの蝋燭4本があった			〇	〇	×
+181	Who	燃えさしの蝋燭4本	True		〇	〇	×
+181	hasPredicate	あった	True	hasPredicate	〇	〇	×
+181	Obj	テーブルに、	False	判別不能	〇	〇	×
+182	対象文	テーブルに、カードが散らばっていた			〇	〇	×
+182	Who	カード	True		〇	〇	×
+182	hasPredicate	散らばっていた	True	hasPredicate	〇	〇	×
+182	Obj	テーブルに、	False	判別不能	〇	〇	×
+183	対象文	モーティマーは以下を言った			〇	〇	×
+183	Who	モーティマー	True		〇	〇	×
+183	hasPredicate	言った	True	hasPredicate	〇	〇	×
+183	Obj	以下	False	判別不能	〇	〇	×
+184	対象文	昨日の晩は寒かった			×	〇	×
+184	Who		False		×	〇	×
+184	hasPredicate	寒かった	True	hasProperty	×	〇	×
+184	Obj	昨日の晩	False	判別不能	×	〇	×
+185	対象文	そのため、暖炉がつけられた			〇	〇	×
+185	Who	暖炉	True		〇	〇	×
+185	hasPredicate	つけられた	True	hasPredicate	〇	〇	×
+185	Obj	そのため、	False	判別不能	〇	〇	×
+187	対象文	あとに、モーティマーが到着した			〇	〇	×
+187	Who	モーティマー	True		〇	〇	×
+187	hasPredicate	到着した	True	hasPredicate	〇	〇	×
+187	Obj	あとに、	False	判別不能	〇	〇	×
+188	対象文	ホームズはポルドュー湾のコテージに帰った			〇	〇	〇
+188	Who	ホームズ	True		〇	〇	〇
+188	hasPredicate	帰った	True	hasPredicate	〇	〇	〇
+188	Obj	ポルドュー湾のコテージ	True	To	〇	〇	〇
+189	対象文	ホームズは沈黙した			〇	〇	無
+189	Who	ホームズ	True		〇	〇	無
+189	hasPredicate	沈黙した	True	hasPredicate	〇	〇	無
+190	対象文	ホームズは以下を推測する			〇	〇	×
+190	Who	ホームズ	True		〇	〇	×
+190	hasPredicate	推測する	True	hasPredicate	〇	〇	×
+190	Obj	以下	False	判別不能	〇	〇	×
+191	対象文	ホームズとワトソンは以下を認めない			〇	〇	×
+191	Who	ホームズ	True		〇	〇	×
+191	Who	ワトソン	True		〇	〇	×
+191	hasPredicate	認めない	True	hasPredicate	〇	〇	×
+191	Obj	以下	False	判別不能	〇	〇	×
+192	対象文	犯人は悪魔である			〇	×	無
+192	Who	犯人	True		〇	×	無
+192	hasPredicate	悪魔である	False		〇	×	無
+193	対象文	オーウェンとジョージとブレンダは、人間の故意か過失のため苦しみを味わった			×	〇	△
+193	Who	オーウェン	True		×	〇	△
+193	Who	ジョージ	True		×	〇	△
+193	Who	ブレンダは、	False		×	〇	△
+193	hasPredicate	味わった	True	hasPredicate	×	〇	△
+193	Obj	人間の故意か過失のため	False	判別不能	×	〇	△
+193	Obj	苦しみ	True	What	×	〇	△
+194	対象文	ホームズは以下を推測した			〇	〇	×
+194	Who	ホームズ	True		〇	〇	×
+194	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+194	Obj	以下	False	判別不能	〇	〇	×
+195	対象文	モーティマーの話を真実だとする			×	×	無
+195	Who		False		×	×	無
+195	hasPredicate	モーティマーの話を真実だとする	False		×	×	無
+196	対象文	モーティマーが部屋を出た			〇	〇	〇
+196	Who	モーティマー	True		〇	〇	〇
+196	hasPredicate	出た	True	hasPredicate	〇	〇	〇
+196	Obj	部屋	True	What	〇	〇	〇
+197	対象文	数分以内で、事件が起きた			〇	〇	×
+197	Who	事件	True		〇	〇	×
+197	hasPredicate	起きた	True	hasPredicate	〇	〇	×
+197	Obj	数分以内で、	False	判別不能	〇	〇	×
+198	対象文	カードがテーブルに散らばっていた			〇	〇	〇
+198	Who	カード	True		〇	〇	〇
+198	hasPredicate	散らばっていた	True	hasPredicate	〇	〇	〇
+198	Obj	テーブル	True	On	〇	〇	〇
+199	対象文	オーウェンとジョージとブレンダの就寝時間は越えていた			×	〇	無
+199	Who	オーウェン	True		×	〇	無
+199	Who	ジョージ	True		×	〇	無
+199	Who	ブレンダの就寝時間	False		×	〇	無
+199	hasPredicate	越えていた	True	hasPredicate	×	〇	無
+200	対象文	オーウェンとジョージとブレンダは姿勢を変えなかった			〇	〇	〇
+200	Who	オーウェン	True		〇	〇	〇
+200	Who	ジョージ	True		〇	〇	〇
+200	Who	ブレンダ	True		〇	〇	〇
+200	hasPredicate	変えなかった	True	hasPredicate	〇	〇	〇
+200	Obj	姿勢	True	What	〇	〇	〇
+201	対象文	オーウェンとジョージとブレンダは椅子を引かなかった			〇	〇	〇
+201	Who	オーウェン	True		〇	〇	〇
+201	Who	ジョージ	True		〇	〇	〇
+201	Who	ブレンダ	True		〇	〇	〇
+201	hasPredicate	引かなかった	True	hasPredicate	〇	〇	〇
+201	Obj	椅子	True	What	〇	〇	〇
+202	対象文	ホームズは以下を推測した			〇	〇	×
+202	Who	ホームズ	True		〇	〇	×
+202	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+202	Obj	以下	False	判別不能	〇	〇	×
+203	対象文	昨夜11時以前に、事件が起きた			〇	〇	×
+203	Who	事件	True		〇	〇	×
+203	hasPredicate	起きた	True	hasPredicate	〇	〇	×
+203	Obj	昨夜11時以前に、	False	判別不能	〇	〇	×
+204	対象文	モーティマーは牧師館に歩いてきた			×	×	無
+204	Who		False		×	×	無
+204	hasPredicate	モーティマーは牧師館に歩いてきた	False		×	×	無
+205	対象文	ポーターは犯人ではない			〇	×	無
+205	Who	ポーター	True		〇	×	無
+205	hasPredicate	犯人ではない	False		〇	×	無
+206	対象文	窓の下の花壇に足跡はない			×	×	×
+206	Who	足跡	False		×	×	×
+206	hasPredicate	ない	False		×	×	×
+206	Obj	窓の下の花壇	False	判別不能	×	×	×
+207	対象文	部外者は事件を起こせない			〇	〇	〇
+207	Who	部外者	True		〇	〇	〇
+207	hasPredicate	起こせない	True	hasPredicate	〇	〇	〇
+207	Obj	事件	True	What	〇	〇	〇
+208	対象文	部外者は事件の動機を持たない			〇	〇	〇
+208	Who	部外者	True		〇	〇	〇
+208	hasPredicate	持たない	True	hasPredicate	〇	〇	〇
+208	Obj	事件の動機	True	What	〇	〇	〇
+209	対象文	午後に、ホームズとワトソンはポルデュー湾のコテージに戻った			〇	〇	×
+209	Who	ホームズ	True		〇	〇	×
+209	Who	ワトソン	True		〇	〇	×
+209	hasPredicate	戻った	True	hasPredicate	〇	〇	×
+209	Obj	午後に、	False	判別不能	〇	〇	×
+209	Obj	ポルデュー湾のコテージ	False	判別不能	〇	〇	×
+210	対象文	スタンデールがポルデュー湾のコテージにいた			〇	〇	〇
+210	Who	スタンデール	True		〇	〇	〇
+210	hasPredicate	いた	True	hasPredicate	〇	〇	〇
+210	Obj	ポルデュー湾のコテージ	True	Where	〇	〇	〇
+211	対象文	スタンデールはライオンハンターである			〇	×	無
+211	Who	スタンデール	True		〇	×	無
+211	hasPredicate	ライオンハンターである	False		〇	×	無
+212	対象文	スタンデールは探険家である			〇	×	無
+212	Who	スタンデール	True		〇	×	無
+212	hasPredicate	探険家である	False		〇	×	無
+213	対象文	コーンワルにおいて、スタンデールは隣人とつきあいを持たない			〇	〇	△
+213	Who	スタンデール	True		〇	〇	△
+213	hasPredicate	持たない	True	hasPredicate	〇	〇	△
+213	Obj	コーンワルにおいて、	False	判別不能	〇	〇	△
+213	Obj	隣人	True	Whom	〇	〇	△
+213	Obj	つきあい	True	What	〇	〇	△
+214	対象文	コーンワルにおいて、スタンデールは孤立している			〇	〇	×
+214	Who	スタンデール	True		〇	〇	×
+214	hasPredicate	孤立している	True	hasPredicate	〇	〇	×
+214	Obj	コーンワルにおいて、	False	判別不能	〇	〇	×
+215	対象文	スタンデールがホームズに進展を聞いた			〇	〇	〇
+215	Who	スタンデール	True		〇	〇	〇
+215	hasPredicate	聞いた	True	hasPredicate	〇	〇	〇
+215	Obj	ホームズ	True	What	〇	〇	〇
+215	Obj	進展	True	What	〇	〇	〇
+216	対象文	スタンデールは以下を言った			〇	〇	×
+216	Who	スタンデール	True		〇	〇	×
+216	hasPredicate	言った	True	hasPredicate	〇	〇	×
+216	Obj	以下	False	判別不能	〇	〇	×
+217	対象文	スタンデールは地方警察を信用しない			〇	〇	〇
+217	Who	スタンデール	True		〇	〇	〇
+217	hasPredicate	信用しない	True	hasPredicate	〇	〇	〇
+217	Obj	地方警察	True	What	〇	〇	〇
+218	対象文	スタンデールはトリジェニス家に何度も滞在した			×	〇	〇
+218	Who	スタンデール何度	False		×	〇	〇
+218	hasPredicate	滞在した	True	hasPredicate	×	〇	〇
+218	Obj	トリジェニス家	True	Where	×	〇	〇
+219	対象文	スタンデールはトリジェニス家と親しくなった			×	×	無
+219	Who		False		×	×	無
+219	hasPredicate	スタンデールはトリジェニス家と親しくなった	False		×	×	無
+220	対象文	スタンデールはショックを受けた			〇	〇	〇
+220	Who	スタンデール	True		〇	〇	〇
+220	hasPredicate	受けた	True	hasPredicate	〇	〇	〇
+220	Obj	ショック	True	What	〇	〇	〇
+221	対象文	スタンデールはオーウェンとジョージとブレンダの運命を聞いた			〇	〇	△
+221	Who	スタンデール	True		〇	〇	△
+221	hasPredicate	聞いた	True	hasPredicate	〇	〇	△
+221	Obj	オーウェン	False	判別不能	〇	〇	△
+221	Obj	ジョージ	False	判別不能	〇	〇	△
+221	Obj	ブレンダの運命	True	What	〇	〇	△
+222	対象文	スタンデールはアフリカに向かっていた			〇	〇	〇
+222	Who	スタンデール	True		〇	〇	〇
+222	hasPredicate	向かっていた	True	hasPredicate	〇	〇	〇
+222	Obj	アフリカ	True	To	〇	〇	〇
+223	対象文	スタンデールはプリマスまで着いた			〇	〇	〇
+223	Who	スタンデール	True		〇	〇	〇
+223	hasPredicate	着いた	True	hasPredicate	〇	〇	〇
+223	Obj	プリマス	True	To	〇	〇	〇
+224	対象文	今朝、スタンデールはニュースを聞いた			〇	×	〇
+224	Who	スタンデール	True		〇	×	〇
+224	hasPredicate	今朝、スタンデールはニュースを聞いた	False		〇	×	〇
+224	Obj	ニュース	True	What	〇	×	〇
+225	対象文	スタンデールは帰ってきた			〇	〇	無
+225	Who	スタンデール	True		〇	〇	無
+225	hasPredicate	帰ってきた	True	hasPredicate	〇	〇	無
+226	対象文	ラウンドヘイがスタンデールに電報を送った			〇	〇	〇
+226	Who	ラウンドヘイ	True		〇	〇	〇
+226	hasPredicate	送った	True	hasPredicate	〇	〇	〇
+226	Obj	スタンデール	True	Whoｍ	〇	〇	〇
+226	Obj	電報	True	What	〇	〇	〇
+227	対象文	スタンデールはホームズに容疑者を聞いた			〇	〇	〇
+227	Who	スタンデール	True		〇	〇	〇
+227	hasPredicate	聞いた	True	hasPredicate	〇	〇	〇
+227	Obj	ホームズ	True	Whom	〇	〇	〇
+227	Obj	容疑者	True	What	〇	〇	〇
+228	対象文	ホームズはスタンデールに答えなかった			〇	〇	〇
+228	Who	ホームズ	True		〇	〇	〇
+228	hasPredicate	答えなかった	True	hasPredicate	〇	〇	〇
+228	Obj	スタンデール	True	Whom	〇	〇	〇
+229	対象文	スタンデールはポルデュー湾のコテージから出ていった			×	×	無
+229	Who		False		×	×	無
+229	hasPredicate	スタンデールはポルデュー湾のコテージから出ていった	False		×	×	無
+230	対象文	5分以内に、ホームズはスタンデールを追った			〇	〇	△
+230	Who	ホームズ	True		〇	〇	△
+230	hasPredicate	追った	True	hasPredicate	〇	〇	△
+230	Obj	5分以内に、	False	判別不能	〇	〇	△
+230	Obj	スタンデール	True	What	〇	〇	△
+231	対象文	ワトソンは以下を思った			〇	〇	×
+231	Who	ワトソン	True		〇	〇	×
+231	hasPredicate	思った	True	hasPredicate	〇	〇	×
+231	Obj	以下	False	判別不能	〇	〇	×
+232	対象文	調査は進展しなかった			〇	〇	無
+232	Who	調査	True		〇	〇	無
+232	hasPredicate	進展しなかった	True	hasPredicate	〇	〇	無
+233	対象文	ホームズは電報を見た			〇	〇	〇
+233	Who	ホームズ	True		〇	〇	〇
+233	hasPredicate	見た	True	hasPredicate	〇	〇	〇
+233	Obj	電報	True	What	〇	〇	〇
+234	対象文	ホームズは電報を暖炉に放りこんだ			〇	〇	〇
+234	Who	ホームズ	True		〇	〇	〇
+234	hasPredicate	放りこんだ	True	hasPredicate	〇	〇	〇
+234	Obj	電報	True	What	〇	〇	〇
+234	Obj	暖炉	True	To	〇	〇	〇
+235	対象文	電報がプリマスのホテルから届いた			〇	〇	〇
+235	Who	電報	True		〇	〇	〇
+235	hasPredicate	届いた	True	hasPredicate	〇	〇	〇
+235	Obj	プリマスのホテル	True	From	〇	〇	〇
+236	対象文	ホームズは以下を言った			〇	〇	×
+236	Who	ホームズ	True		〇	〇	×
+236	hasPredicate	言った	True	hasPredicate	〇	〇	×
+236	Obj	以下	False	判別不能	〇	〇	×
+237	対象文	ホームズは電報を打った			〇	〇	〇
+237	Who	ホームズ	True		〇	〇	〇
+237	hasPredicate	打った	True	hasPredicate	〇	〇	〇
+237	Obj	電報	True	What	〇	〇	〇
+238	対象文	ラウンドヘイから名前を聞きだした			×	〇	〇
+238	Who		False		×	〇	〇
+238	hasPredicate	聞きだした	True	hasPredicate	×	〇	〇
+238	Obj	ラウンドヘイ	True	From	×	〇	〇
+238	Obj	名前	True	What	×	〇	〇
+239	対象文	ラウンドヘイに以下を聞いた			×	〇	〇
+239	Who		False		×	〇	〇
+239	hasPredicate	聞いた	True	hasPredicate	×	〇	〇
+239	Obj	ラウンドヘイ	True	What	×	〇	〇
+239	Obj	以下	True	What	×	〇	〇
+240	対象文	スタンデールの説明は正しい			〇	〇	無
+240	Who	スタンデールの説明	True		〇	〇	無
+240	hasPredicate	正しい	True	hasPredicate	〇	〇	無
+241	対象文	昨晩、スタンデールはプリマスにいた			〇	×	〇
+241	Who	スタンデール	True		〇	×	〇
+241	hasPredicate	昨晩、スタンデールはプリマスにいた	False		〇	×	〇
+241	Obj	プリマス	True	Where	〇	×	〇
+242	対象文	午後に、スタンデールは荷物をアフリカに送った			〇	〇	△
+242	Who	スタンデール	True		〇	〇	△
+242	hasPredicate	送った	True	hasPredicate	〇	〇	△
+242	Obj	午後に、	False	判別不能	〇	〇	△
+242	Obj	荷物	True	What	〇	〇	△
+242	Obj	アフリカ	True	To	〇	〇	△
+243	対象文	その朝、ラウンドヘイが庭の小道を駆けてきた			×	×	×
+243	Who		False		×	×	×
+243	hasPredicate	ラウンドヘイが庭の小道を駆けてきた	False		×	×	×
+243	Obj	その朝、	False	判別不能	×	×	×
+244	対象文	ラウンドヘイは以下を言った			〇	〇	〇
+244	Who	ラウンドヘイ	True		〇	〇	〇
+244	hasPredicate	言った	True	hasPredicate	〇	〇	〇
+244	Obj	以下	True	What	〇	〇	〇
+245	対象文	コーンワルには、悪魔がとりついている			〇	〇	×
+245	Who	悪魔	True		〇	〇	×
+245	hasPredicate	とりついている	True	hasPredicate	〇	〇	×
+245	Obj	コーンワルには、	False	判別不能	〇	〇	×
+246	対象文	昨晩、モーティマーがブレンダと同じ症状で亡くなった			〇	×	×
+246	Who	モーティマー	True		〇	×	×
+246	hasPredicate	昨晩、モーティマーがブレンダと同じ症状で亡くなった	False		〇	×	×
+246	Obj	ブレンダ	False	判別不能	〇	×	×
+246	Obj	同じ症状	False	判別不能	〇	×	×
+247	対象文	モーティマーは、牧師館の２部屋を借りていた			×	〇	〇
+247	Who	モーティマーは、	False		×	〇	〇
+247	hasPredicate	借りていた	True	hasPredicate	×	〇	〇
+247	Obj	牧師館の２部屋	True	What	×	〇	〇
+248	対象文	部屋下は居間である			〇	×	無
+248	Who	部屋下	True		〇	×	無
+248	hasPredicate	居間である	False		〇	×	無
+249	対象文	部屋上は寝室である			〇	×	無
+249	Who	部屋上	True		〇	×	無
+249	hasPredicate	寝室である	False		〇	×	無
+250	対象文	居間と寝室は窓から芝生を見ることができる			〇	〇	〇
+250	Who	居間	True		〇	〇	〇
+250	Who	寝室	True		〇	〇	〇
+250	hasPredicate	見ることができる	True	hasPredicate	〇	〇	〇
+250	Obj	窓	True	Where	〇	〇	〇
+250	Obj	芝生	True	What	〇	〇	〇
+252	対象文	部屋の空気は恐怖と憂鬱に満ちていた			〇	〇	〇
+252	Who	部屋の空気	True		〇	〇	〇
+252	hasPredicate	満ちていた	True	hasPredicate	〇	〇	〇
+252	Obj	恐怖	True	What	〇	〇	〇
+252	Obj	憂鬱	True	What	〇	〇	〇
+253	対象文	事件後、使用人が窓を開けた			〇	〇	△
+253	Who	使用人	True		〇	〇	△
+253	hasPredicate	開けた	True	hasPredicate	〇	〇	△
+253	Obj	事件後、	False	判別不能	〇	〇	△
+253	Obj	窓	True	What	〇	〇	△
+254	対象文	ワトソンは以下を思った			〇	〇	〇
+254	Who	ワトソン	True		〇	〇	〇
+254	hasPredicate	思った	True	hasPredicate	〇	〇	〇
+254	Obj	以下	True	What	〇	〇	〇
+255	対象文	空気はもっと悪くなっていた			×	×	無
+255	Who		False		×	×	無
+255	hasPredicate	空気はもっと悪くなっていた	False		×	×	無
+256	対象文	もし窓が開いていない			〇	×	無
+256	Who	窓	True		〇	×	無
+256	hasPredicate	もし窓が開いていない	False		〇	×	無
+257	対象文	原因は以下である			〇	×	無
+257	Who	原因	True		〇	×	無
+257	hasPredicate	以下である	False		〇	×	無
+258	対象文	ランプがテーブルの上にある			〇	〇	×
+258	Who	ランプ	True		〇	〇	×
+258	hasPredicate	ある	True	hasPredicate	〇	〇	×
+258	Obj	テーブルの上	False	判別不能	〇	〇	×
+259	対象文	ランプが炎と煙を上げていた			〇	〇	〇
+259	Who	ランプ	True		〇	〇	〇
+259	hasPredicate	上げていた	True	hasPredicate	〇	〇	〇
+259	Obj	炎	True	What	〇	〇	〇
+259	Obj	煙	True	What	〇	〇	〇
+260	対象文	モーティマーはランプの近くに座っていた			〇	〇	×
+260	Who	モーティマー	True		〇	〇	×
+260	hasPredicate	座っていた	True	hasPredicate	〇	〇	×
+260	Obj	ランプの近く	False	判別不能	〇	〇	×
+261	対象文	モーティマーは椅子にもたれこんでいた			〇	×	×
+261	Who	モーティマー	True		〇	×	×
+261	hasPredicate	たれこんでいた	False		〇	×	×
+261	Obj	椅子に	False	判別不能	〇	×	×
+262	対象文	モーティマーは顎鬚を突き出していた			〇	〇	〇
+262	Who	モーティマー	True		〇	〇	〇
+262	hasPredicate	突き出していた	True	hasPredicate	〇	〇	〇
+262	Obj	顎鬚	True	What	〇	〇	〇
+263	対象文	モーティマーは眼鏡を額に押し上げていた			〇	〇	〇
+263	Who	モーティマー	True		〇	〇	〇
+263	hasPredicate	押し上げていた	True	hasPredicate	〇	〇	〇
+263	Obj	眼鏡	True	What	〇	〇	〇
+263	Obj	額	True	On	〇	〇	〇
+264	対象文	モーティマーの顔は窓を向いていた			〇	〇	〇
+264	Who	モーティマーの顔	True		〇	〇	〇
+264	hasPredicate	向いていた	True	hasPredicate	〇	〇	〇
+264	Obj	窓	True	To	〇	〇	〇
+265	対象文	モーティマーは恐怖の表情を持っていた			〇	〇	〇
+265	Who	モーティマー	True		〇	〇	〇
+265	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+265	Obj	恐怖の表情	True	What	〇	〇	〇
+266	対象文	モーティマーの手足は引きつっていた			〇	〇	無
+266	Who	モーティマーの手足	True		〇	〇	無
+266	hasPredicate	引きつっていた	True	hasPredicate	〇	〇	無
+267	対象文	モーティマーの指はねじれていた			〇	〇	無
+267	Who	モーティマーの指	True		〇	〇	無
+267	hasPredicate	ねじれていた	True	hasPredicate	〇	〇	無
+268	対象文	ワトソンは以下を推測した			〇	〇	×
+268	Who	ワトソン	True		〇	〇	×
+268	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+268	Obj	以下	False	判別不能	〇	〇	×
+269	対象文	モーティマーは恐怖の発作で死んだ			〇	〇	〇
+269	Who	モーティマー	True		〇	〇	〇
+269	hasPredicate	死んだ	True	hasPredicate	〇	〇	〇
+269	Obj	恐怖の発作	True	Why	〇	〇	〇
+270	対象文	モーティマーはきちんとしたした服を着ていた			〇	〇	〇
+270	Who	モーティマー	True		〇	〇	〇
+270	hasPredicate	着ていた	True	hasPredicate	〇	〇	〇
+270	Obj	きちんとしたした服	True	What	〇	〇	〇
+272	対象文	モーティマーは急いで服を着た			〇	×	〇
+272	Who	モーティマー	True		〇	×	〇
+272	hasPredicate	急いで服を着た	False		〇	×	〇
+272	Obj	服	True	What	〇	×	〇
+273	対象文	モーティマーのベッドは人の形跡を持っていた			×	〇	〇
+273	Who	モーティマーのベッド	False		×	〇	〇
+273	hasPredicate	持っていた	True	hasPredicate	×	〇	〇
+273	Obj	人の形跡	True	What	×	〇	〇
+274	対象文	今朝早く、モーティマーは亡くなった			〇	×	無
+274	Who	モーティマー	True		〇	×	無
+274	hasPredicate	今朝早く、モーティマーは亡くなった	False		〇	×	無
+275	対象文	ホームズは芝生に出た			〇	〇	〇
+275	Who	ホームズ	True		〇	〇	〇
+275	hasPredicate	出た	True	hasPredicate	〇	〇	〇
+275	Obj	芝生	True	To	〇	〇	〇
+276	対象文	ホームズは窓から居間に入った			〇	〇	〇
+276	Who	ホームズ	True		〇	〇	〇
+276	hasPredicate	入った	True	hasPredicate	〇	〇	〇
+276	Obj	窓	True	From	〇	〇	〇
+276	Obj	居間	True	To	〇	〇	〇
+277	対象文	ホームズは居間を歩き回った			〇	〇	〇
+277	Who	ホームズ	True		〇	〇	〇
+277	hasPredicate	歩き回った	True	hasPredicate	〇	〇	〇
+277	Obj	居間	True	Where	〇	〇	〇
+278	対象文	ホームズは寝室に行った			〇	〇	〇
+278	Who	ホームズ	True		〇	〇	〇
+278	hasPredicate	行った	True	hasPredicate	〇	〇	〇
+278	Obj	寝室	True	Where	〇	〇	〇
+279	対象文	ホームズは寝室を見渡した			〇	〇	〇
+279	Who	ホームズ	True		〇	〇	〇
+279	hasPredicate	見渡した	True	hasPredicate	〇	〇	〇
+279	Obj	寝室	True	Where	〇	〇	〇
+280	対象文	最後に、ホームズは窓を開けた			〇	〇	△
+280	Who	ホームズ	True		〇	〇	△
+280	hasPredicate	開けた	True	hasPredicate	〇	〇	△
+280	Obj	最後に、	False	判別不能	〇	〇	△
+280	Obj	窓	True	What	〇	〇	△
+281	対象文	ワトソンは以下を思った			〇	〇	×
+281	Who	ワトソン	True		〇	〇	×
+281	hasPredicate	思った	True	hasPredicate	〇	〇	×
+281	Obj	以下	False	判別不能	〇	〇	×
+282	対象文	ホームズは新しい刺激を見つけた			〇	〇	〇
+282	Who	ホームズ	True		〇	〇	〇
+282	hasPredicate	見つけた	True	hasPredicate	〇	〇	〇
+282	Obj	新しい刺激	True	What	〇	〇	〇
+283	対象文	ホームズは寝室から出た			〇	〇	〇
+283	Who	ホームズ	True		〇	〇	〇
+283	hasPredicate	出た	True	hasPredicate	〇	〇	〇
+283	Obj	寝室	True	Where	〇	〇	〇
+284	対象文	ホームズは階段を下りた			〇	〇	〇
+284	Who	ホームズ	True		〇	〇	〇
+284	hasPredicate	下りた	True	hasPredicate	〇	〇	〇
+284	Obj	階段	True	What	〇	〇	〇
+285	対象文	ホームズは窓から芝生に出た			〇	〇	〇
+285	Who	ホームズ	True		〇	〇	〇
+285	hasPredicate	出た	True	hasPredicate	〇	〇	〇
+285	Obj	窓	True	From	〇	〇	〇
+285	Obj	芝生	True	To	〇	〇	〇
+286	対象文	ホームズは顔を芝生にこすりつけた			〇	〇	〇
+286	Who	ホームズ	True		〇	〇	〇
+286	hasPredicate	こすりつけた	True	hasPredicate	〇	〇	〇
+286	Obj	顔	True	What	〇	〇	〇
+286	Obj	芝生	True	To	〇	〇	〇
+287	対象文	ホームズは居間に入った			〇	〇	〇
+287	Who	ホームズ	True		〇	〇	〇
+287	hasPredicate	入った	True	hasPredicate	〇	〇	〇
+287	Obj	居間	True	To	〇	〇	〇
+288	対象文	ランプは既製品だった			〇	〇	無
+288	Who	ランプ	True		〇	〇	無
+288	hasPredicate	既製品だった	True	hasProperty	〇	〇	無
+289	対象文	ホームズはランプを検査した			〇	〇	〇
+289	Who	ホームズ	True		〇	〇	〇
+289	hasPredicate	検査した	True	hasPredicate	〇	〇	〇
+289	Obj	ランプ	True	What	〇	〇	〇
+290	対象文	ホームズはオイルの容量を確認した			〇	〇	〇
+290	Who	ホームズ	True		〇	〇	〇
+290	hasPredicate	確認した	True	hasPredicate	〇	〇	〇
+290	Obj	オイルの容量	True	What	〇	〇	〇
+291	対象文	ホームズは虫眼鏡で排煙部の外装を調べた			〇	〇	〇
+291	Who	ホームズ	True		〇	〇	〇
+291	hasPredicate	調べた	True	hasPredicate	〇	〇	〇
+291	Obj	虫眼鏡	True	How	〇	〇	〇
+291	Obj	排煙部の外装	True	What	〇	〇	〇
+292	対象文	ホームズは外装面の灰を落とした			〇	〇	〇
+292	Who	ホームズ	True		〇	〇	〇
+292	hasPredicate	落とした	True	hasPredicate	〇	〇	〇
+292	Obj	外装面の灰	True	What	〇	〇	〇
+293	対象文	ホームズは封筒に納めた			〇	〇	〇
+293	Who	ホームズ	True		〇	〇	〇
+293	hasPredicate	納めた	True	hasPredicate	〇	〇	〇
+293	Obj	封筒	True	To	〇	〇	〇
+294	対象文	ホームズは以下を頼んだ			〇	〇	×
+294	Who	ホームズ	True		〇	〇	×
+294	hasPredicate	頼んだ	True	hasPredicate	〇	〇	×
+294	Obj	以下	False	判別不能	〇	〇	×
+295	対象文	ラウンドヘイが以下を刑事に言った			〇	〇	△
+295	Who	ラウンドヘイ	True		〇	〇	△
+295	hasPredicate	言った	True	hasPredicate	〇	〇	△
+295	Obj	以下	False	判別不能	〇	〇	△
+295	Obj	刑事	True	Whom	〇	〇	△
+296	対象文	刑事は窓とランプに注意を向ける			〇	〇	〇
+296	Who	刑事	True		〇	〇	〇
+296	hasPredicate	向ける	True	hasPredicate	〇	〇	〇
+296	Obj	窓	True	To	〇	〇	〇
+296	Obj	ランプ	True	To	〇	〇	〇
+296	Obj	注意	True	What	〇	〇	〇
+297	対象文	窓とランプは重要である			〇	〇	無
+297	Who	窓	True		〇	〇	無
+297	Who	ランプ	True		〇	〇	無
+297	hasPredicate	重要である	True	hasProperty	〇	〇	無
+298	対象文	ホームズは、ランプの複製品を買ってきた			×	×	無
+298	Who		False		×	×	無
+298	hasPredicate	ホームズは、ランプの複製品を買ってきた	False		×	×	無
+299	対象文	ホームズは牧師館と同じオイルを補充した			〇	〇	×
+299	Who	ホームズ	True		〇	〇	×
+299	hasPredicate	補充した	True	hasPredicate	〇	〇	×
+299	Obj	牧師館	False	判別不能	〇	〇	×
+299	Obj	同じオイル	False	判別不能	〇	〇	×
+300	対象文	ホームズは燃焼時間を計った			〇	〇	〇
+300	Who	ホームズ	True		〇	〇	〇
+300	hasPredicate	計った	True	hasPredicate	〇	〇	〇
+300	Obj	燃焼時間	True	What	〇	〇	〇
+301	対象文	ホームズは以下を言った			〇	〇	×
+301	Who	ホームズ	True		〇	〇	×
+301	hasPredicate	言った	True	hasPredicate	〇	〇	×
+301	Obj	以下	False	判別不能	〇	〇	×
+302	対象文	事件1と事件2の部屋は同じ空気を持つ			×	〇	〇
+302	Who	事件1	False		×	〇	〇
+302	Who	事件2の部屋	False		×	〇	〇
+302	hasPredicate	持つ	True	hasPredicate	×	〇	〇
+302	Obj	同じ空気	True	What	×	〇	〇
+303	対象文	モーティマーは以下を言った			〇	〇	×
+303	Who	モーティマー	True		〇	〇	×
+303	hasPredicate	言った	True	hasPredicate	〇	〇	×
+303	Obj	以下	False	判別不能	〇	〇	×
+304	対象文	ドクター・リチャードが倒れた			〇	〇	無
+304	Who	ドクター・リチャード	True		〇	〇	無
+304	hasPredicate	倒れた	True	hasPredicate	〇	〇	無
+305	対象文	ドクター・リチャードが部屋に入った			〇	〇	〇
+305	Who	ドクター・リチャード	True		〇	〇	〇
+305	hasPredicate	入った	True	hasPredicate	〇	〇	〇
+305	Obj	部屋	True	To	〇	〇	〇
+306	対象文	ポーターは倒れた			〇	〇	無
+306	Who	ポーター	True		〇	〇	無
+306	hasPredicate	倒れた	True	hasPredicate	〇	〇	無
+307	対象文	ポーターが部屋に入った			〇	〇	〇
+307	Who	ポーター	True		〇	〇	〇
+307	hasPredicate	入った	True	hasPredicate	〇	〇	〇
+307	Obj	部屋	True	To	〇	〇	〇
+308	対象文	ポーターは窓を開けた			〇	〇	〇
+308	Who	ポーター	True		〇	〇	〇
+308	hasPredicate	開けた	True	hasPredicate	〇	〇	〇
+308	Obj	窓	True	What	〇	〇	〇
+309	対象文	事件2において、部屋の空気は淀んでいた			〇	〇	×
+309	Who	部屋の空気	True		〇	〇	×
+309	hasPredicate	淀んでいた	True	hasProperty	〇	〇	×
+309	Obj	事件2において、	False	判別不能	〇	〇	×
+310	対象文	ホームズとワトソンが到着した			〇	〇	無
+310	Who	ホームズ	True		〇	〇	無
+310	Who	ワトソン	True		〇	〇	無
+310	hasPredicate	到着した	True	hasPredicate	〇	〇	無
+311	対象文	事件1と事件2において、毒性の空気がこもっていた			〇	〇	△
+311	Who	毒性の空気	True		〇	〇	△
+311	hasPredicate	こもっていた	True	hasPredicate	〇	〇	△
+311	Obj	事件1	True	When	〇	〇	△
+311	Obj	事件2において、	False	判別不能	〇	〇	△
+312	対象文	事件1と事件2において、部屋の中でものが燃えていた			〇	〇	△
+312	Who	もの	True		〇	〇	△
+312	hasPredicate	燃えていた	True	hasPredicate	〇	〇	△
+312	Obj	事件1	True	When	〇	〇	△
+312	Obj	事件2において、	False	判別不能	〇	〇	△
+312	Obj	部屋の中	True	Where	〇	〇	△
+313	対象文	夜が明けてずいぶん経った後、ランプは火をつけられた			〇	〇	×
+313	Who	ランプ	True		〇	〇	×
+313	hasPredicate	つけられた	True	hasPredicate	〇	〇	×
+313	Obj	夜が明けてずいぶん経った後、	False	判別不能	〇	〇	×
+313	Obj	火	False	判別不能	〇	〇	×
+316	対象文	ホームズは以下を推測した			〇	〇	×
+316	Who	ホームズ	True		〇	〇	×
+316	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+316	Obj	以下	False	判別不能	〇	〇	×
+317	対象文	燃焼と空気と死と狂気はつながっている			〇	〇	無
+317	Who	燃焼	True		〇	〇	無
+317	Who	空気	True		〇	〇	無
+317	Who	死	True		〇	〇	無
+317	Who	狂気	True		〇	〇	無
+317	hasPredicate	つながっている	True	hasPredicate	〇	〇	無
+318	対象文	ホームズは以下のように言った			〇	×	無
+318	Who	ホームズ	True		〇	×	無
+318	hasPredicate	以下のように言った	False		〇	×	無
+319	対象文	事件1と事件2において、薬物が燃やされた			〇	〇	△
+319	Who	薬物	True		〇	〇	△
+319	hasPredicate	燃やされた	True	hasPredicate	〇	〇	△
+319	Obj	事件1	True	When	〇	〇	△
+319	Obj	事件2において、	False	判別不能	〇	〇	△
+320	対象文	事件1において、薬物は暖炉にあった			〇	〇	△
+320	Who	薬物	True		〇	〇	△
+320	hasPredicate	あった	True	hasPredicate	〇	〇	△
+320	Obj	事件1において、	False	判別不能	〇	〇	△
+320	Obj	暖炉	True	Where	〇	〇	△
+321	対象文	窓は締まっていた			〇	〇	無
+321	Who	窓	True		〇	〇	無
+321	hasPredicate	締まっていた	True	hasPredicate	〇	〇	無
+322	対象文	毒性の空気は煙突から出た			〇	〇	〇
+322	Who	毒性の空気	True		〇	〇	〇
+322	hasPredicate	出た	True	hasPredicate	〇	〇	〇
+322	Obj	煙突	True	From	〇	〇	〇
+323	対象文	事件2において、毒性の空気は出なかった			〇	〇	×
+323	Who	毒性の空気	True		〇	〇	×
+323	hasPredicate	出なかった	True	hasPredicate	〇	〇	×
+323	Obj	事件2において、	False	判別不能	〇	〇	×
+324	対象文	事件1において、事件2より毒性の空気は薄い			〇	×	×
+324	Who	毒性の空気	True		〇	×	×
+324	hasPredicate	事件2より毒性の空気は薄い	False		〇	×	×
+324	Obj	事件1において、	False	判別不能	〇	×	×
+325	対象文	事件1において、ブレンダが殺された			〇	〇	×
+325	Who	ブレンダ	True		〇	〇	×
+325	hasPredicate	殺された	True	hasPredicate	〇	〇	×
+325	Obj	事件1において、	False	判別不能	〇	〇	×
+326	対象文	ホームズは以下を推測した			〇	〇	×
+326	Who	ホームズ	True		〇	〇	×
+326	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+326	Obj	以下	False	判別不能	〇	〇	×
+327	対象文	ブレンダは過敏な体質を持っていた			〇	〇	〇
+327	Who	ブレンダ	True		〇	〇	〇
+327	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+327	Obj	過敏な体質	True	What	〇	〇	〇
+328	対象文	オーウェンとジョージは狂った			〇	〇	無
+328	Who	オーウェン	True		〇	〇	無
+328	Who	ジョージ	True		〇	〇	無
+328	hasPredicate	狂った	True	hasPredicate	〇	〇	無
+329	対象文	狂気は薬物の初期症状である			〇	×	無
+329	Who	狂気	True		〇	×	無
+329	hasPredicate	薬物の初期症状である	False		〇	×	無
+330	対象文	事件2において、効果は完璧だった			〇	〇	×
+330	Who	効果	True		〇	〇	×
+330	hasPredicate	完璧だった	True	hasPredicate	〇	〇	×
+330	Obj	事件2において、	False	判別不能	〇	〇	×
+331	対象文	ホームズは以下を推測した			〇	〇	×
+331	Who	ホームズ	True		〇	〇	×
+331	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+331	Obj	以下	False	判別不能	〇	〇	×
+332	対象文	薬物は燃焼時に作用する			〇	〇	〇
+332	Who	薬物	True		〇	〇	〇
+332	hasPredicate	作用する	True	hasPredicate	〇	〇	〇
+332	Obj	燃焼時	True	When	〇	〇	〇
+333	対象文	ホームズは牧師館で薬物の残骸を探した			〇	〇	〇
+333	Who	ホームズ	True		〇	〇	〇
+333	hasPredicate	探した	True	hasPredicate	〇	〇	〇
+333	Obj	牧師館	True	Where	〇	〇	〇
+333	Obj	薬物の残骸	True	What	〇	〇	〇
+334	対象文	ホームズはランプの防煙部と滑石製の外装を見た			〇	〇	〇
+334	Who	ホームズ	True		〇	〇	〇
+334	hasPredicate	見た	True	hasPredicate	〇	〇	〇
+334	Obj	ランプの防煙部	True	What	〇	〇	〇
+334	Obj	滑石製の外装	True	What	〇	〇	〇
+335	対象文	ランプの防煙部と滑石製の外装に灰があった			〇	〇	〇
+335	Who	灰	True		〇	〇	〇
+335	hasPredicate	あった	True	hasPredicate	〇	〇	〇
+335	Obj	ランプの防煙部	True	On	〇	〇	〇
+335	Obj	滑石製の外装	True	On	〇	〇	〇
+336	対象文	縁は燃え残りの粉末を付けていた			〇	〇	〇
+336	Who	縁	True		〇	〇	〇
+336	hasPredicate	付けていた	True	hasPredicate	〇	〇	〇
+336	Obj	燃え残りの粉末	True	What	〇	〇	〇
+338	対象文	薬物をランプの上に置いた			×	〇	△
+338	Who		False		×	〇	△
+338	hasPredicate	置いた	True	hasPredicate	×	〇	△
+338	Obj	薬物	True	What	×	〇	△
+338	Obj	ランプの上	False	判別不能	×	〇	△
+339	対象文	そして、ワトソンは麝香の香りをかいだ			〇	×	〇
+339	Who	ワトソン	True		〇	×	〇
+339	hasPredicate	そして、ワトソンは麝香の香りをかいだ	False		〇	×	〇
+339	Obj	麝香の香り	True	What	〇	×	〇
+340	対象文	ワトソンは吐き気を感じた			〇	〇	〇
+340	Who	ワトソン	True		〇	〇	〇
+340	hasPredicate	感じた	True	hasPredicate	〇	〇	〇
+340	Obj	吐き気	True	What	〇	〇	〇
+341	対象文	ワトソンは脳の自由と想像力を失った			〇	〇	〇
+341	Who	ワトソン	True		〇	〇	〇
+341	hasPredicate	失った	True	hasPredicate	〇	〇	〇
+341	Obj	脳の自由	True	What	〇	〇	〇
+341	Obj	想像力	True	What	〇	〇	〇
+342	対象文	ワトソンは恐怖を感じた			〇	〇	〇
+342	Who	ワトソン	True		〇	〇	〇
+342	hasPredicate	感じた	True	hasPredicate	〇	〇	〇
+342	Obj	恐怖	True	What	〇	〇	〇
+343	対象文	ワトソンは混乱した			〇	〇	無
+343	Who	ワトソン	True		〇	〇	無
+343	hasPredicate	混乱した	True	hasPredicate	〇	〇	無
+344	対象文	ホームズの顔は恐怖の表情を持った			〇	〇	〇
+344	Who	ホームズの顔	True		〇	〇	〇
+344	hasPredicate	持った	True	hasPredicate	〇	〇	〇
+344	Obj	恐怖の表情	True	What	〇	〇	〇
+345	対象文	ワトソンは椅子から立った			〇	〇	〇
+345	Who	ワトソン	True		〇	〇	〇
+345	hasPredicate	立った	True	hasPredicate	〇	〇	〇
+345	Obj	椅子	True	From	〇	〇	〇
+346	対象文	ホームズとワトソンは部屋から出た			〇	〇	〇
+346	Who	ホームズ	True		〇	〇	〇
+346	Who	ワトソン	True		〇	〇	〇
+346	hasPredicate	出た	True	hasPredicate	〇	〇	〇
+346	Obj	部屋	True	From	〇	〇	〇
+347	対象文	ホームズとワトソンは草地に寝そべった			〇	〇	〇
+347	Who	ホームズ	True		〇	〇	〇
+347	Who	ワトソン	True		〇	〇	〇
+347	hasPredicate	寝そべった	True	hasPredicate	〇	〇	〇
+347	Obj	草地	True	Where	〇	〇	〇
+348	対象文	ホームズは以下を言った			〇	〇	×
+348	Who	ホームズ	True		〇	〇	×
+348	hasPredicate	言った	True	hasPredicate	〇	〇	×
+348	Obj	以下	False	判別不能	〇	〇	×
+349	対象文	動機は曖昧である			〇	〇	無
+349	Who	動機	True		〇	〇	無
+349	hasPredicate	曖昧である	True	hasProperty	〇	〇	無
+350	対象文	モーティマーが事件1の犯人である			〇	〇	無
+350	Who	モーティマー	True		〇	〇	無
+350	hasPredicate	事件1の犯人である	True	hasPredicate	〇	〇	無
+351	対象文	モーティマーは事件2の被害者である			〇	×	無
+351	Who	モーティマー	True		〇	×	無
+351	hasPredicate	事件2の被害者である	False		〇	×	無
+352	対象文	モーティマーは狡猾である			〇	〇	無
+352	Who	モーティマー	True		〇	〇	無
+352	hasPredicate	狡猾である	True	hasProperty	〇	〇	無
+353	対象文	モーティマーは欲深い			〇	〇	無
+353	Who	モーティマー	True		〇	〇	無
+353	hasPredicate	欲深い	True	hasProperty	〇	〇	無
+354	対象文	モーティマーは寛大でない			〇	〇	無
+354	Who	モーティマー	True		〇	〇	無
+354	hasPredicate	寛大でない	True	hasPredicate	〇	〇	無
+355	対象文	モーティマーは以下を言った			〇	〇	×
+355	Who	モーティマー	True		〇	〇	×
+355	hasPredicate	言った	True	hasPredicate	〇	〇	×
+355	Obj	以下	False	判別不能	〇	〇	×
+356	対象文	何かが庭で動いていた			×	〇	△
+356	Who		False		×	〇	△
+356	hasPredicate	動いていた	True	hasPredicate	×	〇	△
+356	Obj	何か	False	判別不能	×	〇	△
+356	Obj	庭	True	Where	×	〇	△
+357	対象文	モーティマーは以下を望んだ			〇	〇	×
+357	Who	モーティマー	True		〇	〇	×
+357	hasPredicate	望んだ	True	hasPredicate	〇	〇	×
+357	Obj	以下	False	判別不能	〇	〇	×
+358	対象文	モーティマーはホームズとワトソンを誤導する			〇	〇	〇
+358	Who	モーティマー	True		〇	〇	〇
+358	hasPredicate	誤導する	True	hasPredicate	〇	〇	〇
+358	Obj	ホームズ	True	What	〇	〇	〇
+358	Obj	ワトソン	True	What	〇	〇	〇
+359	対象文	モーティマーは暖炉へ毒薬を放り込んだ			〇	〇	〇
+359	Who	モーティマー	True		〇	〇	〇
+359	hasPredicate	放り込んだ	True	hasPredicate	〇	〇	〇
+359	Obj	暖炉	True	To	〇	〇	〇
+359	Obj	毒薬	True	What	〇	〇	〇
+360	対象文	事件1は彼の退出後に起こった			〇	〇	〇
+360	Who	事件1	True		〇	〇	〇
+360	hasPredicate	起こった	True	hasPredicate	〇	〇	〇
+360	Obj	彼の退出後	True	When	〇	〇	〇
+361	対象文	オーウェンとジョージとブレンダはテーブルを立つ			〇	〇	〇
+361	Who	オーウェン	True		〇	〇	〇
+361	Who	ジョージ	True		〇	〇	〇
+361	Who	ブレンダ	True		〇	〇	〇
+361	hasPredicate	立つ	True	hasPredicate	〇	〇	〇
+361	Obj	テーブル	True	What	〇	〇	〇
+362	対象文	もし、他人が部屋に入ってくる			×	×	無
+362	Who		False		×	×	無
+362	hasPredicate	もし、他人が部屋に入ってくる	False		×	×	無
+363	対象文	コーンワルで、夜10時以降に訪問客は来ない			〇	×	×
+363	Who	訪問客	True		〇	×	×
+363	hasPredicate	コーンワルで、夜10時以降に訪問客は来ない	False		〇	×	×
+363	Obj	夜10時以降	False	判別不能	〇	×	×
+364	対象文	すべての証拠がモーティマーの犯行を示す			〇	〇	〇
+364	Who	すべての証拠	True		〇	〇	〇
+364	hasPredicate	示す	True	hasPredicate	〇	〇	〇
+364	Obj	モーティマーの犯行	True	What	〇	〇	〇
+365	対象文	ワトソンは以下を言った			〇	〇	×
+365	Who	ワトソン	True		〇	〇	×
+365	hasPredicate	言った	True	hasPredicate	〇	〇	×
+365	Obj	以下	False	判別不能	〇	〇	×
+366	対象文	モーティマーの死因は自殺である			〇	〇	無
+366	Who	モーティマーの死因	True		〇	〇	無
+366	hasPredicate	自殺である	True	hasProperty	〇	〇	無
+367	対象文	ホームズは以下を言った			〇	〇	×
+367	Who	ホームズ	True		〇	〇	×
+367	hasPredicate	言った	True	hasPredicate	〇	〇	×
+367	Obj	以下	False	判別不能	〇	〇	×
+368	対象文	モーティマーの死因は自殺かもしれない			〇	〇	無
+368	Who	モーティマーの死因	True		〇	〇	無
+368	hasPredicate	自殺かもしれない	True	hasPredicate	〇	〇	無
+369	対象文	モーティマーは以下に罪悪感を抱いたかもしれない			〇	〇	△
+369	Who	モーティマー	True		〇	〇	△
+369	hasPredicate	抱いたかもしれない	True	hasPredicate	〇	〇	△
+369	Obj	以下	False	判別不能	〇	〇	△
+369	Obj	罪悪感	True	What	〇	〇	△
+370	対象文	モーティマーは肉親を破滅させた			〇	〇	〇
+370	Who	モーティマー	True		〇	〇	〇
+370	hasPredicate	破滅させた	True	hasPredicate	〇	〇	〇
+370	Obj	肉親	True	What	〇	〇	〇
+371	対象文	モーティマーは後悔によって自殺したかもしれない			〇	〇	〇
+371	Who	モーティマー	True		〇	〇	〇
+371	hasPredicate	自殺したかもしれない	True	hasPredicate	〇	〇	〇
+371	Obj	後悔によって	True	Why	〇	〇	〇
+372	対象文	しかし、反対の根拠が存在する			〇	×	無
+372	Who	反対の根拠	True		〇	×	無
+372	hasPredicate	しかし、反対の根拠が存在する	False		〇	×	無
+373	対象文	スタンデールは根拠を知っている			〇	〇	〇
+373	Who	スタンデール	True		〇	〇	〇
+373	hasPredicate	知っている	True	hasPredicate	〇	〇	〇
+373	Obj	根拠	True	What	〇	〇	〇
+374	対象文	今日の午後、スタンデールを呼んだ			×	〇	△
+374	Who		False		×	〇	△
+374	hasPredicate	呼んだ	True	hasPredicate	×	〇	△
+374	Obj	今日の午後、	False	判別不能	×	〇	△
+374	Obj	スタンデール	True	What	×	〇	△
+375	対象文	1時間前に、スタンデールはホームズのメモを受け取った			〇	〇	△
+375	Who	スタンデール	True		〇	〇	△
+375	hasPredicate	受け取った	True	hasPredicate	〇	〇	△
+375	Obj	1時間前に、	False	判別不能	〇	〇	△
+375	Obj	ホームズのメモ	True	What	〇	〇	△
+376	対象文	ホームズは以下を言った			〇	〇	×
+376	Who	ホームズ	True		〇	〇	×
+376	hasPredicate	言った	True	hasPredicate	〇	〇	×
+376	Obj	以下	False	判別不能	〇	〇	×
+377	対象文	スタンデールは所持品をアフリカに送った			〇	〇	〇
+377	Who	スタンデール	True		〇	〇	〇
+377	hasPredicate	送った	True	hasPredicate	〇	〇	〇
+377	Obj	所持品	True	What	〇	〇	〇
+377	Obj	アフリカ	True	To	〇	〇	〇
+378	対象文	そして、スタンデールはプリマスから引き返した			〇	×	〇
+378	Who	スタンデール	True		〇	×	〇
+378	hasPredicate	そして、スタンデールはプリマスから引き返した	False		〇	×	〇
+378	Obj	プリマス	True	From	〇	×	〇
+379	対象文	スタンデールが事件の要素である			〇	〇	無
+379	Who	スタンデール	True		〇	〇	無
+379	hasPredicate	事件の要素である	True	hasProperty	〇	〇	無
+380	対象文	スタンデールはポルデュー湾のコテージに来た			〇	〇	〇
+380	Who	スタンデール	True		〇	〇	〇
+380	hasPredicate	来た	True	hasPredicate	〇	〇	〇
+380	Obj	ポルデュー湾のコテージ	True	To	〇	〇	〇
+381	対象文	スタンデールはホームズに容疑者を尋ねた			〇	〇	〇
+381	Who	スタンデール	True		〇	〇	〇
+381	hasPredicate	尋ねた	True	hasPredicate	〇	〇	〇
+381	Obj	ホームズ	True	Whom	〇	〇	〇
+381	Obj	容疑者	True	What	〇	〇	〇
+382	対象文	ホームズは容疑者を答えなかった			〇	〇	〇
+382	Who	ホームズ	True		〇	〇	〇
+382	hasPredicate	答えなかった	True	hasPredicate	〇	〇	〇
+382	Obj	容疑者	True	What	〇	〇	〇
+383	対象文	そして、スタンデールは牧師館に行った			〇	×	〇
+383	Who	スタンデール	True		〇	×	〇
+383	hasPredicate	そして、スタンデールは牧師館に行った	False		〇	×	〇
+383	Obj	牧師館	True	To	〇	×	〇
+384	対象文	スタンデールは外で待った			〇	〇	〇
+384	Who	スタンデール	True		〇	〇	〇
+384	hasPredicate	待った	True	hasPredicate	〇	〇	〇
+384	Obj	外	True	Where	〇	〇	〇
+385	対象文	スタンデールはコテージに戻った			〇	〇	〇
+385	Who	スタンデール	True		〇	〇	〇
+385	hasPredicate	戻った	True	hasPredicate	〇	〇	〇
+385	Obj	コテージ	True	To	〇	〇	〇
+386	対象文	スタンデールはコテージで眠れなかった			〇	〇	〇
+386	Who	スタンデール	True		〇	〇	〇
+386	hasPredicate	眠れなかった	True	hasPredicate	〇	〇	〇
+386	Obj	コテージ	True	Where	〇	〇	〇
+387	対象文	スタンデールは計画を練った			〇	〇	〇
+387	Who	スタンデール	True		〇	〇	〇
+387	hasPredicate	練った	True	hasPredicate	〇	〇	〇
+387	Obj	計画	True	What	〇	〇	〇
+388	対象文	朝早く、スタンデールは計画を実行した			〇	×	〇
+388	Who	スタンデール	True		〇	×	〇
+388	hasPredicate	朝早く、スタンデールは計画を実行した	False		〇	×	〇
+388	Obj	計画	True	What	〇	×	〇
+390	対象文	日が昇る頃に、スタンデールは部屋を出た			〇	〇	△
+390	Who	スタンデール	True		〇	〇	△
+390	hasPredicate	出た	True	hasPredicate	〇	〇	△
+390	Obj	日が昇る頃に、	False	判別不能	〇	〇	△
+390	Obj	部屋	True	What	〇	〇	△
+391	対象文	スタンデールはポケットに赤砂利を詰めた			〇	〇	〇
+391	Who	スタンデール	True		〇	〇	〇
+391	hasPredicate	詰めた	True	hasPredicate	〇	〇	〇
+391	Obj	ポケット	True	To	〇	〇	〇
+391	Obj	赤砂利	True	What	〇	〇	〇
+392	対象文	赤砂利は門のそばにあった			〇	〇	×
+392	Who	赤砂利	True		〇	〇	×
+392	hasPredicate	あった	True	hasPredicate	〇	〇	×
+392	Obj	門のそば	False	判別不能	〇	〇	×
+393	対象文	そして、スタンデールは牧師館へ向かった			〇	×	〇
+393	Who	スタンデール	True		〇	×	〇
+393	hasPredicate	そして、スタンデールは牧師館へ向かった	False		〇	×	〇
+393	Obj	牧師館	True	To	〇	×	〇
+394	対象文	スタンデールはテニスシューズをはいていた			〇	〇	〇
+394	Who	スタンデール	True		〇	〇	〇
+394	hasPredicate	はいていた	True	hasPredicate	〇	〇	〇
+394	Obj	テニスシューズ	True	What	〇	〇	〇
+395	対象文	スタンデールはモーティマーの窓の下に行った			〇	〇	〇
+395	Who	スタンデール	True		〇	〇	〇
+395	hasPredicate	行った	True	hasPredicate	〇	〇	〇
+395	Obj	モーティマーの窓の下	True	To	〇	〇	〇
+396	対象文	家人は活動していなかった			〇	〇	無
+396	Who	家人	True		〇	〇	無
+396	hasPredicate	活動していなかった	True	hasPredicate	〇	〇	無
+397	対象文	スタンデールはポケットから砂利を取り出した			〇	〇	〇
+397	Who	スタンデール	True		〇	〇	〇
+397	hasPredicate	取り出した	True	hasPredicate	〇	〇	〇
+397	Obj	ポケット	True	From	〇	〇	〇
+397	Obj	砂利	True	What	〇	〇	〇
+398	対象文	スタンデールは寝室の窓に投げつけた			〇	〇	〇
+398	Who	スタンデール	True		〇	〇	〇
+398	hasPredicate	投げつけた	True	hasPredicate	〇	〇	〇
+398	Obj	寝室の窓	True	To	〇	〇	〇
+399	対象文	モーティマーがやってきた			×	×	無
+399	Who		False		×	×	無
+399	hasPredicate	モーティマーがやってきた	False		×	×	無
+400	対象文	スタンデールは以下を合図した			〇	〇	×
+400	Who	スタンデール	True		〇	〇	×
+400	hasPredicate	合図した	True	hasPredicate	〇	〇	×
+400	Obj	以下	False	判別不能	〇	〇	×
+401	対象文	モーティマーが降りてくる			×	×	無
+401	Who		False		×	×	無
+401	hasPredicate	モーティマーが降りてくる	False		×	×	無
+402	対象文	モーティマーは急いで服を着た			〇	×	〇
+402	Who	モーティマー	True		〇	×	〇
+402	hasPredicate	急いで服を着た	False		〇	×	〇
+402	Obj	服	True	What	〇	×	〇
+403	対象文	モーティマーは居間に降りた			〇	〇	〇
+403	Who	モーティマー	True		〇	〇	〇
+403	hasPredicate	降りた	True	hasPredicate	〇	〇	〇
+403	Obj	居間	True	To	〇	〇	〇
+404	対象文	スタンデールは窓から入った			〇	〇	〇
+404	Who	スタンデール	True		〇	〇	〇
+404	hasPredicate	入った	True	hasPredicate	〇	〇	〇
+404	Obj	窓	True	From	〇	〇	〇
+405	対象文	スタンデールは部屋を徘徊した			〇	〇	〇
+405	Who	スタンデール	True		〇	〇	〇
+405	hasPredicate	徘徊した	True	hasPredicate	〇	〇	〇
+405	Obj	部屋	True	What	〇	〇	〇
+406	対象文	それから、スタンデールは部屋を出た			〇	×	〇
+406	Who	スタンデール	True		〇	×	〇
+406	hasPredicate	それから、スタンデールは部屋を出た	False		〇	×	〇
+406	Obj	部屋	True	What	〇	×	〇
+407	対象文	スタンデールは窓を閉めた			〇	〇	〇
+407	Who	スタンデール	True		〇	〇	〇
+407	hasPredicate	閉めた	True	hasPredicate	〇	〇	〇
+407	Obj	窓	True	What	〇	〇	〇
+408	対象文	スタンデールは芝生で立ちつくした			〇	〇	〇
+408	Who	スタンデール	True		〇	〇	〇
+408	hasPredicate	立ちつくした	True	hasPredicate	〇	〇	〇
+408	Obj	芝生	True	Where	〇	〇	〇
+409	対象文	スタンデールは部屋の中を観察した			〇	〇	〇
+409	Who	スタンデール	True		〇	〇	〇
+409	hasPredicate	観察した	True	hasPredicate	〇	〇	〇
+409	Obj	部屋の中	True	What	〇	〇	〇
+410	対象文	最後に、スタンデールは引き上げていった			〇	〇	×
+410	Who	スタンデール	True		〇	〇	×
+410	hasPredicate	引き上げていった	True	hasPredicate	〇	〇	×
+410	Obj	最後に、	False	判別不能	〇	〇	×
+411	対象文	モーティマーが死んだ			〇	〇	無
+411	Who	モーティマー	True		〇	〇	無
+411	hasPredicate	死んだ	True	hasPredicate	〇	〇	無
+412	対象文	スタンデールは以下を言った			〇	〇	×
+412	Who	スタンデール	True		〇	〇	×
+412	hasPredicate	言った	True	hasPredicate	〇	〇	×
+412	Obj	以下	False	判別不能	〇	〇	×
+413	対象文	スタンデールは何年もブレンダを愛してきた			×	〇	〇
+413	Who	スタンデール何年	False		×	〇	〇
+413	hasPredicate	愛してきた	True	hasPredicate	×	〇	〇
+413	Obj	ブレンダ	True	What	×	〇	〇
+414	対象文	ブレンダは何年もスタンデールを愛してきた			×	〇	〇
+414	Who	ブレンダ何年	False		×	〇	〇
+414	hasPredicate	愛してきた	True	hasPredicate	×	〇	〇
+414	Obj	スタンデール	True	What	×	〇	〇
+415	対象文	そのため、スタンデールはコーンワルで隠遁した			〇	〇	△
+415	Who	スタンデール	True		〇	〇	△
+415	hasPredicate	隠遁した	True	hasPredicate	〇	〇	△
+415	Obj	そのため、	False	判別不能	〇	〇	△
+415	Obj	コーンワル	True	Where	〇	〇	△
+416	対象文	スタンデールは結婚をできなかった			〇	〇	〇
+416	Who	スタンデール	True		〇	〇	〇
+416	hasPredicate	できなかった	True	hasPredicate	〇	〇	〇
+416	Obj	結婚	True	What	〇	〇	〇
+417	対象文	スタンデールは前妻を持っていた			〇	〇	〇
+417	Who	スタンデール	True		〇	〇	〇
+417	hasPredicate	持っていた	True	hasPredicate	〇	〇	〇
+417	Obj	前妻	True	What	〇	〇	〇
+418	対象文	前妻は何年も前に出ていった			〇	〇	〇
+418	Who	前妻	True		〇	〇	〇
+418	hasPredicate	出ていった	True	hasPredicate	〇	〇	〇
+418	Obj	何年も前	True	When	〇	〇	〇
+419	対象文	イギリスの法律のため、スタンデールは離婚ができない			〇	×	×
+419	Who	スタンデール	True		〇	×	×
+419	hasPredicate	離婚ができない	False		〇	×	×
+419	Obj	イギリスの法律のため、	False	判別不能	〇	×	×
+420	対象文	ブレンダは何年も結婚を待った			×	〇	〇
+420	Who	ブレンダ何年	False		×	〇	〇
+420	hasPredicate	待った	True	hasPredicate	×	〇	〇
+420	Obj	結婚	True	What	×	〇	〇
+421	対象文	スタンデールも何年も結婚を待った			×	〇	〇
+421	Who	スタンデール何年	False		×	〇	〇
+421	hasPredicate	待った	True	hasPredicate	×	〇	〇
+421	Obj	結婚	True	What	×	〇	〇
+422	対象文	ラウンドヘイは上記を知っていた			〇	〇	×
+422	Who	ラウンドヘイ	True		〇	〇	×
+422	hasPredicate	知っていた	True	hasPredicate	〇	〇	×
+422	Obj	上記	False	判別不能	〇	〇	×
+423	対象文	スタンデールとブレンダはラウンドヘイを信頼していた			〇	〇	〇
+423	Who	スタンデール	True		〇	〇	〇
+423	Who	ブレンダ	True		〇	〇	〇
+423	hasPredicate	信頼していた	True	hasPredicate	〇	〇	〇
+423	Obj	ラウンドヘイ	True	What	〇	〇	〇
+424	対象文	ラウンドヘイは以下を言った			〇	〇	〇
+424	Who	ラウンドヘイ	True		〇	〇	〇
+424	hasPredicate	言った	True	hasPredicate	〇	〇	〇
+424	Obj	以下	True	What	〇	〇	〇
+425	対象文	ブレンダは天使である			〇	×	無
+425	Who	ブレンダ	True		〇	×	無
+425	hasPredicate	天使である	False		〇	×	無
+426	対象文	それで、ラウンドヘイはスタンデールに電報を送った			〇	×	〇
+426	Who	ラウンドヘイ	True		〇	×	〇
+426	hasPredicate	それで、ラウンドヘイはスタンデールに電報を送った	False		〇	×	〇
+426	Obj	スタンデール	True	Whom	〇	×	〇
+426	Obj	電報	True	What	〇	×	〇
+427	対象文	スタンデールは帰ってきた			〇	〇	無
+427	Who	スタンデール	True		〇	〇	無
+427	hasPredicate	帰ってきた	True	hasPredicate	〇	〇	無
+428	対象文	スタンデールは紙包みをとりだした			〇	〇	〇
+428	Who	スタンデール	True		〇	〇	〇
+428	hasPredicate	とりだした	True	hasPredicate	〇	〇	〇
+428	Obj	紙包み	True	What	〇	〇	〇
+429	対象文	スタンデールは紙包みをテーブルの上に置いた			〇	〇	△
+429	Who	スタンデール	True		〇	〇	△
+429	hasPredicate	置いた	True	hasPredicate	〇	〇	△
+429	Obj	紙包み	True	What	〇	〇	△
+429	Obj	テーブルの上	False	判別不能	〇	〇	△
+430	対象文	紙包みは、Radix pedis diaboliと書かれていた			×	〇	×
+430	Who	紙包みは、	False		×	〇	×
+430	hasPredicate	書かれていた	True	hasPredicate	×	〇	×
+430	Obj	Radixpedisdiaboli	False	判別不能	×	〇	×
+431	対象文	紙包みは、毒薬ラベルを貼られていた			×	〇	〇
+431	Who	紙包みは、	False		×	〇	〇
+431	hasPredicate	貼られていた	True	hasPredicate	×	〇	〇
+431	Obj	毒薬ラベル	True	What	×	〇	〇
+432	対象文	薬物は魔足根である			〇	×	無
+432	Who	薬物	True		〇	×	無
+432	hasPredicate	魔足根である	False		〇	×	無
+433	対象文	ヨーロッパには、魔足根の見本はない			〇	〇	×
+433	Who	魔足根の見本	True		〇	〇	×
+433	hasPredicate	ない	True	hasPredicate	〇	〇	×
+433	Obj	ヨーロッパには、	False	判別不能	〇	〇	×
+434	対象文	魔足根の見本は薬局や毒物学の文献に出ていない			〇	〇	×
+434	Who	魔足根の見本	True		〇	〇	×
+434	hasPredicate	出ていない	True	hasPredicate	〇	〇	×
+434	Obj	薬局	False	判別不能	〇	〇	×
+434	Obj	毒物学の文献	False	判別不能	〇	〇	×
+435	対象文	粉薬が紙包みに入っていた			〇	〇	×
+435	Who	粉薬	True		〇	〇	×
+435	hasPredicate	入っていた	True	hasPredicate	〇	〇	×
+435	Obj	紙包み	False	判別不能	〇	〇	×
+436	対象文	スタンデールはオーウェンとジョージと仲良かった			〇	×	×
+436	Who	スタンデール	True		〇	×	×
+436	hasPredicate	良かった	False		〇	×	×
+436	Obj	オーウェン	False	判別不能	〇	×	×
+436	Obj	ジョージ	False	判別不能	〇	×	×
+436	Obj	仲	False	判別不能	〇	×	×
+437	対象文	モーティマーは兄弟と仲直りしていた			〇	〇	〇
+437	Who	モーティマー	True		〇	〇	〇
+437	hasPredicate	仲直りしていた	True	hasPredicate	〇	〇	〇
+437	Obj	兄弟	True	Whom	〇	〇	〇
+438	対象文	その後、スタンデールはオーウェンとジョージとモーティマーと会っていた			〇	〇	△
+438	Who	スタンデール	True		〇	〇	△
+438	hasPredicate	会っていた	True	hasPredicate	〇	〇	△
+438	Obj	その後、	False	判別不能	〇	〇	△
+438	Obj	オーウェン	True	Whom	〇	〇	△
+438	Obj	ジョージ	True	Whom	〇	〇	△
+438	Obj	モーティマー	True	Whom	〇	〇	△
+439	対象文	2週間前、モーティマーがスタンデールのコテージにやってきた			×	×	無
+439	Who		False		×	×	無
+439	hasPredicate	2週間前、モーティマーがスタンデールのコテージにやってきた	False		×	×	無
+440	対象文	スタンデールはアフリカの珍品の一部を見せた			〇	〇	〇
+440	Who	スタンデール	True		〇	〇	〇
+440	hasPredicate	見せた	True	hasPredicate	〇	〇	〇
+440	Obj	アフリカの珍品の一部	True	What	〇	〇	〇
+441	対象文	粉薬はアフリカの珍品の一部だった			×	×	無
+441	Who	粉薬	False		×	×	無
+441	hasPredicate	アフリカの珍品の一部だった	False		×	×	無
+442	対象文	そして、スタンデールはモーティマーに粉薬の性質を教えた			〇	×	〇
+442	Who	スタンデール	True		〇	×	〇
+442	hasPredicate	そして、スタンデールはモーティマーに粉薬の性質を教えた	False		〇	×	〇
+442	Obj	モーティマー	True	Whom	〇	×	〇
+442	Obj	粉薬の性質	True	What	〇	×	〇
+443	対象文	スタンデールは以下をモーティマーに教えた			〇	〇	〇
+443	Who	スタンデール	True		〇	〇	〇
+443	hasPredicate	教えた	True	hasPredicate	〇	〇	〇
+443	Obj	以下	True	What	〇	〇	〇
+443	Obj	モーティマー	True	To	〇	〇	〇
+444	対象文	ヨーロッパ化学は魔足根を検出しない			〇	〇	〇
+444	Who	ヨーロッパ化学	True		〇	〇	〇
+444	hasPredicate	検出しない	True	hasPredicate	〇	〇	〇
+444	Obj	魔足根	True	What	〇	〇	〇
+445	対象文	モーティマーはスタンデールに熱心に質問していた			〇	×	〇
+445	Who	モーティマー	True		〇	×	〇
+445	hasPredicate	熱心に質問していた	False		〇	×	〇
+445	Obj	スタンデール	True	Whom	〇	×	〇
+446	対象文	電報を受け取るまで、スタンデールは上記を考えなかった			〇	×	×
+446	Who	スタンデール	True		〇	×	×
+446	hasPredicate	電報を受け取るまで、スタンデールは上記を考えなかった	False		〇	×	×
+446	Obj	上記	False	判別不能	〇	×	×
+447	対象文	スタンデールは以下を推測した			〇	〇	×
+447	Who	スタンデール	True		〇	〇	×
+447	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+447	Obj	以下	False	判別不能	〇	〇	×
+448	対象文	モーティマーは以下を思った			〇	〇	×
+448	Who	モーティマー	True		〇	〇	×
+448	hasPredicate	思った	True	hasPredicate	〇	〇	×
+448	Obj	以下	False	判別不能	〇	〇	×
+449	対象文	スタンデールが海にでた			〇	〇	〇
+449	Who	スタンデール	True		〇	〇	〇
+449	hasPredicate	でた	True	hasPredicate	〇	〇	〇
+449	Obj	海	True	Where	〇	〇	〇
+450	対象文	スタンデールが知らせを受け取る			〇	〇	〇
+450	Who	スタンデール	True		〇	〇	〇
+450	hasPredicate	受け取る	True	hasPredicate	〇	〇	〇
+450	Obj	知らせ	True	What	〇	〇	〇
+451	対象文	スタンデールは数年間、アフリカをさまよう			〇	〇	△
+451	Who	スタンデール	True		〇	〇	△
+451	hasPredicate	さまよう	True	hasPredicate	〇	〇	△
+451	Obj	数年間、	False	判別不能	〇	〇	△
+451	Obj	アフリカ	True	Where	〇	〇	△
+452	対象文	スタンデールは以下を思った			〇	〇	×
+452	Who	スタンデール	True		〇	〇	×
+452	hasPredicate	思った	True	hasPredicate	〇	〇	×
+452	Obj	以下	False	判別不能	〇	〇	×
+453	対象文	魔足根が使われた			〇	〇	無
+453	Who	魔足根	True		〇	〇	無
+453	hasPredicate	使われた	True	hasPredicate	〇	〇	無
+454	対象文	スタンデールはポルデュー湾のコテージにきた			〇	〇	×
+454	Who	スタンデール	True		〇	〇	×
+454	hasPredicate	きた	True	hasPredicate	〇	〇	×
+454	Obj	ポルデュー湾のコテージ	False	判別不能	〇	〇	×
+455	対象文	スタンデールはホームズと会った			〇	〇	〇
+455	Who	スタンデール	True		〇	〇	〇
+455	hasPredicate	会った	True	hasPredicate	〇	〇	〇
+455	Obj	ホームズ	True	Whom	〇	〇	〇
+456	対象文	スタンデールは別解釈を確かめた			〇	〇	〇
+456	Who	スタンデール	True		〇	〇	〇
+456	hasPredicate	確かめた	True	hasPredicate	〇	〇	〇
+456	Obj	別解釈	True	What	〇	〇	〇
+457	対象文	しかし、別解釈はなかった			〇	×	無
+457	Who	別解釈	True		〇	×	無
+457	hasPredicate	しかし、別解釈はなかった	False		〇	×	無
+458	対象文	スタンデールは以下を推測した			〇	〇	×
+458	Who	スタンデール	True		〇	〇	×
+458	hasPredicate	推測した	True	hasPredicate	〇	〇	×
+458	Obj	以下	False	判別不能	〇	〇	×
+459	対象文	お金のため、モーティマーが殺した			〇	〇	×
+459	Who	モーティマー	True		〇	〇	×
+459	hasPredicate	殺した	True	hasPredicate	〇	〇	×
+459	Obj	お金のため、	False	判別不能	〇	〇	×
+460	対象文	モーティマーは以下を思った			〇	〇	×
+460	Who	モーティマー	True		〇	〇	×
+460	hasPredicate	思った	True	hasPredicate	〇	〇	×
+460	Obj	以下	False	判別不能	〇	〇	×
+461	対象文	モーティマーは共有財産の独占管理者になる			〇	〇	〇
+461	Who	モーティマー	True		〇	〇	〇
+461	hasPredicate	なる	True	hasPredicate	〇	〇	〇
+461	Obj	共有財産の独占管理者	True	Whom	〇	〇	〇
+462	対象文	もし、肉親が精神異常者になる			〇	×	〇
+462	Who	肉親	True		〇	×	〇
+462	hasPredicate	もし、肉親が精神異常者になる	False		〇	×	〇
+462	Obj	精神異常者	True	What	〇	×	〇
+463	対象文	モーティマーは魔足根でオーウェンとジョージの理性を吹き飛ばした			〇	〇	△
+463	Who	モーティマー	True		〇	〇	△
+463	hasPredicate	吹き飛ばした	True	hasPredicate	〇	〇	△
+463	Obj	魔足根	True	How	〇	〇	△
+463	Obj	オーウェン	False	判別不能	〇	〇	△
+463	Obj	ジョージの理性	False	判別不能	〇	〇	△
+464	対象文	モーティマーはブレンダを殺した			〇	〇	〇
+464	Who	モーティマー	True		〇	〇	〇
+464	hasPredicate	殺した	True	hasPredicate	〇	〇	〇
+464	Obj	ブレンダ	True	What	〇	〇	〇
+465	対象文	スタンデールは真相が分かっている			〇	×	無
+465	Who	スタンデール	True		〇	×	無
+465	hasPredicate	真相が分かっている	False		〇	×	無
+466	対象文	スタンデールは以下を疑った			〇	〇	×
+466	Who	スタンデール	True		〇	〇	×
+466	hasPredicate	疑った	True	hasPredicate	〇	〇	×
+466	Obj	以下	False	判別不能	〇	〇	×
+467	対象文	陪審員が空想じみた物語を信じる			×	〇	×
+467	Who		False		×	〇	×
+467	hasPredicate	信じる	True	hasPredicate	×	〇	×
+467	Obj	陪審員が空想じみた物語	False	判別不能	×	〇	×
+468	対象文	失敗は困る			〇	〇	無
+468	Who	失敗	True		〇	〇	無
+468	hasPredicate	困る	True	hasPredicate	〇	〇	無
+469	対象文	スタンデールの心が復讐を叫んでいた			〇	〇	〇
+469	Who	スタンデールの心	True		〇	〇	〇
+469	hasPredicate	叫んでいた	True	hasPredicate	〇	〇	〇
+469	Obj	復讐	True	What	〇	〇	〇
+470	対象文	スタンデールは以下を決断した			〇	〇	×
+470	Who	スタンデール	True		〇	〇	×
+470	hasPredicate	決断した	True	hasPredicate	〇	〇	×
+470	Obj	以下	False	判別不能	〇	〇	×
+471	対象文	モーティマーはオーウェンとジョージとブレンダと同じ運命になる			〇	〇	×
+471	Who	モーティマー	True		〇	〇	×
+471	hasPredicate	なる	True	hasPredicate	〇	〇	×
+471	Obj	オーウェン	False	判別不能	〇	〇	×
+471	Obj	ジョージ	False	判別不能	〇	〇	×
+471	Obj	ブレンダ	False	判別不能	〇	〇	×
+471	Obj	同じ運命	False	判別不能	〇	〇	×
+472	対象文	スタンデールはモーティマーの罪をモーティマーに告げた			〇	〇	〇
+472	Who	スタンデール	True		〇	〇	〇
+472	hasPredicate	告げた	True	hasPredicate	〇	〇	〇
+472	Obj	モーティマーの罪	True	What	〇	〇	〇
+472	Obj	モーティマー	True	Whom	〇	〇	〇
+473	対象文	スタンデールは以下を言った			〇	〇	×
+473	Who	スタンデール	True		〇	〇	×
+473	hasPredicate	言った	True	hasPredicate	〇	〇	×
+473	Obj	以下	False	判別不能	〇	〇	×
+474	対象文	スタンデールは裁判官である			〇	×	無
+474	Who	スタンデール	True		〇	×	無
+474	hasPredicate	裁判官である	False		〇	×	無
+475	対象文	スタンデールは死刑執行人である			〇	×	無
+475	Who	スタンデール	True		〇	×	無
+475	hasPredicate	死刑執行人である	False		〇	×	無
+476	対象文	モーティマーはリボルバーを見た			〇	〇	〇
+476	Who	モーティマー	True		〇	〇	〇
+476	hasPredicate	見た	True	hasPredicate	〇	〇	〇
+476	Obj	リボルバー	True	What	〇	〇	〇
+477	対象文	モーティマーは麻痺した			〇	〇	無
+477	Who	モーティマー	True		〇	〇	無
+477	hasPredicate	麻痺した	True	hasPredicate	〇	〇	無
+478	対象文	モーティマーは椅子に崩れ落ちた			〇	〇	〇
+478	Who	モーティマー	True		〇	〇	〇
+478	hasPredicate	崩れ落ちた	True	hasPredicate	〇	〇	〇
+478	Obj	椅子	True	On	〇	〇	〇
+479	対象文	スタンデールは以下のように脅した			〇	×	無
+479	Who	スタンデール	True		〇	×	無
+479	hasPredicate	以下のように脅した	False		〇	×	無
+480	対象文	スタンデールはモーティマーを撃つ			〇	〇	〇
+480	Who	スタンデール	True		〇	〇	〇
+480	hasPredicate	撃つ	True	hasPredicate	〇	〇	〇
+480	Obj	モーティマー	True	What	〇	〇	〇
+481	対象文	もし、モーティマーが部屋から出る			〇	×	〇
+481	Who	モーティマー	True		〇	×	〇
+481	hasPredicate	もし、モーティマーが部屋から出る	False		〇	×	〇
+481	Obj	部屋	True	From	〇	×	〇
+482	対象文	スタンデールはランプに火をつけた			〇	〇	〇
+482	Who	スタンデール	True		〇	〇	〇
+482	hasPredicate	つけた	True	hasPredicate	〇	〇	〇
+482	Obj	ランプ	True	To	〇	〇	〇
+482	Obj	火	True	What	〇	〇	〇
+483	対象文	スタンデールは粉薬を乗せた			〇	〇	〇
+483	Who	スタンデール	True		〇	〇	〇
+483	hasPredicate	乗せた	True	hasPredicate	〇	〇	〇
+483	Obj	粉薬	True	What	〇	〇	〇
+484	対象文	スタンデールは窓の外に立った			〇	〇	〇
+484	Who	スタンデール	True		〇	〇	〇
+484	hasPredicate	立った	True	hasPredicate	〇	〇	〇
+484	Obj	窓の外	True	Where	〇	〇	〇
+485	対象文	スタンデールは銃を構えた			〇	〇	〇
+485	Who	スタンデール	True		〇	〇	〇
+485	hasPredicate	構えた	True	hasPredicate	〇	〇	〇
+485	Obj	銃	True	What	〇	〇	〇
+486	対象文	5分後、モーティマーは死んだ			〇	〇	×
+486	Who	モーティマー	True		〇	〇	×
+486	hasPredicate	死んだ	True	hasPredicate	〇	〇	×
+486	Obj	5分後、	False	判別不能	〇	〇	×
+487	対象文	捜査の出発点は窓枠の砂利だった			〇	×	無
+487	Who	捜査の出発点	True		〇	×	無
+487	hasPredicate	窓枠の砂利だった	False		〇	×	無
+488	対象文	牧師館の庭において、砂利はなかった			〇	〇	×
+488	Who	砂利	True		〇	〇	×
+488	hasPredicate	なかった	True	hasPredicate	〇	〇	×
+488	Obj	牧師館の庭において、	False	判別不能	〇	〇	×
+489	対象文	スタンデールのコテージの庭で、ホームズは砂利を見つけた			〇	〇	△
+489	Who	ホームズ	True		〇	〇	△
+489	hasPredicate	見つけた	True	hasPredicate	〇	〇	△
+489	Obj	スタンデールのコテージの庭で、	False	判別不能	〇	〇	△
+489	Obj	砂利	True	What	〇	〇	△
