@@ -1,7 +1,7 @@
 Why	3	35
-What	145	270
+What	146	270
 How	4	35
-When	6	63
+When	31	63
 Where	27	38
 Whom	0	0
 From	6	13
@@ -15,4 +15,4 @@ NextTo	0	0
 MiddleOf	0	0
 Opposite	0	0
 hasProperty	36	52
-hasPredicate	260	345
+hasPredicate	262	345

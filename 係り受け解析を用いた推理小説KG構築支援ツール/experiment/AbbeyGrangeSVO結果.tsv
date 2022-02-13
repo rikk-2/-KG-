@@ -2,7 +2,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 1	対象文	1897年の冬、私は起こされた			×	〇	×
 1	Who	私	False		×	〇	×
 1	hasPredicate	起こされた	True	hasPredicate	×	〇	×
-1	Obj	1897年の冬、	False	判別不能	×	〇	×
+1	Obj	1897年の冬	False	判別不能	×	〇	×
 2	対象文	ホームズはポケットから手紙を引っ張り出した			〇	〇	〇
 2	Who	ホームズ	True		〇	〇	〇
 2	hasPredicate	引っ張り出した	True	hasPredicate	〇	〇	〇
@@ -24,7 +24,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 6	対象文	奥方を解放したほかは、すべて私が発見したままに保たれている			×	×	×
 6	Who		False		×	×	×
 6	hasPredicate	すべて私が発見したままに保たれている	False		×	×	×
-6	Obj	奥方を解放したほかは、	False	判別不能	×	×	×
+6	Obj	奥方を解放したほか	False	判別不能	×	×	×
 6	Obj	私が発見したまま	False	判別不能	×	×	×
 7	対象文	サー・ユースタス・ブラックンストールをそのまま置いておけない			×	×	△
 7	Who		False		×	×	△
@@ -39,7 +39,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 9	hasPredicate	殺人事件らしいね	False		×	×	無
 10	対象文	このサー・ユースタス・ブラックンストールが死んだと考えるんだね？			×	×	無
 10	Who		False		×	×	無
-10	hasPredicate	このサー・ユースタス・ブラックンストールが死んだと考えるんだね？	False		×	×	無
+10	hasPredicate	このサー・ユースタス・ブラックンストールが死んだと考えるんだね	False		×	×	無
 11	対象文	ユースタスが自殺である			×	〇	無
 11	Who	ユースタス	False		×	〇	無
 11	hasPredicate	自殺である	True	hasPredicate	×	〇	無
@@ -120,7 +120,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 30	Obj	レディー・ブラックンストールの前腕	True	From	〇	〇	〇
 31	対象文	レディー・ブラックンストールは傷を急いで隠した。			〇	×	無
 31	Who	レディー・ブラックンストール	True		〇	×	無
-31	hasPredicate	傷を急いで隠した。	False		〇	×	無
+31	hasPredicate	傷を急いで隠した	False		〇	×	無
 32	対象文	レディー・ブラックンストールの傷は白く丸い上肢の一方の上にある二つの鮮明な赤い点だった			×	×	無
 32	Who	レディー・ブラックンストールの傷	False		×	×	無
 32	hasPredicate	白く丸い上肢の一方の上にある二つの鮮明な赤い点だった	False		×	×	無
@@ -464,9 +464,9 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 110	Who	部屋全体	True		〇	〇	×
 110	hasPredicate	証言していた	True	hasPredicate	〇	〇	×
 110	Obj	残忍な性格	False	判別不能	〇	〇	×
-111	対象文	サー・ユースタス・ブラックンストールのそばに湾曲した重い火かき棒が転がっていた。			×	×	無
-111	Who	サー・ユースタス・ブラックンストールのそばに湾曲した重い火かき棒	False		×	×	無
-111	hasPredicate	転がっていた。	False		×	×	無
+111	対象文	サー・ユースタス・ブラックンストールのそばに湾曲した重い火かき棒が転がっていた。			×	〇	無
+111	Who	サー・ユースタス・ブラックンストールのそばに湾曲した重い火かき棒	False		×	〇	無
+111	hasPredicate	転がっていた	True	hasPredicate	×	〇	無
 112	対象文	ランダル老人は力の強い男			〇	×	無
 112	Who	ランダル老人	True		〇	×	無
 112	hasPredicate	力の強い男	False		〇	×	無
@@ -645,7 +645,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 156	対象文	帰途につき、ホームズはひどく悩んでいた			〇	〇	×
 156	Who	ホームズ	True		〇	〇	×
 156	hasPredicate	ひどく悩んでいた	True	hasProperty	〇	〇	×
-156	Obj	帰途につき、	False	判別不能	〇	〇	×
+156	Obj	帰途につき	False	判別不能	〇	〇	×
 157	対象文	ホームズの思いが再びアビ屋敷のダイニングルームへと戻った			〇	×	×
 157	Who	ホームズの思い	True		〇	×	×
 157	hasPredicate	再びアビ屋敷のダイニングルームへと戻った	False		〇	×	×
@@ -802,14 +802,14 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 194	Obj	ホームズの注意	False	判別不能	〇	×	×
 195	対象文	男だ、ワトソン、たちじゃなく。			×	×	無
 195	Who		False		×	×	無
-195	hasPredicate	男だ、ワトソン、たちじゃなく。	False		×	×	無
+195	hasPredicate	男だ、ワトソン、たちじゃなく	False		×	×	無
 196	対象文	たった一人だが、きわめて手ごわい人物だ。			×	×	無
 196	Who		False		×	×	無
-196	hasPredicate	たった一人だが、きわめて手ごわい人物だ。	False		×	×	無
+196	hasPredicate	たった一人だが、きわめて手ごわい人物だ	False		×	×	無
 197	対象文	身長六フィート三インチ、リスのように機敏、手先が器用、最後に、驚くほど頭の回転が速い			×	×	×
 197	Who	頭の回転	False		×	×	×
 197	hasPredicate	身長六フィート三インチ、リスのように機敏、手先が器用、最後に、驚くほど頭の回転が速い	False		×	×	×
-197	Obj	最後に、	False	判別不能	×	×	×
+197	Obj	最後	False	判別不能	×	×	×
 198	対象文	ホームズはブラケットから切断面まで3インチ届かなかった			〇	〇	△
 198	Who	ホームズ	True		〇	〇	△
 198	hasPredicate	届かなかった	True	hasProperty	〇	〇	△

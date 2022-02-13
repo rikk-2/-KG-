@@ -37,3 +37,8 @@
 6	Where	競馬界	Racing		
 6	What	人気	Popularity		
 6	then			
+7	対象文	キュービットは、赤い弓に、撃たれた。		
+7	情報源									
+7	hasPredicate	撃たれた		
+7	Who	キュービット		
+7	What	赤い弓		

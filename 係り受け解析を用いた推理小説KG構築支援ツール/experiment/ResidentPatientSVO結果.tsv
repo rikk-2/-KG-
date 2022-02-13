@@ -3,9 +3,9 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 1	Who	ホームズ	True		〇	〇	×
 1	hasPredicate	推測した	True	hasPredicate	〇	〇	×
 1	Obj	以下	False	判別不能	〇	〇	×
-2	対象文	パーシィ・トリヴェリアンは医者である。			〇	×	無
-2	Who	パーシィ・トリヴェリアン	True		〇	×	無
-2	hasPredicate	医者である。	False		〇	×	無
+2	対象文	パーシィ・トリヴェリアンは医者である。			〇	〇	無
+2	Who	パーシィ・トリヴェリアン	True		〇	〇	無
+2	hasPredicate	医者である	True	hasProperty	〇	〇	無
 3	対象文	パーシィ・トリヴェリアンは開業してまもない			〇	〇	無
 3	Who	パーシィ・トリヴェリアン	True		〇	〇	無
 3	hasPredicate	開業してまもない	True	hasProperty	〇	〇	無
@@ -439,11 +439,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 110	Who	若い男	True		〇	〇	×
 110	hasPredicate	言った	True	hasPredicate	〇	〇	×
 110	Obj	以下	False	判別不能	〇	〇	×
-111	対象文	若い男は診察中、待合室にいる			〇	〇	△
-111	Who	若い男	True		〇	〇	△
-111	hasPredicate	いる	True	hasProperty	〇	〇	△
-111	Obj	診察中、	False	判別不能	〇	〇	△
-111	Obj	待合室	True	Where	〇	〇	△
+111	対象文	若い男は診察中、待合室にいる			〇	〇	〇
+111	Who	若い男	True		〇	〇	〇
+111	hasPredicate	いる	True	hasProperty	〇	〇	〇
+111	Obj	診察中	True	When	〇	〇	〇
+111	Obj	待合室	True	Where	〇	〇	〇
 112	対象文	若い男は診察室を退室した			〇	〇	〇
 112	Who	若い男	True		〇	〇	〇
 112	hasPredicate	退室した	True	hasPredicate	〇	〇	〇
@@ -844,12 +844,12 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 212	Who	ホームズ	True		〇	〇	×
 212	hasPredicate	推測した	True	hasPredicate	〇	〇	×
 212	Obj	以下	False	判別不能	〇	〇	×
-213	対象文	次の日の朝、手紙がブルック街からホームズに届く			〇	〇	△
-213	Who	手紙	True		〇	〇	△
-213	hasPredicate	届く	True	hasProperty	〇	〇	△
-213	Obj	次の日の朝、	False	判別不能	〇	〇	△
-213	Obj	ブルック街	True	From	〇	〇	△
-213	Obj	ホームズ	True	To	〇	〇	△
+213	対象文	次の日の朝、手紙がブルック街からホームズに届く			〇	〇	〇
+213	Who	手紙	True		〇	〇	〇
+213	hasPredicate	届く	True	hasProperty	〇	〇	〇
+213	Obj	次の日の朝	True	When	〇	〇	〇
+213	Obj	ブルック街	True	From	〇	〇	〇
+213	Obj	ホームズ	True	To	〇	〇	〇
 214	対象文	ホームズの予言は当たった			〇	〇	無
 214	Who	ホームズの予言	True		〇	〇	無
 214	hasPredicate	当たった	True	hasProperty	〇	〇	無
@@ -878,12 +878,12 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 221	対象文	警察は来ていた			〇	〇	無
 221	Who	警察	True		〇	〇	無
 221	hasPredicate	来ていた	True	hasPredicate	〇	〇	無
-222	対象文	朝７時頃、女中はブレッシントンの部屋で死体を見つけた			〇	〇	△
-222	Who	女中	True		〇	〇	△
-222	hasPredicate	見つけた	True	hasPredicate	〇	〇	△
-222	Obj	朝７時頃、	False	判別不能	〇	〇	△
-222	Obj	ブレッシントンの部屋	True	Where	〇	〇	△
-222	Obj	死体	True	What	〇	〇	△
+222	対象文	朝７時頃、女中はブレッシントンの部屋で死体を見つけた			〇	〇	〇
+222	Who	女中	True		〇	〇	〇
+222	hasPredicate	見つけた	True	hasPredicate	〇	〇	〇
+222	Obj	朝７時頃	True	When	〇	〇	〇
+222	Obj	ブレッシントンの部屋	True	Where	〇	〇	〇
+222	Obj	死体	True	What	〇	〇	〇
 223	対象文	ブレッシントンは金具に紐を結びつけてぶら下がって死んでいた			〇	×	無
 223	Who	ブレッシントン	True		〇	×	無
 223	hasPredicate	金具に紐を結びつけてぶら下がって死んでいた	False		〇	×	無
@@ -1006,7 +1006,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 255	対象文	犯人は出た後、閂をかけた			×	〇	△
 255	Who		False		×	〇	△
 255	hasPredicate	かけた	True	hasPredicate	×	〇	△
-255	Obj	犯人は出た後、	False	判別不能	×	〇	△
+255	Obj	犯人は出た後	False	判別不能	×	〇	△
 255	Obj	閂	True	What	×	〇	△
 256	対象文	ホームズは戸の鍵を調べた			〇	〇	〇
 256	Who	ホームズ	True		〇	〇	〇
@@ -1044,13 +1044,13 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 265	対象文	事件の疑わしい点は無い			〇	〇	無
 265	Who	事件の疑わしい点	True		〇	〇	無
 265	hasPredicate	無い	True	hasProperty	〇	〇	無
-266	対象文	事件の時、3番目の人物と初老の男と若い男はブレッシントンの部屋にいた			〇	〇	△
-266	Who	3番目の人物	True		〇	〇	△
-266	Who	初老の男	True		〇	〇	△
-266	Who	若い男	True		〇	〇	△
-266	hasPredicate	いた	True	hasProperty	〇	〇	△
-266	Obj	事件の時、	False	判別不能	〇	〇	△
-266	Obj	ブレッシントンの部屋	True	Where	〇	〇	△
+266	対象文	事件の時、3番目の人物と初老の男と若い男はブレッシントンの部屋にいた			〇	〇	〇
+266	Who	3番目の人物	True		〇	〇	〇
+266	Who	初老の男	True		〇	〇	〇
+266	Who	若い男	True		〇	〇	〇
+266	hasPredicate	いた	True	hasProperty	〇	〇	〇
+266	Obj	事件の時	True	When	〇	〇	〇
+266	Obj	ブレッシントンの部屋	True	Where	〇	〇	〇
 267	対象文	3番目の人物は初老の男と若い男を家の中に案内した			〇	〇	〇
 267	Who	3番目の人物	True		〇	〇	〇
 267	hasPredicate	案内した	True	hasPredicate	〇	〇	〇
@@ -1080,7 +1080,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 273	Who	若い男	True		〇	〇	△
 273	Who	手伝いの少年	True		〇	〇	△
 273	hasPredicate	のぼった	True	hasPredicate	〇	〇	△
-273	Obj	事件の時、	False	判別不能	〇	〇	△
+273	Obj	事件の時	True	When	〇	〇	△
 273	Obj	つま先立ち	False	判別不能	〇	〇	△
 273	Obj	階段	True	What	〇	〇	△
 274	対象文	初老の男は先頭を歩いた			〇	〇	〇
@@ -1180,16 +1180,16 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 294	Who	手伝いの少年	True		〇	×	〇
 294	hasPredicate	金具を使って実行した	False		〇	×	〇
 294	Obj	ブレッシントンの絞首刑	True	What	〇	×	〇
-295	対象文	ブレッシントンの絞首刑の後、初老の男と若い男は逃げた			〇	〇	×
-295	Who	初老の男	True		〇	〇	×
-295	Who	若い男	True		〇	〇	×
-295	hasPredicate	逃げた	True	hasPredicate	〇	〇	×
-295	Obj	ブレッシントンの絞首刑の後、	False	判別不能	〇	〇	×
-296	対象文	ブレッシントンの絞首刑の後、手伝いの少年は閂をかけた			〇	〇	△
-296	Who	手伝いの少年	True		〇	〇	△
-296	hasPredicate	かけた	True	hasPredicate	〇	〇	△
-296	Obj	ブレッシントンの絞首刑の後、	False	判別不能	〇	〇	△
-296	Obj	閂	True	What	〇	〇	△
+295	対象文	ブレッシントンの絞首刑の後、初老の男と若い男は逃げた			〇	〇	〇
+295	Who	初老の男	True		〇	〇	〇
+295	Who	若い男	True		〇	〇	〇
+295	hasPredicate	逃げた	True	hasPredicate	〇	〇	〇
+295	Obj	ブレッシントンの絞首刑の後	True	When	〇	〇	〇
+296	対象文	ブレッシントンの絞首刑の後、手伝いの少年は閂をかけた			〇	〇	〇
+296	Who	手伝いの少年	True		〇	〇	〇
+296	hasPredicate	かけた	True	hasPredicate	〇	〇	〇
+296	Obj	ブレッシントンの絞首刑の後	True	When	〇	〇	〇
+296	Obj	閂	True	What	〇	〇	〇
 297	対象文	ホームズとワトソンはベイカー街に行った			〇	〇	〇
 297	Who	ホームズ	True		〇	〇	〇
 297	Who	ワトソン	True		〇	〇	〇
@@ -1237,7 +1237,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 308	Who	トウビン	False		×	〇	×
 308	Who	いう管理人	False		×	〇	×
 308	hasPredicate	殺された	True	hasPredicate	×	〇	×
-308	Obj	ワーシンドン銀行の大事件のとき、	False	判別不能	×	〇	×
+308	Obj	ワーシンドン銀行の大事件のとき	False	判別不能	×	〇	×
 309	対象文	強盗団は７０００ポンドを持って逃げた			〇	×	無
 309	Who	強盗団	True		〇	×	無
 309	hasPredicate	７０００ポンドを持って逃げた	False		〇	×	無

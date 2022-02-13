@@ -26,3 +26,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 6	hasPredicate	保持し続ける	True	hasPredicate	〇	〇	〇
 6	Obj	競馬界	True	Where	〇	〇	〇
 6	Obj	人気	True	What	〇	〇	〇
+7	対象文	キュービットは、赤い弓に、撃たれた。			〇	〇	〇
+7	Who	キュービット	True		〇	〇	〇
+7	hasPredicate	撃たれた	True	hasPredicate	〇	〇	〇
+7	Obj	赤い弓	True	What	〇	〇	〇
