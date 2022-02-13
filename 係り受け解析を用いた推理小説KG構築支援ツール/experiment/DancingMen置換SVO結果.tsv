@@ -99,7 +99,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 28	対象文	キュービットは先週の火曜日、ガラス窓に踊る人形を見た			〇	〇	×
 28	Who	キュービット	True		〇	〇	×
 28	hasPredicate	見た	True	hasPredicate	〇	〇	×
-28	Obj	先週の火曜日、	False	判別不能	〇	〇	×
+28	Obj	先週の火曜日	False	判別不能	〇	〇	×
 28	Obj	ガラス窓に踊る人形	False	判別不能	〇	〇	×
 29	対象文	キュービットは以下を思った			〇	〇	×
 29	Who	キュービット	True		〇	〇	×
@@ -121,11 +121,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 33	Who	踊る人形	True		〇	〇	〇
 33	hasPredicate	描かれた	True	hasProperty	〇	〇	〇
 33	Obj	夜	True	When	〇	〇	〇
-34	対象文	キュービットは昨日の朝、庭の日時計の上に踊る人形を見た			〇	〇	×
-34	Who	キュービット	True		〇	〇	×
-34	hasPredicate	見た	True	hasPredicate	〇	〇	×
-34	Obj	昨日の朝、	False	判別不能	〇	〇	×
-34	Obj	庭の日時計の上に踊る人形	False	判別不能	〇	〇	×
+34	対象文	キュービットは昨日の朝、庭の日時計の上に踊る人形を見た			〇	〇	△
+34	Who	キュービット	True		〇	〇	△
+34	hasPredicate	見た	True	hasPredicate	〇	〇	△
+34	Obj	昨日の朝	True	When	〇	〇	△
+34	Obj	庭の日時計の上に踊る人形	False	判別不能	〇	〇	△
 35	対象文	キュービットはエルシィに踊る人形を見せた			〇	〇	×
 35	Who	キュービット	True		〇	〇	×
 35	hasPredicate	見せた	True	hasPredicate	〇	〇	×
@@ -182,23 +182,23 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 47	hasPredicate	描かれていた	True	hasProperty	×	〇	△
 47	Obj	物置の扉の上	False	判別不能	×	〇	△
 47	Obj	チョーク	True	How	×	〇	△
-49	対象文	2日後の朝、踊る人形cが描かれていた			〇	〇	×
-49	Who	踊る人形c	True		〇	〇	×
-49	hasPredicate	描かれていた	True	hasProperty	〇	〇	×
-49	Obj	2日後の朝、	False	判別不能	〇	〇	×
+49	対象文	2日後の朝、踊る人形cが描かれていた			〇	〇	〇
+49	Who	踊る人形c	True		〇	〇	〇
+49	hasPredicate	描かれていた	True	hasProperty	〇	〇	〇
+49	Obj	2日後の朝	True	When	〇	〇	〇
 50	対象文	3日後、紙の上に踊る人形Cが描かれていた			×	〇	×
 50	Who	紙の上に踊る人形C	False		×	〇	×
 50	hasPredicate	描かれていた	True	hasProperty	×	〇	×
-50	Obj	3日後、	False	判別不能	×	〇	×
+50	Obj	3日後	False	判別不能	×	〇	×
 51	対象文	踊る人形Cは日時計の小石に立てかけてあった			×	〇	〇
 51	Who	踊る人形C	False		×	〇	〇
 51	hasPredicate	立てかけてあった	True	hasPredicate	×	〇	〇
 51	Obj	日時計の小石	True	Where	×	〇	〇
-52	対象文	キュービットは午前2時頃、窓際に腰かけていた			〇	〇	△
-52	Who	キュービット	True		〇	〇	△
-52	hasPredicate	腰かけていた	True	hasPredicate	〇	〇	△
-52	Obj	午前2時頃、	False	判別不能	〇	〇	△
-52	Obj	窓際	True	Where	〇	〇	△
+52	対象文	キュービットは午前2時頃、窓際に腰かけていた			〇	〇	〇
+52	Who	キュービット	True		〇	〇	〇
+52	hasPredicate	腰かけていた	True	hasPredicate	〇	〇	〇
+52	Obj	午前2時頃	True	When	〇	〇	〇
+52	Obj	窓際	True	Where	〇	〇	〇
 53	対象文	午前2時頃、外は月明かりだけである			〇	×	無
 53	Who	外	True		〇	×	無
 53	hasPredicate	午前2時頃、外は月明かりだけである	False		〇	×	無
@@ -276,16 +276,16 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 70	hasPredicate	打った	True	hasPredicate	〇	〇	△
 70	Obj	シカゴ	False	判別不能	〇	〇	△
 70	Obj	電報	True	What	〇	〇	△
-71	対象文	2日目の夕べ、ホームズはキュービットから手紙を受け取った			〇	〇	△
-71	Who	ホームズ	True		〇	〇	△
-71	hasPredicate	受け取った	True	hasPredicate	〇	〇	△
-71	Obj	2日目の夕べ、	False	判別不能	〇	〇	△
-71	Obj	キュービット	True	From	〇	〇	△
-71	Obj	手紙	True	What	〇	〇	△
-72	対象文	2日目の朝、日時計の上に踊る人形eが描かれていた			×	〇	×
-72	Who	日時計の上に踊る人形e	False		×	〇	×
-72	hasPredicate	描かれていた	True	hasProperty	×	〇	×
-72	Obj	2日目の朝、	False	判別不能	×	〇	×
+71	対象文	2日目の夕べ、ホームズはキュービットから手紙を受け取った			〇	〇	〇
+71	Who	ホームズ	True		〇	〇	〇
+71	hasPredicate	受け取った	True	hasPredicate	〇	〇	〇
+71	Obj	2日目の夕べ	True	When	〇	〇	〇
+71	Obj	キュービット	True	From	〇	〇	〇
+71	Obj	手紙	True	What	〇	〇	〇
+72	対象文	2日目の朝、日時計の上に踊る人形eが描かれていた			×	〇	〇
+72	Who	日時計の上に踊る人形e	False		×	〇	〇
+72	hasPredicate	描かれていた	True	hasProperty	×	〇	〇
+72	Obj	2日目の朝	True	When	×	〇	〇
 73	対象文	ホームズは踊る人形Eを見た			〇	〇	×
 73	Who	ホームズ	True		〇	〇	×
 73	hasPredicate	見た	True	hasPredicate	〇	〇	×
@@ -470,12 +470,12 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 126	Who	部屋の扉	True		〇	〇	×
 126	Who	窓	True		〇	〇	×
 126	hasPredicate	開いていた	True	hasPredicate	〇	〇	×
-126	Obj	発砲されたとき、	False	判別不能	〇	〇	×
-127	対象文	わずかな時間、部屋の扉と窓が開いていた			〇	〇	×
-127	Who	部屋の扉	True		〇	〇	×
-127	Who	窓	True		〇	〇	×
-127	hasPredicate	開いていた	True	hasPredicate	〇	〇	×
-127	Obj	わずかな時間、	False	判別不能	〇	〇	×
+126	Obj	発砲されたとき	False	判別不能	〇	〇	×
+127	対象文	わずかな時間、部屋の扉と窓が開いていた			〇	〇	〇
+127	Who	部屋の扉	True		〇	〇	〇
+127	Who	窓	True		〇	〇	〇
+127	hasPredicate	開いていた	True	hasPredicate	〇	〇	〇
+127	Obj	わずかな時間	True	How	〇	〇	〇
 129	対象文	ローソクの流れ跡がない			〇	〇	無
 129	Who	ローソクの流れ跡	True		〇	〇	無
 129	hasPredicate	ない	True	hasPredicate	〇	〇	無
@@ -518,12 +518,12 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 141	対象文	花壇には、男性の足跡がついていた			×	〇	×
 141	Who	男性の足跡	False		×	〇	×
 141	hasPredicate	ついていた	True	hasPredicate	×	〇	×
-141	Obj	花壇には、	False	判別不能	×	〇	×
-142	対象文	花壇にて、ホームズは真鍮の筒を拾った			〇	〇	△
-142	Who	ホームズ	True		〇	〇	△
-142	hasPredicate	拾った	True	hasPredicate	〇	〇	△
-142	Obj	花壇にて、	False	判別不能	〇	〇	△
-142	Obj	真鍮の筒	True	What	〇	〇	△
+141	Obj	花壇に	False	判別不能	×	〇	×
+142	対象文	花壇にて、ホームズは真鍮の筒を拾った			〇	〇	〇
+142	Who	ホームズ	True		〇	〇	〇
+142	hasPredicate	拾った	True	hasPredicate	〇	〇	〇
+142	Obj	花壇	True	Where	〇	〇	〇
+142	Obj	真鍮の筒	True	What	〇	〇	〇
 143	対象文	エルリッジが東ラストン方面の数マイル先にある			〇	×	×
 143	Who	エルリッジ	True		〇	×	×
 143	hasPredicate	ある	False		〇	×	×
@@ -584,11 +584,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 161	hasPredicate	持つ	True	hasPredicate	〇	〇	△
 161	Obj	中	False	判別不能	〇	〇	△
 161	Obj	三文字	True	What	〇	〇	△
-162	対象文	踊る人形に2回、踊る人形Xが現れている			〇	〇	△
-162	Who	踊る人形X	True		〇	〇	△
-162	hasPredicate	現れている	True	hasPredicate	〇	〇	△
-162	Obj	踊る人形	True	Where	〇	〇	△
-162	Obj	2回、	False	判別不能	〇	〇	△
+162	対象文	踊る人形に2回、踊る人形Xが現れている			〇	〇	〇
+162	Who	踊る人形X	True		〇	〇	〇
+162	hasPredicate	現れている	True	hasPredicate	〇	〇	〇
+162	Obj	踊る人形	True	Where	〇	〇	〇
+162	Obj	2回	True	How	〇	〇	〇
 164	対象文	ホームズは以下を言った			〇	〇	×
 164	Who	ホームズ	True		〇	〇	×
 164	hasPredicate	言った	True	hasPredicate	〇	〇	×

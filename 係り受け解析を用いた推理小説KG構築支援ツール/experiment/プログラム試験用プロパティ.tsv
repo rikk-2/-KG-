@@ -1,5 +1,5 @@
 Why	0	1
-What	1	1
+What	2	2
 How	0	0
 When	1	1
 Where	2	2
@@ -15,4 +15,4 @@ NextTo	0	0
 MiddleOf	0	0
 Opposite	0	0
 hasProperty	0	0
-hasPredicate	6	6
+hasPredicate	7	7

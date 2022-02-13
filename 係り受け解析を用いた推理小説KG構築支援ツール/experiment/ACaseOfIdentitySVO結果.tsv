@@ -836,7 +836,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 227	対象文	先週の金曜日、ホズマはハンソム馬車で来た			〇	×	△
 227	Who	ホズマ	True		〇	×	△
 227	hasPredicate	来た	False		〇	×	△
-227	Obj	先週の金曜日、	False	判別不能	〇	×	△
+227	Obj	先週の金曜日	False	判別不能	〇	×	△
 227	Obj	ハンソム馬車	True	How	〇	×	△
 228	対象文	ホズマはサザランドとサザランドの母をハンソム馬車に乗せた			〇	×	〇
 228	Who	ホズマ	True		〇	×	〇
@@ -900,7 +900,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 243	対象文	先週の金曜日の朝、ホズマはサザランドに以下を言った			〇	×	△
 243	Who	ホズマ	True		〇	×	△
 243	hasPredicate	言った	False		〇	×	△
-243	Obj	先週の金曜日の朝、	False	判別不能	〇	×	△
+243	Obj	先週の金曜日の朝	False	判別不能	〇	×	△
 243	Obj	サザランド	True	Whom	〇	×	△
 243	Obj	以下	False	判別不能	〇	×	△
 244	対象文	サザランドはホズマを信じる			〇	〇	〇
@@ -1019,7 +1019,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 274	対象文	先週の土曜に、サザランドは新聞に尋ね人広告を出した			〇	×	△
 274	Who	サザランド	True		〇	×	△
 274	hasPredicate	出した	False		〇	×	△
-274	Obj	先週の土曜に、	False	判別不能	〇	×	△
+274	Obj	先週の土曜	False	判別不能	〇	×	△
 274	Obj	新聞	True	To	〇	×	△
 274	Obj	尋ね人広告	True	What	〇	×	△
 275	対象文	サザランドはホームズに尋ね人広告を渡した			〇	×	〇
@@ -1100,7 +1100,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 294	対象文	77年に、同一の事件がアンドーヴァで起きた			×	×	△
 294	Who	同一の事件	False		×	×	△
 294	hasPredicate	起きた	False		×	×	△
-294	Obj	77年に、	False	判別不能	×	×	△
+294	Obj	77年	False	判別不能	×	×	△
 294	Obj	アンドーヴァ	True	Where	×	×	△
 295	対象文	昨年、同一の事件がハーグで起きた			×	×	〇
 295	Who	同一の事件	False		×	×	〇
@@ -1343,11 +1343,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 366	対象文	失踪時の服装は金のアルバート鎖である			×	〇	無
 366	Who	失踪時の服装	False		×	〇	無
 366	hasPredicate	金のアルバート鎖である	True	hasProperty	×	〇	無
-367	対象文	過去に、ホズマはレドンホール街の事務所で働いていた			〇	×	△
-367	Who	ホズマ	True		〇	×	△
-367	hasPredicate	働いていた	False		〇	×	△
-367	Obj	過去に、	False	判別不能	〇	×	△
-367	Obj	レドンホール街の事務所	True	Where	〇	×	△
+367	対象文	過去に、ホズマはレドンホール街の事務所で働いていた			〇	×	〇
+367	Who	ホズマ	True		〇	×	〇
+367	hasPredicate	働いていた	False		〇	×	〇
+367	Obj	過去	True	When	〇	×	〇
+367	Obj	レドンホール街の事務所	True	Where	〇	×	〇
 368	対象文	手紙はホズマの手がかりを持たない			×	〇	〇
 368	Who	手紙	False		×	〇	〇
 368	hasPredicate	持たない	True	hasPredicate	×	〇	〇
@@ -1355,7 +1355,7 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 369	対象文	手紙には、バルザックからの引用がある			×	〇	×
 369	Who	バルザックからの引用	False		×	〇	×
 369	hasPredicate	ある	True	hasPredicate	×	〇	×
-369	Obj	手紙には、	False	判別不能	×	〇	×
+369	Obj	手紙に	False	判別不能	×	〇	×
 370	対象文	手紙はタイプで書かれている			×	〇	×
 370	Who	手紙	False		×	〇	×
 370	hasPredicate	書かれている	True	hasPredicate	×	〇	×
@@ -1422,20 +1422,20 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 388	hasPredicate	書く	True	hasPredicate	〇	〇	△
 388	Obj	手紙2	True	Where	〇	〇	△
 388	Obj	以下	False	判別不能	〇	〇	△
-389	対象文	明晩六時に、ホームズがウィンディバンクに会いたい			〇	〇	△
-389	Who	ホームズ	True		〇	〇	△
-389	hasPredicate	会いたい	True	hasPredicate	〇	〇	△
-389	Obj	明晩六時に、	False	判別不能	〇	〇	△
-389	Obj	ウィンディバンク	True	Whom	〇	〇	△
+389	対象文	明晩六時に、ホームズがウィンディバンクに会いたい			〇	〇	〇
+389	Who	ホームズ	True		〇	〇	〇
+389	hasPredicate	会いたい	True	hasPredicate	〇	〇	〇
+389	Obj	明晩六時	True	When	〇	〇	〇
+389	Obj	ウィンディバンク	True	Whom	〇	〇	〇
 390	対象文	ワトソンは重篤な患者の治療に専念した			〇	×	〇
 390	Who	ワトソン	True		〇	×	〇
 390	hasPredicate	専念した	False		〇	×	〇
 390	Obj	重篤な患者の治療	True	Whom	〇	×	〇
-391	対象文	六時に、ワトソンはホームズへ行った			〇	×	△
-391	Who	ワトソン	True		〇	×	△
-391	hasPredicate	行った	False		〇	×	△
-391	Obj	六時に、	False	判別不能	〇	×	△
-391	Obj	ホームズ	True	To	〇	×	△
+391	対象文	六時に、ワトソンはホームズへ行った			〇	×	〇
+391	Who	ワトソン	True		〇	×	〇
+391	hasPredicate	行った	False		〇	×	〇
+391	Obj	六時	True	When	〇	×	〇
+391	Obj	ホームズ	True	To	〇	×	〇
 392	対象文	ワトソンは以下を思った			〇	×	×
 392	Who	ワトソン	True		〇	×	×
 392	hasPredicate	思った	False		〇	×	×
@@ -1601,11 +1601,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 436	対象文	ウィンディバンクの手紙では、eが不鮮明である			×	〇	×
 436	Who	e	False		×	〇	×
 436	hasPredicate	不鮮明である	True	hasProperty	×	〇	×
-436	Obj	ウィンディバンクの手紙では、	False	判別不能	×	〇	×
+436	Obj	ウィンディバンクの手紙で	False	判別不能	×	〇	×
 438	対象文	ウィンディバンクの手紙では、rが欠けている			×	〇	×
 438	Who	r	False		×	〇	×
 438	hasPredicate	欠けている	True	hasPredicate	×	〇	×
-438	Obj	ウィンディバンクの手紙では、	False	判別不能	×	〇	×
+438	Obj	ウィンディバンクの手紙で	False	判別不能	×	〇	×
 439	対象文	ウィンディバンクの手紙は14の特徴を持つ			×	〇	〇
 439	Who	ウィンディバンクの手紙	False		×	〇	〇
 439	hasPredicate	持つ	True	hasPredicate	×	〇	〇
@@ -1640,11 +1640,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 448	対象文	ホズマの手紙では、eが不鮮明である			×	〇	×
 448	Who	e	False		×	〇	×
 448	hasPredicate	不鮮明である	True	hasProperty	×	〇	×
-448	Obj	ホズマの手紙では、	False	判別不能	×	〇	×
+448	Obj	ホズマの手紙で	False	判別不能	×	〇	×
 449	対象文	ホズマの手紙では、rが欠けている			×	〇	×
 449	Who	r	False		×	〇	×
 449	hasPredicate	欠けている	True	hasPredicate	×	〇	×
-449	Obj	ホズマの手紙では、	False	判別不能	×	〇	×
+449	Obj	ホズマの手紙で	False	判別不能	×	〇	×
 450	対象文	ホズマの手紙は14の特徴を持つ			×	〇	〇
 450	Who	ホズマの手紙	False		×	〇	〇
 450	hasPredicate	持つ	True	hasPredicate	×	〇	〇
@@ -1886,11 +1886,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 519	Who	サザランドの愛	True		〇	〇	〇
 519	hasPredicate	行かない	True	hasPredicate	〇	〇	〇
 519	Obj	他人	True	To	〇	〇	〇
-520	対象文	永遠に、ウィンディバンクはサザランドを騙せない			〇	〇	△
-520	Who	ウィンディバンク	True		〇	〇	△
-520	hasPredicate	騙せない	True	hasPredicate	〇	〇	△
-520	Obj	永遠に、	False	判別不能	〇	〇	△
-520	Obj	サザランド	True	What	〇	〇	△
+520	対象文	永遠に、ウィンディバンクはサザランドを騙せない			〇	〇	〇
+520	Who	ウィンディバンク	True		〇	〇	〇
+520	hasPredicate	騙せない	True	hasPredicate	〇	〇	〇
+520	Obj	永遠	True	When	〇	〇	〇
+520	Obj	サザランド	True	What	〇	〇	〇
 521	対象文	ウィンディバンクは以下が必要である			〇	×	無
 521	Who	ウィンディバンク	True		〇	×	無
 521	hasPredicate	以下が必要である	False		〇	×	無
@@ -1898,16 +1898,16 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 522	Who	ウィンディバンク	True		〇	×	〇
 522	hasPredicate	劇的にサザランドと別れる	False		〇	×	〇
 522	Obj	サザランド	True	What	〇	×	〇
-524	対象文	永遠に、サザランドの心はウィンディバンクを刻む			〇	〇	△
-524	Who	サザランドの心	True		〇	〇	△
-524	hasPredicate	刻む	True	hasPredicate	〇	〇	△
-524	Obj	永遠に、	False	判別不能	〇	〇	△
-524	Obj	ウィンディバンク	True	What	〇	〇	△
-525	対象文	当分の間、サザランドは他人を愛さない			〇	〇	△
-525	Who	サザランド	True		〇	〇	△
-525	hasPredicate	愛さない	True	hasPredicate	〇	〇	△
-525	Obj	当分の間、	False	判別不能	〇	〇	△
-525	Obj	他人	True	What	〇	〇	△
+524	対象文	永遠に、サザランドの心はウィンディバンクを刻む			〇	〇	〇
+524	Who	サザランドの心	True		〇	〇	〇
+524	hasPredicate	刻む	True	hasPredicate	〇	〇	〇
+524	Obj	永遠	True	When	〇	〇	〇
+524	Obj	ウィンディバンク	True	What	〇	〇	〇
+525	対象文	当分の間、サザランドは他人を愛さない			〇	〇	〇
+525	Who	サザランド	True		〇	〇	〇
+525	hasPredicate	愛さない	True	hasPredicate	〇	〇	〇
+525	Obj	当分の間	True	When	〇	〇	〇
+525	Obj	他人	True	What	〇	〇	〇
 527	対象文	ウィンディバンクはサザランドに聖書で誓わせた			〇	×	〇
 527	Who	ウィンディバンク	True		〇	×	〇
 527	hasPredicate	誓わせた	False		〇	×	〇
@@ -2025,11 +2025,11 @@ ID	Property	原文	正誤判定	正解Propertyの詳細	場面内の主語	場�
 559	Who	ウィンディバンク	True		〇	〇	〇
 559	hasPredicate	重ねる	True	hasPredicate	〇	〇	〇
 559	Obj	罪	True	What	〇	〇	〇
-560	対象文	最後に、ウィンディバンクは絞首台に行く			〇	〇	△
-560	Who	ウィンディバンク	True		〇	〇	△
-560	hasPredicate	行く	True	hasPredicate	〇	〇	△
-560	Obj	最後に、	False	判別不能	〇	〇	△
-560	Obj	絞首台	True	To	〇	〇	△
+560	対象文	最後に、ウィンディバンクは絞首台に行く			〇	〇	〇
+560	Who	ウィンディバンク	True		〇	〇	〇
+560	hasPredicate	行く	True	hasPredicate	〇	〇	〇
+560	Obj	最後	True	When	〇	〇	〇
+560	Obj	絞首台	True	To	〇	〇	〇
 561	対象文	ホズマの振る舞いは深い動機を持っていた			×	×	〇
 561	Who	ホズマの振る舞い	False		×	×	〇
 561	hasPredicate	持っていた	False		×	×	〇
